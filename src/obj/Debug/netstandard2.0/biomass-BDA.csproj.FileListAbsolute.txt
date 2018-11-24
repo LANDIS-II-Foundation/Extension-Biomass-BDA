@@ -1,0 +1,14 @@
+C:\Users\rschell\Documents\LANDIS-Git\Extension-Base-BDA-Climate\src\obj\Debug\netstandard2.0\biomass-BDA.csproj.CoreCompileInputs.cache
+C:\Users\rschell\Documents\LANDIS-Git\Extension-Base-BDA-Climate\src\obj\Debug\netstandard2.0\biomass-BDA.AssemblyInfoInputs.cache
+C:\Users\rschell\Documents\LANDIS-Git\Extension-Base-BDA-Climate\src\obj\Debug\netstandard2.0\biomass-BDA.AssemblyInfo.cs
+C:\Users\rschell\Documents\LANDIS-Git\Extension-Base-BDA-Climate\src\bin\Debug\netstandard2.0\Landis.Extension.BiomassBDA-v1.deps.json
+C:\Users\rschell\Documents\LANDIS-Git\Extension-Base-BDA-Climate\src\bin\Debug\netstandard2.0\Landis.Extension.BiomassBDA-v1.dll
+C:\Users\rschell\Documents\LANDIS-Git\Extension-Base-BDA-Climate\src\bin\Debug\netstandard2.0\Landis.Extension.BiomassBDA-v1.pdb
+C:\Users\rschell\Documents\LANDIS-Git\Extension-Base-BDA-Climate\src\bin\Debug\netstandard2.0\Landis.Library.AgeOnlyCohorts-v3.dll
+C:\Users\rschell\Documents\LANDIS-Git\Extension-Base-BDA-Climate\src\bin\Debug\netstandard2.0\Landis.Library.Climate-v3.dll
+C:\Users\rschell\Documents\LANDIS-Git\Extension-Base-BDA-Climate\src\bin\Debug\netstandard2.0\Landis.Library.Cohorts-v2.dll
+C:\Users\rschell\Documents\LANDIS-Git\Extension-Base-BDA-Climate\src\bin\Debug\netstandard2.0\Landis.Library.Metadata-v2.dll
+C:\Users\rschell\Documents\LANDIS-Git\Extension-Base-BDA-Climate\src\obj\Debug\netstandard2.0\biomass-BDA.csproj.CopyComplete
+C:\Users\rschell\Documents\LANDIS-Git\Extension-Base-BDA-Climate\src\obj\Debug\netstandard2.0\Landis.Extension.BiomassBDA-v1.dll
+C:\Users\rschell\Documents\LANDIS-Git\Extension-Base-BDA-Climate\src\obj\Debug\netstandard2.0\Landis.Extension.BiomassBDA-v1.pdb
+C:\Users\rschell\Documents\LANDIS-Git\Extension-Base-BDA-Climate\src\obj\Debug\netstandard2.0\biomass-BDA.csprojAssemblyReference.cache
