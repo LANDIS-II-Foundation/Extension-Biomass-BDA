@@ -42,7 +42,7 @@ namespace Landis.Extension.BiomassBDA
         int MaxROS{get;set;}
         // - Climate - 
         string ClimateVarName { get; set; }
-        string ClimateVarSource { get; set; }
+        //string ClimateVarSource { get; set; }
         float ClimateThresh_Lowerbound { get; set; }
         float ClimateThresh_Upperbound { get; set; }
         int ClimateLag { get; set; }
@@ -112,7 +112,7 @@ namespace Landis.Extension.BiomassBDA
         private int maxROS;
         // - Climate - 
         private string climateVarName;
-        private string climateVarSource;
+        //private string climateVarSource;
         private float climateThresh_Lowerbound;
         private float climateThresh_Upperbound;
         private int climateLag;
@@ -342,17 +342,17 @@ namespace Landis.Extension.BiomassBDA
             }
         }
         //---------------------------------------------------------------------
-        public string ClimateVarSource
-        {
-            get
-            {
-                return climateVarSource;
-            }
-            set
-            {
-                climateVarSource = value;
-            }
-        }
+        //public string ClimateVarSource
+        //{
+        //    get
+        //    {
+        //        return climateVarSource;
+        //    }
+        //    set
+        //    {
+        //        climateVarSource = value;
+        //    }
+        //}
         //---------------------------------------------------------------------
         public float ClimateThresh_Lowerbound
         {

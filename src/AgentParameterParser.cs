@@ -113,18 +113,18 @@ namespace Landis.Extension.BiomassBDA
                 agentParameters.MinInterval = 0;
             }
             InputVar<string> climateVarName = new InputVar<string>("VariableName");
-            InputVar<string> climateVarSource = new InputVar<string>("Source");
+            //InputVar<string> climateVarSource = new InputVar<string>("Source");
             InputVar<float> climateThresh_Lowerbound = new InputVar<float>("ThresholdLowerBound");
             InputVar<float> climateThresh_Upperbound = new InputVar<float>("ThresholdUpperBound");
             InputVar<int> climateLag  = new InputVar<int>("OutbreakLag");
             InputVar<int>  timeSinceLastClimate = new InputVar<int>("TimeSinceLastClimate");
 
-            if (rf.Value.ToString().ToLower() == "climate")
+            if (rf.Value.ToString().ToLower() == "climatelibrary")
             {
                 ReadVar(climateVarName);
                 agentParameters.ClimateVarName = climateVarName.Value;
-                ReadVar(climateVarSource);
-                agentParameters.ClimateVarSource = climateVarSource.Value;
+                //ReadVar(climateVarSource);
+                //agentParameters.ClimateVarSource = climateVarSource.Value;
                 ReadVar(climateThresh_Lowerbound);
                 agentParameters.ClimateThresh_Lowerbound = climateThresh_Lowerbound.Value;
                 ReadVar(climateThresh_Upperbound);
@@ -142,7 +142,7 @@ namespace Landis.Extension.BiomassBDA
             else
             {
                 agentParameters.ClimateVarName = "";
-                agentParameters.ClimateVarSource = "";
+                //agentParameters.ClimateVarSource = "";
                 agentParameters.ClimateThresh_Lowerbound = 0;
                 agentParameters.ClimateThresh_Upperbound = 0;
                 agentParameters.ClimateLag = 0;

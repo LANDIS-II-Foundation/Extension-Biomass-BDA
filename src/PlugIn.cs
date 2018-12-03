@@ -379,14 +379,14 @@ namespace Landis.Extension.BiomassBDA
             if (activeAgent.RandFunc == OutbreakPattern.Climate)
             {
                 double climateValue = 0;
-                if (activeAgent.ClimateVarSource == "Library")
-                {
-                    if (activeAgent.ClimateVarName == "AnnualPDSI")
+                //if (activeAgent.ClimateVarSource == "ClimateLibrary")
+                //{
+                    if (activeAgent.ClimateVarName == "CWD+WinterT")
                     {
-                        climateValue = Climate.LandscapeAnnualPDSI[PlugIn.ModelCore.CurrentTime - 1];
-                        Console.Write("Landscape_PDSI: " + climateValue + "\n");
+                        climateValue = 0; // Climate.LandscapeAnnualPDSI[PlugIn.ModelCore.CurrentTime - 1];
+                        //Console.Write("Landscape_PDSI: " + climateValue + "\n");
                     }
-                }
+                //}
                 //else
                 //{
                 //    //Read variable from climate data file

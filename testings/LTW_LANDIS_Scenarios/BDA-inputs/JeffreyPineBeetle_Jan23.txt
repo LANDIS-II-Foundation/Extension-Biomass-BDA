@@ -9,13 +9,19 @@ SRDMode			mean
 >>----------------------------------
 
 >>-------- Regional Outbreak Inputs -------------
-OutbreakPattern CyclicUniform << CyclicNormal or CyclicUniform, or Climate 
-MaxInterval        25
-MinInterval        10
-TimeSinceLastEpidemic 5 << years
-TemporalType variablepulse << pulse or variablepulse
-MinROS             0
-MaxROS             3
+OutbreakPattern CyclicUniform << CyclicNormal or CyclicUniform, or ClimateLibrary 
+VariableName Bunk
+ThesholdLowerBound 0
+ThesholdUpperBound 5
+OutbreakLag 0
+TimeSinceLastClimate 0
+
+>>MaxInterval        25
+>>MinInterval        10
+>>TimeSinceLastEpidemic 5 << years
+>>TemporalType variablepulse << pulse or variablepulse
+>>MinROS             0
+>>MaxROS             3
 
 >>-------- Dispersal Inputs ----------------------
 Dispersal		yes	<<yes or no
