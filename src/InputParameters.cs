@@ -15,7 +15,7 @@ namespace Landis.Extension.BiomassBDA
         /// </summary>
         int Timestep {get;set;}
         //---------------------------------------------------------------------
-        string ClimateConfigFile { get; set; }
+        //string ClimateConfigFile { get; set; }
         /// <summary>
         /// Template for the filenames for output maps.
         /// </summary>
@@ -58,7 +58,7 @@ namespace Landis.Extension.BiomassBDA
         : IInputParameters
     {
         private int timestep;
-        private string climateConfigFile;
+        //private string climateConfigFile;
         private string mapNamesTemplate;
         private string srdMapNames;
         private string nrdMapNames;
@@ -84,18 +84,18 @@ namespace Landis.Extension.BiomassBDA
         }
 
         //---------------------------------------------------------------------
-        public string ClimateConfigFile
-        {
-            get
-            {
-                return climateConfigFile;
-            }
-            set
-            {
+        //public string ClimateConfigFile
+        //{
+        //    get
+        //    {
+        //        return climateConfigFile;
+        //    }
+        //    set
+        //    {
 
-                climateConfigFile = value;
-            }
-        }
+        //        climateConfigFile = value;
+        //    }
+        //}
         //---------------------------------------------------------------------
         /// <summary>
         /// Template for the filenames for output maps.

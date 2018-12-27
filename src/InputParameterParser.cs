@@ -46,9 +46,9 @@ namespace Landis.Extension.BiomassBDA
             ReadVar(timestep);
             parameters.Timestep = timestep.Value;
 
-            InputVar<string> climateConfigFile = new InputVar<string>("ClimateConfigFile");
-            ReadVar(climateConfigFile);
-            parameters.ClimateConfigFile = climateConfigFile.Value;
+            //InputVar<string> climateConfigFile = new InputVar<string>("ClimateConfigFile");
+            //ReadVar(climateConfigFile);
+            //parameters.ClimateConfigFile = climateConfigFile.Value;
 
             //----------------------------------------------------------
             // Read in Map and Log file names.

@@ -80,7 +80,7 @@ namespace Landis.Extension.BiomassBDA
                ModelCore);
 
             Timestep = parameters.Timestep;
-            Climate.Initialize(parameters.ClimateConfigFile, false, modelCore);
+            //Climate.Initialize(parameters.ClimateConfigFile, false, modelCore);
             mapNameTemplate = parameters.MapNamesTemplate;
             srdMapNames = parameters.SRDMapNames;
             nrdMapNames = parameters.NRDMapNames;

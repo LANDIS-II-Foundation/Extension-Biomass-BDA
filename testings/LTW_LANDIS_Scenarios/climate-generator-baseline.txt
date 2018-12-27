@@ -1,11 +1,11 @@
 LandisData "Climate Config"				
 		
 ClimateTimeSeries			Daily_RandomYears
-ClimateFile				    I:/SNPLMA3/LANDIS_modeling/LTW_NECN_H/LTB_91_10.csv
+ClimateFile				LTB_daily_historic.csv
 ClimateFileFormat			Daily_Temp-C_Precip-mmDay
 
 SpinUpClimateTimeSeries			Daily_RandomYears
-SpinUpClimateFile			I:/SNPLMA3/LANDIS_modeling/LTW_NECN_H/LTB_91_10.csv
+SpinUpClimateFile			LTB_daily_historic.csv
 SpinUpClimateFileFormat			Daily_Temp-C_Precip-mmDay
 
 

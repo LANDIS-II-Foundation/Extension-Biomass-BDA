@@ -119,7 +119,7 @@ namespace Landis.Extension.BiomassBDA
             InputVar<int> climateLag  = new InputVar<int>("OutbreakLag");
             InputVar<int>  timeSinceLastClimate = new InputVar<int>("TimeSinceLastClimate");
 
-            if (rf.Value.ToString().ToLower() == "climatelibrary")
+            if (rf.Value.ToString().ToLower() == "climate")
             {
                 ReadVar(climateVarName);
                 agentParameters.ClimateVarName = climateVarName.Value;

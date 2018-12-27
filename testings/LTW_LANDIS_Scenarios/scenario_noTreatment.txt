@@ -2,7 +2,7 @@
 
 LandisData Scenario
 
-Duration 100
+Duration 10
 
 Species 		"species.txt"
 
@@ -21,7 +21,7 @@ CellLength 100 << meters, so cell area = 1 ha
 >>	SCRAPPLE				E:/SNPLMA3/LANDIS_modeling/LTW_NECN_H/SCRAPPLE_LTW.txt
 >>	"Dynamic Fuel System"	E:/SNPLMA3/LANDIS_modeling/LTW_NECN_H/DynamicFuels.txt
 >>	"Biomass Harvest"		E:/SNPLMA3/LANDIS_modeling/LTW_NECN_H/fuel-treatments-LTW-WUI-focused_PRETEND.txt
-    "Biomass BDA"              BDA-inputs/biomass-BDA-input.txt
+    "Biomass BDA"              biomass-BDA-input.txt
 
 DisturbancesRandomOrder no
 
