@@ -5,11 +5,14 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
+using System.Data;
+
 using Landis.Core;
 using Landis.Library.Metadata;
 using Landis.SpatialModeling;
 using Landis.Library.Climate;
-using System.Data;
+
 
 namespace Landis.Extension.BiomassBDA
 {
@@ -33,7 +36,8 @@ namespace Landis.Extension.BiomassBDA
         private static IInputParameters parameters;
         private static ICore modelCore;
         private bool reinitialized;
-
+        public static double ClimateThreshold1;
+        public static double ClimateThreshold2;
         //---------------------------------------------------------------------
 
         public PlugIn()
@@ -118,25 +122,7 @@ namespace Landis.Extension.BiomassBDA
                     foreach (RelativeLocationWeighted reloc in activeAgent.ResourceNeighbors) i++;
                     PlugIn.ModelCore.UI.WriteLine("Resource Neighborhood = {0} neighbors.", i);
                 }
-
-                //if (activeAgent.RandFunc == OutbreakPattern.Climate)
-                    //if (activeAgent.ClimateVarSource != "Library")
-                    //{
-                    //    DataTable weatherTable = ClimateData.ReadWeatherFile(activeAgent.ClimateVarSource);
-                    //    activeAgent.ClimateDataTable = weatherTable;
-                    //}
-            
             }
-
-
-
-            //string logFileName = parameters.LogFileName;
-            //PlugIn.ModelCore.UI.WriteLine("Opening BDA log file \"{0}\" ...", logFileName);
-            //log = PlugIn.ModelCore.CreateTextFile(logFileName);
-            //log.AutoFlush = true;
-            //log.Write("CurrentTime, ROS, AgentName, NumCohortsKilled, NumSitesDamaged, MeanSeverity");
-            //log.WriteLine("");
-
         }
 
         public new void InitializePhase2()
@@ -183,9 +169,6 @@ namespace Landis.Extension.BiomassBDA
                         {
                             //----- Write BDA severity maps --------
                             string path = MapNames.ReplaceTemplateVars(mapNameTemplate, activeAgent.AgentName, PlugIn.ModelCore.CurrentTime);
-                            //IOutputRaster<SeverityPixel> map = CreateMap(PlugIn.ModelCore.CurrentTime, activeAgent.AgentName);
-                            //using (map) {
-                            //    SeverityPixel pixel = new SeverityPixel();
                             using (IOutputRaster<ShortPixel> outputRaster = modelCore.CreateRaster<ShortPixel>(path, modelCore.Landscape.Dimensions))
                             {
                                 ShortPixel pixel = outputRaster.BufferPixel;
@@ -283,21 +266,6 @@ namespace Landis.Extension.BiomassBDA
         }
 
         //---------------------------------------------------------------------
-        /*private void LogEvent(int   currentTime,
-                              Epidemic CurrentEvent,
-                              int ROS, IAgent agent)
-        {
-            log.Write("{0},{1},{2},{3},{4},{5:0.0}",
-                      currentTime,
-                      ROS,
-                      agent.AgentName,
-                      CurrentEvent.CohortsKilled,
-                      CurrentEvent.TotalSitesDamaged,
-                      CurrentEvent.MeanSeverity);
-            log.WriteLine("");
-        }
-        */
-        //---------------------------------------------------------------------
         private void LogEvent(int currentTime,
                               Epidemic CurrentEvent,
                               int ROS, IAgent agent)
@@ -311,30 +279,13 @@ namespace Landis.Extension.BiomassBDA
             el.DamagedSites = CurrentEvent.TotalSitesDamaged;
             el.CohortsKilled = CurrentEvent.CohortsKilled;
             el.MeanSeverity = CurrentEvent.MeanSeverity;
+            el.ClimateThreshold1 = ClimateThreshold1;
+            el.ClimateThreshold2 = ClimateThreshold2;
             EventLog.AddObject(el);
             EventLog.WriteToFile();
         }
         //---------------------------------------------------------------------
-        /*private IOutputRaster<ShortPixel> CreateMap(int currentTime, string agentName)
-        {
-            string path = MapNames.ReplaceTemplateVars(mapNameTemplate, agentName, currentTime);
-            PlugIn.ModelCore.Log.WriteLine("   Writing BDA severity map to {0} ...", path);
-            return PlugIn.modelCore.CreateRaster<ShortPixel>(path, PlugIn.modelCore.Landscape.Dimensions);
-        }*/
-
-        /*private IOutputRaster<ShortPixel> CreateSRDMap(int currentTime, string agentName)
-        {
-            string path = MapNames.ReplaceTemplateVars(srdMapNames, agentName, currentTime);
-            PlugIn.ModelCore.Log.WriteLine("   Writing BDA SRD map to {0} ...", path);
-            return PlugIn.modelCore.CreateRaster<ShortPixel>(path, PlugIn.modelCore.Landscape.Dimensions);
-        }*/
-
-        /*private IOutputRaster<ShortPixel> CreateNRDMap(int currentTime, string agentName)
-        {
-            string path = MapNames.ReplaceTemplateVars(nrdMapNames, agentName, currentTime);
-            PlugIn.ModelCore.Log.WriteLine("   Writing BDA NRD map to {0} ...", path);
-            return PlugIn.modelCore.CreateRaster<ShortPixel>(path, PlugIn.modelCore.Landscape.Dimensions);
-        }*/
+        
         //---------------------------------------------------------------------
         private static int TimeToNext(IAgent activeAgent, int Timestep)
         {
@@ -378,30 +329,69 @@ namespace Landis.Extension.BiomassBDA
 
             if (activeAgent.RandFunc == OutbreakPattern.Climate)
             {
-                double climateValue = 0;
-                //if (activeAgent.ClimateVarSource == "ClimateLibrary")
-                //{
-                    if (activeAgent.ClimateVarName == "CWD+WinterT")
-                    {
-                        climateValue = 0; // Climate.LandscapeAnnualPDSI[PlugIn.ModelCore.CurrentTime - 1];
-                        //Console.Write("Landscape_PDSI: " + climateValue + "\n");
-                    }
-                //}
-                //else
-                //{
-                //    //Read variable from climate data file
-                //    string selectString = "Year = '" + PlugIn.ModelCore.CurrentTime + "'";
-                //    DataRow[] rows = activeAgent.ClimateDataTable.Select(selectString);
-                //    foreach (DataRow row in rows)
-                //    {
-                //        climateValue = Convert.ToDouble(row[activeAgent.ClimateVarName]);
-                //    }
-                //    Console.Write("Landscape_" + activeAgent.ClimateVarName + ": " + climateValue + "\n");
-                //}
-                if ((climateValue >= activeAgent.ClimateThresh_Lowerbound) && (climateValue <= activeAgent.ClimateThresh_Upperbound))
+                Dictionary<int, int> sitesPerEcoregions = new Dictionary<int, int>();
+                Dictionary<int, double> meanCWDperEcoregion = new Dictionary<int, double>();
+                double meanCWD = 0.0;
+
+                foreach (ActiveSite site in PlugIn.ModelCore.Landscape)
                 {
-                    // List of TimeofNext
-                    activeAgent.OutbreakList.AddLast(PlugIn.ModelCore.CurrentTime + activeAgent.ClimateLag);
+                    IEcoregion ecoregion = PlugIn.ModelCore.Ecoregion[site];
+                    if (!sitesPerEcoregions.ContainsKey(ecoregion.Index))
+                        sitesPerEcoregions.Add(ecoregion.Index, 1);
+                    else
+                        sitesPerEcoregions[ecoregion.Index]++;
+
+                    meanCWD += SiteVars.AET[site];
+
+                }
+                AnnualClimate_Monthly weatherData = null;
+                double meanWinterTemperature = 0.0;
+                //double landscapeAverageCWD = 0.0;
+
+                int actualYear = 0;
+                try
+                {
+                    actualYear = (PlugIn.ModelCore.CurrentTime - 1) + Climate.Future_AllData.First().Key;
+                }
+                catch
+                {
+                    throw new UninitializedClimateData(string.Format("Could not initilize the actual year {0} from climate data", actualYear));
+                }
+
+
+                foreach (IEcoregion ecoregion in PlugIn.ModelCore.Ecoregions)
+                {
+                    if (ecoregion.Active)
+                    {
+                        try
+                        {
+                            weatherData = Climate.Future_MonthlyData[actualYear][ecoregion.Index];
+                        }
+                        catch
+                        {
+                            throw new UninitializedClimateData(string.Format("Climate data could not be found in Run(). Year: {0} in ecoregion: {1}", actualYear, ecoregion.Name));
+                        }
+
+                        meanWinterTemperature += weatherData.MonthlyTemp[1] * sitesPerEcoregions[ecoregion.Index];
+
+                    }
+                }
+
+                if (activeAgent.ClimateVarName == "CWD+WinterT")
+                {
+
+                    double climaticWaterDeficit = meanCWD / (double)modelCore.Landscape.ActiveSiteCount;
+                    double meanWinterT = meanWinterTemperature / (double)modelCore.Landscape.ActiveSiteCount;
+                    ClimateThreshold1 = climaticWaterDeficit;
+                    ClimateThreshold2 = meanWinterT;
+
+                    //PlugIn.ModelCore.UI.WriteLine("Climate: CWD={0}, WinterT={1}.", climaticWaterDeficit, meanWinterT); // (landscapeAverageCWD / modelCore.Landscape.ActiveSiteCount));
+
+                    if ((climaticWaterDeficit >= activeAgent.ClimateThresh_1) && (meanWinterT >= activeAgent.ClimateThresh_2))
+                    {
+                        // List of TimeofNext
+                        activeAgent.OutbreakList.AddLast(PlugIn.ModelCore.CurrentTime + activeAgent.ClimateLag);
+                    }
                 }
 
                 if (activeAgent.OutbreakList.Count == 0)
@@ -449,10 +439,6 @@ namespace Landis.Extension.BiomassBDA
                 else if (activeAgent.TempType == TemporalType.variablepulse)
                 {
                     //randomly select an ROS netween ROSmin and ROSmax
-                    //ROS = (int) (Landis.Util.Random.GenerateUniform() *
-                    //      (double) (activeAgent.MaxROS - activeAgent.MinROS + 1)) +
-                    //      activeAgent.MinROS;
-
                     // Correction suggested by Brian Miranda, March 2008
                     ROS = (int) (PlugIn.ModelCore.GenerateUniform() *
                           (double) (activeAgent.MaxROS - activeAgent.MinROS)) + 1 +

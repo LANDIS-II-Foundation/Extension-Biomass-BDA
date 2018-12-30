@@ -179,41 +179,41 @@ namespace Landis.Extension.BiomassBDA
                             }
                         }
                         //Check for Biomass Insects effects
-                        if (SiteVars.TimeOfLastBiomassInsects != null && SiteVars.TimeOfLastBiomassInsects[site] > 0)
-                        {
-                            lastDisturb = SiteVars.TimeOfLastBiomassInsects[site];
-                            duration = disturbance.MaxAge;
+                        //if (SiteVars.TimeOfLastBiomassInsects != null && SiteVars.TimeOfLastBiomassInsects[site] > 0)
+                        //{
+                        //    lastDisturb = SiteVars.TimeOfLastBiomassInsects[site];
+                        //    duration = disturbance.MaxAge;
 
-                            if (SiteVars.TimeOfLastBiomassInsects != null && (PlugIn.ModelCore.CurrentTime - lastDisturb <= duration))
-                            {
-                                foreach (string pName in disturbance.PrescriptionNames)
-                                {
-                                    if((SiteVars.BiomassInsectsAgent[site].Trim() == pName.Trim()) || (pName.Trim() == "BiomassInsects"))
-                                    {
-                                        disturbMod = disturbance.SRDModifier * System.Math.Max(0, (double)(PlugIn.ModelCore.CurrentTime - lastDisturb)) / duration;
-                                        sumDisturbMods += disturbMod;
-                                    }
-                                    else if(pName.Contains("BiomassInsectsDefol"))
-                                    {
-                                        var numAlpha = new Regex("(?<Alpha>[a-zA-Z]+)(?<Numeric>[0-9]+)");
-                                        var match = numAlpha.Match(pName.Trim());
-                                        var name = match.Groups["Alpha"].Value;
-                                        var pct = int.Parse(match.Groups["Numeric"].Value);
-                                        if ((name != "BiomassInsectsDefol") || (pct < 0) || (pct > 100))
-                                        {
-                                            string mesg = string.Format("Disturbance modifier using BiomassInsectsDefol must use the format BiomassInsectsDefol##, where ## is the percent defoliation threshold between 0 and 100.");
-                                            throw new System.ApplicationException(mesg);
-                                        }
+                        //    if (SiteVars.TimeOfLastBiomassInsects != null && (PlugIn.ModelCore.CurrentTime - lastDisturb <= duration))
+                        //    {
+                        //        foreach (string pName in disturbance.PrescriptionNames)
+                        //        {
+                        //            if((SiteVars.BiomassInsectsAgent[site].Trim() == pName.Trim()) || (pName.Trim() == "BiomassInsects"))
+                        //            {
+                        //                disturbMod = disturbance.SRDModifier * System.Math.Max(0, (double)(PlugIn.ModelCore.CurrentTime - lastDisturb)) / duration;
+                        //                sumDisturbMods += disturbMod;
+                        //            }
+                        //            else if(pName.Contains("BiomassInsectsDefol"))
+                        //            {
+                        //                var numAlpha = new Regex("(?<Alpha>[a-zA-Z]+)(?<Numeric>[0-9]+)");
+                        //                var match = numAlpha.Match(pName.Trim());
+                        //                var name = match.Groups["Alpha"].Value;
+                        //                var pct = int.Parse(match.Groups["Numeric"].Value);
+                        //                if ((name != "BiomassInsectsDefol") || (pct < 0) || (pct > 100))
+                        //                {
+                        //                    string mesg = string.Format("Disturbance modifier using BiomassInsectsDefol must use the format BiomassInsectsDefol##, where ## is the percent defoliation threshold between 0 and 100.");
+                        //                    throw new System.ApplicationException(mesg);
+                        //                }
                                         
-                                        if(SiteVars.BiomassInsectsDefol[site] >= pct)
-                                        {
-                                            disturbMod = disturbance.SRDModifier * System.Math.Max(0, (double)(PlugIn.ModelCore.CurrentTime - lastDisturb)) / duration;
-                                            sumDisturbMods += disturbMod;
-                                        }
-                                    }
-                                }
-                            }
-                        }
+                        //                if(SiteVars.BiomassInsectsDefol[site] >= pct)
+                        //                {
+                        //                    disturbMod = disturbance.SRDModifier * System.Math.Max(0, (double)(PlugIn.ModelCore.CurrentTime - lastDisturb)) / duration;
+                        //                    sumDisturbMods += disturbMod;
+                        //                }
+                        //            }
+                        //        }
+                        //    }
+                        //}
                         //Check for other BDA agent effects
                         if (SiteVars.TimeOfLastEvent[site] > 0)
                         {

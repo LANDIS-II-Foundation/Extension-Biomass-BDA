@@ -10,9 +10,9 @@ SRDMode			mean
 
 >>-------- Regional Outbreak Inputs -------------
 OutbreakPattern Climate << CyclicNormal or CyclicUniform, or ClimateLibrary 
-VariableName Bunk
-ThresholdLowerBound 0
-ThresholdUpperBound 5
+VariableName "CWD+WinterT"
+Threshold1 350
+Threshold2 5
 OutbreakLag 0
 TimeSinceLastClimate 0
 

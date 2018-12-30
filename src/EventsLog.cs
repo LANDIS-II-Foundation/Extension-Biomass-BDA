@@ -31,5 +31,10 @@ namespace Landis.Extension.BiomassBDA
         [DataFieldAttribute(Desc = "Mean Severity (1-5)", Format="0.00")]
         public double MeanSeverity { set; get; }
 
+        [DataFieldAttribute(Desc = "Climate Threshold 1", Format = "0.00")]
+        public double ClimateThreshold1 { set; get; }
+
+        [DataFieldAttribute(Desc = "Climate Threshold 2", Format = "0.00")]
+        public double ClimateThreshold2 { set; get; }
     }
 }

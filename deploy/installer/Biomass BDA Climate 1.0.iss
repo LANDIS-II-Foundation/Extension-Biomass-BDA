@@ -25,6 +25,7 @@ AppVersion={#AppVersion}
 AppVerName={#CoreRelease} {#ExtensionName} v{#AppVersion}
 AppPublisher={#AppPublisher}
 AppPublisherURL={#AppURL}
+
 AppSupportURL={#AppURL}
 AppUpdatesURL={#AppURL}
 DefaultDirName={pf}\{#ExtensionName}

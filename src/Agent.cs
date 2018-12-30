@@ -43,8 +43,8 @@ namespace Landis.Extension.BiomassBDA
         // - Climate - 
         string ClimateVarName { get; set; }
         //string ClimateVarSource { get; set; }
-        float ClimateThresh_Lowerbound { get; set; }
-        float ClimateThresh_Upperbound { get; set; }
+        float ClimateThresh_1 { get; set; }
+        float ClimateThresh_2 { get; set; }
         int ClimateLag { get; set; }
         int TimeSinceLastClimate { get; set; }
         DataTable ClimateDataTable { get; set; }
@@ -354,7 +354,7 @@ namespace Landis.Extension.BiomassBDA
         //    }
         //}
         //---------------------------------------------------------------------
-        public float ClimateThresh_Lowerbound
+        public float ClimateThresh_1
         {
             get
             {
@@ -366,7 +366,7 @@ namespace Landis.Extension.BiomassBDA
             }
         }
         //---------------------------------------------------------------------
-        public float ClimateThresh_Upperbound
+        public float ClimateThresh_2
         {
             get
             {

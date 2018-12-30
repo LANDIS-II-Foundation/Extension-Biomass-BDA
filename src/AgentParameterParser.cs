@@ -114,8 +114,8 @@ namespace Landis.Extension.BiomassBDA
             }
             InputVar<string> climateVarName = new InputVar<string>("VariableName");
             //InputVar<string> climateVarSource = new InputVar<string>("Source");
-            InputVar<float> climateThresh_Lowerbound = new InputVar<float>("ThresholdLowerBound");
-            InputVar<float> climateThresh_Upperbound = new InputVar<float>("ThresholdUpperBound");
+            InputVar<float> climateThresh_1 = new InputVar<float>("Threshold1");
+            InputVar<float> climateThresh_2 = new InputVar<float>("Threshold2");
             InputVar<int> climateLag  = new InputVar<int>("OutbreakLag");
             InputVar<int>  timeSinceLastClimate = new InputVar<int>("TimeSinceLastClimate");
 
@@ -125,10 +125,10 @@ namespace Landis.Extension.BiomassBDA
                 agentParameters.ClimateVarName = climateVarName.Value;
                 //ReadVar(climateVarSource);
                 //agentParameters.ClimateVarSource = climateVarSource.Value;
-                ReadVar(climateThresh_Lowerbound);
-                agentParameters.ClimateThresh_Lowerbound = climateThresh_Lowerbound.Value;
-                ReadVar(climateThresh_Upperbound);
-                agentParameters.ClimateThresh_Upperbound = climateThresh_Upperbound.Value;
+                ReadVar(climateThresh_1);
+                agentParameters.ClimateThresh_1 = climateThresh_1.Value;
+                ReadVar(climateThresh_2);
+                agentParameters.ClimateThresh_2 = climateThresh_2.Value;
                 ReadVar(climateLag);
                 agentParameters.ClimateLag = climateLag.Value;
                 if (ReadOptionalVar(timeSinceLastClimate))
@@ -143,8 +143,8 @@ namespace Landis.Extension.BiomassBDA
             {
                 agentParameters.ClimateVarName = "";
                 //agentParameters.ClimateVarSource = "";
-                agentParameters.ClimateThresh_Lowerbound = 0;
-                agentParameters.ClimateThresh_Upperbound = 0;
+                agentParameters.ClimateThresh_1 = 0;
+                agentParameters.ClimateThresh_2 = 0;
                 agentParameters.ClimateLag = 0;
                 agentParameters.TimeSinceLastClimate = 0;
             }
