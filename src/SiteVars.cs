@@ -63,7 +63,7 @@ namespace Landis.Extension.BiomassBDA
             //SiteVars.BiomassInsectsDefol.ActiveSiteValues = 0;
 
             cohorts = PlugIn.ModelCore.GetSiteVar<ISiteCohorts>("Succession.AgeCohorts");
-            AET = PlugIn.ModelCore.GetSiteVar<double>("Succession.AET");
+            AET = PlugIn.ModelCore.GetSiteVar<double>("Succession.CWD");
 
             foreach (ActiveSite site in modelCore.Landscape)
                 SiteVars.NumberCFSconifersKilled[site] = new Dictionary<int, int>();
