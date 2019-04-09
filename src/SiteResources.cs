@@ -1,5 +1,4 @@
-//  Copyright 2005-2010 Portland State University, University of Wisconsin
-//  Authors:  Robert M. Scheller,   James B. Domingo
+//  Authors:  Robert M. Scheller
 //  BDA originally programmed by Wei (Vera) Li at University of Missouri-Columbia in 2004.
 
 using Landis.Core;
@@ -36,7 +35,7 @@ namespace Landis.Extension.BiomassBDA
 
                 foreach (ISpecies species in PlugIn.ModelCore.Species)
                 {
-                    ageOldestCohort = Util.GetMaxAge(SiteVars.Cohorts[site][species]);
+                    ageOldestCohort = Util.GetMaxAge((Landis.Library.AgeOnlyCohorts.ISiteCohorts) SiteVars.Cohorts[site][species]);
                     ISppParameters sppParms = agent.SppParameters[species.Index];
                     if (sppParms == null)
                         continue;

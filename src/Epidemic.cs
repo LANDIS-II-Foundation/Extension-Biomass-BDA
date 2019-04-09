@@ -1,14 +1,15 @@
 //  Authors:  Robert M. Scheller,   James B. Domingo
 
 using Landis.Core;
-using Landis.Library.AgeOnlyCohorts;
+using Landis.Library.BiomassCohorts;
 using Landis.SpatialModeling;
 using System.Collections.Generic;
 
 namespace Landis.Extension.BiomassBDA
 {
     public class Epidemic
-        : ICohortDisturbance
+        //: ICohortDisturbance
+        : IDisturbance
 
     {
         private static IEcoregionDataset ecoregions;
@@ -22,8 +23,12 @@ namespace Landis.Extension.BiomassBDA
         private double siteVulnerability;
         //private int advRegenAgeCutoff;
         private int siteCohortsKilled;
-        private int siteCFSconifersKilled;
+        //private int siteCFSconifersKilled;
         private int[] sitesInEvent;
+        public int BiomassMortalityPercent;
+        private double siteBioMortalityPercent;
+        private double totalSiteBiomass;
+
 
         private ActiveSite currentSite; // current site where cohorts are being damaged
 
@@ -191,6 +196,7 @@ namespace Landis.Extension.BiomassBDA
             this.totalCohortsKilled = 0;
             this.meanSeverity = 0.0;
             this.totalSitesDamaged = 0;
+            this.BiomassMortalityPercent = 0; 
 
             //PlugIn.ModelCore.Log.WriteLine("New Agent event");
         }
@@ -202,14 +208,17 @@ namespace Landis.Extension.BiomassBDA
         {
             int totalSiteSeverity = 0;
             int siteCohortsKilled = 0;
-            int[] cohortsKilled = new int[2];
-            //this.advRegenAgeCutoff = agent.AdvRegenAgeCutoff;
+            //int[] cohortsKilled = new int[2];
+            int cohortsKilled = 0;
 
             foreach (ActiveSite site in PlugIn.ModelCore.Landscape)
             {
+                totalSiteBiomass = (double)SiteVars.TotalSiteBiomass(site);
+                siteBioMortalityPercent = 0;
                 siteCohortsKilled = 0;
                 this.siteSeverity = 0;
                 this.random = 0;
+                this.currentSite = site;
 
                 double myRand = PlugIn.ModelCore.GenerateUniform();
 
@@ -229,19 +238,19 @@ namespace Landis.Extension.BiomassBDA
                     this.random = myRand;
                     this.siteVulnerability = SiteVars.Vulnerability[site];
 
-                    if(this.siteSeverity > 0)
-                        cohortsKilled = KillSiteCohorts(site);
+                    if (this.siteSeverity > 0)
+                        cohortsKilled = Damage(site); // KillSiteCohorts(site);
 
-                    siteCohortsKilled = cohortsKilled[0];
+                    siteCohortsKilled = cohortsKilled; //[0];
 
                     if (SiteVars.NumberCFSconifersKilled[site].ContainsKey(PlugIn.ModelCore.CurrentTime))
                     {
                         int prevKilled = SiteVars.NumberCFSconifersKilled[site][PlugIn.ModelCore.CurrentTime];
-                        SiteVars.NumberCFSconifersKilled[site][PlugIn.ModelCore.CurrentTime] = prevKilled + cohortsKilled[1];
+                        //SiteVars.NumberCFSconifersKilled[site][PlugIn.ModelCore.CurrentTime] = prevKilled + cohortsKilled; //[1];
                     }
                     else
                     {
-                        SiteVars.NumberCFSconifersKilled[site].Add(PlugIn.ModelCore.CurrentTime, cohortsKilled[1]);
+                        //SiteVars.NumberCFSconifersKilled[site].Add(PlugIn.ModelCore.CurrentTime, cohortsKilled); //[1]);
                     }
 
                     if (siteCohortsKilled > 0)
@@ -249,6 +258,7 @@ namespace Landis.Extension.BiomassBDA
                         this.totalCohortsKilled += siteCohortsKilled;
                         this.totalSitesDamaged++;
                         totalSiteSeverity += this.siteSeverity;
+                        this.BiomassMortalityPercent += (int) siteBioMortalityPercent * 100;
                         SiteVars.Disturbed[site] = true;
                         SiteVars.TimeOfLastEvent[site] = PlugIn.ModelCore.CurrentTime;
                         SiteVars.AgentName[site] = agent.AgentName;
@@ -264,54 +274,46 @@ namespace Landis.Extension.BiomassBDA
         //---------------------------------------------------------------------
         //A small helper function for going through list of cohorts at a site
         //and checking them with the filter provided by RemoveMarkedCohort(ICohort).
-        private int[] KillSiteCohorts(ActiveSite site)
+        private int Damage(ActiveSite site)
+        //private int[] KillSiteCohorts(ActiveSite site)
         {
-            this.siteCohortsKilled = 0;
-            this.siteCFSconifersKilled = 0;
+            int previousCohortsKilled = this.CohortsKilled;
+            SiteVars.Cohorts[site].ReduceOrKillBiomassCohorts(this);
+            return this.CohortsKilled - previousCohortsKilled;
 
-            currentSite = site;
+            //this.siteCohortsKilled = 0;
+            //this.siteCFSconifersKilled = 0;
 
-            SiteVars.Cohorts[site].RemoveMarkedCohorts(this); 
+            //currentSite = site;
 
-            int[] cohortsKilled = new int[2];
+            //SiteVars.Cohorts[site].RemoveMarkedCohorts(this); 
 
-            cohortsKilled[0] = this.siteCohortsKilled;
-            cohortsKilled[1] = this.siteCFSconifersKilled;
+            //int[] cohortsKilled = new int[2];
+
+            //cohortsKilled[0] = this.siteCohortsKilled;
+            //cohortsKilled[1] = this.siteCFSconifersKilled;
 
 
-            return cohortsKilled; 
+            //return cohortsKilled; 
         }
 
         //---------------------------------------------------------------------
         // DamageCohort is a filter to determine which cohorts are removed.
         // Each cohort is passed into the function and tested whether it should
         // be killed.
-        bool ICohortDisturbance.MarkCohortForDeath(ICohort cohort)
+        int IDisturbance.ReduceOrKillMarkedCohort(ICohort cohort)
+        //bool ICohortDisturbance.MarkCohortForDeath(ICohort cohort)
         {
             //PlugIn.ModelCore.Log.WriteLine("Cohort={0}, {1}, {2}.", cohort.Species.Name, cohort.Age, cohort.Species.Index);
             
             bool killCohort = false;
-           // bool advRegenSpp = false;
 
             ISppParameters sppParms = epidemicParms.SppParameters[cohort.Species.Index];
-
-            //foreach (ISpecies mySpecies in epidemicParms.AdvRegenSppList)
-            //{
-            //   if (cohort.Species == mySpecies)
-            //   {
-            //        advRegenSpp = true;
-            //        break;
-            //    }
-
-            //}
 
             if (cohort.Age >= sppParms.ResistantHostAge)
             {
                 if (this.random <= this.siteVulnerability * sppParms.ResistantHostVuln)
                 {
-                    //if (advRegenSpp && cohort.Age <= this.advRegenAgeCutoff)
-                    //    killCohort = false;
-                    //else
                         killCohort = true;
                 }
             }
@@ -320,9 +322,6 @@ namespace Landis.Extension.BiomassBDA
             {
                 if (this.random <= this.siteVulnerability * sppParms.TolerantHostVuln)
                 {
-                    //if (advRegenSpp && cohort.Age <= this.advRegenAgeCutoff)
-                     //   killCohort = false;
-                    //else
                         killCohort = true;
                 }
             }
@@ -331,9 +330,6 @@ namespace Landis.Extension.BiomassBDA
             {
                 if (this.random <= this.siteVulnerability * sppParms.VulnerableHostVuln)
                 {
-                    //if (advRegenSpp && cohort.Age <= this.advRegenAgeCutoff)
-                     //   killCohort = false;
-                    //else
                         killCohort = true;
                 }
             }
@@ -342,11 +338,12 @@ namespace Landis.Extension.BiomassBDA
             if (killCohort)
             {
                 this.siteCohortsKilled++;
-                if (sppParms.CFSConifer)
-                    this.siteCFSconifersKilled++;
+                this.BiomassMortalityPercent += cohort.Biomass / (int) totalSiteBiomass * 100;
+                //if (sppParms.CFSConifer)
+                //    this.siteCFSconifersKilled++;
             }
 
-            return killCohort;
+            return cohort.Biomass;
         }
 
     }

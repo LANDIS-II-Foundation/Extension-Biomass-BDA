@@ -1,10 +1,9 @@
-//  Copyright 2005-2010 Portland State University, University of Wisconsin
 //  Authors:  Robert M. Scheller,   James B. Domingo
 //  BDA originally programmed by Wei (Vera) Li at University of Missouri-Columbia in 2004.
 
 using Landis.Core;
 using Landis.SpatialModeling;
-using Landis.Library.AgeOnlyCohorts;
+using Landis.Library.BiomassCohorts;
 using System.Collections.Generic;
 
 namespace Landis.Extension.BiomassBDA
@@ -62,7 +61,7 @@ namespace Landis.Extension.BiomassBDA
             SiteVars.AgentName.ActiveSiteValues = "";
             //SiteVars.BiomassInsectsDefol.ActiveSiteValues = 0;
 
-            cohorts = PlugIn.ModelCore.GetSiteVar<ISiteCohorts>("Succession.AgeCohorts");
+            cohorts = PlugIn.ModelCore.GetSiteVar<ISiteCohorts>("Succession.BiomassCohorts");
             AET = PlugIn.ModelCore.GetSiteVar<double>("Succession.CWD");
 
             foreach (ActiveSite site in modelCore.Landscape)
@@ -234,6 +233,17 @@ namespace Landis.Extension.BiomassBDA
             }
 
         }
+        //---------------------------------------------------------------------
+        public static int TotalSiteBiomass(ActiveSite site)
+        {
+            int totalSiteBio = 0;
+            foreach (ISpeciesCohorts spp_cohort in Cohorts[site])
+                foreach (ICohort cohort in spp_cohort)
+                    totalSiteBio += cohort.Biomass;
+
+            return totalSiteBio;
+        }
+
         //---------------------------------------------------------------------
         //public static ISiteVar<int> TimeOfLastBiomassInsects
         //{

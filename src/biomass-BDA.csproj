@@ -2,12 +2,12 @@
 
   <PropertyGroup>
     <RootNamespace>Landis.Extension.BiomassBDA</RootNamespace>
-    <AssemblyName>Landis.Extension.BiomassBDA-v1</AssemblyName>
-    <AssemblyTitle>Landis.Extension.BiomassBDA-v1</AssemblyTitle>
+    <AssemblyName>Landis.Extension.BiomassBDA-v2</AssemblyName>
+    <AssemblyTitle>Landis.Extension.BiomassBDA-v2</AssemblyTitle>
     <AssemblyCompany>Landis-II-Foundation</AssemblyCompany>
     <AssemblyProduct>Landis.Extension.BiomassBDA-v1</AssemblyProduct>
     <AssemblyCopyright>Landis-II-Foundation</AssemblyCopyright>
-    <AssemblyVersion>4.0</AssemblyVersion>
+    <AssemblyVersion>2.0</AssemblyVersion>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/LANDIS-II-Foundation/Extension-Base-BDA</RepositoryUrl>
@@ -18,11 +18,11 @@
     <Authors>Landis-II-Foundation</Authors>
     <Product>Landis.Extension.BiomassBDA-v1</Product>
     <Copyright>Landis-II-Foundation</Copyright>
-    <Version>1.0</Version>
+    <Version>2.0</Version>
     <PackageTags>LANDIS-II;Landis;Extension;Biomass BDA</PackageTags>
     <Description></Description>
     <PackageReleaseNotes></PackageReleaseNotes>
-    <FileVersion>7.0.0.0</FileVersion>
+    <FileVersion>2.0.0.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -32,6 +32,9 @@
   <ItemGroup>
     <Reference Include="Landis.Library.AgeOnlyCohorts-v3">
       <HintPath>lib\Landis.Library.AgeOnlyCohorts-v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Landis.Library.BiomassCohorts-v3">
+      <HintPath>lib\Landis.Library.BiomassCohorts-v3.dll</HintPath>
     </Reference>
     <Reference Include="Landis.Library.Climate-v3">
       <HintPath>lib\Landis.Library.Climate-v3.dll</HintPath>

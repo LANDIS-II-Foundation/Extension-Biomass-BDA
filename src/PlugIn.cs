@@ -279,6 +279,7 @@ namespace Landis.Extension.BiomassBDA
             el.DamagedSites = CurrentEvent.TotalSitesDamaged;
             el.CohortsKilled = CurrentEvent.CohortsKilled;
             el.MeanSeverity = CurrentEvent.MeanSeverity;
+            el.BiomassMortalityPercent = CurrentEvent.BiomassMortalityPercent / CurrentEvent.TotalSitesDamaged;
             el.ClimateThreshold1 = ClimateThreshold1;
             el.ClimateThreshold2 = ClimateThreshold2;
             EventLog.AddObject(el);
