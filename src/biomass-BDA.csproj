@@ -5,14 +5,14 @@
     <AssemblyName>Landis.Extension.BiomassBDA-v2</AssemblyName>
     <AssemblyTitle>Landis.Extension.BiomassBDA-v2</AssemblyTitle>
     <AssemblyCompany>Landis-II-Foundation</AssemblyCompany>
-    <AssemblyProduct>Landis.Extension.BiomassBDA-v1</AssemblyProduct>
+    <AssemblyProduct>Landis.Extension.BiomassBDA-v2</AssemblyProduct>
     <AssemblyCopyright>Landis-II-Foundation</AssemblyCopyright>
     <AssemblyVersion>2.0</AssemblyVersion>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <RepositoryUrl>https://github.com/LANDIS-II-Foundation/Extension-Base-BDA</RepositoryUrl>
+    <RepositoryUrl>https://github.com/LANDIS-II-Foundation/Extension-Biomass-BDA</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageLicenseUrl>https://github.com/LANDIS-II-Foundation/Extension-Base-BDA/blob/master/LICENSE.md</PackageLicenseUrl>
+    <PackageLicenseUrl>https://github.com/LANDIS-II-Foundation/Extension-Biomass-BDA/blob/master/LICENSE.md</PackageLicenseUrl>
     <PackageProjectUrl>http://www.landis-ii.org</PackageProjectUrl>
     <NeutralLanguage>English</NeutralLanguage>
     <Authors>Landis-II-Foundation</Authors>
@@ -20,7 +20,7 @@
     <Copyright>Landis-II-Foundation</Copyright>
     <Version>2.0</Version>
     <PackageTags>LANDIS-II;Landis;Extension;Biomass BDA</PackageTags>
-    <Description></Description>
+    <Description>A BDA variant that operates off of biomass information and wherein outbreaks are triggered by climate</Description>
     <PackageReleaseNotes></PackageReleaseNotes>
     <FileVersion>2.0.0.0</FileVersion>
   </PropertyGroup>
@@ -36,7 +36,7 @@
     <Reference Include="Landis.Library.BiomassCohorts-v3">
       <HintPath>lib\Landis.Library.BiomassCohorts-v3.dll</HintPath>
     </Reference>
-    <Reference Include="Landis.Library.Climate-v3">
+    <Reference Include="Landis.Library.Climate-v4">
       <HintPath>lib\Landis.Library.Climate-v3.dll</HintPath>
     </Reference>
     <Reference Include="Landis.Library.Cohorts-v2">
