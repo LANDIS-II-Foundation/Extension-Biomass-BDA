@@ -234,6 +234,17 @@ namespace Landis.Extension.BiomassBDA
 
         }
         //---------------------------------------------------------------------
+        public static int AgeOldestCohort(ActiveSite site, ISpecies species)
+        {
+            int ageOldestCohort = 0;
+            //foreach (ISpeciesCohorts spp_cohort in SiteVars.Cohorts[site][species])
+                foreach (ICohort cohort in SiteVars.Cohorts[site][species])
+                    if (cohort.Age > ageOldestCohort)
+                        ageOldestCohort = cohort.Age;
+
+            return ageOldestCohort;
+        }
+        //---------------------------------------------------------------------
         public static int TotalSiteBiomass(ActiveSite site)
         {
             int totalSiteBio = 0;

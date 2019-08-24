@@ -10,6 +10,5 @@ SpinUpClimateFileFormat			Daily_Temp-C_Precip-mmDay
 
 
 UsingFireClimate			yes
-RelativeHumiditySlopeAdjust             77.68
 SpringStart				30
 WinterStart 				320
