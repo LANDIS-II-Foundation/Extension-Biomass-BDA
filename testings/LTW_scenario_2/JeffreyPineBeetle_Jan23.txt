@@ -11,10 +11,10 @@ SRDMode			mean
 >>-------- Regional Outbreak Inputs -------------
 OutbreakPattern Climate << CyclicNormal or CyclicUniform, or ClimateLibrary 
 VariableName "CWD+WinterT"
-Threshold1 350
-Threshold2 5
+Threshold1 460
+Threshold2 0
 OutbreakLag 0
-TimeSinceLastClimate 0
+TimeSinceLastClimate 10
 
 >>MaxInterval        25
 >>MinInterval        10
@@ -27,8 +27,8 @@ MaxROS             3
 Dispersal		yes	<<yes or no
 DispersalRate		600	<<meters/year This came from Joel Egen conversation
 EpidemicThresh		0.01  
-InitialEpicenterNum	15000  <<This value came from ADS maps year ==1993
-OutbreakEpicenterCoeff	0.01 << # of epicenters w/in outbreak zone.increasing this param decreases # of new epicenters
+InitialEpicenterNum	10000  <<This value came from ADS maps year ==1993
+OutbreakEpicenterCoeff	0.009 << # of epicenters w/in outbreak zone.increasing this param decreases # of new epicenters
 OutbreakEpicenterThresh 0.0
 SeedEpicenter		yes	<<yes or no
 SeedEpicenterCoeff	0.01  <<# of epicenters outside outbreak zone. #of epicenters will decrease with increasing value
@@ -64,6 +64,6 @@ BDASpeciesParameters << From Egen JPB Effects report (dbh affected), and silvics
 >>Species 	MinorHost 	2ndHost 		MajorHost	| Class3 		Class2 			Class1 		 | Dead
 >>Name 		Age SRDProb  Age SRDProb 	Age SRDProb | Age MortProb Age 	MortProb 	Age MortProb | Fuel?
 >> -----------------------------------------------------------------------------
-PinuJeff	0	0.1      20 	1.0	   25 	1.0       0		0.10   40	.60    		120	0.20 		yes  << slightly updated accoridng to Egan et al 2016
+PinuJeff	0	0.1      20 	0.8	   25 	0.8       0	0.05   40	.18    	120	0.08 yes  << slightly updated accoridng to Egan et al 2016
 
 
