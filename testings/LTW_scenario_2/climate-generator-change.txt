@@ -1,15 +1,14 @@
 LandisData "Climate Config"				
 		
 ClimateTimeSeries			Daily_SequencedYears
-ClimateFile				    E:/SNPLMA3/Data/Climate/GDP/CanESM_45_windspeed.csv
+ClimateFile				    loca_canesm2_45_2090.csv
 ClimateFileFormat			Daily_Temp-K_Precip-mmDay
 
 SpinUpClimateTimeSeries			Daily_SequencedYears
-SpinUpClimateFile			 E:/SNPLMA3/Data/Climate/GDP/CanESM_45_windspeed.csv
+SpinUpClimateFile			 loca_canesm2_45_2090.csv
 SpinUpClimateFileFormat			Daily_Temp-K_Precip-mmDay
 
 
 UsingFireClimate			yes
-RelativeHumiditySlopeAdjust             77.68
 SpringStart				30
 WinterStart 				320

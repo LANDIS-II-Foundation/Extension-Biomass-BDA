@@ -14,4 +14,7 @@ LogFile		bda_log.csv
 
 BDAInputFiles	JeffreyPineBeetle_Jan23.txt	
                 MtnPineBeetle.txt	
-		FirEngraver_Dominant.txt	
+		FirEngraver_Dominant.txt
+		WPBR_chronic.txt
+		WPBR_high.txt
+		WPBR_low.txt	
