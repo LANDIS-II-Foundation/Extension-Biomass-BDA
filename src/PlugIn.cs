@@ -161,7 +161,7 @@ namespace Landis.Extension.BiomassBDA
                         ROS);
                     //activeAgent.TimeSinceLastEpidemic = activeAgent.TimeSinceLastEpidemic + Timestep;
 
-                    if (currentEpic != null)
+                    if (currentEpic != null && currentEpic.TotalSitesDamaged > 0)
                     {
                         LogEvent(PlugIn.ModelCore.CurrentTime, currentEpic, ROS, activeAgent);
 
@@ -362,7 +362,7 @@ namespace Landis.Extension.BiomassBDA
 
                 foreach (IEcoregion ecoregion in PlugIn.ModelCore.Ecoregions)
                 {
-                    if (ecoregion.Active)
+                    if (ecoregion.Active && sitesPerEcoregions.ContainsKey(ecoregion.Index))
                     {
                         try
                         {

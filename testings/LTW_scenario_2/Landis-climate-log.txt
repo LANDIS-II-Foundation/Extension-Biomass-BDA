@@ -1,9 +1,0 @@
-   Loading spin-up weather data from file loca_canesm2_45_2090.csv ...
-   Converting raw data from text file: loca_canesm2_45_2090.csv, Format=daily_temp-k_precip-mmday, Temporal=Daily.
-   Loading future weather data from file loca_canesm2_45_2090.csv ...
-   Converting raw data from text file: loca_canesm2_45_2090.csv, Format=daily_temp-k_precip-mmday, Temporal=Daily.
-Core.StartTime = 0, Core.EndTime = 40.
-Core.StartTime = 0, Core.EndTime = 40.
-Core.StartTime = 0, Core.EndTime = 40.
-Core.StartTime = 0, Core.EndTime = 40.
-Core.StartTime = 0, Core.EndTime = 40.

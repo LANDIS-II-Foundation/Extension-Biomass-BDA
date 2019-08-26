@@ -4,6 +4,7 @@
 using Landis.Core;
 using Landis.SpatialModeling;
 using Landis.Library.BiomassCohorts;
+using Landis.Library.Biomass;
 using System.Collections.Generic;
 
 namespace Landis.Extension.BiomassBDA
@@ -234,11 +235,11 @@ namespace Landis.Extension.BiomassBDA
 
         }
         //---------------------------------------------------------------------
-        public static int AgeOldestCohort(ActiveSite site, ISpecies species)
+        public static int AgeOldestCohort(ActiveSite site, ISpeciesCohorts species_cohorts)
         {
             int ageOldestCohort = 0;
-            //foreach (ISpeciesCohorts spp_cohort in SiteVars.Cohorts[site][species])
-                foreach (ICohort cohort in SiteVars.Cohorts[site][species])
+                if(species_cohorts!=null)
+                foreach (ICohort cohort in species_cohorts)
                     if (cohort.Age > ageOldestCohort)
                         ageOldestCohort = cohort.Age;
 

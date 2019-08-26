@@ -35,7 +35,7 @@ namespace Landis.Extension.BiomassBDA
 
                 foreach (ISpecies species in PlugIn.ModelCore.Species)
                 {
-                    ageOldestCohort = SiteVars.AgeOldestCohort(site, species);
+                    ageOldestCohort = SiteVars.AgeOldestCohort(site, SiteVars.Cohorts[site][species]);
                     ISppParameters sppParms = agent.SppParameters[species.Index];
                     if (sppParms == null)
                         continue;
