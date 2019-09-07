@@ -9,13 +9,20 @@ SRDMode			mean
 >>----------------------------------
 
 >>-------- Regional Outbreak Inputs -------------
-OutbreakPattern CyclicUniform << CyclicNormal or CyclicUniform, or Climate 
-MaxInterval        25
-MinInterval        10
-TimeSinceLastEpidemic 5 << years
+OutbreakPattern Climate << CyclicNormal or CyclicUniform, or ClimateLibrary 
+VariableName "CWD+WinterT"
+Threshold1 460
+Threshold2 0
+OutbreakLag 0
+TimeSinceLastClimate 10
+
+>>MaxInterval        25
+>>MinInterval        10
+>>TimeSinceLastEpidemic 5 << years
 TemporalType variablepulse << pulse or variablepulse
 MinROS             0
 MaxROS             3
+
 
 
 >>-------- Dispersal Inputs ----------------------
@@ -60,8 +67,8 @@ BDASpeciesParameters <<need to find ages. CFS Synthesis, 10cm cutoff for unaffec
 >>Species  MinorHost  2ndHost  MajorHost  Class3   Class2   Class1	CFS
 >>Name     Age        Age      Age        Age      Age      Age		Conifer
 >> -----------------------------------------------------------------------------
-PinuAlbi	20	0.33      60 0.66	80	1.0            20 0.05	60	0.30    80	.30 	yes <<this was .10
-PinuLamb	20	0.33      60 0.66	80	1.0            20 0.05	60	0.30    80	.30 	yes
-PinuCont	20	0.33      60 0.66	80	1.0            20 0.05	60	0.30    80	.30 	yes
-PinuMont    20	0.33      60 0.66	80	1.0            20 0.05	60	0.10    80	.30 	yes
-CaloDecu    20  0.33      60 0.66   80  1.0            20 0.05	60	0.10    80	.30 	yes
+PinuAlbi	20	0.33      60 0.66	80	0.8     20 0.05	60	0.15    80	.20 	yes
+PinuLamb	20	0.33      60 0.66	80	0.8     20 0.05	60	0.25    80	.30 	yes
+PinuCont	20	0.33      60 0.66	80	0.8     20 0.05	60	0.15    80	.20 	yes
+PinuMont    	20	0.33      60 0.66	80	0.8     20 0.05	60	0.25    80	.30 	yes
+>>CaloDecu    20  0.33      60 0.66   80  1.0            20 0.05	60	0.10    80	.15 	yes

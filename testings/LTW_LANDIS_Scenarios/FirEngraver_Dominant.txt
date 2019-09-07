@@ -9,13 +9,20 @@ SRDMode			mean
 >>----------------------------------
 
 >>-------- Regional Outbreak Inputs -------------
-OutbreakPattern CyclicUniform << CyclicNormal or CyclicUniform, or Climate 
-MaxInterval        25
-MinInterval        10
-TimeSinceLastEpidemic 5 << years
+OutbreakPattern Climate << CyclicNormal or CyclicUniform, or ClimateLibrary 
+VariableName "CWD+WinterT"
+Threshold1 300  << NOTE:  deliberately set low for testing purposes
+Threshold2 -20  << NOTE:  deliberately set low for testing purposes
+OutbreakLag 0
+TimeSinceLastClimate 10
+
+>>MaxInterval        25
+>>MinInterval        10
+>>TimeSinceLastEpidemic 5 << years
 TemporalType variablepulse << pulse or variablepulse
 MinROS             0
 MaxROS             3
+
 
 >>-------- Dispersal Inputs ----------------------
 Dispersal		yes	<<yes or no   
@@ -58,6 +65,6 @@ BDASpeciesParameters << trees below 10cm are immune Ferrel 1994
 >>Species  MinorHost  2ndHost  MajorHost  Class3   Class2   Class1	CFS
 >>Name     Age        Age      Age        Age      Age      Age		Conifer
 >> -----------------------------------------------------------------------------
-AbieConc	0	0.0      10     0.99	60	 0.99          0	0.0 10	0.15    60	0.25	yes
-AbieMagn	0	0.0      10	   0.99  60	 0.99          0	0.0 10	0.15    60	0.25	yes
+AbieConc	0	0.0      10     0.65	60	 0.75          0	0.0 10	0.08    60	0.12	yes
+AbieMagn	0	0.0      10	0.45  60	 0.55          0	0.0 10	0.08    60	0.12	yes
 

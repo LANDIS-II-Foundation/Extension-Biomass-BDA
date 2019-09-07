@@ -43,8 +43,8 @@ namespace Landis.Extension.BiomassBDA
             //          table outputs:   
             //---------------------------------------
 
-             //PlugIn.EventLog = new MetadataTable<EventsLog>(logFileName);
-            PlugIn.EventLog = new MetadataTable<EventsLog>("bda-log.csv");
+            PlugIn.EventLog = new MetadataTable<EventsLog>(logFileName);
+            //PlugIn.EventLog = new MetadataTable<EventsLog>("biomass-bda-log.csv");
 
             OutputMetadata tblOut_events = new OutputMetadata()
             {

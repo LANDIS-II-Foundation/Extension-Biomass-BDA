@@ -10,8 +10,11 @@ NRDMapNames	bda/{agentName}-NRD-{timestep}.img
 
 >>BDPMapNames     bda/{agentName}-BDP-{timestep}.img
 
-LogFile		bda_log.csv
+LogFile		biomass-bda-log.csv
 
 BDAInputFiles	JeffreyPineBeetle_Jan23.txt	
->>                MtnPineBeetle.txt	
->>		FirEngraver_Dominant.txt	
+                MtnPineBeetle.txt	
+		FirEngraver_Dominant.txt
+		WPBR_chronic.txt
+		WPBR_high.txt
+		WPBR_low.txt	

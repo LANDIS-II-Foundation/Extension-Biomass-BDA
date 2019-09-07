@@ -38,6 +38,8 @@ namespace Landis.Extension.BiomassBDA
         private bool reinitialized;
         public static double ClimateThreshold1;
         public static double ClimateThreshold2;
+        public static Dictionary<int, int> sitesPerEcoregions = new Dictionary<int, int>();
+
         //---------------------------------------------------------------------
 
         public PlugIn()
@@ -91,6 +93,17 @@ namespace Landis.Extension.BiomassBDA
             vulnMapNames = parameters.BDPMapNames;
 
             SiteVars.Initialize(modelCore);
+            foreach (ActiveSite site in PlugIn.ModelCore.Landscape)
+            {
+                IEcoregion ecoregion = PlugIn.ModelCore.Ecoregion[site];
+                if (!sitesPerEcoregions.ContainsKey(ecoregion.Index))
+                    sitesPerEcoregions.Add(ecoregion.Index, 1);
+                else
+                    sitesPerEcoregions[ecoregion.Index]++;
+
+
+            }
+
 
             manyAgentParameters = parameters.ManyAgentParameters;
             foreach (IAgent activeAgent in manyAgentParameters)
@@ -112,7 +125,7 @@ namespace Landis.Extension.BiomassBDA
                 if (activeAgent.DispersalNeighbors != null)
                 {
                     foreach (RelativeLocation reloc in activeAgent.DispersalNeighbors) i++;
-                    PlugIn.ModelCore.UI.WriteLine("Dispersal Neighborhood = {0} neighbors.", i);
+                    PlugIn.ModelCore.UI.WriteLine("   Dispersal Neighborhood = {0} neighbors.", i);
                 }
 
                 i = 0;
@@ -120,7 +133,7 @@ namespace Landis.Extension.BiomassBDA
                 if (activeAgent.ResourceNeighbors != null)
                 {
                     foreach (RelativeLocationWeighted reloc in activeAgent.ResourceNeighbors) i++;
-                    PlugIn.ModelCore.UI.WriteLine("Resource Neighborhood = {0} neighbors.", i);
+                    PlugIn.ModelCore.UI.WriteLine("   Resource Neighborhood = {0} neighbors.", i);
                 }
             }
         }
@@ -137,7 +150,6 @@ namespace Landis.Extension.BiomassBDA
         ///</summary>
         public override void Run()
         {
-            PlugIn.ModelCore.UI.WriteLine("   Processing landscape for BDA events ...");
             if(!reinitialized)
                 InitializePhase2();
 
@@ -147,6 +159,7 @@ namespace Landis.Extension.BiomassBDA
 
             foreach(IAgent activeAgent in manyAgentParameters)
             {
+                PlugIn.ModelCore.UI.WriteLine("   Processing landscape for {0} events ...", activeAgent.AgentName);
 
                 activeAgent.TimeSinceLastEpidemic += Timestep;
 
@@ -155,11 +168,9 @@ namespace Landis.Extension.BiomassBDA
                 if(ROS > 0)
                 {
                     Epidemic.Initialize(activeAgent);
-                    Epidemic currentEpic = Epidemic.Simulate(activeAgent,
-                        PlugIn.ModelCore.CurrentTime,
-                        Timestep,
-                        ROS);
+                    Epidemic currentEpic = Epidemic.Simulate(activeAgent, PlugIn.ModelCore.CurrentTime,Timestep, ROS);
                     //activeAgent.TimeSinceLastEpidemic = activeAgent.TimeSinceLastEpidemic + Timestep;
+                    PlugIn.ModelCore.UI.WriteLine("      {0}: TotalSitesDamaged={1}", activeAgent.AgentName, currentEpic.TotalSitesDamaged);
 
                     if (currentEpic != null && currentEpic.TotalSitesDamaged > 0)
                     {
@@ -279,13 +290,12 @@ namespace Landis.Extension.BiomassBDA
             el.DamagedSites = CurrentEvent.TotalSitesDamaged;
             el.CohortsKilled = CurrentEvent.CohortsKilled;
             el.MeanSeverity = CurrentEvent.MeanSeverity;
-            el.BiomassMortalityPercent = CurrentEvent.BiomassMortalityPercent / CurrentEvent.TotalSitesDamaged;
+            el.TotalBiomassMortality = CurrentEvent.TotalBiomassMortality;
             el.ClimateThreshold1 = ClimateThreshold1;
             el.ClimateThreshold2 = ClimateThreshold2;
             EventLog.AddObject(el);
             EventLog.WriteToFile();
         }
-        //---------------------------------------------------------------------
         
         //---------------------------------------------------------------------
         private static int TimeToNext(IAgent activeAgent, int Timestep)
@@ -330,24 +340,14 @@ namespace Landis.Extension.BiomassBDA
 
             if (activeAgent.RandFunc == OutbreakPattern.Climate)
             {
-                Dictionary<int, int> sitesPerEcoregions = new Dictionary<int, int>();
                 Dictionary<int, double> meanCWDperEcoregion = new Dictionary<int, double>();
                 double meanCWD = 0.0;
-
-                foreach (ActiveSite site in PlugIn.ModelCore.Landscape)
-                {
-                    IEcoregion ecoregion = PlugIn.ModelCore.Ecoregion[site];
-                    if (!sitesPerEcoregions.ContainsKey(ecoregion.Index))
-                        sitesPerEcoregions.Add(ecoregion.Index, 1);
-                    else
-                        sitesPerEcoregions[ecoregion.Index]++;
-
-                    meanCWD += SiteVars.AET[site];
-
-                }
                 AnnualClimate_Monthly weatherData = null;
                 double meanWinterTemperature = 0.0;
                 //double landscapeAverageCWD = 0.0;
+
+                foreach(ActiveSite site in PlugIn.ModelCore.Landscape.ActiveSites)
+                    meanCWD += SiteVars.AET[site];
 
                 int actualYear = 0;
                 try
@@ -376,9 +376,11 @@ namespace Landis.Extension.BiomassBDA
                         meanWinterTemperature += weatherData.MonthlyTemp[1] * sitesPerEcoregions[ecoregion.Index];
 
                     }
+                    //else
+                    //    PlugIn.ModelCore.UI.WriteLine("Empty Ecoregion={0}.", ecoregion.Name); 
                 }
 
-                if (activeAgent.ClimateVarName == "CWD+WinterT")
+                if (activeAgent.ClimateVarName == "CWD+WinterT")  // Currently this is the only option
                 {
 
                     double climaticWaterDeficit = meanCWD / (double)modelCore.Landscape.ActiveSiteCount;
@@ -386,7 +388,7 @@ namespace Landis.Extension.BiomassBDA
                     ClimateThreshold1 = climaticWaterDeficit;
                     ClimateThreshold2 = meanWinterT;
 
-                    //PlugIn.ModelCore.UI.WriteLine("Climate: CWD={0}, WinterT={1}.", climaticWaterDeficit, meanWinterT); // (landscapeAverageCWD / modelCore.Landscape.ActiveSiteCount));
+                    PlugIn.ModelCore.UI.WriteLine("      {0}: ClimateWaterDeficit={1:0.0}, WinterT={2:0.00}.", activeAgent.AgentName, climaticWaterDeficit, meanWinterT); 
 
                     if ((climaticWaterDeficit >= activeAgent.ClimateThresh_1) && (meanWinterT >= activeAgent.ClimateThresh_2))
                     {

@@ -28,8 +28,8 @@ namespace Landis.Extension.BiomassBDA
         [DataFieldAttribute(Unit = FieldUnits.Count, Desc = "Number of Damaged Sites in Event")]
         public int DamagedSites { set; get; }
 
-        [DataFieldAttribute(Unit = FieldUnits.Percentage, Desc = "Biomass Mortality Percent")]
-        public int BiomassMortalityPercent { set; get; }
+        [DataFieldAttribute(Unit = FieldUnits.g_B_m2, Desc = "Total Mortality")]
+        public int TotalBiomassMortality { set; get; }
 
         [DataFieldAttribute(Desc = "Mean Severity (1-5)", Format="0.00")]
         public double MeanSeverity { set; get; }

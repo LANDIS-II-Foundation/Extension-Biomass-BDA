@@ -27,7 +27,7 @@ DisturbancesRandomOrder no
 
 >> Output Extensions Initialization File
 >> ----------------- -------------------
-"Output Max Species Age"		"max-spp-age.output.txt"
+>>"Output Max Species Age"		"max-spp-age.output.txt"
 >>"Output Biomass-by-Age"			"E:/SNPLMA3/LANDIS_modeling/LTW_NECN_H/output.biomass-by-age.txt"
 >> "Output Cohort Statistics"    	"./cohort-stats.output.txt"		<< any succession ext.
 >>"Output Biomass Reclass"        "E:/SNPLMA3/LANDIS_modeling/LTW_NECN_H/output_BiomassReclass.txt"

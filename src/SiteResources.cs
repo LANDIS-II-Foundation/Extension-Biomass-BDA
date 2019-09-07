@@ -23,7 +23,7 @@ namespace Landis.Extension.BiomassBDA
         //---------------------------------------------------------------------
         public static void SiteResourceDominance(IAgent agent, int ROS)
         {
-            PlugIn.ModelCore.UI.WriteLine("   Calculating BDA Site Resource Dominance.");
+            PlugIn.ModelCore.UI.WriteLine("      Calculating BDA Site Resource Dominance.");
 
             foreach (ActiveSite site in PlugIn.ModelCore.Landscape) {
 
@@ -91,7 +91,7 @@ namespace Landis.Extension.BiomassBDA
         public static void SiteResourceDominanceModifier(IAgent agent)
         {
 
-            PlugIn.ModelCore.UI.WriteLine("   Calculating BDA Modified Site Resource Dominance.");
+            PlugIn.ModelCore.UI.WriteLine("      {0}: Calculating BDA Modified Site Resource Dominance.", agent.AgentName);
             foreach (ActiveSite site in PlugIn.ModelCore.Landscape) {
 
                 if (SiteVars.SiteResourceDom[site] > 0.0)
@@ -267,7 +267,7 @@ namespace Landis.Extension.BiomassBDA
             double   SRD, SRDMod, NRD;
             double   CaliROS3 = ((double) ROS / 3) * agent.BDPCalibrator;
 
-            //PlugIn.ModelCore.Log.WriteLine("   Calculating BDA SiteVulnerability.");
+            PlugIn.ModelCore.UI.WriteLine("      {0}: Calculating BDA SiteVulnerability.", agent.AgentName);
 
             if (considerNeighbor)      //take neigborhood into consideration
             {
@@ -323,7 +323,7 @@ namespace Landis.Extension.BiomassBDA
         //---------------------------------------------------------------------
         public static void NeighborResourceDominance(IAgent agent)
         {
-            PlugIn.ModelCore.UI.WriteLine("   Calculating BDA Neighborhood Resource Dominance.");
+            PlugIn.ModelCore.UI.WriteLine("      {0}: Calculating BDA Neighborhood Resource Dominance.", agent.AgentName);
 
             double totalNeighborWeight = 0.0;
             double maxNeighborWeight = 0.0;

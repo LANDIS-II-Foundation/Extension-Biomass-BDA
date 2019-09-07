@@ -24,7 +24,7 @@ namespace Landis.Extension.BiomassBDA
         public static void NewEpicenters(IAgent agent, int BDAtimestep)
         {
 
-            PlugIn.ModelCore.UI.WriteLine("   Creating New BDA Epicenters.");
+            PlugIn.ModelCore.UI.WriteLine("      {0}: Creating New BDA Epicenters.", agent.AgentName);
 
             int numRows = (int) PlugIn.ModelCore.Landscape.Rows;
             int numCols = (int) PlugIn.ModelCore.Landscape.Columns;
@@ -76,7 +76,7 @@ namespace Landis.Extension.BiomassBDA
                             }
                 }
 
-                PlugIn.ModelCore.UI.WriteLine("   Potential Number of Epicenters, Inside = {0}; Outside={1}, total={2}.", numInside, numOutside, totalInOut);
+                PlugIn.ModelCore.UI.WriteLine("      Potential Number of Epicenters, Inside-of-last-outbreak = {0}; Outside-of-last-outbreak={1}, total={2}.", numInside, numOutside, totalInOut);
 
                 //---------------------------------------------------------
                 //Calculate number of Epicenters that will occur
@@ -111,8 +111,7 @@ namespace Landis.Extension.BiomassBDA
 
                     numOutside = (int)((double) numOutside *
                                     System.Math.Exp(-1.0 * (double) agent.SeedEpicenterCoeff * (double) oldEpicenterNum));
-                    PlugIn.ModelCore.UI.WriteLine("   Actual Number Outside = {0}.  SeedCoef = {1}.  OldEpiNum = {2}.", numOutside, agent.SeedEpicenterCoeff, oldEpicenterNum);
-                    //PlugIn.ModelCore.Log.WriteLine("   Actual Number Outside = {0}.", numOutside);
+                    PlugIn.ModelCore.UI.WriteLine("      Actual Number Outside = {0}.  SeedCoef = {1}.  OldEpiNum = {2}.", numOutside, agent.SeedEpicenterCoeff, oldEpicenterNum);
 
                     while (numOutside > 0)
                     {
