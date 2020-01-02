@@ -1,0 +1,26 @@
+LandisData  "Output Cohort Stats"
+
+Timestep   10
+
+SpeciesAgeStats
+
+MapNames   output/cohort-stats/{species}-{statistic}-{timestep}.gis
+
+MAX 	querkelo  querdoug 		<< maximum age for each species
+
+SiteAgeStats
+
+MapNames   output/cohort-stats/AGE-{statistic}-{timestep}.gis
+
+MAX				<< maximum age across all species on site
+MED				<< median age across all species on site
+SD				<< standard deviation age across all species on site
+>> RICH   			<<count of cohorts
+>> EVEN   			<<evenness 
+
+
+SiteSpeciesStats
+
+MapNames   output/cohort-stats/SPP-{statistic}-{timestep}.gis
+
+>> RICH   			<<count of species

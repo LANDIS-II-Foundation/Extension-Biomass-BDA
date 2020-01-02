@@ -2,7 +2,8 @@
 //  BDA originally programmed by Wei (Vera) Li at University of Missouri-Columbia in 2004.
 
 using Landis.Core;
-using Landis.Library.AgeOnlyCohorts;
+//using Landis.Library.AgeOnlyCohorts;
+using Landis.Library.BiomassCohorts;
 using Landis.SpatialModeling;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
@@ -29,55 +30,95 @@ namespace Landis.Extension.BiomassBDA
 
                 double sumValue = 0.0;
                 double maxValue = 0.0;
-                int    ageOldestCohort= 0;
-                int    numValidSpp = 0;
-                double speciesHostValue = 0;
+                //int    ageOldestCohort= 0;
+                //int    numValidSpp = 0;
+                //double agentSppBiomass = 0.0;
+                double totalSiteBiomass = 0.0;
+                int sppCnt = 0;
 
                 foreach (ISpecies species in PlugIn.ModelCore.Species)
                 {
-                    ageOldestCohort = SiteVars.AgeOldestCohort(site, SiteVars.Cohorts[site][species]);
+                    //ageOldestCohort = SiteVars.AgeOldestCohort(site, SiteVars.Cohorts[site][species]);
                     ISppParameters sppParms = agent.SppParameters[species.Index];
                     if (sppParms == null)
                         continue;
 
-                    bool negList = false;
-                    foreach (ISpecies negSpp in agent.NegSppList)
-                    {
-                        if (species == negSpp)
-                            negList = true;
-                    }
+                    double speciesHostValue = 0.0;
+                    double agentSppBiomass = 0.0;
+                    sppCnt++;
 
-                    if ((ageOldestCohort > 0) && (! negList))
+                    //bool negList = false;
+                    //foreach (ISpecies negSpp in agent.NegSppList)  // The list of ignored species.
+                    //{
+                    //    if (species == negSpp)
+                    //        negList = true;
+                    //}
+                    if (SiteVars.Cohorts[site][species] != null)
                     {
-                        numValidSpp++;
+                        //numValidSpp++;
                         speciesHostValue = 0.0;
+                        foreach (ICohort cohort in SiteVars.Cohorts[site][species])
+                        {
+                            double cohortHostValue = 0.0;
+                            if (cohort.Age >= sppParms.PrimaryHostAge)
+                                cohortHostValue = sppParms.PrimaryHostSRD * cohort.Biomass;
 
-                        if (ageOldestCohort >= sppParms.MinorHostAge)
-                            //speciesHostValue = 0.33;
-                            speciesHostValue = sppParms.MinorHostSRD;
+                            else if (cohort.Age >= sppParms.SecondaryHostAge)
+                                cohortHostValue = sppParms.SecondaryHostSRD * cohort.Biomass;
 
-                        if (ageOldestCohort >= sppParms.SecondaryHostAge)
-                            //speciesHostValue = 0.66;
-                            speciesHostValue = sppParms.SecondaryHostSRD;
+                            else if (cohort.Age >= sppParms.MinorHostAge)
+                                cohortHostValue = sppParms.MinorHostSRD * cohort.Biomass;
 
-                        if (ageOldestCohort >= sppParms.PrimaryHostAge)
-                            //speciesHostValue = 1.0;
-                            speciesHostValue = sppParms.PrimaryHostSRD;
-
+                            if (cohortHostValue > 0.0)
+                            {
+                                speciesHostValue += cohortHostValue;
+                                agentSppBiomass += cohort.Biomass;
+                                totalSiteBiomass += cohort.Biomass;  // total for all spp in the list.
+                            }
+                        }
 
                         sumValue += speciesHostValue;
-                        maxValue = System.Math.Max(maxValue, speciesHostValue);
+                        maxValue = System.Math.Max(maxValue, speciesHostValue / agentSppBiomass); // Weighted by single species biomass.
                     }
+
+
+                    //if (ageOldestCohort > 0) //&& (! negList))
+                    //{
+                    //    numValidSpp++;
+                    //    speciesHostValue = 0.0;
+
+                    //    if (ageOldestCohort >= sppParms.MinorHostAge)
+                    //        //speciesHostValue = 0.33;
+                    //        speciesHostValue = sppParms.MinorHostSRD;
+
+                    //    if (ageOldestCohort >= sppParms.SecondaryHostAge)
+                    //        //speciesHostValue = 0.66;
+                    //        speciesHostValue = sppParms.SecondaryHostSRD;
+
+                    //    if (ageOldestCohort >= sppParms.PrimaryHostAge)
+                    //        //speciesHostValue = 1.0;
+                    //        speciesHostValue = sppParms.PrimaryHostSRD;
+
+
+                    //    sumValue += speciesHostValue;
+                    //    maxValue = System.Math.Max(maxValue, speciesHostValue);
+                    //}
+                }  // end sppList
+
+                if (sppCnt > 0)
+                {
+                    if (agent.SRDmode == SRDmode.mean)
+                        SiteVars.SiteResourceDom[site] = sumValue / totalSiteBiomass;  // Weighted by total cohort biomass.
+
+                    if (agent.SRDmode == SRDmode.max)
+                        SiteVars.SiteResourceDom[site] = maxValue;
                 }
+                else
+                    SiteVars.SiteResourceDom[site] = 0.0;
 
-                if (agent.SRDmode == SRDmode.mean)
-                    SiteVars.SiteResourceDom[site] = sumValue / (double) numValidSpp;
-
-                if (agent.SRDmode == SRDmode.max)
-                    SiteVars.SiteResourceDom[site] = maxValue;
-
+                if (SiteVars.SiteResourceDom[site] > 1.0)
+                    PlugIn.ModelCore.UI.WriteLine("      Calculated BDA Site Resource Dominance {0}: {1}, {2}, {3}.", agent.AgentName, SiteVars.SiteResourceDom[site], sumValue, totalSiteBiomass);
             }
-
         }  //end siteResourceDom
 
         //---------------------------------------------------------------------
@@ -362,13 +403,8 @@ namespace Landis.Extension.BiomassBDA
                                 neighborCnt%speedUpFraction == 0)
                             {
                                 Site activeSite = site.GetNeighbor(neighbor.Location);
-
-                                //Note:  SiteResourceDomMod ranges from 0 - 1.
-                                //if (SiteVars.SiteResourceDomMod[activeSite] > 0)  //BRM - 092315 - Turned off this restriction so that non-host in neighborhood reduces calculated value
-                                //{
-                                    totalNeighborWeight += SiteVars.SiteResourceDomMod[activeSite] * neighbor.Weight;
-                                    maxNeighborWeight += neighbor.Weight;
-                                //}
+                                totalNeighborWeight += SiteVars.SiteResourceDomMod[activeSite] * neighbor.Weight;
+                                maxNeighborWeight += neighbor.Weight;
                             }
                             neighborCnt++;
                         }

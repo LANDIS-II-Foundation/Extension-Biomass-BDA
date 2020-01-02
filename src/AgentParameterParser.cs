@@ -16,7 +16,7 @@ namespace Landis.Extension.BiomassBDA
     {
 
         public static IEcoregionDataset EcoregionsDataset = PlugIn.ModelCore.Ecoregions;
-        public static ISpeciesDataset SpeciesDataset = PlugIn.ModelCore.Species; //null;
+        public static ISpeciesDataset SpeciesDataset = PlugIn.ModelCore.Species; 
 
         //---------------------------------------------------------------------
         public override string LandisDataValue
@@ -34,12 +34,11 @@ namespace Landis.Extension.BiomassBDA
 
         protected override IAgent Parse()
         {
-            //PlugIn.ModelCore.Log.WriteLine("Parsing 1; sppCnt={0}", Model.Species.Count);
-            //Agent agentParameters = new Agent(PlugIn.ModelCore.Species.Count, PlugIn.ModelCore.Ecoregions.Count, (int) DisturbanceType.Null);  //The last disturb Type is Null
-            InputVar<string> landisData = new InputVar<string>("LandisData");
-            ReadVar(landisData);
-            if (landisData.Value.Actual != LandisDataValue)
-                throw new InputValueException(landisData.Value.String, "The value is not \"{0}\"", LandisDataValue);
+            ReadLandisDataVar();
+            //InputVar<string> landisData = new InputVar<string>("LandisData");
+            //ReadVar(landisData);
+            //if (landisData.Value.Actual != LandisDataValue)
+            //    throw new InputValueException(landisData.Value.String, "The value is not \"{0}\"", LandisDataValue);
 
             Agent agentParameters = new Agent(PlugIn.ModelCore.Species.Count, PlugIn.ModelCore.Ecoregions.Count);
 

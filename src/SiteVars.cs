@@ -34,7 +34,7 @@ namespace Landis.Extension.BiomassBDA
         //private static ISiteVar<int> timeOfLastBiomassInsects;
         //private static ISiteVar<string> biomassInsectsAgent;
         //private static ISiteVar<int> biomassInsectsDefol;
-        public static ISiteVar<double> AET;
+        public static ISiteVar<double> CWD;
 
         //---------------------------------------------------------------------
 
@@ -51,7 +51,7 @@ namespace Landis.Extension.BiomassBDA
             agentName = modelCore.Landscape.NewSiteVar<string>();
             //biomassInsectsAgent = modelCore.Landscape.NewSiteVar<string>();
             //biomassInsectsDefol = modelCore.Landscape.NewSiteVar<int>();
-            AET = modelCore.Landscape.NewSiteVar<double>();
+            CWD = modelCore.Landscape.NewSiteVar<double>();
 
             SiteVars.TimeOfLastEvent.ActiveSiteValues = -10000;
             SiteVars.NeighborResourceDom.ActiveSiteValues = 0.0;
@@ -63,7 +63,7 @@ namespace Landis.Extension.BiomassBDA
             //SiteVars.BiomassInsectsDefol.ActiveSiteValues = 0;
 
             cohorts = PlugIn.ModelCore.GetSiteVar<ISiteCohorts>("Succession.BiomassCohorts");
-            AET = PlugIn.ModelCore.GetSiteVar<double>("Succession.CWD");
+            CWD = PlugIn.ModelCore.GetSiteVar<double>("Succession.CWD");
 
             foreach (ActiveSite site in modelCore.Landscape)
                 SiteVars.NumberCFSconifersKilled[site] = new Dictionary<int, int>();

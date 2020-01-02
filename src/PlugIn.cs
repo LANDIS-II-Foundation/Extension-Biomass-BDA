@@ -1,6 +1,6 @@
 //  Authors:  Robert M. Scheller
 //  BDA originally programmed by Wei (Vera) Li at University of Missouri-Columbia in 2004.
-//  Modified for budworm-BDA version by Brian Miranda, 2012
+
 
 using System;
 using System.Collections.Generic;
@@ -39,6 +39,7 @@ namespace Landis.Extension.BiomassBDA
         public static double ClimateThreshold1;
         public static double ClimateThreshold2;
         public static Dictionary<int, int> sitesPerEcoregions = new Dictionary<int, int>();
+        private static bool NECN_Running = true;
 
         //---------------------------------------------------------------------
 
@@ -346,8 +347,11 @@ namespace Landis.Extension.BiomassBDA
                 double meanWinterTemperature = 0.0;
                 //double landscapeAverageCWD = 0.0;
 
-                foreach(ActiveSite site in PlugIn.ModelCore.Landscape.ActiveSites)
-                    meanCWD += SiteVars.AET[site];
+                if (NECN_Running)
+                {
+                    foreach (ActiveSite site in PlugIn.ModelCore.Landscape.ActiveSites)
+                        meanCWD += SiteVars.CWD[site];
+                }
 
                 int actualYear = 0;
                 try
@@ -373,7 +377,18 @@ namespace Landis.Extension.BiomassBDA
                             throw new UninitializedClimateData(string.Format("Climate data could not be found in Run(). Year: {0} in ecoregion: {1}", actualYear, ecoregion.Name));
                         }
 
+                        if (!NECN_Running)  // RMS: 12/27/2019: The climate library is not accurately estimating PET and/or AET.
+                        {
+                            double annualPET = 0.0;
+                            for (int month = 0; month < 12; month++)
+                                annualPET += weatherData.MonthlyPET[month];
+
+                            meanCWD += (annualPET - weatherData.AnnualAET) * sitesPerEcoregions[ecoregion.Index];
+                        }
+
+                        PlugIn.ModelCore.UI.WriteLine("WinterT={0}.", weatherData.MonthlyTemp[1]);
                         meanWinterTemperature += weatherData.MonthlyTemp[1] * sitesPerEcoregions[ecoregion.Index];
+
 
                     }
                     //else
@@ -450,7 +465,6 @@ namespace Landis.Extension.BiomassBDA
                 }
 
             } else  {
-                //activeAgent.TimeSinceLastEpidemic += BDAtimestep;
                 ROS = activeAgent.MinROS;
             }
             return ROS;

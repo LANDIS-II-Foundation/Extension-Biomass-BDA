@@ -1,0 +1,1466 @@
+2020-01-01 13:24:34,696 - LANDIS-II 7.0 (7)
+2020-01-01 13:24:34,702 - 
+2020-01-01 13:24:34,878 - Loading scenario from file "scenario_recent_insects.txt" ...
+2020-01-01 13:24:34,929 - Initialized random number generator with seed = 1,950,471,911
+2020-01-01 13:24:34,930 - Loading species data from file "species.txt" ...
+2020-01-01 13:24:34,943 - Loading ecoregions from file "ecoregionlist.txt" ...
+2020-01-01 13:24:34,953 - Initializing landscape from ecoregions map "eco7.tif" ...
+2020-01-01 13:24:34,975 - Cell length = 100 m, cell area = 1 ha
+2020-01-01 13:24:34,977 - Map dimensions: 1,063 rows by 813 columns = 864,219 cells
+2020-01-01 13:24:35,020 - Sites: 319,101 active (36.9%), 545,118 inactive (63.1%)
+2020-01-01 13:24:35,107 - Loading NECN Succession extension ...
+2020-01-01 13:24:35,250 -    Registering Data:  Succession.LeafBiomassCohorts.
+2020-01-01 13:24:35,251 -    Registering Data:  Succession.AgeCohorts.
+2020-01-01 13:24:35,251 -    Registering Data:  Succession.BiomassCohorts.
+2020-01-01 13:24:35,251 -    Registering Data:  Succession.FineFuels.
+2020-01-01 13:24:35,251 -    Registering Data:  Succession.SmolderConsumption.
+2020-01-01 13:24:35,251 -    Registering Data:  Succession.FlamingConsumption.
+2020-01-01 13:24:35,252 -    Registering Data:  Succession.CWD.
+2020-01-01 13:24:36,503 -    Begin parsing FUNCTIONAL GROUP table.
+2020-01-01 13:24:36,504 -    Begin reading FIRE REDUCTION parameters.
+2020-01-01 13:24:36,505 -    Begin reading HARVEST REDUCTION parameters.
+2020-01-01 13:24:36,535 - Initializing NECN Succession ...
+2020-01-01 13:24:36,622 -   Read in data from SoilDepth_stan.tif
+2020-01-01 13:24:36,716 -   Read in data from DrainClass_stan.tif
+2020-01-01 13:24:36,802 -   Read in data from BaseFFrac_stan.tif
+2020-01-01 13:24:36,896 -   Read in data from StormFFrac_stan.tif
+2020-01-01 13:24:36,984 -   Read in data from FieldCapacity_stan.tif
+2020-01-01 13:24:37,071 -   Read in data from WiltPoint_stan.tif
+2020-01-01 13:24:37,160 -   Read in data from Sand_stan.tif
+2020-01-01 13:24:37,247 -   Read in data from Clay_stan.tif
+2020-01-01 13:24:37,344 -   Read in data from SOMC_surface_stan.tif
+2020-01-01 13:24:37,463 -   Read in data from SOMNsurface_stan.tif
+2020-01-01 13:24:37,579 -   Read in data from SOMC_soil_stan.tif
+2020-01-01 13:24:37,700 -   Read in data from SOMNsoil_stan.tif
+2020-01-01 13:24:37,819 -   Read in data from SOMC2_stan.tif
+2020-01-01 13:24:37,934 -   Read in data from SOMN2_stan.tif
+2020-01-01 13:24:38,053 -   Read in data from SOMC3_stan.tif
+2020-01-01 13:24:38,171 -   Read in data from SOMN3_stan.tif
+2020-01-01 13:24:38,289 -   Read in data from SurfaceDead_stan.tif
+2020-01-01 13:24:38,460 -   Read in data from DeadCoarseRoots_stan.tif
+2020-01-01 13:24:38,593 -    Loading weather data ...
+2020-01-01 13:25:12,194 -    Registering Data:  TimeOfLastSuccession.
+2020-01-01 13:25:12,195 -    Registering Data:  Shade.
+2020-01-01 13:25:12,196 -    Creating Dispersal Neighborhood List.
+2020-01-01 13:25:12,197 -    Dispersal:  NeighborRadius=10050, CellLength=100, numCellRadius=100
+2020-01-01 13:25:12,508 -    Loading initial communities from file "community-input-file-0.txt" ...
+2020-01-01 13:25:15,497 -    Reading initial communities map "output-community-0.img" ...
+2020-01-01 13:47:00,748 -    Opening a NECN log file "NECN-prob-establish-log.csv" ...
+2020-01-01 13:47:02,927 - Loading Biomass BDA extension ...
+2020-01-01 13:47:02,979 - Begin parsing ECOREGION table.
+2020-01-01 13:47:02,980 - Begin parsing DISTURBANCE table.
+2020-01-01 13:47:02,986 - Begin parsing SPECIES table.
+2020-01-01 13:47:02,989 - Begin parsing ECOREGION table.
+2020-01-01 13:47:02,990 - Begin parsing DISTURBANCE table.
+2020-01-01 13:47:02,990 - Begin parsing SPECIES table.
+2020-01-01 13:47:02,991 - Begin parsing ECOREGION table.
+2020-01-01 13:47:02,992 - Begin parsing DISTURBANCE table.
+2020-01-01 13:47:02,992 - Begin parsing SPECIES table.
+2020-01-01 13:47:02,993 - Begin parsing ECOREGION table.
+2020-01-01 13:47:02,993 - Begin parsing DISTURBANCE table.
+2020-01-01 13:47:02,994 - Begin parsing SPECIES table.
+2020-01-01 13:47:02,994 - Begin parsing ECOREGION table.
+2020-01-01 13:47:02,995 - Begin parsing DISTURBANCE table.
+2020-01-01 13:47:02,995 - Begin parsing SPECIES table.
+2020-01-01 13:47:02,996 - Begin parsing ECOREGION table.
+2020-01-01 13:47:02,996 - Begin parsing DISTURBANCE table.
+2020-01-01 13:47:02,996 - Begin parsing SPECIES table.
+2020-01-01 13:47:02,996 - Begin parsing ECOREGION table.
+2020-01-01 13:47:02,997 - Begin parsing DISTURBANCE table.
+2020-01-01 13:47:02,997 - Begin parsing SPECIES table.
+2020-01-01 13:47:02,999 - Begin parsing ECOREGION table.
+2020-01-01 13:47:02,999 - Begin parsing DISTURBANCE table.
+2020-01-01 13:47:02,999 - Begin parsing SPECIES table.
+2020-01-01 13:47:03,000 - Begin parsing ECOREGION table.
+2020-01-01 13:47:03,000 - Begin parsing DISTURBANCE table.
+2020-01-01 13:47:03,001 - Begin parsing SPECIES table.
+2020-01-01 13:47:03,001 - Name of Agent = WPineBeetle
+2020-01-01 13:47:03,001 - Name of Agent = WPineBeetle
+2020-01-01 13:47:03,002 - Name of Agent = WPineBeetle
+2020-01-01 13:47:03,002 - Name of Agent = WPineBeetle
+2020-01-01 13:47:03,003 - Name of Agent = WPineBeetle
+2020-01-01 13:47:03,003 - Name of Agent = WPineBeetle
+2020-01-01 13:47:03,003 - Name of Agent = WPineBeetle
+2020-01-01 13:47:03,004 - Name of Agent = WPineBeetle
+2020-01-01 13:47:03,004 - Name of Agent = WPineBeetle
+2020-01-01 13:47:03,084 -    Registering Data:  BDA.NumCFSConifers.
+2020-01-01 13:47:03,085 -    Registering Data:  BDA.TimeOfLastEvent.
+2020-01-01 13:47:03,085 -    Registering Data:  BDA.AgentName.
+2020-01-01 13:47:03,086 -    Registering Data:  BDA.TimeOfNext.
+2020-01-01 13:47:03,129 - Creating Dispersal Neighborhood List.
+2020-01-01 13:47:03,130 - NeighborRadius=600, CellLength=100, numCellRadius=6
+2020-01-01 13:47:03,132 -    Dispersal Neighborhood = 113 neighbors.
+2020-01-01 13:47:03,132 - Creating Neighborhood List.
+2020-01-01 13:47:03,133 - NeighborRadius=10000, CellLength=100, numCellRadius=100
+2020-01-01 13:47:03,139 -    Resource Neighborhood = 31416 neighbors.
+2020-01-01 13:47:03,140 - Creating Dispersal Neighborhood List.
+2020-01-01 13:47:03,140 - NeighborRadius=400, CellLength=100, numCellRadius=4
+2020-01-01 13:47:03,140 -    Dispersal Neighborhood = 49 neighbors.
+2020-01-01 13:47:03,141 - Creating Neighborhood List.
+2020-01-01 13:47:03,141 - NeighborRadius=2000, CellLength=100, numCellRadius=20
+2020-01-01 13:47:03,142 -    Resource Neighborhood = 1256 neighbors.
+2020-01-01 13:47:03,143 - Creating Dispersal Neighborhood List.
+2020-01-01 13:47:03,143 - NeighborRadius=1000, CellLength=100, numCellRadius=10
+2020-01-01 13:47:03,144 -    Dispersal Neighborhood = 317 neighbors.
+2020-01-01 13:47:03,144 - Creating Neighborhood List.
+2020-01-01 13:47:03,144 - NeighborRadius=10000, CellLength=100, numCellRadius=100
+2020-01-01 13:47:03,150 -    Resource Neighborhood = 31416 neighbors.
+2020-01-01 13:47:03,151 - Creating Dispersal Neighborhood List.
+2020-01-01 13:47:03,151 - NeighborRadius=1000, CellLength=100, numCellRadius=10
+2020-01-01 13:47:03,151 -    Dispersal Neighborhood = 317 neighbors.
+2020-01-01 13:47:03,152 - Creating Neighborhood List.
+2020-01-01 13:47:03,152 - NeighborRadius=10000, CellLength=100, numCellRadius=100
+2020-01-01 13:47:03,174 -    Resource Neighborhood = 31416 neighbors.
+2020-01-01 13:47:03,176 - Creating Dispersal Neighborhood List.
+2020-01-01 13:47:03,177 -    Dispersal Neighborhood = 4 neighbors.
+2020-01-01 13:47:03,177 - Creating Neighborhood List.
+2020-01-01 13:47:03,178 - NeighborRadius=2000, CellLength=100, numCellRadius=20
+2020-01-01 13:47:03,178 -    Resource Neighborhood = 1256 neighbors.
+2020-01-01 13:47:03,179 - Creating Dispersal Neighborhood List.
+2020-01-01 13:47:03,179 -    Dispersal Neighborhood = 24 neighbors.
+2020-01-01 13:47:03,180 - Creating Neighborhood List.
+2020-01-01 13:47:03,180 - NeighborRadius=1000, CellLength=100, numCellRadius=10
+2020-01-01 13:47:03,181 -    Resource Neighborhood = 316 neighbors.
+2020-01-01 13:47:03,182 - Creating Dispersal Neighborhood List.
+2020-01-01 13:47:03,182 -    Dispersal Neighborhood = 12 neighbors.
+2020-01-01 13:47:03,182 - Creating Neighborhood List.
+2020-01-01 13:47:03,183 - NeighborRadius=1000, CellLength=100, numCellRadius=10
+2020-01-01 13:47:03,183 -    Resource Neighborhood = 316 neighbors.
+2020-01-01 13:47:03,185 - Creating Dispersal Neighborhood List.
+2020-01-01 13:47:03,185 - NeighborRadius=400, CellLength=100, numCellRadius=4
+2020-01-01 13:47:03,185 -    Dispersal Neighborhood = 49 neighbors.
+2020-01-01 13:47:03,186 - Creating Neighborhood List.
+2020-01-01 13:47:03,187 - NeighborRadius=10000, CellLength=100, numCellRadius=100
+2020-01-01 13:47:03,192 -    Resource Neighborhood = 31416 neighbors.
+2020-01-01 13:47:03,193 - Creating Dispersal Neighborhood List.
+2020-01-01 13:47:03,193 - NeighborRadius=400, CellLength=100, numCellRadius=4
+2020-01-01 13:47:03,193 -    Dispersal Neighborhood = 49 neighbors.
+2020-01-01 13:47:03,194 - Creating Neighborhood List.
+2020-01-01 13:47:03,195 - NeighborRadius=10000, CellLength=100, numCellRadius=100
+2020-01-01 13:47:03,200 -    Resource Neighborhood = 31416 neighbors.
+2020-01-01 13:47:03,201 - Loading Output Biomass extension ...
+2020-01-01 13:47:03,230 -    Generating summary table...
+2020-01-01 13:47:03,247 - Using the following extensions ...
+   Extension Name            Extension Filename       
+   --------------            ------------------       
+   NECN Succession           NECN_Succession.txt      
+   Biomass BDA               biomass-bda-input.txt    
+   Output Biomass            output-biomass.txt       
+
+2020-01-01 13:47:03,248 - Running Output Biomass ...
+2020-01-01 13:47:03,249 -    Writing total biomass map to biomass/TotalBiomass-0.img ...
+2020-01-01 13:47:04,155 -    Writing abiemagn biomass map to biomass/abiemagn-0.img ...
+2020-01-01 13:47:04,297 -    Writing pinupond biomass map to biomass/pinupond-0.img ...
+2020-01-01 13:47:04,438 -    Writing pinulamb biomass map to biomass/pinulamb-0.img ...
+2020-01-01 13:47:04,576 -    Writing abieconc biomass map to biomass/abieconc-0.img ...
+2020-01-01 13:47:04,718 -    Writing calodecu biomass map to biomass/calodecu-0.img ...
+2020-01-01 13:47:04,860 - Current time: 1
+2020-01-01 13:47:04,862 - Running Biomass BDA ...
+2020-01-01 13:47:04,866 -    Processing landscape for JeffreyPineBeetle events ...
+2020-01-01 13:47:04,906 - WinterT=-1.4312889285714.
+2020-01-01 13:47:04,907 - WinterT=6.82858267857145.
+2020-01-01 13:47:04,907 - WinterT=4.89141035714288.
+2020-01-01 13:47:04,908 - WinterT=1.74730196428573.
+2020-01-01 13:47:04,909 - WinterT=4.88831678571431.
+2020-01-01 13:47:04,909 -       JeffreyPineBeetle: ClimateWaterDeficit=0.0, WinterT=4.02.
+2020-01-01 13:47:04,910 -    Processing landscape for MountainPineBeetle events ...
+2020-01-01 13:47:04,943 - WinterT=-1.4312889285714.
+2020-01-01 13:47:04,943 - WinterT=6.82858267857145.
+2020-01-01 13:47:04,944 - WinterT=4.89141035714288.
+2020-01-01 13:47:04,944 - WinterT=1.74730196428573.
+2020-01-01 13:47:04,945 - WinterT=4.88831678571431.
+2020-01-01 13:47:04,945 -       MountainPineBeetle: ClimateWaterDeficit=0.0, WinterT=4.02.
+2020-01-01 13:47:04,946 -    Processing landscape for FirEngraver events ...
+2020-01-01 13:47:04,979 - WinterT=-1.4312889285714.
+2020-01-01 13:47:04,980 - WinterT=6.82858267857145.
+2020-01-01 13:47:04,980 - WinterT=4.89141035714288.
+2020-01-01 13:47:04,981 - WinterT=1.74730196428573.
+2020-01-01 13:47:04,981 - WinterT=4.88831678571431.
+2020-01-01 13:47:04,981 -       FirEngraver: ClimateWaterDeficit=0.0, WinterT=4.02.
+2020-01-01 13:47:04,982 -    Processing landscape for FirEngraver_Peak events ...
+2020-01-01 13:47:05,019 - WinterT=-1.4312889285714.
+2020-01-01 13:47:05,021 - WinterT=6.82858267857145.
+2020-01-01 13:47:05,021 - WinterT=4.89141035714288.
+2020-01-01 13:47:05,022 - WinterT=1.74730196428573.
+2020-01-01 13:47:05,022 - WinterT=4.88831678571431.
+2020-01-01 13:47:05,023 -       FirEngraver_Peak: ClimateWaterDeficit=0.0, WinterT=4.02.
+2020-01-01 13:47:05,024 -    Processing landscape for WPBR_chronic events ...
+2020-01-01 13:47:05,058 - WinterT=-1.4312889285714.
+2020-01-01 13:47:05,059 - WinterT=6.82858267857145.
+2020-01-01 13:47:05,059 - WinterT=4.89141035714288.
+2020-01-01 13:47:05,060 - WinterT=1.74730196428573.
+2020-01-01 13:47:05,060 - WinterT=4.88831678571431.
+2020-01-01 13:47:05,061 -       WPBR_chronic: ClimateWaterDeficit=0.0, WinterT=4.02.
+2020-01-01 13:47:05,062 -       Initializing WPBR_chronic.
+2020-01-01 13:47:05,108 -       WPBR_chronic: Epidemic Activated (Simulate).
+2020-01-01 13:47:05,109 -       Calculating BDA Site Resource Dominance.
+2020-01-01 13:47:05,918 -       WPBR_chronic: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 13:47:05,999 -       WPBR_chronic: Calculating BDA SiteVulnerability.
+2020-01-01 13:47:06,042 -       WPBR_chronic: Disturb Sites.
+2020-01-01 13:47:06,286 -       WPBR_chronic: TotalSitesDamaged=475
+2020-01-01 13:47:06,398 -    Processing landscape for WPBR_high events ...
+2020-01-01 13:47:06,433 - WinterT=-1.4312889285714.
+2020-01-01 13:47:06,434 - WinterT=6.82858267857145.
+2020-01-01 13:47:06,435 - WinterT=4.89141035714288.
+2020-01-01 13:47:06,435 - WinterT=1.74730196428573.
+2020-01-01 13:47:06,436 - WinterT=4.88831678571431.
+2020-01-01 13:47:06,436 -       WPBR_high: ClimateWaterDeficit=0.0, WinterT=4.02.
+2020-01-01 13:47:06,437 -    Processing landscape for WPBR_low events ...
+2020-01-01 13:47:06,470 - WinterT=-1.4312889285714.
+2020-01-01 13:47:06,471 - WinterT=6.82858267857145.
+2020-01-01 13:47:06,471 - WinterT=4.89141035714288.
+2020-01-01 13:47:06,472 - WinterT=1.74730196428573.
+2020-01-01 13:47:06,472 - WinterT=4.88831678571431.
+2020-01-01 13:47:06,473 -       WPBR_low: ClimateWaterDeficit=0.0, WinterT=4.02.
+2020-01-01 13:47:06,473 -    Processing landscape for WPineBeetle events ...
+2020-01-01 13:47:06,506 - WinterT=-1.4312889285714.
+2020-01-01 13:47:06,507 - WinterT=6.82858267857145.
+2020-01-01 13:47:06,510 - WinterT=4.89141035714288.
+2020-01-01 13:47:06,511 - WinterT=1.74730196428573.
+2020-01-01 13:47:06,511 - WinterT=4.88831678571431.
+2020-01-01 13:47:06,512 -       WPineBeetle: ClimateWaterDeficit=0.0, WinterT=4.02.
+2020-01-01 13:47:06,513 -    Processing landscape for WPineBeetle events ...
+2020-01-01 13:47:06,545 - WinterT=-1.4312889285714.
+2020-01-01 13:47:06,546 - WinterT=6.82858267857145.
+2020-01-01 13:47:06,547 - WinterT=4.89141035714288.
+2020-01-01 13:47:06,547 - WinterT=1.74730196428573.
+2020-01-01 13:47:06,548 - WinterT=4.88831678571431.
+2020-01-01 13:47:06,548 -       WPineBeetle: ClimateWaterDeficit=0.0, WinterT=4.02.
+2020-01-01 13:47:06,549 - Running NECN Succession ...
+2020-01-01 13:49:49,810 - Running Output Biomass ...
+2020-01-01 13:49:49,811 -    Writing total biomass map to biomass/TotalBiomass-1.img ...
+2020-01-01 13:49:50,683 -    Writing abiemagn biomass map to biomass/abiemagn-1.img ...
+2020-01-01 13:49:50,824 -    Writing pinupond biomass map to biomass/pinupond-1.img ...
+2020-01-01 13:49:50,968 -    Writing pinulamb biomass map to biomass/pinulamb-1.img ...
+2020-01-01 13:49:51,102 -    Writing abieconc biomass map to biomass/abieconc-1.img ...
+2020-01-01 13:49:51,239 -    Writing calodecu biomass map to biomass/calodecu-1.img ...
+2020-01-01 13:49:51,389 - Current time: 2
+2020-01-01 13:49:51,390 - Running Biomass BDA ...
+2020-01-01 13:49:51,390 -    Processing landscape for JeffreyPineBeetle events ...
+2020-01-01 13:49:51,423 - WinterT=-1.09670437499998.
+2020-01-01 13:49:51,424 - WinterT=7.05966241071431.
+2020-01-01 13:49:51,424 - WinterT=5.14932357142859.
+2020-01-01 13:49:51,425 - WinterT=2.05812660714288.
+2020-01-01 13:49:51,425 - WinterT=5.15966821428574.
+2020-01-01 13:49:51,426 -       JeffreyPineBeetle: ClimateWaterDeficit=656.5, WinterT=4.29.
+2020-01-01 13:49:51,427 -       Initializing JeffreyPineBeetle.
+2020-01-01 13:49:51,473 -       JeffreyPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 13:49:51,475 -       Calculating BDA Site Resource Dominance.
+2020-01-01 13:49:52,280 -       JeffreyPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 13:49:52,362 -       JeffreyPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 13:49:52,404 -       JeffreyPineBeetle: Disturb Sites.
+2020-01-01 13:49:52,662 -       JeffreyPineBeetle: TotalSitesDamaged=860
+2020-01-01 13:49:52,767 -    Processing landscape for MountainPineBeetle events ...
+2020-01-01 13:49:52,801 - WinterT=-1.09670437499998.
+2020-01-01 13:49:52,802 - WinterT=7.05966241071431.
+2020-01-01 13:49:52,802 - WinterT=5.14932357142859.
+2020-01-01 13:49:52,803 - WinterT=2.05812660714288.
+2020-01-01 13:49:52,803 - WinterT=5.15966821428574.
+2020-01-01 13:49:52,804 -       MountainPineBeetle: ClimateWaterDeficit=656.5, WinterT=4.29.
+2020-01-01 13:49:52,804 -       Initializing MountainPineBeetle.
+2020-01-01 13:49:52,849 -       MountainPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 13:49:52,850 -       Calculating BDA Site Resource Dominance.
+2020-01-01 13:49:53,645 -       MountainPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 13:49:53,730 -       MountainPineBeetle: Calculating BDA Neighborhood Resource Dominance.
+2020-01-01 13:50:04,251 -       MountainPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 13:50:04,297 -       MountainPineBeetle: Disturb Sites.
+2020-01-01 13:50:04,636 -       MountainPineBeetle: TotalSitesDamaged=710
+2020-01-01 13:50:04,743 -    Processing landscape for FirEngraver events ...
+2020-01-01 13:50:04,778 - WinterT=-1.09670437499998.
+2020-01-01 13:50:04,779 - WinterT=7.05966241071431.
+2020-01-01 13:50:04,779 - WinterT=5.14932357142859.
+2020-01-01 13:50:04,779 - WinterT=2.05812660714288.
+2020-01-01 13:50:04,780 - WinterT=5.15966821428574.
+2020-01-01 13:50:04,780 -       FirEngraver: ClimateWaterDeficit=656.5, WinterT=4.29.
+2020-01-01 13:50:04,781 -       Initializing FirEngraver.
+2020-01-01 13:50:04,827 -       FirEngraver: Epidemic Activated (Simulate).
+2020-01-01 13:50:04,827 -       Calculating BDA Site Resource Dominance.
+2020-01-01 13:50:05,613 -       FirEngraver: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 13:50:05,701 -       FirEngraver: Calculating BDA SiteVulnerability.
+2020-01-01 13:50:05,746 -       FirEngraver: Disturb Sites.
+2020-01-01 13:50:06,596 -       FirEngraver: TotalSitesDamaged=2920
+2020-01-01 13:50:06,696 -    Processing landscape for FirEngraver_Peak events ...
+2020-01-01 13:50:06,730 - WinterT=-1.09670437499998.
+2020-01-01 13:50:06,731 - WinterT=7.05966241071431.
+2020-01-01 13:50:06,732 - WinterT=5.14932357142859.
+2020-01-01 13:50:06,732 - WinterT=2.05812660714288.
+2020-01-01 13:50:06,733 - WinterT=5.15966821428574.
+2020-01-01 13:50:06,733 -       FirEngraver_Peak: ClimateWaterDeficit=656.5, WinterT=4.29.
+2020-01-01 13:50:06,734 -       Initializing FirEngraver_Peak.
+2020-01-01 13:50:06,782 -       FirEngraver_Peak: Epidemic Activated (Simulate).
+2020-01-01 13:50:06,783 -       Calculating BDA Site Resource Dominance.
+2020-01-01 13:50:07,526 -       FirEngraver_Peak: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 13:50:07,608 -       FirEngraver_Peak: Calculating BDA SiteVulnerability.
+2020-01-01 13:50:07,650 -       FirEngraver_Peak: Disturb Sites.
+2020-01-01 13:50:08,025 -       FirEngraver_Peak: TotalSitesDamaged=903
+2020-01-01 13:50:08,133 -    Processing landscape for WPBR_chronic events ...
+2020-01-01 13:50:08,166 - WinterT=-1.09670437499998.
+2020-01-01 13:50:08,167 - WinterT=7.05966241071431.
+2020-01-01 13:50:08,167 - WinterT=5.14932357142859.
+2020-01-01 13:50:08,168 - WinterT=2.05812660714288.
+2020-01-01 13:50:08,168 - WinterT=5.15966821428574.
+2020-01-01 13:50:08,169 -       WPBR_chronic: ClimateWaterDeficit=656.5, WinterT=4.29.
+2020-01-01 13:50:08,169 -       Initializing WPBR_chronic.
+2020-01-01 13:50:08,214 -       WPBR_chronic: Epidemic Activated (Simulate).
+2020-01-01 13:50:08,215 -       Calculating BDA Site Resource Dominance.
+2020-01-01 13:50:08,953 -       WPBR_chronic: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 13:50:09,031 -       WPBR_chronic: Calculating BDA SiteVulnerability.
+2020-01-01 13:50:09,073 -       WPBR_chronic: Disturb Sites.
+2020-01-01 13:50:09,252 -       WPBR_chronic: TotalSitesDamaged=270
+2020-01-01 13:50:09,352 -    Processing landscape for WPBR_high events ...
+2020-01-01 13:50:09,386 - WinterT=-1.09670437499998.
+2020-01-01 13:50:09,387 - WinterT=7.05966241071431.
+2020-01-01 13:50:09,387 - WinterT=5.14932357142859.
+2020-01-01 13:50:09,388 - WinterT=2.05812660714288.
+2020-01-01 13:50:09,388 - WinterT=5.15966821428574.
+2020-01-01 13:50:09,389 -       WPBR_high: ClimateWaterDeficit=656.5, WinterT=4.29.
+2020-01-01 13:50:09,389 -       Initializing WPBR_high.
+2020-01-01 13:50:09,434 -       WPBR_high: Epidemic Activated (Simulate).
+2020-01-01 13:50:09,436 -       Calculating BDA Site Resource Dominance.
+2020-01-01 13:50:10,173 -       WPBR_high: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 13:50:10,250 -       WPBR_high: Calculating BDA SiteVulnerability.
+2020-01-01 13:50:10,292 -       WPBR_high: Disturb Sites.
+2020-01-01 13:50:10,442 -       WPBR_high: TotalSitesDamaged=125
+2020-01-01 13:50:10,539 -    Processing landscape for WPBR_low events ...
+2020-01-01 13:50:10,574 - WinterT=-1.09670437499998.
+2020-01-01 13:50:10,575 - WinterT=7.05966241071431.
+2020-01-01 13:50:10,576 - WinterT=5.14932357142859.
+2020-01-01 13:50:10,576 - WinterT=2.05812660714288.
+2020-01-01 13:50:10,577 - WinterT=5.15966821428574.
+2020-01-01 13:50:10,577 -       WPBR_low: ClimateWaterDeficit=656.5, WinterT=4.29.
+2020-01-01 13:50:10,578 -       Initializing WPBR_low.
+2020-01-01 13:50:10,623 -       WPBR_low: Epidemic Activated (Simulate).
+2020-01-01 13:50:10,624 -       Calculating BDA Site Resource Dominance.
+2020-01-01 13:50:11,363 -       WPBR_low: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 13:50:11,441 -       WPBR_low: Calculating BDA SiteVulnerability.
+2020-01-01 13:50:11,486 -       WPBR_low: Disturb Sites.
+2020-01-01 13:50:11,663 -       WPBR_low: TotalSitesDamaged=192
+2020-01-01 13:50:11,762 -    Processing landscape for WPineBeetle events ...
+2020-01-01 13:50:11,795 - WinterT=-1.09670437499998.
+2020-01-01 13:50:11,796 - WinterT=7.05966241071431.
+2020-01-01 13:50:11,796 - WinterT=5.14932357142859.
+2020-01-01 13:50:11,797 - WinterT=2.05812660714288.
+2020-01-01 13:50:11,797 - WinterT=5.15966821428574.
+2020-01-01 13:50:11,798 -       WPineBeetle: ClimateWaterDeficit=656.5, WinterT=4.29.
+2020-01-01 13:50:11,798 -       Initializing WPineBeetle.
+2020-01-01 13:50:11,844 -       WPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 13:50:11,845 -       Calculating BDA Site Resource Dominance.
+2020-01-01 13:50:12,582 -       WPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 13:50:12,663 -       WPineBeetle: Calculating BDA Neighborhood Resource Dominance.
+2020-01-01 14:12:43,456 -       WPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 14:12:43,502 -       WPineBeetle: Disturb Sites.
+2020-01-01 14:12:43,686 -       WPineBeetle: TotalSitesDamaged=2423
+2020-01-01 14:12:43,797 -    Processing landscape for WPineBeetle events ...
+2020-01-01 14:12:43,832 - WinterT=-1.09670437499998.
+2020-01-01 14:12:43,833 - WinterT=7.05966241071431.
+2020-01-01 14:12:43,833 - WinterT=5.14932357142859.
+2020-01-01 14:12:43,834 - WinterT=2.05812660714288.
+2020-01-01 14:12:43,834 - WinterT=5.15966821428574.
+2020-01-01 14:12:43,835 -       WPineBeetle: ClimateWaterDeficit=656.5, WinterT=4.29.
+2020-01-01 14:12:43,836 -       Initializing WPineBeetle.
+2020-01-01 14:12:43,880 -       WPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 14:12:43,881 -       Calculating BDA Site Resource Dominance.
+2020-01-01 14:12:44,612 -       WPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 14:12:44,698 -       WPineBeetle: Calculating BDA Neighborhood Resource Dominance.
+2020-01-01 14:33:08,806 -       WPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 14:33:08,853 -       WPineBeetle: Disturb Sites.
+2020-01-01 14:33:09,006 -       WPineBeetle: TotalSitesDamaged=1030
+2020-01-01 14:33:09,120 - Running NECN Succession ...
+2020-01-01 14:36:05,891 - Running Output Biomass ...
+2020-01-01 14:36:05,892 -    Writing total biomass map to biomass/TotalBiomass-2.img ...
+2020-01-01 14:36:07,166 -    Writing abiemagn biomass map to biomass/abiemagn-2.img ...
+2020-01-01 14:36:07,390 -    Writing pinupond biomass map to biomass/pinupond-2.img ...
+2020-01-01 14:36:07,537 -    Writing pinulamb biomass map to biomass/pinulamb-2.img ...
+2020-01-01 14:36:07,664 -    Writing abieconc biomass map to biomass/abieconc-2.img ...
+2020-01-01 14:36:07,793 -    Writing calodecu biomass map to biomass/calodecu-2.img ...
+2020-01-01 14:36:07,934 - Current time: 3
+2020-01-01 14:36:08,418 - Running Biomass BDA ...
+2020-01-01 14:36:08,420 -    Processing landscape for JeffreyPineBeetle events ...
+2020-01-01 14:36:08,469 - WinterT=-2.31887785714284.
+2020-01-01 14:36:08,470 - WinterT=6.25284035714288.
+2020-01-01 14:36:08,471 - WinterT=4.14532928571431.
+2020-01-01 14:36:08,471 - WinterT=0.845178035714306.
+2020-01-01 14:36:08,472 - WinterT=4.04901517857145.
+2020-01-01 14:36:08,472 -       JeffreyPineBeetle: ClimateWaterDeficit=654.3, WinterT=3.24.
+2020-01-01 14:36:08,473 -       Initializing JeffreyPineBeetle.
+2020-01-01 14:36:08,518 -       JeffreyPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 14:36:08,519 -       Calculating BDA Site Resource Dominance.
+2020-01-01 14:36:09,250 -       JeffreyPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 14:36:09,329 -       JeffreyPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 14:36:09,427 -       JeffreyPineBeetle: Disturb Sites.
+2020-01-01 14:36:09,604 -       JeffreyPineBeetle: TotalSitesDamaged=420
+2020-01-01 14:36:09,703 -    Processing landscape for MountainPineBeetle events ...
+2020-01-01 14:36:09,738 - WinterT=-2.31887785714284.
+2020-01-01 14:36:09,739 - WinterT=6.25284035714288.
+2020-01-01 14:36:09,739 - WinterT=4.14532928571431.
+2020-01-01 14:36:09,739 - WinterT=0.845178035714306.
+2020-01-01 14:36:09,740 - WinterT=4.04901517857145.
+2020-01-01 14:36:09,740 -       MountainPineBeetle: ClimateWaterDeficit=654.3, WinterT=3.24.
+2020-01-01 14:36:09,741 -       Initializing MountainPineBeetle.
+2020-01-01 14:36:09,786 -       MountainPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 14:36:09,787 -       Calculating BDA Site Resource Dominance.
+2020-01-01 14:36:10,518 -       MountainPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 14:36:10,597 -       MountainPineBeetle: Calculating BDA Neighborhood Resource Dominance.
+2020-01-01 14:36:14,795 -       MountainPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 14:36:14,840 -       MountainPineBeetle: Disturb Sites.
+2020-01-01 14:36:14,999 -       MountainPineBeetle: TotalSitesDamaged=128
+2020-01-01 14:36:15,109 -    Processing landscape for FirEngraver events ...
+2020-01-01 14:36:15,143 - WinterT=-2.31887785714284.
+2020-01-01 14:36:15,144 - WinterT=6.25284035714288.
+2020-01-01 14:36:15,145 - WinterT=4.14532928571431.
+2020-01-01 14:36:15,145 - WinterT=0.845178035714306.
+2020-01-01 14:36:15,146 - WinterT=4.04901517857145.
+2020-01-01 14:36:15,146 -       FirEngraver: ClimateWaterDeficit=654.3, WinterT=3.24.
+2020-01-01 14:36:15,146 -       Initializing FirEngraver.
+2020-01-01 14:36:15,191 -       FirEngraver: Epidemic Activated (Simulate).
+2020-01-01 14:36:15,192 -       Calculating BDA Site Resource Dominance.
+2020-01-01 14:36:15,911 -       FirEngraver: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 14:36:15,991 -       FirEngraver: Calculating BDA SiteVulnerability.
+2020-01-01 14:36:16,033 -       FirEngraver: Disturb Sites.
+2020-01-01 14:36:16,359 -       FirEngraver: TotalSitesDamaged=857
+2020-01-01 14:36:16,456 -    Processing landscape for FirEngraver_Peak events ...
+2020-01-01 14:36:16,490 - WinterT=-2.31887785714284.
+2020-01-01 14:36:16,491 - WinterT=6.25284035714288.
+2020-01-01 14:36:16,963 - WinterT=4.14532928571431.
+2020-01-01 14:36:16,967 - WinterT=0.845178035714306.
+2020-01-01 14:36:16,967 - WinterT=4.04901517857145.
+2020-01-01 14:36:16,967 -       FirEngraver_Peak: ClimateWaterDeficit=654.3, WinterT=3.24.
+2020-01-01 14:36:16,968 -       Initializing FirEngraver_Peak.
+2020-01-01 14:36:17,014 -       FirEngraver_Peak: Epidemic Activated (Simulate).
+2020-01-01 14:36:17,015 -       Calculating BDA Site Resource Dominance.
+2020-01-01 14:36:17,747 -       FirEngraver_Peak: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 14:36:17,824 -       FirEngraver_Peak: Calculating BDA SiteVulnerability.
+2020-01-01 14:36:17,866 -       FirEngraver_Peak: Disturb Sites.
+2020-01-01 14:36:18,058 -       FirEngraver_Peak: TotalSitesDamaged=278
+2020-01-01 14:36:18,155 -    Processing landscape for WPBR_chronic events ...
+2020-01-01 14:36:18,193 - WinterT=-2.31887785714284.
+2020-01-01 14:36:18,194 - WinterT=6.25284035714288.
+2020-01-01 14:36:18,194 - WinterT=4.14532928571431.
+2020-01-01 14:36:18,195 - WinterT=0.845178035714306.
+2020-01-01 14:36:18,195 - WinterT=4.04901517857145.
+2020-01-01 14:36:18,195 -       WPBR_chronic: ClimateWaterDeficit=654.3, WinterT=3.24.
+2020-01-01 14:36:18,196 -       Initializing WPBR_chronic.
+2020-01-01 14:36:18,241 -       WPBR_chronic: Epidemic Activated (Simulate).
+2020-01-01 14:36:18,242 -       Calculating BDA Site Resource Dominance.
+2020-01-01 14:36:18,949 -       WPBR_chronic: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 14:36:19,026 -       WPBR_chronic: Calculating BDA SiteVulnerability.
+2020-01-01 14:36:19,067 -       WPBR_chronic: Disturb Sites.
+2020-01-01 14:36:19,215 -       WPBR_chronic: TotalSitesDamaged=147
+2020-01-01 14:36:19,324 -    Processing landscape for WPBR_high events ...
+2020-01-01 14:36:19,358 - WinterT=-2.31887785714284.
+2020-01-01 14:36:19,358 - WinterT=6.25284035714288.
+2020-01-01 14:36:19,359 - WinterT=4.14532928571431.
+2020-01-01 14:36:19,360 - WinterT=0.845178035714306.
+2020-01-01 14:36:19,360 - WinterT=4.04901517857145.
+2020-01-01 14:36:19,360 -       WPBR_high: ClimateWaterDeficit=654.3, WinterT=3.24.
+2020-01-01 14:36:19,361 -       Initializing WPBR_high.
+2020-01-01 14:36:19,406 -       WPBR_high: Epidemic Activated (Simulate).
+2020-01-01 14:36:19,407 -       Calculating BDA Site Resource Dominance.
+2020-01-01 14:36:20,123 -       WPBR_high: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 14:36:20,198 -       WPBR_high: Calculating BDA SiteVulnerability.
+2020-01-01 14:36:20,241 -       WPBR_high: Disturb Sites.
+2020-01-01 14:36:20,385 -       WPBR_high: TotalSitesDamaged=102
+2020-01-01 14:36:20,484 -    Processing landscape for WPBR_low events ...
+2020-01-01 14:36:20,518 - WinterT=-2.31887785714284.
+2020-01-01 14:36:20,519 - WinterT=6.25284035714288.
+2020-01-01 14:36:20,519 - WinterT=4.14532928571431.
+2020-01-01 14:36:20,520 - WinterT=0.845178035714306.
+2020-01-01 14:36:20,520 - WinterT=4.04901517857145.
+2020-01-01 14:36:20,521 -       WPBR_low: ClimateWaterDeficit=654.3, WinterT=3.24.
+2020-01-01 14:36:20,521 -       Initializing WPBR_low.
+2020-01-01 14:36:20,566 -       WPBR_low: Epidemic Activated (Simulate).
+2020-01-01 14:36:20,567 -       Calculating BDA Site Resource Dominance.
+2020-01-01 14:36:21,288 -       WPBR_low: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 14:36:21,369 -       WPBR_low: Calculating BDA SiteVulnerability.
+2020-01-01 14:36:21,413 -       WPBR_low: Disturb Sites.
+2020-01-01 14:36:21,589 -       WPBR_low: TotalSitesDamaged=410
+2020-01-01 14:36:21,687 -    Processing landscape for WPineBeetle events ...
+2020-01-01 14:36:21,721 - WinterT=-2.31887785714284.
+2020-01-01 14:36:21,722 - WinterT=6.25284035714288.
+2020-01-01 14:36:21,722 - WinterT=4.14532928571431.
+2020-01-01 14:36:21,722 - WinterT=0.845178035714306.
+2020-01-01 14:36:21,723 - WinterT=4.04901517857145.
+2020-01-01 14:36:21,724 -       WPineBeetle: ClimateWaterDeficit=654.3, WinterT=3.24.
+2020-01-01 14:36:21,724 -       Initializing WPineBeetle.
+2020-01-01 14:36:21,770 -       WPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 14:36:21,771 -       Calculating BDA Site Resource Dominance.
+2020-01-01 14:36:22,502 -       WPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 14:36:22,582 -       WPineBeetle: Calculating BDA Neighborhood Resource Dominance.
+2020-01-01 14:53:56,756 -       WPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 14:53:56,803 -       WPineBeetle: Disturb Sites.
+2020-01-01 14:53:56,948 -       WPineBeetle: TotalSitesDamaged=843
+2020-01-01 14:53:57,059 -    Processing landscape for WPineBeetle events ...
+2020-01-01 14:53:57,095 - WinterT=-2.31887785714284.
+2020-01-01 14:53:57,096 - WinterT=6.25284035714288.
+2020-01-01 14:53:57,097 - WinterT=4.14532928571431.
+2020-01-01 14:53:57,097 - WinterT=0.845178035714306.
+2020-01-01 14:53:57,098 - WinterT=4.04901517857145.
+2020-01-01 14:53:57,098 -       WPineBeetle: ClimateWaterDeficit=654.3, WinterT=3.24.
+2020-01-01 14:53:57,099 -       Initializing WPineBeetle.
+2020-01-01 14:53:57,143 -       WPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 14:53:57,144 -       Calculating BDA Site Resource Dominance.
+2020-01-01 14:53:57,860 -       WPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 14:53:57,939 -       WPineBeetle: Calculating BDA Neighborhood Resource Dominance.
+2020-01-01 15:10:54,240 -       WPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 15:10:54,286 -       WPineBeetle: Disturb Sites.
+2020-01-01 15:10:54,454 -       WPineBeetle: TotalSitesDamaged=2191
+2020-01-01 15:10:54,560 - Running NECN Succession ...
+2020-01-01 15:14:13,246 - Running Output Biomass ...
+2020-01-01 15:14:13,618 -    Writing total biomass map to biomass/TotalBiomass-3.img ...
+2020-01-01 15:14:14,600 -    Writing abiemagn biomass map to biomass/abiemagn-3.img ...
+2020-01-01 15:14:14,733 -    Writing pinupond biomass map to biomass/pinupond-3.img ...
+2020-01-01 15:14:14,862 -    Writing pinulamb biomass map to biomass/pinulamb-3.img ...
+2020-01-01 15:14:14,989 -    Writing abieconc biomass map to biomass/abieconc-3.img ...
+2020-01-01 15:14:15,125 -    Writing calodecu biomass map to biomass/calodecu-3.img ...
+2020-01-01 15:14:15,267 - Current time: 4
+2020-01-01 15:14:15,268 - Running Biomass BDA ...
+2020-01-01 15:14:15,269 -    Processing landscape for JeffreyPineBeetle events ...
+2020-01-01 15:14:15,302 - WinterT=-1.68298660714283.
+2020-01-01 15:14:15,303 - WinterT=7.10954357142859.
+2020-01-01 15:14:15,303 - WinterT=4.89057571428574.
+2020-01-01 15:14:15,303 - WinterT=1.65984660714288.
+2020-01-01 15:14:15,304 - WinterT=5.70190767857145.
+2020-01-01 15:14:15,304 -       JeffreyPineBeetle: ClimateWaterDeficit=617.3, WinterT=4.11.
+2020-01-01 15:14:15,305 -       Initializing JeffreyPineBeetle.
+2020-01-01 15:14:15,350 -       JeffreyPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 15:14:15,350 -       Calculating BDA Site Resource Dominance.
+2020-01-01 15:14:16,073 -       JeffreyPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 15:14:16,151 -       JeffreyPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 15:14:16,196 -       JeffreyPineBeetle: Disturb Sites.
+2020-01-01 15:14:16,374 -       JeffreyPineBeetle: TotalSitesDamaged=550
+2020-01-01 15:14:16,475 -    Processing landscape for MountainPineBeetle events ...
+2020-01-01 15:14:16,508 - WinterT=-1.68298660714283.
+2020-01-01 15:14:16,509 - WinterT=7.10954357142859.
+2020-01-01 15:14:16,510 - WinterT=4.89057571428574.
+2020-01-01 15:14:16,510 - WinterT=1.65984660714288.
+2020-01-01 15:14:16,511 - WinterT=5.70190767857145.
+2020-01-01 15:14:16,511 -       MountainPineBeetle: ClimateWaterDeficit=617.3, WinterT=4.11.
+2020-01-01 15:14:16,512 -       Initializing MountainPineBeetle.
+2020-01-01 15:14:16,557 -       MountainPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 15:14:16,557 -       Calculating BDA Site Resource Dominance.
+2020-01-01 15:14:17,688 -       MountainPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 15:14:17,771 -       MountainPineBeetle: Calculating BDA Neighborhood Resource Dominance.
+2020-01-01 15:14:19,596 -       MountainPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 15:14:19,645 -       MountainPineBeetle: Disturb Sites.
+2020-01-01 15:14:19,786 -       MountainPineBeetle: TotalSitesDamaged=19
+2020-01-01 15:14:19,892 -    Processing landscape for FirEngraver events ...
+2020-01-01 15:14:19,928 - WinterT=-1.68298660714283.
+2020-01-01 15:14:19,929 - WinterT=7.10954357142859.
+2020-01-01 15:14:19,929 - WinterT=4.89057571428574.
+2020-01-01 15:14:19,930 - WinterT=1.65984660714288.
+2020-01-01 15:14:19,930 - WinterT=5.70190767857145.
+2020-01-01 15:14:19,930 -       FirEngraver: ClimateWaterDeficit=617.3, WinterT=4.11.
+2020-01-01 15:14:19,931 -       Initializing FirEngraver.
+2020-01-01 15:14:19,977 -       FirEngraver: Epidemic Activated (Simulate).
+2020-01-01 15:14:19,978 -       Calculating BDA Site Resource Dominance.
+2020-01-01 15:14:20,703 -       FirEngraver: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 15:14:20,780 -       FirEngraver: Calculating BDA SiteVulnerability.
+2020-01-01 15:14:20,823 -       FirEngraver: Disturb Sites.
+2020-01-01 15:14:21,001 -       FirEngraver: TotalSitesDamaged=154
+2020-01-01 15:14:21,099 -    Processing landscape for FirEngraver_Peak events ...
+2020-01-01 15:14:21,132 - WinterT=-1.68298660714283.
+2020-01-01 15:14:21,133 - WinterT=7.10954357142859.
+2020-01-01 15:14:21,133 - WinterT=4.89057571428574.
+2020-01-01 15:14:21,133 - WinterT=1.65984660714288.
+2020-01-01 15:14:21,134 - WinterT=5.70190767857145.
+2020-01-01 15:14:21,134 -       FirEngraver_Peak: ClimateWaterDeficit=617.3, WinterT=4.11.
+2020-01-01 15:14:21,135 -       Initializing FirEngraver_Peak.
+2020-01-01 15:14:21,180 -       FirEngraver_Peak: Epidemic Activated (Simulate).
+2020-01-01 15:14:21,181 -       Calculating BDA Site Resource Dominance.
+2020-01-01 15:14:21,902 -       FirEngraver_Peak: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 15:14:21,986 -       FirEngraver_Peak: Calculating BDA SiteVulnerability.
+2020-01-01 15:14:22,028 -       FirEngraver_Peak: Disturb Sites.
+2020-01-01 15:14:22,195 -       FirEngraver_Peak: TotalSitesDamaged=187
+2020-01-01 15:14:22,295 -    Processing landscape for WPBR_chronic events ...
+2020-01-01 15:14:22,328 - WinterT=-1.68298660714283.
+2020-01-01 15:14:22,329 - WinterT=7.10954357142859.
+2020-01-01 15:14:22,329 - WinterT=4.89057571428574.
+2020-01-01 15:14:22,330 - WinterT=1.65984660714288.
+2020-01-01 15:14:22,330 - WinterT=5.70190767857145.
+2020-01-01 15:14:22,331 -       WPBR_chronic: ClimateWaterDeficit=617.3, WinterT=4.11.
+2020-01-01 15:14:22,331 -       Initializing WPBR_chronic.
+2020-01-01 15:14:22,377 -       WPBR_chronic: Epidemic Activated (Simulate).
+2020-01-01 15:14:22,378 -       Calculating BDA Site Resource Dominance.
+2020-01-01 15:14:23,106 -       WPBR_chronic: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 15:14:23,182 -       WPBR_chronic: Calculating BDA SiteVulnerability.
+2020-01-01 15:14:23,225 -       WPBR_chronic: Disturb Sites.
+2020-01-01 15:14:23,362 -       WPBR_chronic: TotalSitesDamaged=65
+2020-01-01 15:14:23,466 -    Processing landscape for WPBR_high events ...
+2020-01-01 15:14:23,499 - WinterT=-1.68298660714283.
+2020-01-01 15:14:23,500 - WinterT=7.10954357142859.
+2020-01-01 15:14:23,501 - WinterT=4.89057571428574.
+2020-01-01 15:14:23,501 - WinterT=1.65984660714288.
+2020-01-01 15:14:23,502 - WinterT=5.70190767857145.
+2020-01-01 15:14:23,502 -       WPBR_high: ClimateWaterDeficit=617.3, WinterT=4.11.
+2020-01-01 15:14:23,503 -       Initializing WPBR_high.
+2020-01-01 15:14:23,548 -       WPBR_high: Epidemic Activated (Simulate).
+2020-01-01 15:14:23,549 -       Calculating BDA Site Resource Dominance.
+2020-01-01 15:14:24,277 -       WPBR_high: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 15:14:24,352 -       WPBR_high: Calculating BDA SiteVulnerability.
+2020-01-01 15:14:24,395 -       WPBR_high: Disturb Sites.
+2020-01-01 15:14:24,525 -       WPBR_high: TotalSitesDamaged=13
+2020-01-01 15:14:24,630 -    Processing landscape for WPBR_low events ...
+2020-01-01 15:14:24,664 - WinterT=-1.68298660714283.
+2020-01-01 15:14:24,665 - WinterT=7.10954357142859.
+2020-01-01 15:14:24,665 - WinterT=4.89057571428574.
+2020-01-01 15:14:24,666 - WinterT=1.65984660714288.
+2020-01-01 15:14:24,666 - WinterT=5.70190767857145.
+2020-01-01 15:14:24,667 -       WPBR_low: ClimateWaterDeficit=617.3, WinterT=4.11.
+2020-01-01 15:14:24,667 -       Initializing WPBR_low.
+2020-01-01 15:14:24,712 -       WPBR_low: Epidemic Activated (Simulate).
+2020-01-01 15:14:24,713 -       Calculating BDA Site Resource Dominance.
+2020-01-01 15:14:25,439 -       WPBR_low: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 15:14:25,518 -       WPBR_low: Calculating BDA SiteVulnerability.
+2020-01-01 15:14:25,560 -       WPBR_low: Disturb Sites.
+2020-01-01 15:14:25,705 -       WPBR_low: TotalSitesDamaged=120
+2020-01-01 15:14:25,804 -    Processing landscape for WPineBeetle events ...
+2020-01-01 15:14:25,838 - WinterT=-1.68298660714283.
+2020-01-01 15:14:25,839 - WinterT=7.10954357142859.
+2020-01-01 15:14:25,839 - WinterT=4.89057571428574.
+2020-01-01 15:14:25,840 - WinterT=1.65984660714288.
+2020-01-01 15:14:25,840 - WinterT=5.70190767857145.
+2020-01-01 15:14:25,841 -       WPineBeetle: ClimateWaterDeficit=617.3, WinterT=4.11.
+2020-01-01 15:14:25,841 -       Initializing WPineBeetle.
+2020-01-01 15:14:25,886 -       WPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 15:14:25,887 -       Calculating BDA Site Resource Dominance.
+2020-01-01 15:14:26,611 -       WPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 15:14:26,690 -       WPineBeetle: Calculating BDA Neighborhood Resource Dominance.
+2020-01-01 15:28:51,920 -       WPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 15:28:51,967 -       WPineBeetle: Disturb Sites.
+2020-01-01 15:28:52,119 -       WPineBeetle: TotalSitesDamaged=1123
+2020-01-01 15:28:52,226 -    Processing landscape for WPineBeetle events ...
+2020-01-01 15:28:52,260 - WinterT=-1.68298660714283.
+2020-01-01 15:28:52,261 - WinterT=7.10954357142859.
+2020-01-01 15:28:52,262 - WinterT=4.89057571428574.
+2020-01-01 15:28:52,262 - WinterT=1.65984660714288.
+2020-01-01 15:28:52,263 - WinterT=5.70190767857145.
+2020-01-01 15:28:52,263 -       WPineBeetle: ClimateWaterDeficit=617.3, WinterT=4.11.
+2020-01-01 15:28:52,263 -       Initializing WPineBeetle.
+2020-01-01 15:28:52,309 -       WPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 15:28:52,310 -       Calculating BDA Site Resource Dominance.
+2020-01-01 15:28:53,025 -       WPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 15:28:53,104 -       WPineBeetle: Calculating BDA Neighborhood Resource Dominance.
+2020-01-01 15:42:22,601 -       WPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 15:42:22,647 -       WPineBeetle: Disturb Sites.
+2020-01-01 15:42:22,783 -       WPineBeetle: TotalSitesDamaged=460
+2020-01-01 15:42:22,891 - Running NECN Succession ...
+2020-01-01 15:46:04,809 - Running Output Biomass ...
+2020-01-01 15:46:04,810 -    Writing total biomass map to biomass/TotalBiomass-4.img ...
+2020-01-01 15:46:05,606 -    Writing abiemagn biomass map to biomass/abiemagn-4.img ...
+2020-01-01 15:46:05,837 -    Writing pinupond biomass map to biomass/pinupond-4.img ...
+2020-01-01 15:46:05,974 -    Writing pinulamb biomass map to biomass/pinulamb-4.img ...
+2020-01-01 15:46:06,108 -    Writing abieconc biomass map to biomass/abieconc-4.img ...
+2020-01-01 15:46:06,236 -    Writing calodecu biomass map to biomass/calodecu-4.img ...
+2020-01-01 15:46:06,365 - Current time: 5
+2020-01-01 15:46:06,366 - Running Biomass BDA ...
+2020-01-01 15:46:06,867 -    Processing landscape for JeffreyPineBeetle events ...
+2020-01-01 15:46:06,900 - WinterT=-3.91511982142855.
+2020-01-01 15:46:06,901 - WinterT=5.04802946428574.
+2020-01-01 15:46:06,901 - WinterT=2.67776321428574.
+2020-01-01 15:46:06,902 - WinterT=-0.71782928571426.
+2020-01-01 15:46:06,902 - WinterT=3.26237857142859.
+2020-01-01 15:46:06,903 -       JeffreyPineBeetle: ClimateWaterDeficit=563.7, WinterT=1.85.
+2020-01-01 15:46:06,903 -       Initializing JeffreyPineBeetle.
+2020-01-01 15:46:06,947 -       JeffreyPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 15:46:06,948 -       Calculating BDA Site Resource Dominance.
+2020-01-01 15:46:07,671 -       JeffreyPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 15:46:07,748 -       JeffreyPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 15:46:07,790 -       JeffreyPineBeetle: Disturb Sites.
+2020-01-01 15:46:07,950 -       JeffreyPineBeetle: TotalSitesDamaged=332
+2020-01-01 15:46:08,057 -    Processing landscape for MountainPineBeetle events ...
+2020-01-01 15:46:08,090 - WinterT=-3.91511982142855.
+2020-01-01 15:46:08,091 - WinterT=5.04802946428574.
+2020-01-01 15:46:08,091 - WinterT=2.67776321428574.
+2020-01-01 15:46:08,092 - WinterT=-0.71782928571426.
+2020-01-01 15:46:08,092 - WinterT=3.26237857142859.
+2020-01-01 15:46:08,093 -       MountainPineBeetle: ClimateWaterDeficit=563.7, WinterT=1.85.
+2020-01-01 15:46:08,093 -       Initializing MountainPineBeetle.
+2020-01-01 15:46:08,138 -       MountainPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 15:46:08,139 -       Calculating BDA Site Resource Dominance.
+2020-01-01 15:46:08,862 -       MountainPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 15:46:08,938 -       MountainPineBeetle: Calculating BDA Neighborhood Resource Dominance.
+2020-01-01 15:46:10,127 -       MountainPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 15:46:10,171 -       MountainPineBeetle: Disturb Sites.
+2020-01-01 15:46:10,304 -       MountainPineBeetle: TotalSitesDamaged=9
+2020-01-01 15:46:10,419 -    Processing landscape for FirEngraver events ...
+2020-01-01 15:46:10,457 - WinterT=-3.91511982142855.
+2020-01-01 15:46:10,458 - WinterT=5.04802946428574.
+2020-01-01 15:46:10,458 - WinterT=2.67776321428574.
+2020-01-01 15:46:10,459 - WinterT=-0.71782928571426.
+2020-01-01 15:46:10,459 - WinterT=3.26237857142859.
+2020-01-01 15:46:10,460 -       FirEngraver: ClimateWaterDeficit=563.7, WinterT=1.85.
+2020-01-01 15:46:10,460 -       Initializing FirEngraver.
+2020-01-01 15:46:10,506 -       FirEngraver: Epidemic Activated (Simulate).
+2020-01-01 15:46:10,507 -       Calculating BDA Site Resource Dominance.
+2020-01-01 15:46:11,230 -       FirEngraver: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 15:46:11,306 -       FirEngraver: Calculating BDA SiteVulnerability.
+2020-01-01 15:46:11,348 -       FirEngraver: Disturb Sites.
+2020-01-01 15:46:11,502 -       FirEngraver: TotalSitesDamaged=92
+2020-01-01 15:46:11,600 -    Processing landscape for FirEngraver_Peak events ...
+2020-01-01 15:46:11,633 - WinterT=-3.91511982142855.
+2020-01-01 15:46:11,634 - WinterT=5.04802946428574.
+2020-01-01 15:46:11,635 - WinterT=2.67776321428574.
+2020-01-01 15:46:11,635 - WinterT=-0.71782928571426.
+2020-01-01 15:46:11,636 - WinterT=3.26237857142859.
+2020-01-01 15:46:11,637 -       FirEngraver_Peak: ClimateWaterDeficit=563.7, WinterT=1.85.
+2020-01-01 15:46:11,638 -    Processing landscape for WPBR_chronic events ...
+2020-01-01 15:46:11,671 - WinterT=-3.91511982142855.
+2020-01-01 15:46:11,672 - WinterT=5.04802946428574.
+2020-01-01 15:46:11,673 - WinterT=2.67776321428574.
+2020-01-01 15:46:11,673 - WinterT=-0.71782928571426.
+2020-01-01 15:46:11,673 - WinterT=3.26237857142859.
+2020-01-01 15:46:11,674 -       WPBR_chronic: ClimateWaterDeficit=563.7, WinterT=1.85.
+2020-01-01 15:46:11,674 -       Initializing WPBR_chronic.
+2020-01-01 15:46:11,719 -       WPBR_chronic: Epidemic Activated (Simulate).
+2020-01-01 15:46:11,720 -       Calculating BDA Site Resource Dominance.
+2020-01-01 15:46:12,445 -       WPBR_chronic: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 15:46:12,523 -       WPBR_chronic: Calculating BDA SiteVulnerability.
+2020-01-01 15:46:12,565 -       WPBR_chronic: Disturb Sites.
+2020-01-01 15:46:12,702 -       WPBR_chronic: TotalSitesDamaged=44
+2020-01-01 15:46:12,800 -    Processing landscape for WPBR_high events ...
+2020-01-01 15:46:12,833 - WinterT=-3.91511982142855.
+2020-01-01 15:46:12,834 - WinterT=5.04802946428574.
+2020-01-01 15:46:12,835 - WinterT=2.67776321428574.
+2020-01-01 15:46:12,835 - WinterT=-0.71782928571426.
+2020-01-01 15:46:12,836 - WinterT=3.26237857142859.
+2020-01-01 15:46:12,836 -       WPBR_high: ClimateWaterDeficit=563.7, WinterT=1.85.
+2020-01-01 15:46:12,837 -    Processing landscape for WPBR_low events ...
+2020-01-01 15:46:12,871 - WinterT=-3.91511982142855.
+2020-01-01 15:46:12,872 - WinterT=5.04802946428574.
+2020-01-01 15:46:12,872 - WinterT=2.67776321428574.
+2020-01-01 15:46:12,873 - WinterT=-0.71782928571426.
+2020-01-01 15:46:12,873 - WinterT=3.26237857142859.
+2020-01-01 15:46:12,874 -       WPBR_low: ClimateWaterDeficit=563.7, WinterT=1.85.
+2020-01-01 15:46:12,874 -       Initializing WPBR_low.
+2020-01-01 15:46:12,919 -       WPBR_low: Epidemic Activated (Simulate).
+2020-01-01 15:46:12,920 -       Calculating BDA Site Resource Dominance.
+2020-01-01 15:46:13,651 -       WPBR_low: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 15:46:13,728 -       WPBR_low: Calculating BDA SiteVulnerability.
+2020-01-01 15:46:13,771 -       WPBR_low: Disturb Sites.
+2020-01-01 15:46:13,907 -       WPBR_low: TotalSitesDamaged=33
+2020-01-01 15:46:14,013 -    Processing landscape for WPineBeetle events ...
+2020-01-01 15:46:14,047 - WinterT=-3.91511982142855.
+2020-01-01 15:46:14,048 - WinterT=5.04802946428574.
+2020-01-01 15:46:14,048 - WinterT=2.67776321428574.
+2020-01-01 15:46:14,049 - WinterT=-0.71782928571426.
+2020-01-01 15:46:14,049 - WinterT=3.26237857142859.
+2020-01-01 15:46:14,050 -       WPineBeetle: ClimateWaterDeficit=563.7, WinterT=1.85.
+2020-01-01 15:46:14,050 -       Initializing WPineBeetle.
+2020-01-01 15:46:14,095 -       WPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 15:46:14,096 -       Calculating BDA Site Resource Dominance.
+2020-01-01 15:46:14,825 -       WPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 15:46:14,903 -       WPineBeetle: Calculating BDA Neighborhood Resource Dominance.
+2020-01-01 15:59:06,080 -       WPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 15:59:06,126 -       WPineBeetle: Disturb Sites.
+2020-01-01 15:59:06,265 -       WPineBeetle: TotalSitesDamaged=486
+2020-01-01 15:59:06,375 -    Processing landscape for WPineBeetle events ...
+2020-01-01 15:59:06,411 - WinterT=-3.91511982142855.
+2020-01-01 15:59:06,413 - WinterT=5.04802946428574.
+2020-01-01 15:59:06,413 - WinterT=2.67776321428574.
+2020-01-01 15:59:06,414 - WinterT=-0.71782928571426.
+2020-01-01 15:59:06,414 - WinterT=3.26237857142859.
+2020-01-01 15:59:06,414 -       WPineBeetle: ClimateWaterDeficit=563.7, WinterT=1.85.
+2020-01-01 15:59:06,415 - Running NECN Succession ...
+2020-01-01 16:02:56,034 - Running Output Biomass ...
+2020-01-01 16:02:56,035 -    Writing total biomass map to biomass/TotalBiomass-5.img ...
+2020-01-01 16:02:56,835 -    Writing abiemagn biomass map to biomass/abiemagn-5.img ...
+2020-01-01 16:02:56,976 -    Writing pinupond biomass map to biomass/pinupond-5.img ...
+2020-01-01 16:02:57,110 -    Writing pinulamb biomass map to biomass/pinulamb-5.img ...
+2020-01-01 16:02:57,238 -    Writing abieconc biomass map to biomass/abieconc-5.img ...
+2020-01-01 16:02:57,371 -    Writing calodecu biomass map to biomass/calodecu-5.img ...
+2020-01-01 16:02:57,505 - Current time: 6
+2020-01-01 16:02:57,506 - Running Biomass BDA ...
+2020-01-01 16:02:57,507 -    Processing landscape for JeffreyPineBeetle events ...
+2020-01-01 16:02:57,540 - WinterT=-2.35240955357141.
+2020-01-01 16:02:57,541 - WinterT=7.10568267857145.
+2020-01-01 16:02:57,541 - WinterT=4.78060241071431.
+2020-01-01 16:02:57,542 - WinterT=1.10482428571431.
+2020-01-01 16:02:57,543 - WinterT=5.43002035714288.
+2020-01-01 16:02:57,543 -       JeffreyPineBeetle: ClimateWaterDeficit=579.3, WinterT=3.87.
+2020-01-01 16:02:57,543 -       Initializing JeffreyPineBeetle.
+2020-01-01 16:02:57,588 -       JeffreyPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 16:02:57,589 -       Calculating BDA Site Resource Dominance.
+2020-01-01 16:02:58,331 -       JeffreyPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 16:02:58,411 -       JeffreyPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 16:02:58,452 -       JeffreyPineBeetle: Disturb Sites.
+2020-01-01 16:02:58,614 -       JeffreyPineBeetle: TotalSitesDamaged=319
+2020-01-01 16:02:58,721 -    Processing landscape for MountainPineBeetle events ...
+2020-01-01 16:02:58,754 - WinterT=-2.35240955357141.
+2020-01-01 16:02:58,755 - WinterT=7.10568267857145.
+2020-01-01 16:02:58,756 - WinterT=4.78060241071431.
+2020-01-01 16:02:58,756 - WinterT=1.10482428571431.
+2020-01-01 16:02:58,757 - WinterT=5.43002035714288.
+2020-01-01 16:02:58,757 -       MountainPineBeetle: ClimateWaterDeficit=579.3, WinterT=3.87.
+2020-01-01 16:02:58,758 -       Initializing MountainPineBeetle.
+2020-01-01 16:02:58,804 -       MountainPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 16:02:58,804 -       Calculating BDA Site Resource Dominance.
+2020-01-01 16:02:59,537 -       MountainPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 16:02:59,614 -       MountainPineBeetle: Calculating BDA Neighborhood Resource Dominance.
+2020-01-01 16:03:00,560 -       MountainPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 16:03:00,603 -       MountainPineBeetle: Disturb Sites.
+2020-01-01 16:03:00,738 -       MountainPineBeetle: TotalSitesDamaged=6
+2020-01-01 16:03:00,844 -    Processing landscape for FirEngraver events ...
+2020-01-01 16:03:00,879 - WinterT=-2.35240955357141.
+2020-01-01 16:03:00,880 - WinterT=7.10568267857145.
+2020-01-01 16:03:00,880 - WinterT=4.78060241071431.
+2020-01-01 16:03:00,881 - WinterT=1.10482428571431.
+2020-01-01 16:03:00,881 - WinterT=5.43002035714288.
+2020-01-01 16:03:00,882 -       FirEngraver: ClimateWaterDeficit=579.3, WinterT=3.87.
+2020-01-01 16:03:00,882 -       Initializing FirEngraver.
+2020-01-01 16:03:00,927 -       FirEngraver: Epidemic Activated (Simulate).
+2020-01-01 16:03:00,928 -       Calculating BDA Site Resource Dominance.
+2020-01-01 16:03:01,655 -       FirEngraver: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 16:03:01,730 -       FirEngraver: Calculating BDA SiteVulnerability.
+2020-01-01 16:03:01,773 -       FirEngraver: Disturb Sites.
+2020-01-01 16:03:01,925 -       FirEngraver: TotalSitesDamaged=44
+2020-01-01 16:03:02,023 -    Processing landscape for FirEngraver_Peak events ...
+2020-01-01 16:03:02,056 - WinterT=-2.35240955357141.
+2020-01-01 16:03:02,058 - WinterT=7.10568267857145.
+2020-01-01 16:03:02,058 - WinterT=4.78060241071431.
+2020-01-01 16:03:02,059 - WinterT=1.10482428571431.
+2020-01-01 16:03:02,059 - WinterT=5.43002035714288.
+2020-01-01 16:03:02,059 -       FirEngraver_Peak: ClimateWaterDeficit=579.3, WinterT=3.87.
+2020-01-01 16:03:02,060 -       Initializing FirEngraver_Peak.
+2020-01-01 16:03:02,105 -       FirEngraver_Peak: Epidemic Activated (Simulate).
+2020-01-01 16:03:02,106 -       Calculating BDA Site Resource Dominance.
+2020-01-01 16:03:02,836 -       FirEngraver_Peak: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 16:03:02,918 -       FirEngraver_Peak: Calculating BDA SiteVulnerability.
+2020-01-01 16:03:02,960 -       FirEngraver_Peak: Disturb Sites.
+2020-01-01 16:03:03,095 -       FirEngraver_Peak: TotalSitesDamaged=22
+2020-01-01 16:03:03,193 -    Processing landscape for WPBR_chronic events ...
+2020-01-01 16:03:03,226 - WinterT=-2.35240955357141.
+2020-01-01 16:03:03,227 - WinterT=7.10568267857145.
+2020-01-01 16:03:03,228 - WinterT=4.78060241071431.
+2020-01-01 16:03:03,228 - WinterT=1.10482428571431.
+2020-01-01 16:03:03,229 - WinterT=5.43002035714288.
+2020-01-01 16:03:03,229 -       WPBR_chronic: ClimateWaterDeficit=579.3, WinterT=3.87.
+2020-01-01 16:03:03,229 -       Initializing WPBR_chronic.
+2020-01-01 16:03:03,274 -       WPBR_chronic: Epidemic Activated (Simulate).
+2020-01-01 16:03:03,275 -       Calculating BDA Site Resource Dominance.
+2020-01-01 16:03:04,009 -       WPBR_chronic: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 16:03:04,085 -       WPBR_chronic: Calculating BDA SiteVulnerability.
+2020-01-01 16:03:04,128 -       WPBR_chronic: Disturb Sites.
+2020-01-01 16:03:04,265 -       WPBR_chronic: TotalSitesDamaged=35
+2020-01-01 16:03:04,373 -    Processing landscape for WPBR_high events ...
+2020-01-01 16:03:04,406 - WinterT=-2.35240955357141.
+2020-01-01 16:03:04,407 - WinterT=7.10568267857145.
+2020-01-01 16:03:04,408 - WinterT=4.78060241071431.
+2020-01-01 16:03:04,408 - WinterT=1.10482428571431.
+2020-01-01 16:03:04,409 - WinterT=5.43002035714288.
+2020-01-01 16:03:04,409 -       WPBR_high: ClimateWaterDeficit=579.3, WinterT=3.87.
+2020-01-01 16:03:04,410 -       Initializing WPBR_high.
+2020-01-01 16:03:04,455 -       WPBR_high: Epidemic Activated (Simulate).
+2020-01-01 16:03:04,456 -       Calculating BDA Site Resource Dominance.
+2020-01-01 16:03:05,192 -       WPBR_high: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 16:03:05,268 -       WPBR_high: Calculating BDA SiteVulnerability.
+2020-01-01 16:03:05,310 -       WPBR_high: Disturb Sites.
+2020-01-01 16:03:05,444 -       WPBR_high: TotalSitesDamaged=13
+2020-01-01 16:03:05,542 -    Processing landscape for WPBR_low events ...
+2020-01-01 16:03:05,575 - WinterT=-2.35240955357141.
+2020-01-01 16:03:05,576 - WinterT=7.10568267857145.
+2020-01-01 16:03:05,577 - WinterT=4.78060241071431.
+2020-01-01 16:03:05,577 - WinterT=1.10482428571431.
+2020-01-01 16:03:05,577 - WinterT=5.43002035714288.
+2020-01-01 16:03:05,578 -       WPBR_low: ClimateWaterDeficit=579.3, WinterT=3.87.
+2020-01-01 16:03:05,578 -       Initializing WPBR_low.
+2020-01-01 16:03:05,623 -       WPBR_low: Epidemic Activated (Simulate).
+2020-01-01 16:03:05,624 -       Calculating BDA Site Resource Dominance.
+2020-01-01 16:03:06,388 -       WPBR_low: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 16:03:06,463 -       WPBR_low: Calculating BDA SiteVulnerability.
+2020-01-01 16:03:06,506 -       WPBR_low: Disturb Sites.
+2020-01-01 16:03:06,649 -       WPBR_low: TotalSitesDamaged=86
+2020-01-01 16:03:06,746 -    Processing landscape for WPineBeetle events ...
+2020-01-01 16:03:06,781 - WinterT=-2.35240955357141.
+2020-01-01 16:03:06,782 - WinterT=7.10568267857145.
+2020-01-01 16:03:06,782 - WinterT=4.78060241071431.
+2020-01-01 16:03:06,783 - WinterT=1.10482428571431.
+2020-01-01 16:03:06,783 - WinterT=5.43002035714288.
+2020-01-01 16:03:06,784 -       WPineBeetle: ClimateWaterDeficit=579.3, WinterT=3.87.
+2020-01-01 16:03:06,784 -       Initializing WPineBeetle.
+2020-01-01 16:03:06,830 -       WPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 16:03:06,830 -       Calculating BDA Site Resource Dominance.
+2020-01-01 16:03:07,564 -       WPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 16:03:07,643 -       WPineBeetle: Calculating BDA Neighborhood Resource Dominance.
+2020-01-01 16:15:18,346 -       WPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 16:15:18,391 -       WPineBeetle: Disturb Sites.
+2020-01-01 16:15:18,535 -       WPineBeetle: TotalSitesDamaged=421
+2020-01-01 16:15:18,642 -    Processing landscape for WPineBeetle events ...
+2020-01-01 16:15:18,677 - WinterT=-2.35240955357141.
+2020-01-01 16:15:18,678 - WinterT=7.10568267857145.
+2020-01-01 16:15:18,679 - WinterT=4.78060241071431.
+2020-01-01 16:15:18,679 - WinterT=1.10482428571431.
+2020-01-01 16:15:18,680 - WinterT=5.43002035714288.
+2020-01-01 16:15:18,680 -       WPineBeetle: ClimateWaterDeficit=579.3, WinterT=3.87.
+2020-01-01 16:15:18,680 -       Initializing WPineBeetle.
+2020-01-01 16:15:18,725 -       WPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 16:15:18,726 -       Calculating BDA Site Resource Dominance.
+2020-01-01 16:15:19,462 -       WPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 16:15:19,542 -       WPineBeetle: Calculating BDA Neighborhood Resource Dominance.
+2020-01-01 16:27:09,772 -       WPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 16:27:09,817 -       WPineBeetle: Disturb Sites.
+2020-01-01 16:27:09,977 -       WPineBeetle: TotalSitesDamaged=1152
+2020-01-01 16:27:10,083 - Running NECN Succession ...
+2020-01-01 16:30:34,485 - Running Output Biomass ...
+2020-01-01 16:30:34,486 -    Writing total biomass map to biomass/TotalBiomass-6.img ...
+2020-01-01 16:30:35,725 -    Writing abiemagn biomass map to biomass/abiemagn-6.img ...
+2020-01-01 16:30:35,954 -    Writing pinupond biomass map to biomass/pinupond-6.img ...
+2020-01-01 16:30:36,096 -    Writing pinulamb biomass map to biomass/pinulamb-6.img ...
+2020-01-01 16:30:36,228 -    Writing abieconc biomass map to biomass/abieconc-6.img ...
+2020-01-01 16:30:36,359 -    Writing calodecu biomass map to biomass/calodecu-6.img ...
+2020-01-01 16:30:36,495 - Current time: 7
+2020-01-01 16:30:36,984 - Running Biomass BDA ...
+2020-01-01 16:30:36,985 -    Processing landscape for JeffreyPineBeetle events ...
+2020-01-01 16:30:37,022 - WinterT=-2.8364989285714.
+2020-01-01 16:30:37,023 - WinterT=6.24710160714288.
+2020-01-01 16:30:37,024 - WinterT=4.16794535714288.
+2020-01-01 16:30:37,024 - WinterT=0.648371964285738.
+2020-01-01 16:30:37,025 - WinterT=4.59949767857145.
+2020-01-01 16:30:37,025 -       JeffreyPineBeetle: ClimateWaterDeficit=639.7, WinterT=3.24.
+2020-01-01 16:30:37,026 -       Initializing JeffreyPineBeetle.
+2020-01-01 16:30:37,071 -       JeffreyPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 16:30:37,072 -       Calculating BDA Site Resource Dominance.
+2020-01-01 16:30:37,807 -       JeffreyPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 16:30:37,885 -       JeffreyPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 16:30:37,991 -       JeffreyPineBeetle: Disturb Sites.
+2020-01-01 16:30:38,151 -       JeffreyPineBeetle: TotalSitesDamaged=73
+2020-01-01 16:30:38,249 -    Processing landscape for MountainPineBeetle events ...
+2020-01-01 16:30:38,284 - WinterT=-2.8364989285714.
+2020-01-01 16:30:38,285 - WinterT=6.24710160714288.
+2020-01-01 16:30:38,286 - WinterT=4.16794535714288.
+2020-01-01 16:30:38,286 - WinterT=0.648371964285738.
+2020-01-01 16:30:38,286 - WinterT=4.59949767857145.
+2020-01-01 16:30:38,287 -       MountainPineBeetle: ClimateWaterDeficit=639.7, WinterT=3.24.
+2020-01-01 16:30:38,287 -       Initializing MountainPineBeetle.
+2020-01-01 16:30:38,332 -       MountainPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 16:30:38,333 -       Calculating BDA Site Resource Dominance.
+2020-01-01 16:30:39,071 -       MountainPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 16:30:39,147 -       MountainPineBeetle: Calculating BDA Neighborhood Resource Dominance.
+2020-01-01 16:30:39,806 -       MountainPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 16:30:39,848 -       MountainPineBeetle: Disturb Sites.
+2020-01-01 16:30:39,984 -       MountainPineBeetle: TotalSitesDamaged=7
+2020-01-01 16:30:40,090 -    Processing landscape for FirEngraver events ...
+2020-01-01 16:30:40,132 - WinterT=-2.8364989285714.
+2020-01-01 16:30:40,132 - WinterT=6.24710160714288.
+2020-01-01 16:30:40,133 - WinterT=4.16794535714288.
+2020-01-01 16:30:40,133 - WinterT=0.648371964285738.
+2020-01-01 16:30:40,134 - WinterT=4.59949767857145.
+2020-01-01 16:30:40,135 -       FirEngraver: ClimateWaterDeficit=639.7, WinterT=3.24.
+2020-01-01 16:30:40,135 -       Initializing FirEngraver.
+2020-01-01 16:30:40,180 -       FirEngraver: Epidemic Activated (Simulate).
+2020-01-01 16:30:40,181 -       Calculating BDA Site Resource Dominance.
+2020-01-01 16:30:40,913 -       FirEngraver: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 16:30:40,988 -       FirEngraver: Calculating BDA SiteVulnerability.
+2020-01-01 16:30:41,029 -       FirEngraver: Disturb Sites.
+2020-01-01 16:30:41,175 -       FirEngraver: TotalSitesDamaged=4
+2020-01-01 16:30:41,271 -    Processing landscape for FirEngraver_Peak events ...
+2020-01-01 16:30:41,305 - WinterT=-2.8364989285714.
+2020-01-01 16:30:41,307 - WinterT=6.24710160714288.
+2020-01-01 16:30:41,308 - WinterT=4.16794535714288.
+2020-01-01 16:30:41,308 - WinterT=0.648371964285738.
+2020-01-01 16:30:41,308 - WinterT=4.59949767857145.
+2020-01-01 16:30:41,309 -       FirEngraver_Peak: ClimateWaterDeficit=639.7, WinterT=3.24.
+2020-01-01 16:30:41,309 -       Initializing FirEngraver_Peak.
+2020-01-01 16:30:41,354 -       FirEngraver_Peak: Epidemic Activated (Simulate).
+2020-01-01 16:30:41,355 -       Calculating BDA Site Resource Dominance.
+2020-01-01 16:30:42,085 -       FirEngraver_Peak: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 16:30:42,164 -       FirEngraver_Peak: Calculating BDA SiteVulnerability.
+2020-01-01 16:30:42,206 -       FirEngraver_Peak: Disturb Sites.
+2020-01-01 16:30:42,342 -       FirEngraver_Peak: TotalSitesDamaged=4
+2020-01-01 16:30:42,439 -    Processing landscape for WPBR_chronic events ...
+2020-01-01 16:30:42,473 - WinterT=-2.8364989285714.
+2020-01-01 16:30:42,473 - WinterT=6.24710160714288.
+2020-01-01 16:30:42,474 - WinterT=4.16794535714288.
+2020-01-01 16:30:42,474 - WinterT=0.648371964285738.
+2020-01-01 16:30:42,475 - WinterT=4.59949767857145.
+2020-01-01 16:30:42,475 -       WPBR_chronic: ClimateWaterDeficit=639.7, WinterT=3.24.
+2020-01-01 16:30:42,476 -       Initializing WPBR_chronic.
+2020-01-01 16:30:42,520 -       WPBR_chronic: Epidemic Activated (Simulate).
+2020-01-01 16:30:42,521 -       Calculating BDA Site Resource Dominance.
+2020-01-01 16:30:43,258 -       WPBR_chronic: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 16:30:43,334 -       WPBR_chronic: Calculating BDA SiteVulnerability.
+2020-01-01 16:30:43,376 -       WPBR_chronic: Disturb Sites.
+2020-01-01 16:30:43,514 -       WPBR_chronic: TotalSitesDamaged=9
+2020-01-01 16:30:43,612 -    Processing landscape for WPBR_high events ...
+2020-01-01 16:30:43,646 - WinterT=-2.8364989285714.
+2020-01-01 16:30:43,647 - WinterT=6.24710160714288.
+2020-01-01 16:30:43,647 - WinterT=4.16794535714288.
+2020-01-01 16:30:43,648 - WinterT=0.648371964285738.
+2020-01-01 16:30:43,648 - WinterT=4.59949767857145.
+2020-01-01 16:30:43,649 -       WPBR_high: ClimateWaterDeficit=639.7, WinterT=3.24.
+2020-01-01 16:30:43,649 -       Initializing WPBR_high.
+2020-01-01 16:30:43,694 -       WPBR_high: Epidemic Activated (Simulate).
+2020-01-01 16:30:43,695 -       Calculating BDA Site Resource Dominance.
+2020-01-01 16:30:44,432 -       WPBR_high: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 16:30:44,508 -       WPBR_high: Calculating BDA SiteVulnerability.
+2020-01-01 16:30:44,550 -       WPBR_high: Disturb Sites.
+2020-01-01 16:30:44,686 -       WPBR_high: TotalSitesDamaged=16
+2020-01-01 16:30:44,784 -    Processing landscape for WPBR_low events ...
+2020-01-01 16:30:44,818 - WinterT=-2.8364989285714.
+2020-01-01 16:30:44,819 - WinterT=6.24710160714288.
+2020-01-01 16:30:44,819 - WinterT=4.16794535714288.
+2020-01-01 16:30:44,819 - WinterT=0.648371964285738.
+2020-01-01 16:30:44,820 - WinterT=4.59949767857145.
+2020-01-01 16:30:44,820 -       WPBR_low: ClimateWaterDeficit=639.7, WinterT=3.24.
+2020-01-01 16:30:44,821 -       Initializing WPBR_low.
+2020-01-01 16:30:44,866 -       WPBR_low: Epidemic Activated (Simulate).
+2020-01-01 16:30:44,867 -       Calculating BDA Site Resource Dominance.
+2020-01-01 16:30:45,602 -       WPBR_low: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 16:30:45,678 -       WPBR_low: Calculating BDA SiteVulnerability.
+2020-01-01 16:30:45,721 -       WPBR_low: Disturb Sites.
+2020-01-01 16:30:45,861 -       WPBR_low: TotalSitesDamaged=21
+2020-01-01 16:30:45,958 -    Processing landscape for WPineBeetle events ...
+2020-01-01 16:30:45,992 - WinterT=-2.8364989285714.
+2020-01-01 16:30:45,993 - WinterT=6.24710160714288.
+2020-01-01 16:30:45,993 - WinterT=4.16794535714288.
+2020-01-01 16:30:45,994 - WinterT=0.648371964285738.
+2020-01-01 16:30:45,994 - WinterT=4.59949767857145.
+2020-01-01 16:30:45,995 -       WPineBeetle: ClimateWaterDeficit=639.7, WinterT=3.24.
+2020-01-01 16:30:45,995 -       Initializing WPineBeetle.
+2020-01-01 16:30:46,040 -       WPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 16:30:46,041 -       Calculating BDA Site Resource Dominance.
+2020-01-01 16:30:46,778 -       WPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 16:30:46,857 -       WPineBeetle: Calculating BDA Neighborhood Resource Dominance.
+2020-01-01 16:41:34,403 -       WPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 16:41:34,447 -       WPineBeetle: Disturb Sites.
+2020-01-01 16:41:34,601 -       WPineBeetle: TotalSitesDamaged=994
+2020-01-01 16:41:34,712 -    Processing landscape for WPineBeetle events ...
+2020-01-01 16:41:34,748 - WinterT=-2.8364989285714.
+2020-01-01 16:41:34,750 - WinterT=6.24710160714288.
+2020-01-01 16:41:34,750 - WinterT=4.16794535714288.
+2020-01-01 16:41:34,751 - WinterT=0.648371964285738.
+2020-01-01 16:41:34,751 - WinterT=4.59949767857145.
+2020-01-01 16:41:34,752 -       WPineBeetle: ClimateWaterDeficit=639.7, WinterT=3.24.
+2020-01-01 16:41:34,752 -       Initializing WPineBeetle.
+2020-01-01 16:41:34,799 -       WPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 16:41:34,800 -       Calculating BDA Site Resource Dominance.
+2020-01-01 16:41:35,539 -       WPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 16:41:35,616 -       WPineBeetle: Calculating BDA Neighborhood Resource Dominance.
+2020-01-01 16:51:32,910 -       WPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 16:51:32,956 -       WPineBeetle: Disturb Sites.
+2020-01-01 16:51:33,097 -       WPineBeetle: TotalSitesDamaged=291
+2020-01-01 16:51:33,202 - Running NECN Succession ...
+2020-01-01 16:54:53,489 - Running Output Biomass ...
+2020-01-01 16:54:53,490 -    Writing total biomass map to biomass/TotalBiomass-7.img ...
+2020-01-01 16:54:54,301 -    Writing abiemagn biomass map to biomass/abiemagn-7.img ...
+2020-01-01 16:54:54,509 -    Writing pinupond biomass map to biomass/pinupond-7.img ...
+2020-01-01 16:54:54,642 -    Writing pinulamb biomass map to biomass/pinulamb-7.img ...
+2020-01-01 16:54:54,773 -    Writing abieconc biomass map to biomass/abieconc-7.img ...
+2020-01-01 16:54:54,902 -    Writing calodecu biomass map to biomass/calodecu-7.img ...
+2020-01-01 16:54:55,036 - Current time: 8
+2020-01-01 16:54:55,037 - Running Biomass BDA ...
+2020-01-01 16:54:55,521 -    Processing landscape for JeffreyPineBeetle events ...
+2020-01-01 16:54:55,554 - WinterT=0.188824285714311.
+2020-01-01 16:54:55,555 - WinterT=9.12050660714288.
+2020-01-01 16:54:55,556 - WinterT=6.72432750000002.
+2020-01-01 16:54:55,556 - WinterT=3.41466071428574.
+2020-01-01 16:54:55,557 - WinterT=7.84324196428573.
+2020-01-01 16:54:55,557 -       JeffreyPineBeetle: ClimateWaterDeficit=672.8, WinterT=5.98.
+2020-01-01 16:54:55,558 -       Initializing JeffreyPineBeetle.
+2020-01-01 16:54:55,602 -       JeffreyPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 16:54:55,603 -       Calculating BDA Site Resource Dominance.
+2020-01-01 16:54:56,354 -       JeffreyPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 16:54:56,430 -       JeffreyPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 16:54:56,471 -       JeffreyPineBeetle: Disturb Sites.
+2020-01-01 16:54:56,625 -       JeffreyPineBeetle: TotalSitesDamaged=92
+2020-01-01 16:54:56,728 -    Processing landscape for MountainPineBeetle events ...
+2020-01-01 16:54:56,761 - WinterT=0.188824285714311.
+2020-01-01 16:54:56,761 - WinterT=9.12050660714288.
+2020-01-01 16:54:56,762 - WinterT=6.72432750000002.
+2020-01-01 16:54:56,762 - WinterT=3.41466071428574.
+2020-01-01 16:54:56,763 - WinterT=7.84324196428573.
+2020-01-01 16:54:56,763 -       MountainPineBeetle: ClimateWaterDeficit=672.8, WinterT=5.98.
+2020-01-01 16:54:56,764 -       Initializing MountainPineBeetle.
+2020-01-01 16:54:56,809 -       MountainPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 16:54:56,810 -       Calculating BDA Site Resource Dominance.
+2020-01-01 16:54:57,532 -       MountainPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 16:54:57,608 -       MountainPineBeetle: Calculating BDA Neighborhood Resource Dominance.
+2020-01-01 16:54:58,110 -       MountainPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 16:54:58,153 -       MountainPineBeetle: Disturb Sites.
+2020-01-01 16:54:58,291 -       MountainPineBeetle: TotalSitesDamaged=7
+2020-01-01 16:54:58,598 -    Processing landscape for FirEngraver events ...
+2020-01-01 16:54:58,632 - WinterT=0.188824285714311.
+2020-01-01 16:54:58,633 - WinterT=9.12050660714288.
+2020-01-01 16:54:58,634 - WinterT=6.72432750000002.
+2020-01-01 16:54:58,634 - WinterT=3.41466071428574.
+2020-01-01 16:54:58,635 - WinterT=7.84324196428573.
+2020-01-01 16:54:58,635 -       FirEngraver: ClimateWaterDeficit=672.8, WinterT=5.98.
+2020-01-01 16:54:58,636 -       Initializing FirEngraver.
+2020-01-01 16:54:58,681 -       FirEngraver: Epidemic Activated (Simulate).
+2020-01-01 16:54:58,682 -       Calculating BDA Site Resource Dominance.
+2020-01-01 16:54:59,426 -       FirEngraver: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 16:54:59,501 -       FirEngraver: Calculating BDA SiteVulnerability.
+2020-01-01 16:54:59,630 -       FirEngraver: Disturb Sites.
+2020-01-01 16:54:59,776 -       FirEngraver: TotalSitesDamaged=3
+2020-01-01 16:54:59,880 -    Processing landscape for FirEngraver_Peak events ...
+2020-01-01 16:54:59,913 - WinterT=0.188824285714311.
+2020-01-01 16:54:59,914 - WinterT=9.12050660714288.
+2020-01-01 16:54:59,914 - WinterT=6.72432750000002.
+2020-01-01 16:54:59,915 - WinterT=3.41466071428574.
+2020-01-01 16:54:59,915 - WinterT=7.84324196428573.
+2020-01-01 16:54:59,916 -       FirEngraver_Peak: ClimateWaterDeficit=672.8, WinterT=5.98.
+2020-01-01 16:54:59,916 -       Initializing FirEngraver_Peak.
+2020-01-01 16:54:59,961 -       FirEngraver_Peak: Epidemic Activated (Simulate).
+2020-01-01 16:54:59,962 -       Calculating BDA Site Resource Dominance.
+2020-01-01 16:55:00,701 -       FirEngraver_Peak: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 16:55:00,776 -       FirEngraver_Peak: Calculating BDA SiteVulnerability.
+2020-01-01 16:55:00,818 -       FirEngraver_Peak: Disturb Sites.
+2020-01-01 16:55:00,963 -       FirEngraver_Peak: TotalSitesDamaged=5
+2020-01-01 16:55:01,064 -    Processing landscape for WPBR_chronic events ...
+2020-01-01 16:55:01,098 - WinterT=0.188824285714311.
+2020-01-01 16:55:01,099 - WinterT=9.12050660714288.
+2020-01-01 16:55:01,099 - WinterT=6.72432750000002.
+2020-01-01 16:55:01,100 - WinterT=3.41466071428574.
+2020-01-01 16:55:01,100 - WinterT=7.84324196428573.
+2020-01-01 16:55:01,101 -       WPBR_chronic: ClimateWaterDeficit=672.8, WinterT=5.98.
+2020-01-01 16:55:01,101 -       Initializing WPBR_chronic.
+2020-01-01 16:55:01,146 -       WPBR_chronic: Epidemic Activated (Simulate).
+2020-01-01 16:55:01,147 -       Calculating BDA Site Resource Dominance.
+2020-01-01 16:55:01,893 -       WPBR_chronic: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 16:55:01,973 -       WPBR_chronic: Calculating BDA SiteVulnerability.
+2020-01-01 16:55:02,015 -       WPBR_chronic: Disturb Sites.
+2020-01-01 16:55:02,154 -       WPBR_chronic: TotalSitesDamaged=11
+2020-01-01 16:55:02,254 -    Processing landscape for WPBR_high events ...
+2020-01-01 16:55:02,287 - WinterT=0.188824285714311.
+2020-01-01 16:55:02,288 - WinterT=9.12050660714288.
+2020-01-01 16:55:02,288 - WinterT=6.72432750000002.
+2020-01-01 16:55:02,288 - WinterT=3.41466071428574.
+2020-01-01 16:55:02,289 - WinterT=7.84324196428573.
+2020-01-01 16:55:02,289 -       WPBR_high: ClimateWaterDeficit=672.8, WinterT=5.98.
+2020-01-01 16:55:02,290 -       Initializing WPBR_high.
+2020-01-01 16:55:02,335 -       WPBR_high: Epidemic Activated (Simulate).
+2020-01-01 16:55:02,336 -       Calculating BDA Site Resource Dominance.
+2020-01-01 16:55:03,083 -       WPBR_high: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 16:55:03,158 -       WPBR_high: Calculating BDA SiteVulnerability.
+2020-01-01 16:55:03,200 -       WPBR_high: Disturb Sites.
+2020-01-01 16:55:03,337 -       WPBR_high: TotalSitesDamaged=3
+2020-01-01 16:55:03,435 -    Processing landscape for WPBR_low events ...
+2020-01-01 16:55:03,468 - WinterT=0.188824285714311.
+2020-01-01 16:55:03,469 - WinterT=9.12050660714288.
+2020-01-01 16:55:03,469 - WinterT=6.72432750000002.
+2020-01-01 16:55:03,470 - WinterT=3.41466071428574.
+2020-01-01 16:55:03,470 - WinterT=7.84324196428573.
+2020-01-01 16:55:03,471 -       WPBR_low: ClimateWaterDeficit=672.8, WinterT=5.98.
+2020-01-01 16:55:03,471 -       Initializing WPBR_low.
+2020-01-01 16:55:03,516 -       WPBR_low: Epidemic Activated (Simulate).
+2020-01-01 16:55:03,516 -       Calculating BDA Site Resource Dominance.
+2020-01-01 16:55:04,254 -       WPBR_low: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 16:55:04,330 -       WPBR_low: Calculating BDA SiteVulnerability.
+2020-01-01 16:55:04,373 -       WPBR_low: Disturb Sites.
+2020-01-01 16:55:04,513 -       WPBR_low: TotalSitesDamaged=23
+2020-01-01 16:55:04,610 -    Processing landscape for WPineBeetle events ...
+2020-01-01 16:55:04,644 - WinterT=0.188824285714311.
+2020-01-01 16:55:04,645 - WinterT=9.12050660714288.
+2020-01-01 16:55:04,646 - WinterT=6.72432750000002.
+2020-01-01 16:55:04,646 - WinterT=3.41466071428574.
+2020-01-01 16:55:04,647 - WinterT=7.84324196428573.
+2020-01-01 16:55:04,647 -       WPineBeetle: ClimateWaterDeficit=672.8, WinterT=5.98.
+2020-01-01 16:55:04,648 -       Initializing WPineBeetle.
+2020-01-01 16:55:04,693 -       WPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 16:55:04,694 -       Calculating BDA Site Resource Dominance.
+2020-01-01 16:55:05,437 -       WPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 16:55:05,514 -       WPineBeetle: Calculating BDA Neighborhood Resource Dominance.
+2020-01-01 17:04:45,662 -       WPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 17:04:45,707 -       WPineBeetle: Disturb Sites.
+2020-01-01 17:04:45,852 -       WPineBeetle: TotalSitesDamaged=516
+2020-01-01 17:04:45,961 -    Processing landscape for WPineBeetle events ...
+2020-01-01 17:04:45,998 - WinterT=0.188824285714311.
+2020-01-01 17:04:45,999 - WinterT=9.12050660714288.
+2020-01-01 17:04:45,999 - WinterT=6.72432750000002.
+2020-01-01 17:04:46,000 - WinterT=3.41466071428574.
+2020-01-01 17:04:46,000 - WinterT=7.84324196428573.
+2020-01-01 17:04:46,001 -       WPineBeetle: ClimateWaterDeficit=672.8, WinterT=5.98.
+2020-01-01 17:04:46,001 -       Initializing WPineBeetle.
+2020-01-01 17:04:46,046 -       WPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 17:04:46,047 -       Calculating BDA Site Resource Dominance.
+2020-01-01 17:04:46,776 -       WPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 17:04:46,853 -       WPineBeetle: Calculating BDA Neighborhood Resource Dominance.
+2020-01-01 17:14:00,901 -       WPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 17:14:00,945 -       WPineBeetle: Disturb Sites.
+2020-01-01 17:14:01,087 -       WPineBeetle: TotalSitesDamaged=275
+2020-01-01 17:14:01,190 - Running NECN Succession ...
+2020-01-01 17:17:16,749 - Running Output Biomass ...
+2020-01-01 17:17:16,750 -    Writing total biomass map to biomass/TotalBiomass-8.img ...
+2020-01-01 17:17:17,564 -    Writing abiemagn biomass map to biomass/abiemagn-8.img ...
+2020-01-01 17:17:17,765 -    Writing pinupond biomass map to biomass/pinupond-8.img ...
+2020-01-01 17:17:17,906 -    Writing pinulamb biomass map to biomass/pinulamb-8.img ...
+2020-01-01 17:17:18,039 -    Writing abieconc biomass map to biomass/abieconc-8.img ...
+2020-01-01 17:17:18,175 -    Writing calodecu biomass map to biomass/calodecu-8.img ...
+2020-01-01 17:17:18,308 - Current time: 9
+2020-01-01 17:17:18,794 - Running Biomass BDA ...
+2020-01-01 17:17:18,796 -    Processing landscape for JeffreyPineBeetle events ...
+2020-01-01 17:17:18,830 - WinterT=3.11915053571431.
+2020-01-01 17:17:18,831 - WinterT=11.6927707142857.
+2020-01-01 17:17:18,832 - WinterT=9.82985107142859.
+2020-01-01 17:17:18,832 - WinterT=6.47975500000002.
+2020-01-01 17:17:18,833 - WinterT=10.3421271428572.
+2020-01-01 17:17:18,833 -       JeffreyPineBeetle: ClimateWaterDeficit=672.7, WinterT=8.95.
+2020-01-01 17:17:18,834 -       Initializing JeffreyPineBeetle.
+2020-01-01 17:17:18,878 -       JeffreyPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 17:17:18,879 -       Calculating BDA Site Resource Dominance.
+2020-01-01 17:17:19,614 -       JeffreyPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 17:17:19,691 -       JeffreyPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 17:17:19,816 -       JeffreyPineBeetle: Disturb Sites.
+2020-01-01 17:17:19,961 -       JeffreyPineBeetle: TotalSitesDamaged=35
+2020-01-01 17:17:20,072 -    Processing landscape for MountainPineBeetle events ...
+2020-01-01 17:17:20,106 - WinterT=3.11915053571431.
+2020-01-01 17:17:20,107 - WinterT=11.6927707142857.
+2020-01-01 17:17:20,107 - WinterT=9.82985107142859.
+2020-01-01 17:17:20,108 - WinterT=6.47975500000002.
+2020-01-01 17:17:20,108 - WinterT=10.3421271428572.
+2020-01-01 17:17:20,109 -       MountainPineBeetle: ClimateWaterDeficit=672.7, WinterT=8.95.
+2020-01-01 17:17:20,109 -       Initializing MountainPineBeetle.
+2020-01-01 17:17:20,154 -       MountainPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 17:17:20,155 -       Calculating BDA Site Resource Dominance.
+2020-01-01 17:17:20,895 -       MountainPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 17:17:20,971 -       MountainPineBeetle: Calculating BDA Neighborhood Resource Dominance.
+2020-01-01 17:17:21,402 -       MountainPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 17:17:21,444 -       MountainPineBeetle: Disturb Sites.
+2020-01-01 17:17:21,590 -       MountainPineBeetle: TotalSitesDamaged=2
+2020-01-01 17:17:21,691 -    Processing landscape for FirEngraver events ...
+2020-01-01 17:17:21,953 - WinterT=3.11915053571431.
+2020-01-01 17:17:21,954 - WinterT=11.6927707142857.
+2020-01-01 17:17:21,954 - WinterT=9.82985107142859.
+2020-01-01 17:17:21,955 - WinterT=6.47975500000002.
+2020-01-01 17:17:21,955 - WinterT=10.3421271428572.
+2020-01-01 17:17:21,956 -       FirEngraver: ClimateWaterDeficit=672.7, WinterT=8.95.
+2020-01-01 17:17:21,956 -       Initializing FirEngraver.
+2020-01-01 17:17:22,002 -       FirEngraver: Epidemic Activated (Simulate).
+2020-01-01 17:17:22,003 -       Calculating BDA Site Resource Dominance.
+2020-01-01 17:17:22,750 -       FirEngraver: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 17:17:22,825 -       FirEngraver: Calculating BDA SiteVulnerability.
+2020-01-01 17:17:22,867 -       FirEngraver: Disturb Sites.
+2020-01-01 17:17:23,014 -       FirEngraver: TotalSitesDamaged=3
+2020-01-01 17:17:23,110 -    Processing landscape for FirEngraver_Peak events ...
+2020-01-01 17:17:23,144 - WinterT=3.11915053571431.
+2020-01-01 17:17:23,145 - WinterT=11.6927707142857.
+2020-01-01 17:17:23,145 - WinterT=9.82985107142859.
+2020-01-01 17:17:23,146 - WinterT=6.47975500000002.
+2020-01-01 17:17:23,146 - WinterT=10.3421271428572.
+2020-01-01 17:17:23,147 -       FirEngraver_Peak: ClimateWaterDeficit=672.7, WinterT=8.95.
+2020-01-01 17:17:23,147 -       Initializing FirEngraver_Peak.
+2020-01-01 17:17:23,198 -       FirEngraver_Peak: Epidemic Activated (Simulate).
+2020-01-01 17:17:23,198 -       Calculating BDA Site Resource Dominance.
+2020-01-01 17:17:23,939 -       FirEngraver_Peak: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 17:17:24,014 -       FirEngraver_Peak: Calculating BDA SiteVulnerability.
+2020-01-01 17:17:24,056 -       FirEngraver_Peak: Disturb Sites.
+2020-01-01 17:17:24,196 -       FirEngraver_Peak: TotalSitesDamaged=4
+2020-01-01 17:17:24,302 -    Processing landscape for WPBR_chronic events ...
+2020-01-01 17:17:24,338 - WinterT=3.11915053571431.
+2020-01-01 17:17:24,339 - WinterT=11.6927707142857.
+2020-01-01 17:17:24,339 - WinterT=9.82985107142859.
+2020-01-01 17:17:24,340 - WinterT=6.47975500000002.
+2020-01-01 17:17:24,340 - WinterT=10.3421271428572.
+2020-01-01 17:17:24,341 -       WPBR_chronic: ClimateWaterDeficit=672.7, WinterT=8.95.
+2020-01-01 17:17:24,341 -       Initializing WPBR_chronic.
+2020-01-01 17:17:24,386 -       WPBR_chronic: Epidemic Activated (Simulate).
+2020-01-01 17:17:24,387 -       Calculating BDA Site Resource Dominance.
+2020-01-01 17:17:25,125 -       WPBR_chronic: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 17:17:25,201 -       WPBR_chronic: Calculating BDA SiteVulnerability.
+2020-01-01 17:17:25,242 -       WPBR_chronic: Disturb Sites.
+2020-01-01 17:17:25,391 -       WPBR_chronic: TotalSitesDamaged=13
+2020-01-01 17:17:25,490 -    Processing landscape for WPBR_high events ...
+2020-01-01 17:17:25,523 - WinterT=3.11915053571431.
+2020-01-01 17:17:25,524 - WinterT=11.6927707142857.
+2020-01-01 17:17:25,525 - WinterT=9.82985107142859.
+2020-01-01 17:17:25,525 - WinterT=6.47975500000002.
+2020-01-01 17:17:25,525 - WinterT=10.3421271428572.
+2020-01-01 17:17:25,526 -       WPBR_high: ClimateWaterDeficit=672.7, WinterT=8.95.
+2020-01-01 17:17:25,526 -       Initializing WPBR_high.
+2020-01-01 17:17:25,571 -       WPBR_high: Epidemic Activated (Simulate).
+2020-01-01 17:17:25,572 -       Calculating BDA Site Resource Dominance.
+2020-01-01 17:17:26,314 -       WPBR_high: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 17:17:26,394 -       WPBR_high: Calculating BDA SiteVulnerability.
+2020-01-01 17:17:26,437 -       WPBR_high: Disturb Sites.
+2020-01-01 17:17:26,577 -       WPBR_high: TotalSitesDamaged=4
+2020-01-01 17:17:26,682 -    Processing landscape for WPBR_low events ...
+2020-01-01 17:17:26,715 - WinterT=3.11915053571431.
+2020-01-01 17:17:26,716 - WinterT=11.6927707142857.
+2020-01-01 17:17:26,717 - WinterT=9.82985107142859.
+2020-01-01 17:17:26,717 - WinterT=6.47975500000002.
+2020-01-01 17:17:26,718 - WinterT=10.3421271428572.
+2020-01-01 17:17:26,718 -       WPBR_low: ClimateWaterDeficit=672.7, WinterT=8.95.
+2020-01-01 17:17:26,719 -       Initializing WPBR_low.
+2020-01-01 17:17:26,763 -       WPBR_low: Epidemic Activated (Simulate).
+2020-01-01 17:17:26,764 -       Calculating BDA Site Resource Dominance.
+2020-01-01 17:17:27,511 -       WPBR_low: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 17:17:27,587 -       WPBR_low: Calculating BDA SiteVulnerability.
+2020-01-01 17:17:27,630 -       WPBR_low: Disturb Sites.
+2020-01-01 17:17:27,771 -       WPBR_low: TotalSitesDamaged=11
+2020-01-01 17:17:27,869 -    Processing landscape for WPineBeetle events ...
+2020-01-01 17:17:27,904 - WinterT=3.11915053571431.
+2020-01-01 17:17:27,905 - WinterT=11.6927707142857.
+2020-01-01 17:17:27,905 - WinterT=9.82985107142859.
+2020-01-01 17:17:27,906 - WinterT=6.47975500000002.
+2020-01-01 17:17:27,906 - WinterT=10.3421271428572.
+2020-01-01 17:17:27,907 -       WPineBeetle: ClimateWaterDeficit=672.7, WinterT=8.95.
+2020-01-01 17:17:27,907 -       Initializing WPineBeetle.
+2020-01-01 17:17:27,952 -       WPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 17:17:27,953 -       Calculating BDA Site Resource Dominance.
+2020-01-01 17:17:28,698 -       WPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 17:17:28,776 -       WPineBeetle: Calculating BDA Neighborhood Resource Dominance.
+2020-01-01 17:26:26,738 -       WPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 17:26:26,785 -       WPineBeetle: Disturb Sites.
+2020-01-01 17:26:26,934 -       WPineBeetle: TotalSitesDamaged=514
+2020-01-01 17:26:27,045 -    Processing landscape for WPineBeetle events ...
+2020-01-01 17:26:27,082 - WinterT=3.11915053571431.
+2020-01-01 17:26:27,083 - WinterT=11.6927707142857.
+2020-01-01 17:26:27,083 - WinterT=9.82985107142859.
+2020-01-01 17:26:27,083 - WinterT=6.47975500000002.
+2020-01-01 17:26:27,084 - WinterT=10.3421271428572.
+2020-01-01 17:26:27,084 -       WPineBeetle: ClimateWaterDeficit=672.7, WinterT=8.95.
+2020-01-01 17:26:27,084 -       Initializing WPineBeetle.
+2020-01-01 17:26:27,129 -       WPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 17:26:27,130 -       Calculating BDA Site Resource Dominance.
+2020-01-01 17:26:27,869 -       WPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 17:26:27,955 -       WPineBeetle: Calculating BDA Neighborhood Resource Dominance.
+2020-01-01 17:35:04,486 -       WPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 17:35:04,532 -       WPineBeetle: Disturb Sites.
+2020-01-01 17:35:04,686 -       WPineBeetle: TotalSitesDamaged=700
+2020-01-01 17:35:04,796 - Running NECN Succession ...
+2020-01-01 17:38:19,837 - Running Output Biomass ...
+2020-01-01 17:38:19,838 -    Writing total biomass map to biomass/TotalBiomass-9.img ...
+2020-01-01 17:38:20,661 -    Writing abiemagn biomass map to biomass/abiemagn-9.img ...
+2020-01-01 17:38:20,792 -    Writing pinupond biomass map to biomass/pinupond-9.img ...
+2020-01-01 17:38:20,928 -    Writing pinulamb biomass map to biomass/pinulamb-9.img ...
+2020-01-01 17:38:21,061 -    Writing abieconc biomass map to biomass/abieconc-9.img ...
+2020-01-01 17:38:21,192 -    Writing calodecu biomass map to biomass/calodecu-9.img ...
+2020-01-01 17:38:21,327 - Current time: 10
+2020-01-01 17:38:21,328 - Running Biomass BDA ...
+2020-01-01 17:38:21,329 -    Processing landscape for JeffreyPineBeetle events ...
+2020-01-01 17:38:21,362 - WinterT=1.98890892857146.
+2020-01-01 17:38:21,363 - WinterT=10.1703689285715.
+2020-01-01 17:38:21,363 - WinterT=8.42912625000002.
+2020-01-01 17:38:21,364 - WinterT=5.33075794642859.
+2020-01-01 17:38:21,364 - WinterT=8.44568928571431.
+2020-01-01 17:38:21,365 -       JeffreyPineBeetle: ClimateWaterDeficit=681.9, WinterT=7.54.
+2020-01-01 17:38:21,365 -       Initializing JeffreyPineBeetle.
+2020-01-01 17:38:21,411 -       JeffreyPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 17:38:21,412 -       Calculating BDA Site Resource Dominance.
+2020-01-01 17:38:22,160 -       JeffreyPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 17:38:22,237 -       JeffreyPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 17:38:22,279 -       JeffreyPineBeetle: Disturb Sites.
+2020-01-01 17:38:22,438 -       JeffreyPineBeetle: TotalSitesDamaged=104
+2020-01-01 17:38:22,535 -    Processing landscape for MountainPineBeetle events ...
+2020-01-01 17:38:22,568 - WinterT=1.98890892857146.
+2020-01-01 17:38:22,569 - WinterT=10.1703689285715.
+2020-01-01 17:38:22,569 - WinterT=8.42912625000002.
+2020-01-01 17:38:22,569 - WinterT=5.33075794642859.
+2020-01-01 17:38:22,570 - WinterT=8.44568928571431.
+2020-01-01 17:38:22,570 -       MountainPineBeetle: ClimateWaterDeficit=681.9, WinterT=7.54.
+2020-01-01 17:38:22,571 -       Initializing MountainPineBeetle.
+2020-01-01 17:38:22,616 -       MountainPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 17:38:22,617 -       Calculating BDA Site Resource Dominance.
+2020-01-01 17:38:23,363 -       MountainPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 17:38:23,440 -       MountainPineBeetle: Calculating BDA Neighborhood Resource Dominance.
+2020-01-01 17:38:23,811 -       MountainPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 17:38:23,854 -       MountainPineBeetle: Disturb Sites.
+2020-01-01 17:38:24,003 -       MountainPineBeetle: TotalSitesDamaged=5
+2020-01-01 17:38:24,410 -    Processing landscape for FirEngraver events ...
+2020-01-01 17:38:24,446 - WinterT=1.98890892857146.
+2020-01-01 17:38:24,446 - WinterT=10.1703689285715.
+2020-01-01 17:38:24,447 - WinterT=8.42912625000002.
+2020-01-01 17:38:24,448 - WinterT=5.33075794642859.
+2020-01-01 17:38:24,448 - WinterT=8.44568928571431.
+2020-01-01 17:38:24,449 -       FirEngraver: ClimateWaterDeficit=681.9, WinterT=7.54.
+2020-01-01 17:38:24,449 -       Initializing FirEngraver.
+2020-01-01 17:38:24,494 -       FirEngraver: Epidemic Activated (Simulate).
+2020-01-01 17:38:24,495 -       Calculating BDA Site Resource Dominance.
+2020-01-01 17:38:25,248 -       FirEngraver: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 17:38:25,323 -       FirEngraver: Calculating BDA SiteVulnerability.
+2020-01-01 17:38:25,442 -       FirEngraver: Disturb Sites.
+2020-01-01 17:38:25,586 -       FirEngraver: TotalSitesDamaged=1
+2020-01-01 17:38:25,694 -    Processing landscape for FirEngraver_Peak events ...
+2020-01-01 17:38:25,728 - WinterT=1.98890892857146.
+2020-01-01 17:38:25,729 - WinterT=10.1703689285715.
+2020-01-01 17:38:25,730 - WinterT=8.42912625000002.
+2020-01-01 17:38:25,730 - WinterT=5.33075794642859.
+2020-01-01 17:38:25,730 - WinterT=8.44568928571431.
+2020-01-01 17:38:25,731 -       FirEngraver_Peak: ClimateWaterDeficit=681.9, WinterT=7.54.
+2020-01-01 17:38:25,731 -       Initializing FirEngraver_Peak.
+2020-01-01 17:38:25,776 -       FirEngraver_Peak: Epidemic Activated (Simulate).
+2020-01-01 17:38:25,777 -       Calculating BDA Site Resource Dominance.
+2020-01-01 17:38:26,521 -       FirEngraver_Peak: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 17:38:26,596 -       FirEngraver_Peak: Calculating BDA SiteVulnerability.
+2020-01-01 17:38:26,638 -       FirEngraver_Peak: Disturb Sites.
+2020-01-01 17:38:26,781 -       FirEngraver_Peak: TotalSitesDamaged=0
+2020-01-01 17:38:26,782 -    Processing landscape for WPBR_chronic events ...
+2020-01-01 17:38:26,815 - WinterT=1.98890892857146.
+2020-01-01 17:38:26,816 - WinterT=10.1703689285715.
+2020-01-01 17:38:26,819 - WinterT=8.42912625000002.
+2020-01-01 17:38:26,819 - WinterT=5.33075794642859.
+2020-01-01 17:38:26,820 - WinterT=8.44568928571431.
+2020-01-01 17:38:26,820 -       WPBR_chronic: ClimateWaterDeficit=681.9, WinterT=7.54.
+2020-01-01 17:38:26,821 -       Initializing WPBR_chronic.
+2020-01-01 17:38:26,866 -       WPBR_chronic: Epidemic Activated (Simulate).
+2020-01-01 17:38:26,867 -       Calculating BDA Site Resource Dominance.
+2020-01-01 17:38:27,609 -       WPBR_chronic: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 17:38:27,684 -       WPBR_chronic: Calculating BDA SiteVulnerability.
+2020-01-01 17:38:27,727 -       WPBR_chronic: Disturb Sites.
+2020-01-01 17:38:27,867 -       WPBR_chronic: TotalSitesDamaged=3
+2020-01-01 17:38:27,975 -    Processing landscape for WPBR_high events ...
+2020-01-01 17:38:28,008 - WinterT=1.98890892857146.
+2020-01-01 17:38:28,009 - WinterT=10.1703689285715.
+2020-01-01 17:38:28,010 - WinterT=8.42912625000002.
+2020-01-01 17:38:28,010 - WinterT=5.33075794642859.
+2020-01-01 17:38:28,011 - WinterT=8.44568928571431.
+2020-01-01 17:38:28,011 -       WPBR_high: ClimateWaterDeficit=681.9, WinterT=7.54.
+2020-01-01 17:38:28,012 -       Initializing WPBR_high.
+2020-01-01 17:38:28,057 -       WPBR_high: Epidemic Activated (Simulate).
+2020-01-01 17:38:28,057 -       Calculating BDA Site Resource Dominance.
+2020-01-01 17:38:28,788 -       WPBR_high: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 17:38:28,863 -       WPBR_high: Calculating BDA SiteVulnerability.
+2020-01-01 17:38:28,906 -       WPBR_high: Disturb Sites.
+2020-01-01 17:38:29,058 -       WPBR_high: TotalSitesDamaged=3
+2020-01-01 17:38:29,156 -    Processing landscape for WPBR_low events ...
+2020-01-01 17:38:29,189 - WinterT=1.98890892857146.
+2020-01-01 17:38:29,190 - WinterT=10.1703689285715.
+2020-01-01 17:38:29,190 - WinterT=8.42912625000002.
+2020-01-01 17:38:29,191 - WinterT=5.33075794642859.
+2020-01-01 17:38:29,191 - WinterT=8.44568928571431.
+2020-01-01 17:38:29,192 -       WPBR_low: ClimateWaterDeficit=681.9, WinterT=7.54.
+2020-01-01 17:38:29,193 -       Initializing WPBR_low.
+2020-01-01 17:38:29,238 -       WPBR_low: Epidemic Activated (Simulate).
+2020-01-01 17:38:29,239 -       Calculating BDA Site Resource Dominance.
+2020-01-01 17:38:29,980 -       WPBR_low: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 17:38:30,060 -       WPBR_low: Calculating BDA SiteVulnerability.
+2020-01-01 17:38:30,102 -       WPBR_low: Disturb Sites.
+2020-01-01 17:38:30,246 -       WPBR_low: TotalSitesDamaged=7
+2020-01-01 17:38:30,345 -    Processing landscape for WPineBeetle events ...
+2020-01-01 17:38:30,379 - WinterT=1.98890892857146.
+2020-01-01 17:38:30,380 - WinterT=10.1703689285715.
+2020-01-01 17:38:30,380 - WinterT=8.42912625000002.
+2020-01-01 17:38:30,381 - WinterT=5.33075794642859.
+2020-01-01 17:38:30,381 - WinterT=8.44568928571431.
+2020-01-01 17:38:30,382 -       WPineBeetle: ClimateWaterDeficit=681.9, WinterT=7.54.
+2020-01-01 17:38:30,382 -       Initializing WPineBeetle.
+2020-01-01 17:38:30,427 -       WPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 17:38:30,428 -       Calculating BDA Site Resource Dominance.
+2020-01-01 17:38:31,183 -       WPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 17:38:31,260 -       WPineBeetle: Calculating BDA Neighborhood Resource Dominance.
+2020-01-01 17:46:30,682 -       WPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 17:46:30,727 -       WPineBeetle: Disturb Sites.
+2020-01-01 17:46:30,872 -       WPineBeetle: TotalSitesDamaged=212
+2020-01-01 17:46:30,985 -    Processing landscape for WPineBeetle events ...
+2020-01-01 17:46:31,020 - WinterT=1.98890892857146.
+2020-01-01 17:46:31,023 - WinterT=10.1703689285715.
+2020-01-01 17:46:31,024 - WinterT=8.42912625000002.
+2020-01-01 17:46:31,024 - WinterT=5.33075794642859.
+2020-01-01 17:46:31,024 - WinterT=8.44568928571431.
+2020-01-01 17:46:31,025 -       WPineBeetle: ClimateWaterDeficit=681.9, WinterT=7.54.
+2020-01-01 17:46:31,025 -       Initializing WPineBeetle.
+2020-01-01 17:46:31,070 -       WPineBeetle: Epidemic Activated (Simulate).
+2020-01-01 17:46:31,071 -       Calculating BDA Site Resource Dominance.
+2020-01-01 17:46:31,817 -       WPineBeetle: Calculating BDA Modified Site Resource Dominance.
+2020-01-01 17:46:31,897 -       WPineBeetle: Calculating BDA Neighborhood Resource Dominance.
+2020-01-01 17:54:22,392 -       WPineBeetle: Calculating BDA SiteVulnerability.
+2020-01-01 17:54:22,436 -       WPineBeetle: Disturb Sites.
+2020-01-01 17:54:22,585 -       WPineBeetle: TotalSitesDamaged=384
+2020-01-01 17:54:22,697 - Running NECN Succession ...
+2020-01-01 17:57:51,734 - Running Output Biomass ...
+2020-01-01 17:57:51,735 -    Writing total biomass map to biomass/TotalBiomass-10.img ...
+2020-01-01 17:57:52,558 -    Writing abiemagn biomass map to biomass/abiemagn-10.img ...
+2020-01-01 17:57:52,692 -    Writing pinupond biomass map to biomass/pinupond-10.img ...
+2020-01-01 17:57:52,832 -    Writing pinulamb biomass map to biomass/pinulamb-10.img ...
+2020-01-01 17:57:52,972 -    Writing abieconc biomass map to biomass/abieconc-10.img ...
+2020-01-01 17:57:53,111 -    Writing calodecu biomass map to biomass/calodecu-10.img ...
+2020-01-01 17:57:53,251 - Model run is complete.

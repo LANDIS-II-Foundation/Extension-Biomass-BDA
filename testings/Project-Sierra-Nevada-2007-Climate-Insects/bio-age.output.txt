@@ -1,0 +1,16 @@
+LandisData  "Biomass AgeClass"
+
+Timestep   10
+
+MapNames   output/spp-bio-age/{species}-{ageclass}-{timestep}.gis
+
+
+<<Parameters based on email from Wayne, March 14
+<<Note: breakpoints intended may not match exactly how they are implemented, as 100-150 is equivalent to >=100 AND <150; and >200 is equivalent to >=200
+
+
+Species querkelo ageclass1(50-100) agclass3(>100)
+
+pinupond ageclass1(75-150) ageclass4(>150)
+pseumenz ageclass1(75-150) ageclass4(>150)
+abieconc ageclass1(75-150) ageclass4(>150)

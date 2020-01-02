@@ -1,0 +1,10106 @@
+LandisData "Initial Communities"
+
+MapCode 0
+
+MapCode 7000
+cercmont 5
+
+>> MapCodes 9000+ and 10000+ are used to identify recent logging in the Stanislaus NF, data provided by Joe Sherlock
+
+MapCode 9000  << Clearcut in 2000
+cercmont 7
+
+MapCode 9001  << Clearcut in 2001
+cercmont 6
+
+MapCode 9002  << Clearcut in 2002
+cercmont 5
+
+MapCode 9003  << Clearcut in 2003
+cercmont 4
+
+MapCode 9004  << Clearcut in 2004
+cercmont 3
+
+MapCode 9005  << Clearcut in 2005
+cercmont 2
+
+MapCode 9992  << Clearcut in 1992
+cercmont 15
+
+MapCode 9993  << Clearcut in 1993
+cercmont 14
+
+MapCode 9994  << Clearcut in 1994
+cercmont 13
+
+MapCode 9995  << Clearcut in 1995
+cercmont 12
+
+MapCode 9996  << Clearcut in 1996
+cercmont 11
+
+MapCode 9997  << Clearcut in 1997
+cercmont 10
+
+MapCode 9998  << Clearcut in 1998
+cercmont 9
+
+MapCode 9999  << Clearcut in 1999
+cercmont 8
+
+MapCode 10001	<< Alternative treatment that looks like a clearcut, 2001
+cercmont 6
+
+MapCode 10002	<< Alternative treatment that looks like a clearcut, 2002
+cercmont 5
+
+MapCode 10003	<< Alternative treatment that looks like a clearcut, 2003
+cercmont 4
+
+MapCode 10004	<< Alternative treatment that looks like a clearcut, 2004
+cercmont 3
+
+MapCode 10005	<< Alternative treatment that looks like a clearcut, 2005
+cercmont 2
+
+MapCode 11  <<size class 1
+cercmont 5 75
+
+MapCode 12  <<size class 2
+cercmont 5 75
+
+MapCode 13  <<size class 3
+cercmont 5 75
+
+MapCode 14  <<size class 4
+cercmont 5 15 100
+
+MapCode 15  <<size class 5
+cercmont 5 15 100
+
+MapCode 21  <<size class 1
+adenfasc 60
+
+MapCode 22  <<size class 2
+adenfasc 60
+
+MapCode 23  <<size class 3
+adenfasc 60
+
+MapCode 24  <<size class 4
+adenfasc 75
+
+MapCode 25  <<size class 5
+adenfasc 75
+
+MapCode 31
+anngrass 5
+
+MapCode 32
+anngrass 5
+
+MapCode 33
+anngrass 5
+
+MapCode 34
+anngrass 5
+
+MapCode 35
+anngrass 5
+
+MapCode 41
+riparian 5
+
+MapCode 42
+riparian 20
+
+MapCode 43
+riparian 5 20 45
+
+MapCode 44
+riparian 5 20 40 60 90
+
+MapCode 45
+riparian 5 20 40 60 80 100 130 
+
+MapCode   8000
+abieconc   80
+pinujeff   30  40 100 120 
+sequgiga   20  30  40 200 500 1000
+
+MapCode   8001
+abieconc   40  60  70  80 100 110 130 140 150 160 170 210
+calodecu   50 100 130 220
+pinulamb   60  80 120 130 150 170 180 190
+sequgiga   50 100 200 500 900
+
+MapCode   8002
+abieconc   10  30  40  50  70  80  90 100 110 130 140 150 160 190 200
+calodecu  110 120 130 140 180
+pinulamb   90 120 150 180
+pinupond  210
+sequgiga  190 500 800 1200 1800
+
+MapCode   8003
+abieconc   40  60  70  80 100 110 130 140 150 160 170 210
+calodecu   50 100 130 220
+pinulamb   60  80 120 130 150 170 180 190
+sequgiga   50 100 200 500 900
+
+MapCode   8004
+abieconc   10  30  40  50  70  80  90 100 110 130 140 150 160 190 200
+calodecu  110 120 130 140 180
+pinulamb   90 120 150 180
+pinupond  210
+sequgiga  190 500 800 1200 1800
+
+MapCode   8005
+abieconc   40  60  70  80 100 110 130 140 150 160 170 210
+calodecu   50 100 130 220
+pinulamb   60  80 120 130 150 170 180 190
+sequgiga   50 100 200 500 900
+
+MapCode   8006
+abieconc   10  30  40  50  70  80  90 100 110 130 140 150 160 190 200
+calodecu  110 120 130 140 180
+pinulamb   90 120 150 180
+pinupond  210
+sequgiga  190 500 800 1200 1800
+
+MapCode   8007
+abieconc   40  60  70  80 100 110 130 140 150 160 170 210
+calodecu   50 100 130 220
+pinulamb   60  80 120 130 150 170 180 190
+sequgiga   50 100 200 500 900
+
+MapCode   8008
+abieconc   10  30  40  50  70  80  90 100 110 130 140 150 160 190 200
+calodecu  110 120 130 140 180
+pinulamb   90 120 150 180
+pinupond  210
+sequgiga  190 500 800 1200 1800
+
+MapCode   8009
+abieconc   40  60  70  80 100 110 130 140 150 160 170 210
+calodecu   50 100 130 220
+pinulamb   60  80 120 130 150 170 180 190
+sequgiga   50 100 200 500 900
+
+MapCode   8010
+abieconc   10  30  40  50  70  80  90 100 110 130 140 150 160 190 200
+calodecu  110 120 130 140 180
+pinulamb   90 120 150 180
+pinupond  210
+sequgiga  190 500 800 1200 1800 
+
+MapCode   8011
+abieconc   10  30  40  50  70  80  90 100 110 130 140 150 160 190 200
+calodecu  110 120 130 140 180
+pinulamb   90 120 150 180
+pinupond  210
+sequgiga  190 500 800 1200 1800 
+
+
+MapCode    1
+
+
+MapCode    51
+abieconc     5
+
+MapCode    52
+abieconc     5   15   20
+
+MapCode    53
+abieconc     5   25   35   40
+
+MapCode    54
+abieconc    10   30   35   55   75   85   90
+
+MapCode    55
+abieconc     5   55   70   75   80   90  100  105  110  140  150  155  165  185  205  210  220  225  235  240  255  265  270  295  320  340  345  365  385  395  400
+pinulamb    25   45
+
+MapCode    61
+pinujeff     5
+
+MapCode    62
+pinujeff    20
+
+MapCode    63
+pinujeff    40
+
+MapCode    64
+pinujeff    90
+
+MapCode    65
+abieconc     5
+pinujeff     5   10   25   70  110  145  235  290  450
+
+MapCode    71
+pinujeff     5
+
+MapCode    72
+pinujeff    20
+
+MapCode    73
+pinujeff    40
+
+MapCode    74
+pinujeff    90
+
+MapCode    75
+pinujeff     5   25   35   60   80  400
+
+MapCode    81
+pinulamb     5
+
+MapCode    82
+pinulamb    20
+
+MapCode    83
+pinulamb    40
+
+MapCode    84
+abieconc    40
+pinulamb    90
+
+MapCode    85
+abieconc     5   10   25   90  155  185  220  260  265  275  295  330  345  400
+calodecu    95
+pinulamb    15  450
+
+MapCode    91
+querkelo     5
+
+MapCode    92
+querkelo    30
+
+MapCode    93
+querkelo    20   70
+
+MapCode    94
+querkelo    10   15   30   35   50   55  140  190
+
+MapCode   101
+pinujeff     5
+
+MapCode   102
+pinujeff     5   15   20   30
+querchry     5   10
+querkelo     5
+
+MapCode   103
+pinujeff    36   40   45   55   60   70
+querchry    40   45   50
+querkelo    40   45
+
+MapCode   104
+pinujeff     1    5   10   20   25   35
+querchry     5   10   15
+querkelo     5   10
+
+MapCode   111
+calodecu     5
+
+MapCode   112
+calodecu    30
+
+MapCode   113
+calodecu    70
+
+MapCode   114
+calodecu   160
+
+MapCode   115
+abieconc     5   25
+calodecu     5  500
+querchry     1    5   45  250
+querkelo     5   10   15   20   30   40   45   65  235  255  300
+
+MapCode   121
+calodecu     5
+
+MapCode   122
+calodecu    20
+
+MapCode   123
+calodecu    40
+
+MapCode   124
+calodecu    45   90
+
+MapCode   125
+calodecu     5   10   15   90  100  140  245  455  500
+pinupond    90  125  140  210  220  310  350
+
+MapCode   131
+abiemagn     5
+
+MapCode   132
+abiemagn    20
+
+MapCode   133
+abiemagn    40
+
+MapCode   134
+abiemagn    20  100
+
+MapCode   135
+abiemagn     1    5   10   40   45   50   55   65   70   75   80  100  105  115  125  160  170  190  205  210  260  295  320  400
+pinumont    55   95  105  155
+
+MapCode   141
+pinujeff     5
+
+MapCode   142
+pinujeff    20
+
+MapCode   143
+pinujeff    20   40
+
+MapCode   144
+abieconc    40
+abiemagn    40
+pinujeff    25   70   90
+pinulamb     5
+
+MapCode   145
+abieconc     5  400
+abiemagn     1    5   50  400
+pinujeff     1    5   15   25   60  115  120  125  210  355  385  430  450
+pinulamb   365
+
+MapCode   151
+calodecu     5
+
+MapCode   152
+calodecu    20
+
+MapCode   153
+calodecu    40
+
+MapCode   154
+calodecu    90
+pinujeff    40
+pinulamb    40
+
+MapCode   155
+abieconc     1    5   10   20   25  125  300  400
+calodecu   100  180  365  500
+pinujeff    10   20  125  135  450
+pinulamb    10   50  110  125  130  370  450
+pinupond    25  195  350
+querchry    35
+querkelo     5
+
+MapCode   161
+juniocci     5
+
+MapCode   162
+juniocci    20
+
+MapCode   163
+juniocci    50
+querchry    10
+
+MapCode   164
+juniocci   110
+querchry    70
+
+MapCode   165
+juniocci    55
+querchry    15
+
+MapCode   171
+pinulamb     5
+
+MapCode   172
+pinulamb    20
+
+MapCode   173
+pinulamb    40
+
+MapCode   174
+pinulamb    90
+
+MapCode   175
+abieconc     1    5   15   25   45   55   75   80  255
+abiemagn     5   35   60   85
+pinulamb     1  190  450
+
+MapCode   181
+pinupond     5
+
+MapCode   182
+pinupond    30
+
+MapCode   183
+pinupond    70
+
+MapCode   184
+pinupond   160
+
+MapCode   185
+pinupond   115  280
+querchry    10   15   20   25
+querkelo     5   10   15   70
+
+MapCode   191
+querkelo     5
+
+MapCode   192
+pinupond    10
+querkelo    20
+
+MapCode   193
+pinupond    30
+querkelo    40
+
+MapCode   194
+calodecu    45
+pinupond    25   80
+querkelo    90
+
+MapCode   195
+calodecu     1    5   15   20   30   50  105
+pinulamb     1    5
+pinupond     1    5   40   55   60   85  140
+querkelo     1    5   15   45  150
+
+MapCode   201
+pinujeff     5
+
+MapCode   202
+pinujeff    30
+
+MapCode   203
+pinujeff    70
+
+MapCode   204
+pinujeff   160
+querkelo    10
+
+MapCode   205
+pinujeff   450
+>>pinusabi   145  160
+querchry    10   35   65
+querkelo     5   20   85  300
+
+MapCode   211
+querkelo     5
+
+MapCode   212
+querkelo    30
+
+MapCode   213
+querkelo    70
+
+MapCode   214
+pinupond    80
+querkelo    25  160
+
+MapCode   215
+pinupond   220
+querchry    30
+querkelo    10   25   35   40   95  135  165  300
+
+MapCode   221
+pinujeff     5
+pinulamb     5
+
+MapCode   222
+pinujeff    20
+pinulamb    20
+
+MapCode   223
+pinujeff    40
+pinulamb    40
+
+MapCode   224
+pinujeff    90
+pinulamb    90
+
+MapCode   225
+abieconc     1    5
+abiemagn     1
+pinujeff     1  450
+pinulamb     5   35   60   65  190  450
+
+MapCode   231
+querkelo     5
+
+MapCode   232
+querkelo    30
+
+MapCode   233
+querkelo    70
+
+MapCode   234
+querkelo   160
+
+MapCode   235
+calodecu     5   75
+pinupond    70   80
+querkelo     5   10   40  300
+
+MapCode   241
+calodecu     5
+
+MapCode   242
+calodecu    20
+
+MapCode   243
+calodecu    40
+
+MapCode   244
+calodecu    90
+pinulamb    40
+
+MapCode   245
+abieconc     1    5   10   15   20   40   75   85   90  165  245  250  280  400
+calodecu     5   10  130  500
+pinulamb     1    5   55  150  310  450
+pinupond     5  130  350
+querkelo    15
+
+MapCode   251
+calodecu     5
+
+MapCode   252
+calodecu    20
+
+MapCode   253
+calodecu    40
+
+MapCode   254
+calodecu    90
+
+MapCode   255
+calodecu     1    5   10  500
+pinulamb     1    5   15
+pinupond     1    5   10   15   20   35  350
+querchry     1    5   10   15   65  225
+
+MapCode   261
+pinulamb     5
+
+MapCode   262
+pinulamb    20
+
+MapCode   263
+pinulamb    40
+
+MapCode   264
+abieconc    40
+abiemagn    40
+pinulamb    90
+
+MapCode   265
+abieconc     5   10   65   70   80   90  125  135  180  210  215  225  235  400
+abiemagn    45  400
+pinulamb     5   20  120  160  450
+
+MapCode   271
+pinujeff     5
+
+MapCode   272
+pinujeff    20
+
+MapCode   273
+pinujeff    40
+
+MapCode   274
+abieconc    40
+abiemagn    40
+pinujeff    90
+
+MapCode   275
+abieconc     5   10   15   75   90  110  115  165  185  235  260  265  345  400
+abiemagn    80   85  400
+pinujeff    10   60  450
+
+MapCode   281
+pinucont     5
+
+MapCode   282
+pinucont    25
+
+MapCode   283
+pinucont    15   60
+
+MapCode   284
+pinucont    85  130
+
+MapCode   285
+abiemagn     1    5   20
+pinucont     5   10   20  105  150
+
+MapCode   291
+querchry     5
+
+MapCode   292
+pinujeff    10
+pinulamb    10
+querchry     6   15   20
+
+MapCode   293
+pinujeff    30
+pinulamb    30
+querchry    26   35   40
+
+MapCode   294
+pinujeff     5
+pinulamb     5
+querchry     1   10   15
+
+MapCode   301
+abieconc     5
+abiemagn     5
+
+MapCode   302
+abieconc    20
+abiemagn    20
+
+MapCode   303
+abieconc    40
+abiemagn     5   40
+
+MapCode   304
+abieconc   100
+abiemagn    65  100
+
+MapCode   305
+abieconc     1   10   20  400
+abiemagn     1    5   10   15   90  100  120  135  155  170  185  205  215  220  230  365  400
+pinucont    65  150
+
+MapCode   311
+abiemagn     5
+pinumont     5
+
+MapCode   312
+abiemagn    20
+pinumont    20
+
+MapCode   313
+abiemagn    40
+pinumont    40
+
+MapCode   314
+abiemagn    90
+pinumont    90
+
+MapCode   315
+abiemagn     1    5   10   15  110  165  235  400
+pinucont     5   10   15   20   30   40  135  150
+pinumont   400
+
+MapCode   321
+pinuflex     5
+
+MapCode   322
+pinuflex    20
+
+MapCode   323
+pinuflex    40
+
+MapCode   324
+pinuflex    90
+
+MapCode   325
+abiemagn     1    5   40   55   60   65   75   80  150  265  275  310  340  350  400
+pinucont     5   10   15   20  150
+pinuflex   310 1000
+tsugmert   135  320  600
+
+MapCode   331
+pinucont     5
+
+MapCode   332
+pinucont    25
+
+MapCode   333
+pinucont    10   60
+
+MapCode   334
+pinucont    80  130
+
+MapCode   335
+abiemagn     5
+pinucont     1    5   10   15   20  100  150
+
+MapCode   341
+pinucont     5
+
+MapCode   342
+pinucont    25
+
+MapCode   343
+pinucont    60
+
+MapCode   344
+pinucont   130
+
+MapCode   345
+pinucont   150
+
+MapCode   351
+pinualbi     5
+
+MapCode   352
+pinualbi    20
+
+MapCode   353
+pinualbi    50
+
+MapCode   354
+pinualbi    95
+
+MapCode   355
+pinualbi    35   60  600
+
+MapCode   361
+querchry     5
+
+MapCode   362
+querchry    15   30
+
+MapCode   363
+querchry    55   70
+
+MapCode   364
+querchry    10   15   20   25   30   40   60  115  235  250
+
+MapCode   371
+>>pinusabi     5
+
+MapCode   372
+>>pinusabi    30
+
+MapCode   373
+>>pinusabi    70
+
+MapCode   374
+>>pinusabi   160
+querchry     5   10   15   20   25
+
+MapCode   375
+>>pinusabi    15  175
+querchry     5   10   15   20   25   30   35   40
+
+MapCode   381
+querchry     5
+
+MapCode   382
+querchry    10   20   30
+
+MapCode   383
+querchry    10   20   30
+
+MapCode   391
+querdoug     5
+
+MapCode   392
+querdoug    30
+
+MapCode   393
+querdoug    70
+
+MapCode   394
+querdoug   160
+
+MapCode   395
+querdoug   250
+querwisl    10   15   20   25   45   50   55
+
+MapCode   401
+querchry     5
+
+MapCode   402
+querchry    15   20
+
+MapCode   403
+querchry    35   40
+
+MapCode   404
+abieconc    25
+pinujeff    15
+querchry    75   80
+
+MapCode   405
+abieconc     5   60
+pinujeff    50
+querchry    10   15   20   25   30   35  110  115
+
+MapCode   411
+abieconc     5
+
+MapCode   412
+abieconc    20
+
+MapCode   413
+abieconc    15   40
+
+MapCode   414
+abieconc    20   65   90
+
+MapCode   415
+abieconc     5   10   25  110  155  180
+pinujeff     5   45   55   65   75
+querkelo     5   10
+
+MapCode   421
+>>pinusabi     5
+
+MapCode   422
+>>pinusabi    30
+
+MapCode   423
+>>pinusabi    70
+querwisl    35   40
+
+MapCode   424
+>>pinusabi    50
+querwisl    15   20
+
+MapCode   431
+>>pinusabi     5
+
+MapCode   432
+>>pinusabi    20
+
+MapCode   433
+>>pinusabi    40
+
+MapCode   434
+>>pinusabi   110
+querwisl    70
+
+MapCode   441
+querdoug     5
+
+MapCode   442
+querdoug    30
+
+MapCode   443
+querdoug    70
+
+MapCode   444
+querdoug   160
+
+MapCode   445
+querdoug   250
+querwisl     1    5   10
+
+MapCode   451
+calodecu     5
+querkelo     5
+
+MapCode   452
+calodecu    20   25   30
+querkelo    25   30
+
+MapCode   453
+calodecu    60   65   70
+querkelo    65   70
+
+MapCode   454
+calodecu     5   10   15
+querkelo    10   15
+
+MapCode   461
+pinupond     5
+
+MapCode   462
+pinupond    20
+
+MapCode   463
+pinupond    40
+
+MapCode   464
+pinupond    80
+
+MapCode   465
+calodecu     5   10   75  140  255
+pinupond   110  350
+querkelo     1    5   10
+
+MapCode   471
+pinujeff     5
+
+MapCode   472
+pinujeff    20
+
+MapCode   473
+pinujeff    20   40
+
+MapCode   474
+pinujeff     5   10   70   90
+
+MapCode   475
+abieconc     5
+pinujeff    70  105  110  170  190
+
+MapCode   481
+abieconc     5
+
+MapCode   482
+abieconc    15   20
+
+MapCode   483
+abieconc    35   40
+
+MapCode   484
+abieconc    85   90
+
+MapCode   485
+abieconc     1    5   10   15   20   30   35   45   70   85   95  115  120  175  200  395  400
+calodecu     1    5   10   25
+pinulamb     5   45  255
+pinupond     5
+
+MapCode   491
+calodecu     5
+
+MapCode   492
+calodecu    20
+
+MapCode   493
+calodecu    40
+
+MapCode   494
+calodecu    80
+
+MapCode   495
+calodecu     5   95  130  500
+pinupond     1    5  125  350
+querchry     1    5   20   30   70  205  250
+querkelo     5   10
+
+MapCode   501
+abieconc     5
+abiemagn     5
+
+MapCode   502
+abieconc    20
+abiemagn    20
+
+MapCode   503
+abieconc    40
+abiemagn    40
+
+MapCode   504
+abieconc    90
+abiemagn    90
+
+MapCode   505
+abieconc     1    5   10   15   20   25   45  145  165  185  285  400
+abiemagn    75  175  220  400
+pinucont   150
+
+MapCode   511
+abieconc     1    5
+
+MapCode   512
+abieconc     1   20
+
+MapCode   513
+abieconc     1    5
+
+MapCode   514
+abieconc     1
+
+MapCode   515
+abieconc     1
+
+MapCode   521
+querdoug     5
+
+MapCode   522
+querdoug    20
+
+MapCode   523
+querdoug    50
+
+MapCode   524
+querdoug    20   95
+querwisl    45
+
+MapCode   525
+querdoug     5   10   15  175  250
+querwisl    10   15   80  155  200
+
+MapCode   531
+pinulamb     5
+
+MapCode   532
+pinulamb    20
+
+MapCode   533
+pinulamb    40
+
+MapCode   534
+pinulamb    90
+
+MapCode   535
+abieconc     5   10
+calodecu     5   10
+pinulamb     1    5  100
+
+MapCode   541
+calodecu     5
+
+MapCode   542
+calodecu    20
+
+MapCode   543
+calodecu    40
+
+MapCode   544
+calodecu    90
+
+MapCode   545
+abieconc     5   20
+calodecu     5   10   30   95  240  245  500
+pinulamb     1    5  120  190
+
+MapCode   551
+calodecu     5
+
+MapCode   552
+calodecu    20
+
+MapCode   553
+calodecu    40
+
+MapCode   554
+calodecu    90
+pinujeff    40
+
+MapCode   555
+abieconc     1    5   10   15   20   30   35   45   80   95  100  105  115  130  165  200  275  280  330  400
+abiemagn     5   25   40   70  170  200  260  265  320  400
+calodecu     5   90  135  500
+pinujeff   450
+pinulamb    20
+
+MapCode   561
+pinucont     5
+
+MapCode   562
+pinucont    25
+
+MapCode   563
+pinucont    60
+
+MapCode   564
+pinucont     5   10   15   20   40   50   70  130
+
+MapCode   565
+pinucont     1    5   10   15   20   25   30   35   40   60   70   90  150
+
+MapCode   571
+pinujeff     5
+
+MapCode   572
+pinujeff    20
+
+MapCode   573
+pinujeff    40
+
+MapCode   574
+abieconc    40
+pinujeff    90
+
+MapCode   575
+abieconc     1    5   10   20   35   95  125  155  400
+pinucont     5   15   25   45   85  150
+pinujeff     5   10   40   65  200  245  320  345  450
+poputrem     5
+
+MapCode   581
+querwisl     5
+
+MapCode   582
+querwisl    20
+
+MapCode   583
+querwisl    40
+
+MapCode   584
+querwisl     5   80
+
+MapCode   585
+calodecu     1    5
+pinupond     1    5   10
+querkelo    70
+querwisl    10   15   20   35   45   60   70  105  125  200
+
+MapCode   591
+abieconc     5
+
+MapCode   592
+abieconc    20
+
+MapCode   593
+abieconc    40
+
+MapCode   594
+abieconc    90
+
+MapCode   595
+abieconc    85  300
+pinucont     5   10   65
+pinujeff    35   65   75
+
+MapCode   601
+abiemagn     5
+
+MapCode   602
+abiemagn    15   20
+
+MapCode   603
+abiemagn    35   40
+
+MapCode   604
+abiemagn    95  100
+
+MapCode   605
+abiemagn     1    5   10   25   35   45   55   60   65   95  110  125  195  255  260  285  395  400
+pinumont   190
+
+MapCode   611
+>>pinusabi     5
+
+MapCode   612
+>>pinusabi    20
+
+MapCode   613
+>>pinusabi    50
+
+MapCode   614
+>>pinusabi    95
+
+MapCode   615
+>>pinusabi   200
+
+MapCode   621
+pinupond     1
+querchry     5
+
+MapCode   622
+pinupond     1
+querchry     5   30
+
+MapCode   623
+pinupond     1    5
+querchry    20   45   70
+
+MapCode   624
+pinupond     1
+
+MapCode   625
+pinupond     1
+
+MapCode   631
+calodecu     5
+
+MapCode   632
+calodecu    20
+
+MapCode   633
+calodecu    40
+
+MapCode   634
+calodecu    90
+
+MapCode   635
+calodecu   110
+
+MapCode   641
+abiemagn     5
+pinumont     5
+
+MapCode   642
+abiemagn    10   20
+pinumont    20
+
+MapCode   643
+abiemagn    30   40
+pinumont    40
+
+MapCode   644
+abiemagn    20   80   90
+pinumont    90
+
+MapCode   645
+abiemagn    35   45   50   60  155  160  175  295  305  330  390  400
+pinucont     5   10   15   40   50   65   90  150
+pinumont   300  400
+
+MapCode   651
+pinujeff     5
+
+MapCode   652
+pinujeff    20
+
+MapCode   653
+pinujeff    40
+
+MapCode   654
+pinujeff    90
+
+MapCode   655
+abieconc    10  105  170
+abiemagn     5   40   65   75  120  125
+pinujeff   450
+
+MapCode   661
+abiemagn     5
+
+MapCode   662
+abiemagn    20
+
+MapCode   663
+abiemagn    40
+
+MapCode   664
+abiemagn    50  100
+
+MapCode   665
+abieconc     5
+abiemagn     5   10   35   40   50   55   65   70   80  105  115  125  135  150  155  170  180  185  245  250  260  350  400
+pinulamb    45   60   80  240
+pinumont    40
+
+MapCode   671
+pinucont     5
+
+MapCode   672
+pinucont    25
+
+MapCode   673
+pinucont     5   15   60
+
+MapCode   674
+pinucont    45   50   55   75   85  130
+
+MapCode   675
+pinucont     1    5   10   65   70   75   95  105  150
+
+MapCode   681
+pinucont     5
+
+MapCode   682
+pinucont    25
+
+MapCode   683
+pinucont    60
+
+MapCode   684
+pinucont    60  130
+
+MapCode   685
+pinucont     1    5   20   80  150
+
+MapCode   691
+tsugmert     5
+
+MapCode   692
+tsugmert    25
+
+MapCode   693
+tsugmert    60
+
+MapCode   694
+tsugmert    20  130
+
+MapCode   695
+abiemagn   400
+pinucont     1    5   10   35   40   45   50   60   80  110  150
+pinumont    80   85  320  400
+tsugmert     1    5  140  150  170  205  210  230  250  450  490  600
+
+MapCode   701
+pinucont     5
+
+MapCode   702
+pinucont    25
+
+MapCode   703
+pinucont    60
+
+MapCode   704
+pinucont     5   10   45  130
+
+MapCode   705
+pinucont     1    5   10   15   25   30   65  150
+
+MapCode   711
+calodecu     5
+
+MapCode   712
+calodecu    20
+
+MapCode   713
+calodecu    40
+
+MapCode   714
+calodecu    90
+
+MapCode   715
+calodecu   110  185  500
+pinulamb     5
+pinupond     5   80  110  115  150  165  185  205  310  340  345  350
+querkelo     5   10   15   25  300
+
+MapCode   721
+pinupond     5
+
+MapCode   722
+pinupond    20
+
+MapCode   723
+pinupond    40
+
+MapCode   724
+pinupond    15   20   30   90
+
+MapCode   725
+calodecu    10   25
+pinupond     5   75   85  170  175  185  245
+
+MapCode   731
+pinupond     5
+
+MapCode   732
+pinupond    20
+
+MapCode   733
+pinupond    40
+
+MapCode   734
+pinupond    90
+
+MapCode   735
+abieconc     5
+pinujeff   175
+pinulamb     1    5   10   25   35   40   45   50   60  115  125  185
+pinupond     5   20   45   90   95  155  285
+querkelo   150
+
+MapCode   741
+abiemagn     5
+
+MapCode   742
+abiemagn    25
+
+MapCode   743
+abiemagn    60
+
+MapCode   744
+abiemagn   130
+
+MapCode   745
+abiemagn     5   10   45   55  400
+pinucont     5   40   60   70   85  150
+
+MapCode   752
+abiemagn    20
+pinumont     5   20
+
+MapCode   753
+abiemagn    50
+pinumont     5   35   50
+
+MapCode   754
+abiemagn   110
+pinumont    15   65   95  110
+
+MapCode   755
+abiemagn     5   10   35  115  140  205  400
+pinucont     5   10   15   20   25   30
+pinumont     5   10   45   50   65  130  305  355  385  400
+
+MapCode   761
+querchry     5
+
+MapCode   762
+querchry     5   15   20
+
+MapCode   763
+querchry     5   25   35   40
+
+MapCode   764
+calodecu     5
+pinulamb     1    5
+pinupond     5
+querchry    10   15   35   55   65   70
+querkelo     5   10   15
+
+MapCode   771
+pinupond     5
+
+MapCode   772
+pinupond    20
+
+MapCode   773
+pinupond    40
+
+MapCode   774
+juniocci    30
+pinupond    90
+
+MapCode   775
+juniocci     1    5   10   35  290
+pinupond     5   10   15   25  350
+
+MapCode   782
+pinualbi    20
+
+MapCode   783
+pinualbi    50
+
+MapCode   784
+pinualbi     1    5   10   15   20   25   30   40   50   60   70   75  130  135  205  420
+pinucont     5   40
+
+MapCode   791
+pinumont     5
+
+MapCode   792
+pinumont    25
+
+MapCode   793
+pinumont    60
+
+MapCode   794
+pinumont   130
+
+MapCode   795
+pinucont     5   10   15   20   35   40   55   70  110  130  150
+pinumont     5   10  400
+
+MapCode   801
+pinujeff     5
+
+MapCode   802
+pinujeff    20
+
+MapCode   803
+pinujeff    40
+
+MapCode   804
+pinujeff    90
+
+MapCode   805
+abieconc    40  155  190  225  255
+calodecu     5   85
+pinujeff     1    5   10  200  255  450
+
+MapCode   811
+pinujeff     5
+
+MapCode   812
+pinujeff    20
+
+MapCode   813
+pinujeff    40
+
+MapCode   814
+abieconc    40
+pinujeff    10   90
+
+MapCode   815
+abieconc     1    5   10   15   45   65   70   75   80   90   95  105  120  145  155  160  170  175  285  400
+pinucont     5   10   15   20   50  145
+pinujeff     5   10   50   55  100  105  160  370  450
+
+MapCode   822
+tsugmert    20
+
+MapCode   823
+tsugmert    50
+
+MapCode   824
+tsugmert   110
+
+MapCode   825
+pinucont     5   10   50  105  140  150
+pinumont     5   25   40   50   55   70   75   80   85   90   95  105  115  130  145  180  385  400
+tsugmert     5  170  180  205  275  600
+
+MapCode   831
+pinucont     5
+
+MapCode   832
+pinucont    25
+
+MapCode   833
+pinucont    25   60
+
+MapCode   834
+pinucont    10   95  130
+
+MapCode   835
+abieconc     5
+pinucont     1    5   30  115  150
+
+MapCode   841
+pinualbi     5
+
+MapCode   842
+pinualbi    25
+
+MapCode   843
+pinualbi    60
+
+MapCode   844
+pinualbi   130
+
+MapCode   845
+pinualbi     5   10   15   20   35   45  600
+pinucont     1    5   15   25   55  150
+tsugmert   140  175
+
+MapCode   852
+pinumont    20
+
+MapCode   853
+pinumont    50
+
+MapCode   854
+pinumont    16   20   25   35   40   45   60  110
+
+MapCode   855
+pinumont     1    5   10   20   25   30   45   95
+
+MapCode   861
+abiemagn     5
+
+MapCode   862
+abiemagn    20
+
+MapCode   863
+abiemagn    40
+
+MapCode   864
+abieconc    40
+abiemagn   100
+
+MapCode   865
+abieconc   340
+abiemagn     1    5   15   25   30   40   45   50   55   75  205  265  400
+
+MapCode   872
+abiemagn     5
+juniocci    20
+
+MapCode   873
+abiemagn     5
+juniocci    50
+
+MapCode   874
+abiemagn     5
+juniocci   110
+
+MapCode   875
+abiemagn     5   10   15   20   85  115  205  245  355  400
+juniocci  1000
+
+MapCode   881
+pinujeff     5
+
+MapCode   882
+pinujeff    15   20
+
+MapCode   883
+pinujeff    35   40
+
+MapCode   884
+pinujeff    85   90
+
+MapCode   885
+pinujeff    60   65
+
+MapCode   891
+abiemagn     5
+
+MapCode   892
+abiemagn    20
+
+MapCode   893
+abiemagn    10   40
+
+MapCode   894
+abiemagn    70  100
+
+MapCode   895
+abiemagn    20   35  230  260
+
+MapCode   902
+tsugmert    20
+
+MapCode   903
+tsugmert    50
+
+MapCode   904
+tsugmert   110
+
+MapCode   905
+abiemagn     5
+pinucont     5   10   15   60  150
+pinumont    10   65   75   85   95  105  140  400
+tsugmert     5   15  600
+
+MapCode   912
+juniocci    15
+pinumont    20
+
+MapCode   913
+juniocci    45
+pinumont    50
+
+MapCode   914
+juniocci   105
+pinumont   110
+
+MapCode   915
+abiemagn     5   15
+juniocci     5   10   45  100  190  395
+pinucont   150
+pinumont    90  400
+
+MapCode   921
+pinupond     5
+
+MapCode   922
+pinupond    10   20
+
+MapCode   923
+pinupond    11   15   20   30   40
+
+MapCode   924
+pinupond     1    5   10   20   30
+
+MapCode   931
+abieconc     1
+abiemagn     5
+
+MapCode   932
+abieconc     1    5   15
+abiemagn     1    5   10   20
+pinujeff     5
+
+MapCode   933
+abieconc     1   21   25   35
+abiemagn    21   25   30   40
+pinujeff    25
+
+MapCode   934
+abieconc     1    5   15
+abiemagn     1    5   10   20
+pinujeff     5
+
+MapCode   935
+abieconc     1
+
+MapCode   941
+calodecu     5
+
+MapCode   942
+calodecu    20
+
+MapCode   943
+calodecu    40
+
+MapCode   944
+calodecu    90
+pinulamb    35
+
+MapCode   945
+abieconc     5   10   15   25   45   50   55   70   85   95  100  115  145  355
+calodecu     5   10   15   40   50   60   85   95  105  115  130  180  445
+pinulamb    55   80  115  140  320  390
+
+MapCode   951
+calodecu     5
+
+MapCode   952
+calodecu    20
+
+MapCode   953
+calodecu    40
+
+MapCode   954
+calodecu    45   90
+pinujeff    40
+
+MapCode   955
+abieconc     1    5   10   15   25  120  315
+abiemagn    35   45
+calodecu     5   15   90  455  500
+pinujeff   450
+
+MapCode   961
+pinujeff     5
+
+MapCode   962
+pinujeff    20
+
+MapCode   963
+pinujeff    15   40
+
+MapCode   964
+abieconc    40
+pinujeff    50   65   90
+
+MapCode   965
+abieconc     5   85   90  110  295  400
+pinujeff    80  135  215  410  425  450
+
+MapCode   971
+pinujeff     5
+
+MapCode   972
+pinujeff    20
+
+MapCode   973
+pinujeff    40
+
+MapCode   974
+pinujeff    90
+
+MapCode   975
+abieconc     5   15  100  200
+juniocci     5   10   40
+pinujeff     1    5   10   30   45   50   60   70   75   80  105  300
+
+MapCode   981
+calodecu     5
+
+MapCode   982
+calodecu    20
+
+MapCode   983
+calodecu    40
+
+MapCode   984
+calodecu    90
+pinulamb    40
+
+MapCode   985
+abieconc     1    5   25   35   50   70  105  110  125  135  295  400
+calodecu     1    5   10   25  500
+pinulamb   450
+querchry    10   35
+querkelo    10   30
+
+MapCode   991
+abieconc     5
+
+MapCode   992
+abieconc    20
+
+MapCode   993
+abieconc    40
+
+MapCode   994
+abieconc    90
+pinujeff    20
+
+MapCode   995
+abieconc     1    5  120  275  290  400
+pinujeff     5   10   35   60   85   95  100  150  180  330
+
+MapCode  1001
+querdoug     5
+
+MapCode  1002
+querdoug    20
+
+MapCode  1003
+querdoug    50
+
+MapCode  1004
+querdoug    95
+
+MapCode  1005
+querdoug   250
+
+MapCode  1011
+pinupond     5
+
+MapCode  1012
+pinupond    20
+
+MapCode  1013
+pinupond    40
+
+MapCode  1014
+pinupond    90
+
+MapCode  1015
+pinujeff     1    5   10   15
+pinupond   125  350
+querkelo     1    5
+
+MapCode  1021
+pinujeff     5
+
+MapCode  1022
+pinujeff     5
+
+MapCode  1023
+pinujeff     5
+
+MapCode  1024
+pinujeff     5
+
+MapCode  1025
+pinujeff     5
+
+MapCode  1031
+calodecu     5
+
+MapCode  1032
+calodecu    20
+
+MapCode  1033
+calodecu    40
+
+MapCode  1034
+calodecu    90
+pinulamb    40
+
+MapCode  1035
+abieconc     1    5   15   30  135  185  285  400
+calodecu     1    5   10   15   85  215  500
+pinulamb     1   10   50  450
+pinupond     5   10   15   40   75   95  115  120  155  160  310  350
+
+MapCode  1041
+pinujeff     5
+
+MapCode  1042
+pinujeff    20
+
+MapCode  1043
+pinujeff    40
+
+MapCode  1044
+pinujeff    90
+
+MapCode  1045
+pinujeff    45
+
+MapCode  1051
+abieconc     5
+abiemagn     5
+pinumont     5
+
+MapCode  1052
+abieconc    20
+abiemagn    20
+pinumont    20
+
+MapCode  1053
+abieconc    40
+abiemagn    40
+pinumont    40
+
+MapCode  1054
+abieconc    90
+abiemagn    90
+pinumont    90
+
+MapCode  1055
+abieconc     1    5   10   15   35   90  105  125  170  400
+abiemagn     5  235  400
+pinumont    10   15  400
+
+MapCode  1061
+pinucont     5
+
+MapCode  1062
+pinucont    20   25
+
+MapCode  1063
+pinucont    55   60
+
+MapCode  1064
+pinucont     5   10   35   50  125  130
+
+MapCode  1065
+abiemagn     5
+pinucont     5   10   25   30   55   70  145  150
+pinumont     5
+
+MapCode  1071
+abieconc     5
+
+MapCode  1072
+abieconc    20
+
+MapCode  1073
+abieconc    40
+
+MapCode  1074
+abieconc    45   90
+
+MapCode  1075
+abieconc     5   10   15   25   55   80   95  105  135  355  400
+pinujeff     5   15   50   55   60   75
+pinulamb    95
+
+MapCode  1082
+juniocci    20
+
+MapCode  1083
+juniocci    50
+
+MapCode  1084
+juniocci   110
+
+MapCode  1085
+juniocci   645  790 1000
+pinucont   150
+pinujeff    75  160  405
+
+MapCode  1091
+pinujeff     5
+
+MapCode  1092
+pinujeff    20
+
+MapCode  1093
+pinujeff    40
+
+MapCode  1094
+abiemagn    40
+pinujeff    90
+
+MapCode  1095
+abiemagn   400
+juniocci     5
+pinujeff   175  450
+
+MapCode  1102
+>>pinubalf    20
+
+MapCode  1103
+>>pinubalf    50
+
+MapCode  1104
+>>pinubalf    35   50  110
+
+MapCode  1105
+>>pinubalf   115  185  195  285  405  435  485  625  725  740  800
+
+MapCode  1111
+pinujeff     5
+
+MapCode  1112
+pinujeff    25
+
+MapCode  1113
+pinujeff    60
+
+MapCode  1114
+pinujeff   130
+
+MapCode  1115
+juniocci   105
+pinucont     5   15   20   65  150
+pinujeff   450
+
+MapCode  1121
+abiemagn     5
+
+MapCode  1122
+abieconc     5   10
+abiemagn    20
+
+MapCode  1123
+abieconc    25   30
+abiemagn    40
+
+MapCode  1124
+abieconc     5   75   80
+abiemagn    90
+pinucont     5
+pinujeff     5
+
+MapCode  1125
+abieconc     1   10   80   85
+abiemagn     1    5   95
+pinucont    10
+pinujeff     1    5   10
+
+MapCode  1131
+querkelo     5
+
+MapCode  1132
+querkelo    30
+
+MapCode  1133
+querkelo     5
+
+MapCode  1141
+querwisl     5
+
+MapCode  1142
+querwisl    20   30
+
+MapCode  1143
+querwisl    10   20
+
+MapCode  1151
+querkelo     5
+
+MapCode  1152
+querkelo    20
+
+MapCode  1153
+querkelo    40
+
+MapCode  1154
+querkelo    80
+
+MapCode  1155
+calodecu     5   30   50
+pinupond   190
+querkelo     5   10   15   20  100  300
+
+MapCode  1161
+calodecu     5
+
+MapCode  1162
+calodecu    20
+
+MapCode  1163
+calodecu    10   40
+
+MapCode  1164
+calodecu    60   90
+
+MapCode  1165
+abieconc     1
+calodecu     1    5  230  245  250  470  500
+pinupond     1    5   25   45  180  255  270  350
+
+MapCode  1171
+calodecu     5
+
+MapCode  1172
+calodecu    20
+
+MapCode  1173
+calodecu    40
+
+MapCode  1174
+calodecu    90
+
+MapCode  1175
+calodecu     5   10   15   20   30   65   85  100  105  155  500
+pinupond     5   25   30  120
+querkelo   300
+
+MapCode  1181
+pinulamb     5
+
+MapCode  1182
+pinulamb    20
+
+MapCode  1183
+pinulamb    40
+
+MapCode  1184
+pinulamb    90
+
+MapCode  1185
+abieconc     5   10   15   20   25   35  135  140
+pinulamb    10  450
+pinupond     5   10   15  350
+
+MapCode  1191
+querchry     5
+
+MapCode  1192
+querchry     5   10   15   30
+querdoug    15
+
+MapCode  1193
+querchry    31   35   40   45   50   55   70
+querdoug    55
+querkelo    35   40
+
+MapCode  1194
+querchry     1    5   10   15   20   25   40
+querdoug    25
+querkelo     5   10
+
+MapCode  1201
+querchry     5
+
+MapCode  1202
+querchry    30
+
+MapCode  1203
+querchry    10   15   25   55
+querdoug    20
+
+MapCode  1211
+abieconc     5
+
+MapCode  1212
+abieconc    20
+
+MapCode  1213
+abieconc    40
+
+MapCode  1214
+abieconc    90
+
+MapCode  1215
+abieconc     1    5   65  340
+abiemagn     5
+calodecu     1    5   10   15   20  135  180
+pinupond   135  150  170
+
+MapCode  1221
+pinujeff     5
+
+MapCode  1222
+pinujeff    20
+
+MapCode  1223
+pinujeff    40
+
+MapCode  1224
+pinujeff    90
+
+MapCode  1225
+abieconc     5   35
+pinujeff     5   15   85  135  450
+
+MapCode  1231
+pinujeff     5
+
+MapCode  1232
+pinujeff    20
+
+MapCode  1233
+pinujeff    40
+
+MapCode  1234
+abieconc     5   40
+pinujeff    90
+
+MapCode  1235
+abieconc     1    5   10   55   65   70   75   85  105  110  125  165  180  200  205  210  270  300  365  400
+abiemagn    45
+juniocci     1    5
+pinujeff    50   55   80  120  190  450
+
+MapCode  1241
+pinulamb     5
+
+MapCode  1242
+pinulamb    20
+
+MapCode  1243
+pinulamb    40
+
+MapCode  1244
+abieconc    40
+pinulamb    90
+
+MapCode  1245
+abieconc     1    5   10   15   20   25   55   75   80   85  130  145  185  400
+calodecu     5  105
+pinulamb   450
+querkelo    10
+
+MapCode  1251
+abieconc     5
+abiemagn     5
+
+MapCode  1252
+abieconc    20
+abiemagn    20
+
+MapCode  1253
+abieconc    40
+abiemagn    40
+
+MapCode  1254
+abieconc   100
+abiemagn   100
+
+MapCode  1255
+abieconc    15   45   75  400
+abiemagn     1    5   15   50  400
+pinujeff     5
+
+MapCode  1261
+abiemagn     5
+
+MapCode  1262
+abiemagn    20
+
+MapCode  1263
+abiemagn    40
+
+MapCode  1264
+abiemagn    55  100
+
+MapCode  1265
+abiemagn     1    5   15   20   45   55   60   65   70   75   90   95  100  105  110  120  150  165  180  195  205  225  235  275  285  300  355  400
+pinumont    55  135
+
+MapCode  1271
+abieconc     5
+
+MapCode  1272
+abieconc    20
+
+MapCode  1273
+abieconc    40
+
+MapCode  1274
+abieconc    90
+abiemagn    10
+
+MapCode  1275
+abieconc     1    5   10   25  100  270  290  400
+abiemagn     5   10   15   20   35  110  205  320
+pinujeff   110
+pinulamb    45
+pinumont   140
+
+MapCode  1281
+abiemagn     5
+
+MapCode  1282
+abiemagn    20
+
+MapCode  1283
+abiemagn    20   40
+
+MapCode  1284
+abiemagn     5   10   60   80  100
+
+MapCode  1285
+abiemagn     1    5   10   15   20   25   40   45   50   60   65   70  110  115  120  130  140  150  155  165  200  240  285  305  310  360  380  400
+
+MapCode  1292
+juniocci    20
+
+MapCode  1293
+juniocci    50
+
+MapCode  1294
+juniocci   110
+
+MapCode  1295
+abiemagn     5   10   45   55  400
+juniocci    35   70  180 1000
+pinujeff     5   10   35   50   75
+pinumont   400
+
+MapCode  1301
+pinumont     5
+
+MapCode  1302
+pinumont    20
+
+MapCode  1303
+pinumont    20   40
+
+MapCode  1304
+pinumont    50   70   90
+
+MapCode  1305
+abiemagn     1    5   10   35   40   55   60   80  150
+pinumont    55   60   75   95  215  285  300  350  370  390
+
+MapCode  1311
+querdoug     5
+
+MapCode  1312
+querdoug    20
+
+MapCode  1313
+querdoug    50
+
+MapCode  1314
+querdoug    95
+
+MapCode  1315
+querdoug   250
+
+MapCode  1321
+abieconc     5
+
+MapCode  1322
+abieconc    20
+
+MapCode  1323
+abieconc    40
+
+MapCode  1324
+abieconc    15   90
+
+MapCode  1325
+abieconc     5   10   15   20   25   30   45   55  170  265  290  365
+pinujeff     5
+
+MapCode  1331
+abieconc     5
+
+MapCode  1332
+abieconc    20
+
+MapCode  1333
+abieconc    40
+
+MapCode  1334
+abieconc    90
+
+MapCode  1335
+abieconc     5   10   15   95  105  115  145  195  250  265  400
+
+MapCode  1341
+abiemagn     5
+pinumont     5
+
+MapCode  1342
+abiemagn    10   20
+pinumont    20
+
+MapCode  1343
+abiemagn    30   40
+pinumont    40
+
+MapCode  1344
+abiemagn    15   90  100
+pinumont   100
+
+MapCode  1345
+abiemagn     1    5   10   15   20   30   35   40   45   50   65   90  110  115  135  140  175  185  195  210  225  240  260  300  315  390  400
+pinumont     5  400
+
+MapCode  1351
+pinupond     5
+
+MapCode  1352
+pinupond    11   15   20
+
+MapCode  1353
+pinupond    31   35   40
+
+MapCode  1354
+pinupond     1    5   10
+
+MapCode  1361
+calodecu     5
+
+MapCode  1362
+calodecu    20
+
+MapCode  1363
+calodecu    40
+
+MapCode  1364
+calodecu    90
+pinulamb    40
+
+MapCode  1365
+abieconc     1    5   45   70   75   85   90   95  100  120  245  400
+calodecu     1    5   10   15   60   90  160  500
+pinulamb    90  100  450
+pinupond     5   10   95  240  350
+querkelo   300
+
+MapCode  1371
+pinumont     5
+
+MapCode  1372
+pinumont    25
+
+MapCode  1373
+pinumont    60
+
+MapCode  1374
+pinumont   130
+
+MapCode  1375
+pinucont     5   15   45  145  150
+pinumont   400
+
+MapCode  1381
+abieconc     5
+
+MapCode  1382
+abieconc    20
+
+MapCode  1383
+abieconc    40
+
+MapCode  1384
+abieconc    10   90
+
+MapCode  1385
+abieconc     1    5   10   20  125  250  320  400
+abiemagn    15   20  160  205
+pinulamb    40   50   55  180
+pseumenz    75   90  300
+
+MapCode  1391
+pinujeff     5
+
+MapCode  1392
+pinujeff    20
+
+MapCode  1393
+pinujeff    40
+
+MapCode  1394
+abieconc    40
+pinujeff    90
+
+MapCode  1395
+abieconc    15   60   85  100  145  155  400
+pinujeff    30   65   70  125  140  170  235  325  450
+
+MapCode  1401
+pinupond     5
+
+MapCode  1402
+pinupond     5   10   15   20
+
+MapCode  1403
+pinupond    25   30   35   40
+
+MapCode  1404
+pinupond     5   10   15   20
+
+MapCode  1411
+querchry     5
+
+MapCode  1412
+querchry    30
+
+MapCode  1413
+querchry    70
+
+MapCode  1414
+pinujeff    10   20
+querchry     1   10   15   20   30   45   60  250
+
+MapCode  1421
+querchry     5
+
+MapCode  1422
+querchry     5   10   15   20   25   30
+
+MapCode  1423
+querchry     5   10   15   20   25   30   35   40   45   50   55   60
+
+MapCode  1431
+calodecu     5
+
+MapCode  1432
+calodecu    20
+
+MapCode  1433
+calodecu    40
+
+MapCode  1434
+calodecu    90
+
+MapCode  1435
+abieconc     5   40   45   75   85   90  105  110  125  145  150  160  215  220  240  250  305  385  400
+calodecu     1    5   20   30  500
+pinulamb    30   35   65  145  150  180  200
+querkelo     5
+
+MapCode  1441
+calodecu     5
+
+MapCode  1442
+calodecu    20
+
+MapCode  1443
+calodecu    40
+
+MapCode  1444
+calodecu    90
+
+MapCode  1445
+calodecu     5   10   15   20   25   95  100  500
+pinulamb     1
+pinupond    15   20  120  135  160  170  200  220
+querchry    10   40
+querkelo    15   20  120  300
+
+MapCode  1451
+pinulamb     5
+
+MapCode  1452
+pinulamb    20
+
+MapCode  1453
+pinulamb    40
+
+MapCode  1454
+abieconc    20   40
+pinulamb    90
+
+MapCode  1455
+abieconc     1    5   10   20   40   80   85   90  100  160  270  275  295  380  400
+calodecu     1    5   10   20   35   55   85  105  120  160  285  290
+pinulamb     5   10   20   30   35   40   45   55   70   75  115  135  140  450
+querkelo     5
+
+MapCode  1461
+pinupond     5
+
+MapCode  1462
+pinupond    20
+querkelo     5
+
+MapCode  1463
+pinupond    40
+querkelo    25
+
+MapCode  1464
+pinupond    80
+querkelo    20   65
+
+MapCode  1465
+calodecu     1    5   10   15   20   40   90  160  165
+pinulamb    75
+pinupond    95  140  145  315
+querkelo    10   15   30   40   45   60   65  255  300
+
+MapCode  1471
+querchry     5
+
+MapCode  1472
+querchry     5   30
+
+MapCode  1473
+querchry    10   15   30   35   45   70
+
+MapCode  1474
+querchry     1   10   15   20   25   30   35   40   50   55   70   75   85  110
+
+MapCode  1481
+pinujeff     5
+
+MapCode  1482
+pinujeff    15   20
+
+MapCode  1483
+pinujeff     5   10   15   35   40
+
+MapCode  1484
+calodecu    40
+pinujeff    40   45   50   55   60   65   85   90
+
+MapCode  1485
+calodecu     5
+pinujeff     5   10   15   20   25   30   50   55
+
+MapCode  1491
+abieconc     5
+
+MapCode  1492
+abieconc    20
+
+MapCode  1493
+abieconc    40
+
+MapCode  1494
+abieconc    90
+pinupond    40
+
+MapCode  1495
+abieconc    35  105  155  165  190  400
+pinulamb     5   25
+pinupond    10   15   20   25   85   95  110  135  240  250  265  350
+
+MapCode  1501
+pinucont     5
+
+MapCode  1502
+pinucont    25
+
+MapCode  1503
+pinucont    60
+
+MapCode  1504
+pinucont   130
+
+MapCode  1505
+pinucont     1    5   10   20  150
+
+MapCode  1511
+pinujeff     5
+
+MapCode  1512
+pinujeff    20
+
+MapCode  1513
+pinujeff    40
+
+MapCode  1514
+abieconc    40
+abiemagn    40
+pinujeff    90
+
+MapCode  1515
+abieconc    70   90  125  165  265  360  400
+abiemagn     1    5   10   15   20   50   55   60   65   95  105  110  160  165  400
+pinucont   150
+pinujeff   450
+
+MapCode  1521
+pinujeff     5
+
+MapCode  1522
+pinujeff    25
+
+MapCode  1523
+abieconc    10
+pinujeff    60
+
+MapCode  1524
+abieconc    80
+pinujeff    65  130
+
+MapCode  1525
+abieconc   110  400
+pinucont     5   10   20   25   40  150
+pinujeff   385  450
+
+MapCode  1531
+querkelo     1    5
+
+MapCode  1532
+querkelo     1
+
+MapCode  1533
+querkelo     1
+
+MapCode  1534
+querkelo     1
+
+MapCode  1535
+querkelo     1
+
+MapCode  1541
+calodecu     5
+
+MapCode  1542
+calodecu    20
+
+MapCode  1543
+calodecu    40
+
+MapCode  1544
+calodecu    90
+pinulamb    15   40
+
+MapCode  1545
+abieconc     1    5   10   35  140  400
+calodecu     1    5   10   15   20   25   40  130  140  175  500
+pinucont     5
+pinulamb     5   60   95  115  270  425  450
+
+MapCode  1551
+calodecu     5
+
+MapCode  1552
+calodecu    20
+
+MapCode  1553
+calodecu    40
+
+MapCode  1554
+calodecu    90
+
+MapCode  1555
+calodecu     1    5   10   60  155  500
+pinulamb     5   45
+pinupond     5   10   25   40  320  325  350
+
+MapCode  1561
+abieconc    15
+
+MapCode  1562
+abieconc    15
+pinupond    15
+
+MapCode  1563
+abieconc    15
+pinupond    35
+
+MapCode  1564
+abieconc    15
+pinupond    10
+
+MapCode  1565
+abieconc    15
+
+MapCode  1571
+calodecu     5
+
+MapCode  1572
+calodecu    20
+
+MapCode  1573
+calodecu    40
+
+MapCode  1574
+calodecu    90
+pinulamb    40
+
+MapCode  1575
+abieconc     1  400
+calodecu     1    5   10   15   25   30   45   90  110  120  175  190  245  255  400  500
+pinulamb    80  105  450
+pinupond   135  180  310  350
+querkelo     5   10  300
+
+MapCode  1581
+abieconc   150
+poputrem     5
+
+MapCode  1582
+abieconc   150
+pinucont     5
+poputrem    30
+
+MapCode  1583
+abieconc   150
+pinucont    35
+poputrem    60
+
+MapCode  1584
+abieconc   150
+abiemagn     5
+pinucont    45  105
+poputrem   130
+
+MapCode  1585
+abieconc   150
+abiemagn    50
+pinucont    10   15   20   90  150
+poputrem     1    5   10   40   45  175
+
+MapCode  1591
+pinujeff     5
+
+MapCode  1592
+pinujeff    20
+
+MapCode  1593
+pinujeff    40
+
+MapCode  1594
+pinujeff    90
+
+MapCode  1595
+abieconc     1    5   10   80
+calodecu     1    5   10   15   20   45
+pinujeff     5   20  215  245  450
+pinulamb     5
+pinupond     1   25  150  280  350
+querkelo     5   10   15
+
+MapCode  1601
+abiemagn     5
+pinumont     5
+
+MapCode  1602
+abiemagn    20
+pinumont    20
+
+MapCode  1603
+abiemagn     5   15   40
+pinumont    40
+
+MapCode  1604
+abiemagn    20   30   40   65   75  100
+pinumont   100
+
+MapCode  1605
+abiemagn     1    5   10   20   30   40   45   50   60   65   80   90  110  120  135  140  185  215  220  240  320  330  340  365  375  400
+pinumont    90  250  400
+tsugmert   160
+
+MapCode  1611
+querdoug     5
+
+MapCode  1612
+querdoug    20
+
+MapCode  1613
+querdoug    50
+
+MapCode  1614
+querdoug    95
+
+MapCode  1615
+>>pinusabi     5   10   15   20   25
+querdoug     5   10   15   20   35  250
+
+MapCode  1621
+>>pinusabi     5
+
+MapCode  1622
+>>pinusabi    20
+
+MapCode  1623
+>>pinusabi    50
+
+MapCode  1624
+>>pinusabi    95
+querdoug     5
+
+MapCode  1625
+>>pinusabi   110
+querdoug     5   10   15   20
+
+MapCode  1631
+calodecu     5
+
+MapCode  1632
+calodecu    20
+
+MapCode  1633
+calodecu    40
+
+MapCode  1634
+calodecu    90
+
+MapCode  1635
+calodecu     5  500
+pinupond     1    5   10   15   25   30   35   40   70   80   90  105  110  130  145  150  195  300  350
+querkelo     5   30
+querwisl     1   10   15   25   70
+
+MapCode  1641
+pinupond     5
+
+MapCode  1642
+pinupond    30
+
+MapCode  1643
+pinupond    70
+
+MapCode  1644
+pinupond   160
+
+MapCode  1645
+pinupond     5   10  285
+querdoug     5
+querwisl    20
+
+MapCode  1651
+pinupond     5
+
+MapCode  1652
+pinupond    20
+
+MapCode  1653
+pinupond    40
+
+MapCode  1654
+pinupond    10   20   90
+
+MapCode  1655
+calodecu    75  240
+pinupond    45   80   90  105  140  155  195  215  235  270  280  350
+querchry     1    5   10   20   30   35   45   50   70  100  250
+querkelo    15
+
+MapCode  1661
+abiemagn     5
+
+MapCode  1662
+abiemagn    20
+
+MapCode  1663
+abiemagn    40
+
+MapCode  1664
+abiemagn   100
+
+MapCode  1665
+abiemagn     1    5   15   25   65  100  110  150  260  300  400
+pinulamb     5
+
+MapCode  1671
+abiemagn     5
+
+MapCode  1672
+abiemagn    20
+
+MapCode  1673
+abiemagn    40
+
+MapCode  1674
+abiemagn   100
+
+MapCode  1675
+abiemagn   165
+
+MapCode  1681
+pinujeff     5
+
+MapCode  1682
+pinujeff    20
+
+MapCode  1683
+pinujeff    40
+
+MapCode  1684
+abieconc    40
+abiemagn    40
+pinujeff    90
+
+MapCode  1685
+abieconc   400
+abiemagn     5   10   15   30   35   40   45   50   55   60  125  400
+pinujeff     1   30   70  145  450
+
+MapCode  1691
+abieconc     5
+abiemagn     5
+
+MapCode  1692
+abieconc    20
+abiemagn    20
+
+MapCode  1693
+abieconc    40
+abiemagn    40
+
+MapCode  1694
+abieconc   100
+abiemagn   100
+
+MapCode  1695
+abieconc     5   10  245  400
+abiemagn     1    5   10   15   40   45   50   55   60   65   70   80   85   90  100  135  175  210  220  235  265  280  295  400
+pinucont     5   35  150
+
+MapCode  1701
+abiemagn     5
+
+MapCode  1702
+abiemagn    10   20
+
+MapCode  1703
+abiemagn    30   40
+
+MapCode  1704
+abiemagn    10   50   60   90  100
+
+MapCode  1705
+abiemagn     1    5   10   40   45   55   65   75   90   95  100  105  125  130  170  180  190  200  205  210  215  240  295  300  310  350  360  390  400
+
+MapCode  1712
+pinualbi    20
+
+MapCode  1713
+pinualbi    50
+
+MapCode  1714
+pinualbi   110
+
+MapCode  1715
+pinualbi     1    5   10   15   30   40   90  155  215  330  600
+pinucont     1    5   10   25   75  150
+
+MapCode  1721
+querdoug     5
+
+MapCode  1722
+querdoug    20
+
+MapCode  1723
+querdoug    50
+
+MapCode  1724
+querdoug    95
+
+MapCode  1725
+>>pinusabi     5   10
+querdoug     5  250
+querwisl    10   15
+
+MapCode  1731
+calodecu     5
+
+MapCode  1732
+calodecu    20
+
+MapCode  1733
+calodecu    40
+
+MapCode  1734
+calodecu    90
+pinulamb    40
+
+MapCode  1735
+abieconc     1    5   10   20   25   45   70  120  400
+calodecu     1    5   25  500
+pinulamb    15   95  220  355  450
+
+MapCode  1741
+pinupond     5
+
+MapCode  1742
+pinupond    30
+
+MapCode  1743
+pinupond    70
+
+MapCode  1744
+pinupond   160
+querchry    10   60
+
+MapCode  1745
+pinupond   350
+querchry    10   15   25   30   35   40   45   70   80   85   90   95  105  110  120  125  140  200  250
+querkelo    10   50  130
+
+MapCode  1751
+querwisl     1    5
+
+MapCode  1752
+querwisl     1    5
+
+MapCode  1761
+pinucont     5
+
+MapCode  1762
+pinucont    10   25
+
+MapCode  1763
+pinucont    45   60
+
+MapCode  1764
+pinucont     5   20   25   30   35   50   60   65  115  130
+
+MapCode  1765
+abiemagn     1
+pinucont     1    5   10   15   20   25   40   45   50   55   70   80   85  135  150
+
+MapCode  1771
+pinupond     1    5
+
+MapCode  1772
+pinupond     1   20
+
+MapCode  1773
+pinupond     1    5
+
+MapCode  1774
+pinupond     1
+
+MapCode  1775
+pinupond     1
+
+MapCode  1781
+abiemagn     5
+
+MapCode  1782
+abiemagn    20
+
+MapCode  1783
+abiemagn    40
+
+MapCode  1784
+abiemagn    45  100
+
+MapCode  1785
+abieconc    10
+abiemagn     1    5   10   20   35   40   45   50   55   60   65   70  100  115  120  140  145  150  160  180  225  230  235  280  295  300  345  400
+pinucont    10   40
+
+MapCode  1791
+pinujeff     5
+pinulamb     5
+
+MapCode  1792
+pinujeff    20
+pinulamb    20
+
+MapCode  1793
+pinujeff    40
+pinulamb    40
+
+MapCode  1794
+abieconc    40
+pinujeff    90
+pinulamb    90
+
+MapCode  1795
+abieconc    10  185  325  400
+pinujeff    75  450
+pinulamb    75  295  450
+
+MapCode  1801
+pinujeff     5
+
+MapCode  1802
+pinujeff    20
+
+MapCode  1803
+pinujeff    40
+
+MapCode  1804
+pinujeff    35   90
+
+MapCode  1805
+pinujeff     5   50  130  175  230
+
+MapCode  1811
+pinujeff     5
+
+MapCode  1812
+pinujeff    20
+
+MapCode  1813
+pinujeff    40
+
+MapCode  1814
+pinujeff    35   45   90
+
+MapCode  1815
+abieconc    25
+pinujeff    35   85   90  225  395  405  450
+
+MapCode  1821
+pinujeff     5
+
+MapCode  1822
+pinujeff    10   20
+pinupond     5
+
+MapCode  1823
+pinujeff     5   10   30   40
+pinupond    25
+
+MapCode  1824
+pinujeff    46   50   55   60   80   90
+pinupond    75
+querkelo    46   50
+
+MapCode  1825
+pinujeff     1    5   10   15   35   45
+pinupond    30
+querkelo     1    5
+
+MapCode  1831
+querkelo     5
+
+MapCode  1832
+querkelo    30
+
+MapCode  1833
+querkelo    70
+
+MapCode  1834
+querkelo    20
+
+MapCode  1841
+pinupond     5
+
+MapCode  1842
+pinupond    30
+
+MapCode  1843
+pinupond    70
+
+MapCode  1844
+pinupond   160
+
+MapCode  1845
+calodecu    10   40   70
+pinupond   350
+querkelo     5   15   20   25   35   45   60   70
+
+MapCode  1851
+querkelo     5
+
+MapCode  1852
+calodecu    15
+querkelo    11   15   20   25   30
+
+MapCode  1853
+calodecu    55
+querkelo    51   55   60   65   70
+
+MapCode  1854
+calodecu     5
+querkelo     1    5   10   15   20
+
+MapCode  1861
+pinujeff     5
+
+MapCode  1862
+pinujeff    20
+
+MapCode  1863
+pinujeff    40
+
+MapCode  1864
+abieconc    40
+abiemagn    40
+pinujeff    90
+
+MapCode  1865
+abieconc     5   35  105  135  400
+abiemagn     1    5   10   35   40   45   50   55   60   65   70   90  145  190  210  400
+pinujeff     5   10  450
+
+MapCode  1871
+querdoug     5
+
+MapCode  1872
+querdoug    20
+
+MapCode  1873
+querdoug    50
+
+MapCode  1874
+querdoug    95
+
+MapCode  1875
+>>pinusabi    20   40  155
+querdoug    15   35   55  250
+
+MapCode  1881
+querdoug     5
+
+MapCode  1882
+querdoug    30
+
+MapCode  1883
+querdoug    70
+querwisl    20
+
+MapCode  1884
+querdoug   160
+querwisl     5  110
+
+MapCode  1885
+querdoug   250
+querwisl    10   15   20   30   40   45   60   95  200
+
+MapCode  1891
+querchry     5
+
+MapCode  1892
+querchry    20
+
+MapCode  1893
+querchry    40
+
+MapCode  1894
+querchry    80
+
+MapCode  1895
+pinupond     1    5   10   15   20   30  115
+querchry     1   10   25   45  105  215
+querkelo   100
+
+MapCode  1901
+querkelo     5
+
+MapCode  1902
+querkelo    20
+
+MapCode  1903
+querkelo    40
+
+MapCode  1904
+calodecu     5
+pinulamb     5
+pinupond     5   10
+querchry     5   15   25   30
+querkelo    10   80  180
+
+MapCode  1911
+pinujeff     5
+
+MapCode  1912
+pinujeff    20
+
+MapCode  1913
+pinujeff    40
+
+MapCode  1914
+pinujeff    90
+
+MapCode  1915
+abieconc   275
+juniocci     1   65  100
+pinujeff    10   55  450
+
+MapCode  1921
+calodecu     5
+
+MapCode  1922
+calodecu    20
+
+MapCode  1923
+calodecu    40
+
+MapCode  1924
+calodecu    90
+
+MapCode  1925
+abieconc     5   10   15   25  165  400
+calodecu     5   10   20  110  130  150  175  295  500
+pinujeff     1   20  105  210
+pinulamb     5
+querkelo     5   10  100
+
+MapCode  1931
+pinucont     5
+
+MapCode  1932
+pinucont    25
+
+MapCode  1933
+pinucont    60
+
+MapCode  1934
+pinucont    45  130
+
+MapCode  1935
+pinucont     5   15   65  150
+
+MapCode  1941
+pinumont     5
+
+MapCode  1942
+pinumont    20
+
+MapCode  1943
+pinumont    40
+
+MapCode  1944
+abiemagn    15
+pinumont    90
+
+MapCode  1945
+abiemagn     5   10   45   85   90  130  245
+pinucont     1   20
+pinujeff    65
+pinumont     5   10   50  100  320
+
+MapCode  1951
+querchry     5
+
+MapCode  1952
+querchry    30
+
+MapCode  1953
+querchry    10   70
+
+MapCode  1954
+querchry     1    5   10   15   20   25   30   35   40   45   50   55   60   90  125  155  165  225
+querkelo     5   10   15   55
+
+MapCode  1961
+querchry     5
+
+MapCode  1962
+querchry    30
+
+MapCode  1963
+querchry    70
+
+MapCode  1964
+querchry     1    5   30   40   45   70  250
+querkelo     5   10   15   20   25   35
+
+MapCode  1971
+calodecu     5
+
+MapCode  1972
+calodecu    20
+
+MapCode  1973
+calodecu    40
+
+MapCode  1974
+calodecu    90
+
+MapCode  1975
+abieconc     5   15   40   65  135  220
+calodecu     5   10   20   35   40  230  240  500
+pinulamb     5   20   55   70
+pinupond     5   10   15   25   40   70   75  100  115  145  155  170  180  210  260  310  315  350
+
+MapCode  1981
+querkelo     5
+
+MapCode  1982
+querkelo    30
+
+MapCode  1983
+querkelo    70
+
+MapCode  1984
+querkelo    25  160
+
+MapCode  1985
+pinupond     5   10
+>>pinusabi     5   10
+querchry     5
+querkelo    10   15   20   25   35  165  300
+
+MapCode  1991
+abieconc     5
+
+MapCode  1992
+abieconc    20
+
+MapCode  1993
+abieconc    40
+
+MapCode  1994
+abieconc     5   45   90
+calodecu    35   45
+
+MapCode  1995
+abieconc     1    5   10   15   25   70   95  100  110  120  150  170  210  255
+calodecu     1    5   10   15   20   30   65  125  145  200  210
+pinulamb    20   45
+
+MapCode  2001
+querchry     5
+
+MapCode  2002
+querchry     5   30
+
+MapCode  2003
+pseumenz    10
+querchry    45   70
+
+MapCode  2004
+pseumenz   100
+querchry    15   30  135  160
+querkelo     5
+
+MapCode  2005
+calodecu     5
+pseumenz     5  190
+querchry    10   20   25  105  120  225  250
+querkelo     5   10   15   20   35   50   95
+
+MapCode  2011
+pinucont     5
+
+MapCode  2012
+pinucont    20
+
+MapCode  2013
+pinucont    40
+
+MapCode  2014
+pinucont    90
+
+MapCode  2015
+pinucont   150
+
+MapCode  2021
+querdoug     5
+
+MapCode  2022
+querdoug    20
+
+MapCode  2023
+querdoug    50
+
+MapCode  2024
+querdoug     5   10   15   30  125
+
+MapCode  2031
+pinulamb     5
+
+MapCode  2032
+pinulamb    20
+
+MapCode  2033
+pinulamb    40
+
+MapCode  2034
+abieconc     5   30
+pinulamb    80
+
+MapCode  2035
+abieconc     5   10   15   40  375  400
+pinulamb     5   50  450
+querkelo     1    5   10   15
+
+MapCode  2041
+querkelo     5
+
+MapCode  2042
+querkelo    30
+
+MapCode  2043
+querchry    20
+querkelo    70
+
+MapCode  2044
+querchry   110
+querkelo   160
+
+MapCode  2045
+calodecu     1    5   20   35   80   85   95  115  130
+querchry     1   10   20   30   35   70  250
+querkelo     5   10   15   20   25   30   35   40   45   50   55   60   90   95  110  300
+
+MapCode  2051
+pinujeff     5
+
+MapCode  2052
+pinujeff    20
+
+MapCode  2053
+pinujeff    40
+
+MapCode  2054
+pinujeff    90
+
+MapCode  2055
+abieconc    25   95  115
+pinujeff   370
+
+MapCode  2061
+abiemagn     5
+
+MapCode  2062
+abiemagn    20
+
+MapCode  2063
+abiemagn    40
+
+MapCode  2064
+abiemagn   100
+
+MapCode  2065
+abieconc     5  175
+abiemagn     1    5   10   20   25   30   35   55   85   90   95  150  180  205  400
+pinujeff     5  280
+pinumont     5   10   20   25
+
+MapCode  2071
+abiemagn     5
+
+MapCode  2072
+abiemagn    20
+
+MapCode  2073
+abiemagn    40
+
+MapCode  2074
+abiemagn     5  100
+
+MapCode  2075
+abiemagn     1    5   10   25   35   40   60   65   70   90  100  115  120  130  140  155  175  190  205  240  280  290  305  400
+
+MapCode  2082
+>>pinubalf    20
+
+MapCode  2083
+>>pinubalf    50
+
+MapCode  2084
+>>pinubalf   110
+
+MapCode  2085
+>>pinubalf     5   15   25   30   35   55   90   95  100  150  155  190  195  210  240  270  285  290  300  320  335  365  435  445  475  495  505  585  600  640  800
+pinucont   150
+
+MapCode  2091
+querchry     5
+
+MapCode  2092
+querchry    16   20   25   30
+
+MapCode  2093
+querchry     1    5   10   15
+
+MapCode  2101
+pinulamb     5
+
+MapCode  2102
+pinulamb    20
+
+MapCode  2103
+pinulamb    40
+
+MapCode  2104
+pinulamb    80
+
+MapCode  2105
+abieconc    10   40  170
+pinulamb    15   35  450
+pinupond     5   10   20   25   80  205  210  340  350
+querchry    10   15   20   25   30   35   40   45   50   55   60   65   80   85   95  140  155  160  250
+querkelo    15
+
+MapCode  2111
+pinujeff     5
+pinulamb     5
+
+MapCode  2112
+pinujeff    20
+pinulamb    20
+
+MapCode  2113
+pinujeff    40
+pinulamb    40
+
+MapCode  2114
+abieconc    40
+pinujeff    90
+pinulamb    90
+
+MapCode  2115
+abieconc     1    5   15   95  110  130  155  275  400
+pinujeff   190  450
+pinulamb    15  125  155  450
+
+MapCode  2121
+querdoug     5
+
+MapCode  2122
+querdoug     5   20
+
+MapCode  2123
+querdoug    10   30   35   50
+
+MapCode  2124
+querdoug    10   30   35   50
+
+MapCode  2131
+calodecu     5
+
+MapCode  2132
+calodecu    20
+
+MapCode  2133
+calodecu    40
+
+MapCode  2134
+calodecu    90
+
+MapCode  2135
+calodecu     1    5   10   55  500
+pinupond     1    5   20   35   70  350
+pseumenz     5
+querkelo     5  300
+
+MapCode  2142
+tsugmert    20
+
+MapCode  2143
+tsugmert    50
+
+MapCode  2144
+tsugmert   110
+
+MapCode  2145
+tsugmert     1    5   15   20   35   40  600
+
+MapCode  2151
+querwisl     5
+
+MapCode  2152
+querwisl    30
+
+MapCode  2153
+querwisl    10   70
+
+MapCode  2154
+querdoug     5   10   20
+querwisl     5   10   15   20   25   30   35   40   45   50   70  140  200
+
+MapCode  2161
+abieconc     5
+
+MapCode  2162
+abieconc    20
+
+MapCode  2163
+abieconc    40
+
+MapCode  2164
+abieconc    90
+
+MapCode  2165
+abieconc   180
+abiemagn     1    5
+calodecu    15
+pinupond     5   10   15   20   25   30   45
+
+MapCode  2171
+pinupond     5
+
+MapCode  2172
+pinupond    20
+
+MapCode  2173
+pinupond    40
+
+MapCode  2174
+pinupond    90
+
+MapCode  2175
+pinupond     5   10   50   55   65  155  350
+
+MapCode  2181
+calodecu     5
+
+MapCode  2182
+calodecu    20
+
+MapCode  2183
+calodecu    40
+
+MapCode  2184
+calodecu    90
+
+MapCode  2185
+abieconc     5
+calodecu   155
+pinupond     5   10   15   40   55
+
+MapCode  2191
+pinujeff     5
+
+MapCode  2192
+pinujeff    20
+
+MapCode  2193
+pinujeff    20   40
+
+MapCode  2194
+abieconc    40
+calodecu     5
+pinujeff    70   90
+
+MapCode  2195
+abieconc     5   15   75  105  115  150  175  400
+calodecu   145  365
+juniocci     1
+pinujeff     5   10   60   75  430  450
+
+MapCode  2201
+querkelo     5
+
+MapCode  2202
+querkelo    20
+
+MapCode  2203
+querkelo    50
+
+MapCode  2204
+querdoug    45
+querkelo    95
+
+MapCode  2205
+>>pinusabi     1  110  115  125  130  200
+querchry    15   25   35
+querdoug     1    5   65  190  250
+querkelo     5  300
+
+MapCode  2211
+calodecu     5
+pinupond     5
+
+MapCode  2212
+calodecu    20
+pinupond    20
+
+MapCode  2213
+calodecu    40
+pinupond    40
+
+MapCode  2214
+calodecu     5
+pinupond     5
+
+MapCode  2221
+calodecu     5
+
+MapCode  2222
+calodecu    20
+
+MapCode  2223
+calodecu    40
+
+MapCode  2224
+calodecu    90
+
+MapCode  2225
+calodecu     5   10   25  175
+pinulamb     1   35
+pinupond     5
+
+MapCode  2231
+pinujeff     5
+
+MapCode  2232
+pinujeff    20
+
+MapCode  2233
+pinujeff    40
+
+MapCode  2234
+abieconc    40
+pinujeff    90
+
+MapCode  2235
+abieconc     1    5   10   15   20   25   30   35   70   75   80   85   90   95  110  115  125  135  160  170  175  180  185  190  195  200  295  400
+pinujeff    10   15   55   70   85  105  175  200  210  240  245  450
+pinulamb    10
+poputrem    10
+
+MapCode  2241
+calodecu     5
+
+MapCode  2242
+calodecu    20
+
+MapCode  2243
+calodecu    40
+
+MapCode  2244
+calodecu    80
+
+MapCode  2245
+calodecu     1    5  145  500
+pinulamb     5
+pinupond     1    5   10   30   90
+querchry    15   35  250
+querkelo   300
+
+MapCode  2251
+pinumont     5
+
+MapCode  2252
+pinumont    25
+
+MapCode  2253
+pinumont    10   60
+
+MapCode  2254
+pinumont    80  130
+
+MapCode  2255
+juniocci    35   40   70
+pinucont    15   35
+pinumont     5  195  305  355
+
+MapCode  2261
+pinucont     5
+
+MapCode  2262
+pinucont    25
+
+MapCode  2263
+pinucont    26   30   35   60
+
+MapCode  2264
+pinucont     1    5   10   35
+
+MapCode  2271
+calodecu     5
+
+MapCode  2272
+calodecu    20
+
+MapCode  2273
+calodecu    40
+
+MapCode  2274
+calodecu    35   80
+
+MapCode  2275
+abieconc     1    5
+calodecu    30   85   90  155  235  250  275  295  310  455  500
+pinulamb    40  145
+pinupond     5   20  145  190  270  350
+pseumenz     5   10  250  300
+querchry     1    5   10   15   20   25   30   35   45   80  135  145  190  200  250
+querkelo    10   15   20
+
+MapCode  2281
+calodecu     5
+
+MapCode  2282
+calodecu    20
+
+MapCode  2283
+calodecu    15   40
+
+MapCode  2284
+calodecu    65   90
+pinujeff     5   25   30   40
+
+MapCode  2285
+calodecu    85  110
+pinujeff    10   20   25   45   50   60
+
+MapCode  2291
+calodecu     5
+
+MapCode  2292
+calodecu    20
+
+MapCode  2293
+calodecu    40
+
+MapCode  2294
+calodecu    90
+
+MapCode  2295
+abieconc     5   95
+calodecu     5   30  220  500
+pinujeff    15
+
+MapCode  2301
+>>pinusabi     5
+querchry     5
+
+MapCode  2302
+>>pinusabi     5
+querchry    11   15   20
+
+MapCode  2303
+>>pinusabi     5
+querchry     1    5   10
+
+MapCode  2304
+>>pinusabi     5
+
+MapCode  2305
+>>pinusabi     5
+
+MapCode  2311
+querdoug     5
+
+MapCode  2312
+querdoug    20
+
+MapCode  2313
+querdoug    50
+
+MapCode  2314
+querdoug    95
+
+MapCode  2315
+querdoug     5  250
+querwisl    10   15
+
+MapCode  2321
+querkelo     5
+
+MapCode  2322
+querkelo    20
+
+MapCode  2323
+querkelo    40
+
+MapCode  2324
+querchry    30
+querkelo    80
+
+MapCode  2325
+calodecu     1    5   15   20   40   45   90  165
+pinupond   115
+querchry     5   10   15   20   35   45   60  110  135  250
+querkelo     5   10   15   20   30  155  300
+
+MapCode  2331
+abieconc     5
+abiemagn     5
+pinumont     5
+
+MapCode  2332
+abieconc    20
+abiemagn    20
+pinumont    20
+
+MapCode  2333
+abieconc    40
+abiemagn    40
+pinumont    40
+
+MapCode  2334
+abieconc    20   90
+abiemagn    90
+pinujeff    15
+pinumont    90
+
+MapCode  2335
+abieconc     1    5   10   95  100  105  145  225  230  330  400
+abiemagn     1    5  400
+pinujeff   105  235  325
+pinumont   400
+
+MapCode  2341
+pinupond     5
+
+MapCode  2342
+pinupond    20
+
+MapCode  2343
+pinupond    50
+
+MapCode  2344
+pinupond    20  110
+
+MapCode  2345
+pinupond   260  350
+
+MapCode  2351
+calodecu     5
+
+MapCode  2352
+calodecu    20
+
+MapCode  2353
+calodecu    40
+
+MapCode  2354
+calodecu    90
+
+MapCode  2355
+abieconc     1    5   10   20   45   70   90   95  100  170  400
+calodecu     5   10   15   20   35   45  110  145  175  230  365  500
+pinulamb     5
+pinupond    15  155
+
+MapCode  2361
+querchry     5
+
+MapCode  2362
+querchry    30
+
+MapCode  2363
+querchry    25   70
+
+MapCode  2364
+querchry     1   15   20   30   55   60  175  205  250
+
+MapCode  2371
+calodecu     5
+
+MapCode  2372
+calodecu    20
+
+MapCode  2373
+calodecu    40
+
+MapCode  2374
+calodecu    90
+pinulamb    40
+
+MapCode  2375
+abieconc     5   10   15  110  260  400
+calodecu   500
+pinulamb     1   45   80  210  450
+pinupond     1   15   80  115  120  350
+querkelo     1    5
+
+MapCode  2381
+pinujeff     5
+
+MapCode  2382
+pinujeff    20
+
+MapCode  2383
+pinujeff     5   40
+
+MapCode  2384
+pinujeff     5   35   55   90
+
+MapCode  2385
+calodecu     5
+pinujeff    10   15   45   65  100
+
+MapCode  2391
+abiemagn     5
+
+MapCode  2392
+abiemagn    25
+
+MapCode  2393
+abiemagn     5   20   60
+
+MapCode  2394
+abiemagn    75   90  130
+
+MapCode  2395
+abiemagn     1    5   50   70   75  210  345  360  400
+pinucont     1    5   10   15   20   25   30   35   40   45   50   60   65   90  105  110  150
+
+MapCode  2401
+calodecu     5
+querchry     5
+
+MapCode  2402
+calodecu    20
+querchry    20
+
+MapCode  2403
+calodecu    40
+querchry    15   40
+
+MapCode  2404
+calodecu    90
+querchry    65   90
+
+MapCode  2405
+calodecu     1    5   10   15  250
+pinulamb     1
+pinupond     1    5   10   15   35   40
+pseumenz     5  155  160
+querchry    25   65  225  250
+querkelo     5   10   25
+
+MapCode  2411
+pinujeff     5
+
+MapCode  2412
+pinujeff    20
+
+MapCode  2413
+pinujeff    40
+
+MapCode  2414
+abiemagn    40
+pinujeff    90
+
+MapCode  2415
+abieconc     1    5   75
+abiemagn    10   50   65   75   85  105  110  150  195  245  400
+pinujeff   280  450
+pinumont    50
+
+MapCode  2421
+pinucont     5
+
+MapCode  2422
+pinucont    25
+
+MapCode  2423
+pinucont     5   60
+
+MapCode  2424
+pinucont     5   40   45   50   75  130
+
+MapCode  2425
+pinucont     1    5   10   20   25   60   65   70   95  150
+
+MapCode  2432
+juniocci    20
+
+MapCode  2433
+juniocci    50
+
+MapCode  2434
+juniocci   110
+
+MapCode  2435
+juniocci    50   85  180  370 1000
+pinucont   150
+
+MapCode  2441
+pinujeff     5
+
+MapCode  2442
+pinujeff    20
+
+MapCode  2443
+juniocci     5
+pinujeff    40
+
+MapCode  2444
+juniocci    55
+pinujeff    90
+
+MapCode  2445
+abieconc     5   15  125
+juniocci     1  415
+pinujeff     5   45   50   60  115  150  185  200  450
+
+MapCode  2452
+juniocci    20
+
+MapCode  2453
+juniocci    50
+
+MapCode  2454
+juniocci    25  110
+
+MapCode  2455
+juniocci     1    5   20   85  100  215  220  550  715  800
+pinucont   150
+pinujeff   450
+
+MapCode  2461
+pinupond     5
+
+MapCode  2462
+pinupond    20
+
+MapCode  2463
+pinupond    40
+
+MapCode  2464
+pinupond    80
+querkelo    30
+
+MapCode  2465
+abieconc    50
+pinulamb   135
+pinupond     1    5   10  350
+querchry     5   10   15   40   90  250
+querkelo     5   10   15   25   30   45   50   55  300
+
+MapCode  2471
+pinujeff     5
+
+MapCode  2472
+pinujeff    20
+
+MapCode  2473
+pinujeff    50
+
+MapCode  2474
+pinujeff   110
+
+MapCode  2475
+pinujeff     5   10   15  120  450
+
+MapCode  2481
+pinujeff     5
+
+MapCode  2482
+pinujeff    20
+
+MapCode  2483
+pinujeff    40
+
+MapCode  2484
+pinujeff    40   90
+
+MapCode  2485
+pinujeff     1  155  205
+
+MapCode  2491
+pinupond     5
+
+MapCode  2492
+pinupond     5   10   15   20
+
+MapCode  2493
+pinupond    25   30   35   40
+
+MapCode  2494
+pinupond     5   10   15   20
+
+MapCode  2501
+querdoug     5
+
+MapCode  2502
+querdoug    20
+
+MapCode  2503
+querdoug    50
+
+MapCode  2504
+querdoug    95
+
+MapCode  2505
+querdoug   250
+
+MapCode  2511
+pinujeff     5
+pinulamb     5
+
+MapCode  2512
+pinujeff    20
+pinulamb    20
+
+MapCode  2513
+pinujeff    40
+pinulamb    40
+
+MapCode  2514
+pinujeff    90
+pinulamb    90
+
+MapCode  2515
+abieconc     5
+calodecu     5  115  240
+pinujeff     5   10   25   35   55   85  125  155  240  280  285  450
+pinulamb    45   60   85  450
+
+MapCode  2521
+pinujeff     5
+
+MapCode  2522
+pinujeff    20
+
+MapCode  2523
+pinujeff    40
+
+MapCode  2524
+pinujeff    90
+
+MapCode  2525
+pinujeff     5   10   25   30   55   80  125  140  150  160  335
+
+MapCode  2531
+querdoug     5
+
+MapCode  2532
+querdoug    20
+
+MapCode  2533
+querdoug    50
+
+MapCode  2534
+querdoug     1    5   25  185
+
+MapCode  2541
+calodecu     5
+
+MapCode  2542
+calodecu    20
+
+MapCode  2543
+calodecu    40
+
+MapCode  2544
+calodecu    90
+
+MapCode  2545
+abieconc     1    5  120  395
+calodecu     5   15  500
+pinujeff     1   90
+querkelo    15
+
+MapCode  2551
+calodecu     5
+
+MapCode  2552
+calodecu    20
+
+MapCode  2553
+calodecu     5   40
+
+MapCode  2554
+calodecu    30   65
+pinujeff     5
+
+MapCode  2561
+querchry     5
+
+MapCode  2562
+querchry    30
+
+MapCode  2563
+querchry    70
+
+MapCode  2564
+>>pinusabi     5   10
+querchry     1    5   10   15   40   65   70  100  245
+querwisl     1    5
+
+MapCode  2571
+abiemagn     5
+
+MapCode  2572
+abiemagn    25
+
+MapCode  2573
+abiemagn    60
+
+MapCode  2574
+abiemagn    45   70  130
+
+MapCode  2575
+abiemagn     5   10  240  315  340  400
+juniocci     5   35   60   85
+pinucont     5   10   20   45  150
+
+MapCode  2582
+tsugmert    20
+
+MapCode  2583
+tsugmert    50
+
+MapCode  2584
+tsugmert   110
+
+MapCode  2585
+abiemagn    10   40   50   60   65   70  120  155  260  290
+pinumont     1    5   10   15   65   75  170  320  355  400
+tsugmert     5   10   25   50  600
+
+MapCode  2591
+pseumenz     5
+
+MapCode  2592
+pseumenz    20
+
+MapCode  2593
+pseumenz    50
+
+MapCode  2594
+pseumenz   100
+
+MapCode  2595
+pseumenz     1   10   15  125
+
+MapCode  2601
+calodecu     5
+
+MapCode  2602
+calodecu     5   20
+
+MapCode  2603
+calodecu     5   50
+
+MapCode  2604
+calodecu     5   20
+
+MapCode  2605
+calodecu     5
+
+MapCode  2611
+abiemagn     5
+
+MapCode  2612
+abiemagn    20
+
+MapCode  2613
+abiemagn    20   40
+
+MapCode  2614
+abiemagn    35   70   90
+
+MapCode  2615
+abiemagn     1    5   10   15   30   40   45   50   55   60   75   85  110  130  135  150  175  205  280  300  345  380  400
+pinucont     5   10   15   20   35   75   80  150
+
+MapCode  2621
+pinupond     5
+
+MapCode  2622
+pinupond    20
+
+MapCode  2623
+pinupond    40
+
+MapCode  2624
+pinupond    90
+querkelo    40
+
+MapCode  2625
+abieconc     5   15   30
+calodecu     1    5   10   15   20   65  155
+pinulamb     5   10   35   40   50  200
+pinupond     5   10   25   30   85  105  135  160  205  350
+querkelo     5   75  300
+
+MapCode  2631
+querkelo     5
+
+MapCode  2632
+querkelo    30
+
+MapCode  2633
+querkelo    70
+
+MapCode  2634
+pinupond    20   55
+querkelo   160
+
+MapCode  2635
+calodecu     1    5   10
+pinupond     5   90   95  110  160  195
+querkelo     5   10  300
+
+MapCode  2641
+pinupond     5
+
+MapCode  2642
+pinupond    20
+
+MapCode  2643
+pinupond    40
+
+MapCode  2644
+pinupond    25   90
+
+MapCode  2645
+calodecu    10  215
+pinupond     5   10   15   20   25   30   35   40   55   65   85  285  350
+pseumenz    45
+
+MapCode  2651
+querkelo     5
+
+MapCode  2652
+querkelo    20
+
+MapCode  2653
+querkelo    40
+
+MapCode  2654
+querchry    30
+querkelo    80
+
+MapCode  2655
+abieconc     5   10   15   20   35   75   80  100
+calodecu     5   10   15   90
+pseumenz     1
+querchry    10   20   35  250
+querkelo     5   10   15   20   45   50   80  300
+
+MapCode  2661
+abieconc     5
+
+MapCode  2662
+abieconc    20
+
+MapCode  2663
+abieconc    40
+
+MapCode  2664
+abieconc    90
+
+MapCode  2665
+abieconc     5   10  175  180  400
+abiemagn    60  255
+pinujeff    10
+pinulamb    85  170
+
+MapCode  2671
+abieconc     5
+pinujeff     5
+
+MapCode  2672
+abieconc    20
+pinujeff    20
+
+MapCode  2673
+abieconc     5
+pinujeff     5
+
+MapCode  2681
+querdoug     5
+
+MapCode  2682
+querdoug    20
+
+MapCode  2683
+querdoug    50
+
+MapCode  2684
+querdoug     5   10   30   80  250
+
+MapCode  2691
+querdoug     5
+
+MapCode  2692
+querdoug    20
+
+MapCode  2693
+querdoug     5   15   30   50
+
+MapCode  2694
+querdoug    10   15   25   35   50   70
+
+MapCode  2701
+querdoug     5
+
+MapCode  2702
+querdoug    30
+
+MapCode  2703
+querdoug    70
+
+MapCode  2704
+querdoug   160
+
+MapCode  2705
+querdoug     5   10   15   45  250
+querwisl     5   10   15
+
+MapCode  2711
+abieconc     5
+
+MapCode  2712
+abieconc    20
+
+MapCode  2713
+abieconc    40
+
+MapCode  2714
+abieconc   100
+pinumont    20
+
+MapCode  2715
+abieconc   400
+abiemagn     1    5   15   25   30   35   40   45   50   55   65   70  105  120  130  145  160  185  240
+pinumont   115  320
+
+MapCode  2721
+querwisl     5
+
+MapCode  2722
+querwisl    30
+
+MapCode  2723
+querwisl    70
+
+MapCode  2724
+querwisl    10   15   20   25   30   40  200
+
+MapCode  2731
+querdoug    15    5
+
+MapCode  2732
+querdoug    15   20
+
+MapCode  2733
+querdoug    15   20
+
+MapCode  2734
+querdoug    15
+
+MapCode  2735
+querdoug    15
+
+MapCode  2741
+pinujeff     5
+
+MapCode  2742
+pinujeff    20
+
+MapCode  2743
+pinujeff    40
+
+MapCode  2744
+pinujeff    90
+
+MapCode  2745
+abiemagn     1    5   10
+pinujeff    15  450
+pinulamb    50
+
+MapCode  2751
+calodecu     5
+
+MapCode  2752
+calodecu    20
+
+MapCode  2753
+calodecu    40
+
+MapCode  2754
+calodecu    90
+
+MapCode  2755
+calodecu     1    5   10   55  100  225  335  500
+pinulamb     1  185
+pinupond     1    5   10   25   50  165  350
+querchry    10
+querkelo    15   90  300
+querwisl     1   15
+
+MapCode  2761
+abiemagn     5
+
+MapCode  2762
+abiemagn    20
+
+MapCode  2763
+abiemagn    40
+
+MapCode  2764
+abiemagn    90
+
+MapCode  2765
+abiemagn     1    5   10   20   30   50   55   60  110  120  135  225  400
+pinucont     5   10   15   20   40   45  140  150
+pinumont    55
+
+MapCode  2772
+abiemagn    20
+pinumont    20
+
+MapCode  2773
+abiemagn    50
+pinumont    50
+
+MapCode  2774
+abiemagn   110
+pinumont   110
+
+MapCode  2775
+abiemagn   400
+pinucont   150
+pinumont     5   50   60   65  145  200  210  240  285  400
+
+MapCode  2781
+juniocci     5
+
+MapCode  2782
+juniocci    25
+
+MapCode  2783
+juniocci    60
+
+MapCode  2784
+juniocci   130
+
+MapCode  2785
+abiemagn    10   40
+juniocci    75  240  735
+pinucont     5   10   15   25   30   45   55  150
+
+MapCode  2791
+abieconc     5
+
+MapCode  2792
+abieconc    20
+
+MapCode  2793
+abieconc    40
+
+MapCode  2794
+abieconc    10   90
+
+MapCode  2795
+abieconc     5   10   15   25   30   45  105  185
+querkelo     1
+
+MapCode  2801
+pinulamb     5
+
+MapCode  2802
+pinulamb    20
+
+MapCode  2803
+pinulamb    40
+
+MapCode  2804
+abieconc    40
+pinulamb    90
+
+MapCode  2805
+abieconc     5   15   20   25   95  155  200  400
+pinulamb   450
+
+MapCode  2811
+abiemagn     5
+pinumont     5
+
+MapCode  2812
+abiemagn    25
+pinumont    25
+
+MapCode  2813
+abiemagn    60
+pinumont    60
+
+MapCode  2814
+abiemagn    10  130
+pinumont   130
+
+MapCode  2815
+abiemagn   280  400
+pinucont     5   10   25   35   40   55   60   90  110  125  130  150
+pinumont     5   75  100  130  150  400
+
+MapCode  2821
+pinujeff     5
+
+MapCode  2822
+pinujeff    15   20
+
+MapCode  2823
+pinujeff    35   40
+
+MapCode  2824
+juniocci    40
+pinujeff    85   90
+
+MapCode  2825
+juniocci    40   45   65  130
+pinujeff     5   40  175  180
+
+MapCode  2831
+pinujeff     5
+
+MapCode  2832
+juniocci    10
+pinujeff     6   10   15   20
+
+MapCode  2833
+juniocci    30
+pinujeff    26   30   35   40
+
+MapCode  2834
+juniocci     5
+pinujeff     1    5   10   15
+
+MapCode  2841
+abiemagn     5
+pinumont     5
+
+MapCode  2842
+abiemagn    20
+pinumont    15   20
+
+MapCode  2843
+abiemagn    40
+pinumont    35   40
+
+MapCode  2844
+abiemagn    90
+pinumont    30   85   90
+
+MapCode  2845
+abiemagn     5   10   25   75  200  250  400
+pinucont     5   10   15   35   50  150
+pinumont     1    5   55   85  340  395  400
+
+MapCode  2851
+querdoug     5
+
+MapCode  2852
+querdoug     5   20
+
+MapCode  2853
+querdoug    30   35   50
+
+MapCode  2854
+querdoug     5   10   25
+
+MapCode  2861
+pinujeff     5
+
+MapCode  2862
+pinujeff    20
+
+MapCode  2863
+pinujeff    40
+
+MapCode  2864
+pinujeff    90
+
+MapCode  2865
+pinujeff     5   40   85  135  280
+>>pinusabi     5
+querchry    10   45
+
+MapCode  2871
+querdoug     5
+
+MapCode  2872
+querdoug    20
+
+MapCode  2873
+querdoug    50
+
+MapCode  2874
+querdoug    95
+
+MapCode  2875
+>>pinusabi    10
+querdoug     5   10   15  250
+
+MapCode  2881
+querchry     5
+
+MapCode  2882
+querchry    20
+
+MapCode  2883
+querchry    40
+
+MapCode  2884
+pinulamb     5
+querchry    90
+
+MapCode  2885
+abieconc     5   10   15   50
+calodecu     1    5   10   15   30   90  100  105
+pinulamb   165
+pinupond     5   15   25  105  110
+>>pinusabi   130
+querchry     1  115  250
+querkelo     5   10   40
+
+MapCode  2891
+riparian   200
+
+MapCode  2892
+riparian    20
+
+MapCode  2893
+riparian   200
+
+MapCode  2894
+riparian   200
+
+MapCode  2895
+riparian   200
+
+MapCode  2901
+>>pinusabi     5    5
+
+MapCode  2902
+>>pinusabi     5   20
+
+MapCode  2903
+>>pinusabi     5
+
+MapCode  2904
+>>pinusabi     5
+
+MapCode  2905
+>>pinusabi     5
+
+MapCode  2911
+pinujeff     5
+
+MapCode  2912
+pinujeff    20
+
+MapCode  2913
+pinujeff    40
+
+MapCode  2914
+abieconc    40
+pinujeff    90
+
+MapCode  2915
+abieconc     1   25   35  115  400
+pinujeff   450
+
+MapCode  2921
+querwisl     5
+
+MapCode  2922
+querwisl    30
+
+MapCode  2923
+querwisl    40   70
+
+MapCode  2924
+querwisl    20   45  170  200
+
+MapCode  2931
+querdoug     5
+
+MapCode  2932
+querdoug    20
+
+MapCode  2933
+querdoug    50
+
+MapCode  2934
+>>pinusabi     5   35
+querchry     1    5   10   25   35
+querdoug     5   10  250
+
+MapCode  2941
+querdoug     5
+
+MapCode  2942
+querchry    10
+querdoug    15   20
+
+MapCode  2943
+querchry    10
+querdoug    15   20
+
+MapCode  2951
+querchry     5
+
+MapCode  2952
+querchry    30
+
+MapCode  2953
+querchry    70
+
+MapCode  2954
+querchry    10   15   20   25   65  250
+
+MapCode  2961
+querchry     5
+
+MapCode  2962
+querchry    30
+
+MapCode  2963
+querchry    70
+
+MapCode  2964
+querchry     1    5   10   20  250
+querkelo     1    5
+
+MapCode  2971
+calodecu     5
+
+MapCode  2972
+calodecu    20
+
+MapCode  2973
+calodecu    40
+
+MapCode  2974
+calodecu    90
+
+MapCode  2975
+abieconc     1    5   10   15   20   30   50   70  100  110  170  180  395  400
+abiemagn     1    5   10   60   90  105  140  215
+calodecu     1    5  140  500
+pinujeff     1   15
+pinulamb     5   15   25   30  240
+
+MapCode  2981
+querchry     5
+
+MapCode  2982
+querchry    30
+
+MapCode  2983
+querchry    10   15   20   25   70
+
+MapCode  2984
+pinujeff    30
+querchry     5   10   15   20   25   30   35   40   45   55   60   65   70  115
+
+MapCode  2991
+pinujeff     5
+
+MapCode  2992
+pinujeff    20
+
+MapCode  2993
+pinujeff    40
+
+MapCode  2994
+abieconc    40
+abiemagn    40
+pinujeff    90
+
+MapCode  2995
+abieconc     5   25   85  245  255  400
+abiemagn     1    5   10   20  400
+pinujeff     5   10   20   40  280  450
+
+MapCode  3001
+abieconc     5
+abiemagn     5
+
+MapCode  3002
+abieconc    20
+abiemagn    20
+
+MapCode  3003
+abieconc    40
+abiemagn    40
+
+MapCode  3004
+abieconc    90
+abiemagn    90
+
+MapCode  3005
+abieconc     5  185  400
+abiemagn     1    5   25   30   65   70  105  200  400
+pinumont     1    5   10   15  120
+
+MapCode  3011
+abiemagn     5
+
+MapCode  3012
+abiemagn    20
+
+MapCode  3013
+abiemagn    40
+
+MapCode  3014
+abiemagn   100
+
+MapCode  3015
+abiemagn     1    5   10   15   45   50   65   70  105  115  400
+pinucont     5
+pinumont    55
+
+MapCode  3022
+pinualbi    20
+tsugmert    20
+
+MapCode  3023
+pinualbi    50
+tsugmert    50
+
+MapCode  3024
+pinualbi   110
+tsugmert   110
+
+MapCode  3025
+pinualbi     5   10   15   20   25   30   35   40   65  600
+pinucont     1    5   10
+tsugmert     5  240  405  600
+
+MapCode  3031
+calodecu     5
+
+MapCode  3032
+calodecu    20
+
+MapCode  3033
+calodecu    40
+
+MapCode  3034
+calodecu    90
+
+MapCode  3035
+abieconc   180
+calodecu     5   10   35   45   85  250  500
+pinupond    85  115  195  350
+querchry    10   20   65  250
+querkelo    90  300
+
+MapCode  3041
+calodecu     5
+
+MapCode  3042
+calodecu    20
+
+MapCode  3043
+calodecu    40
+
+MapCode  3044
+calodecu    80
+
+MapCode  3045
+calodecu     1    5   15  120  390  500
+pseumenz     1    5   10   15   20   95  105  300
+querchry    10   35   40   60  250
+querkelo     1   10
+
+MapCode  3051
+calodecu     5
+
+MapCode  3052
+calodecu    20
+pinulamb     5
+
+MapCode  3053
+calodecu    50
+pinulamb    35
+
+MapCode  3054
+calodecu   100
+pinulamb    85
+pinupond    50
+
+MapCode  3055
+calodecu     5   40  400
+pinulamb   385
+pinupond   105  245  350
+pseumenz     5   10   15   20   45   55  100  125  300
+querchry    10   25   30  130  250
+querkelo     5
+
+MapCode  3061
+>>pinusabi     5
+
+MapCode  3062
+>>pinusabi    20
+querdoug     5   15
+
+MapCode  3063
+>>pinusabi    50
+querchry    25
+querdoug    35   45
+
+MapCode  3064
+>>pinusabi    35
+querchry    10
+querdoug    20   30
+
+MapCode  3071
+calodecu     5
+
+MapCode  3072
+calodecu    20
+
+MapCode  3073
+calodecu    40
+
+MapCode  3074
+calodecu    80
+
+MapCode  3075
+calodecu     5   65  145  160  200  500
+pseumenz     5  135  155
+querchry    10   15   20   25   35   40   60   80  165  180  215  250
+querkelo     5   10
+
+MapCode  3081
+querkelo     5
+
+MapCode  3082
+querkelo    20
+
+MapCode  3083
+querkelo    40
+
+MapCode  3084
+querkelo    80
+
+MapCode  3085
+pinujeff   190
+pinupond     5   10   15
+querkelo     5  115  300
+
+MapCode  3091
+pinupond     1
+
+MapCode  3092
+pinupond     1
+
+MapCode  3093
+pinupond     1
+
+MapCode  3094
+pinupond     1
+
+MapCode  3095
+pinupond     1
+
+MapCode  3101
+pinucont     5
+
+MapCode  3102
+pinucont    25
+
+MapCode  3103
+pinucont    60
+
+MapCode  3104
+pinucont   130
+
+MapCode  3105
+pinucont     1    5   10   15   20  150
+
+MapCode  3112
+pinualbi    20
+tsugmert    20
+
+MapCode  3113
+pinualbi    50
+tsugmert    50
+
+MapCode  3114
+pinualbi   110
+tsugmert   110
+
+MapCode  3115
+pinualbi     1    5   15   25  600
+tsugmert     5  600
+
+MapCode  3121
+pinucont     5
+
+MapCode  3122
+pinucont    25
+
+MapCode  3123
+pinucont    60
+
+MapCode  3124
+pinucont   130
+
+MapCode  3125
+pinucont     5   15  150
+
+MapCode  3131
+calodecu     5
+
+MapCode  3132
+calodecu    20
+
+MapCode  3133
+calodecu    40
+
+MapCode  3134
+calodecu    90
+
+MapCode  3135
+abieconc     5   10   15   30   40  115  120  125  130  220
+calodecu     5   10   45   50   80  110  115  150  195  250  365  500
+querkelo     5   10   15   30   40   60  300
+
+MapCode  3141
+pinujeff     5
+
+MapCode  3142
+pinujeff     5   20
+
+MapCode  3143
+pinujeff    11   15   20   25   40
+
+MapCode  3144
+pinujeff     1    5   10   15   30
+
+MapCode  3151
+pinujeff     5
+
+MapCode  3152
+pinujeff    20
+
+MapCode  3153
+pinujeff    40
+
+MapCode  3154
+abieconc    40
+pinujeff    90
+
+MapCode  3155
+abieconc     5  400
+pinujeff     1    5   45   70   75  145  155  290  330  335  450
+
+MapCode  3161
+pinulamb     5
+
+MapCode  3162
+pinulamb    20
+
+MapCode  3163
+pinulamb    40
+
+MapCode  3164
+abieconc    30
+abiemagn    30
+pinulamb    80
+
+MapCode  3165
+abieconc   190  400
+abiemagn   400
+pinulamb   450
+querkelo     1    5   10
+
+MapCode  3171
+pinujeff     5
+
+MapCode  3172
+pinujeff    20
+
+MapCode  3173
+pinujeff     5
+
+MapCode  3181
+querkelo     5
+
+MapCode  3182
+querkelo    30
+
+MapCode  3183
+querkelo    70
+
+MapCode  3184
+querkelo   160
+
+MapCode  3185
+querkelo   300
+
+MapCode  3191
+>>pinubalf     5
+
+MapCode  3192
+>>pinubalf    20
+
+MapCode  3193
+>>pinubalf    40
+
+MapCode  3194
+>>pinubalf    90
+
+MapCode  3195
+abiemagn   145  165  235  335  365  400
+>>pinubalf   800
+pinucont     5   65   70  150
+pinumont    45   55   95  215  260  390  400
+
+MapCode  3201
+pinujeff     5
+
+MapCode  3202
+pinujeff    20
+
+MapCode  3203
+pinujeff    40
+
+MapCode  3204
+abiemagn    40
+pinujeff    90
+
+MapCode  3205
+abieconc    25  100  140
+abiemagn   345  400
+pinujeff    30   70  100  450
+
+MapCode  3211
+querchry     5
+
+MapCode  3212
+querchry    10
+
+MapCode  3221
+querchry     5
+
+MapCode  3222
+querchry    30
+
+MapCode  3223
+querchry    15   40   70
+
+MapCode  3224
+querchry     1    5   10   15   25   35   55   80  110
+
+MapCode  3231
+querchry     5
+
+MapCode  3232
+querchry    30
+
+MapCode  3233
+querchry     5   70
+
+MapCode  3234
+querchry    10   15   20   25   30   35   65  130
+
+MapCode  3241
+abieconc     5
+abiemagn     5
+
+MapCode  3242
+abieconc    20
+abiemagn    20
+
+MapCode  3243
+abieconc    40
+abiemagn    40
+
+MapCode  3244
+abieconc    20   90
+abiemagn    90
+
+MapCode  3245
+abieconc     1    5   10   20   25   45   70   75   80   85   90  100  115  120  140  145  150  200  225  230  260  300  330  400
+abiemagn   400
+pinulamb   150
+pinupond    20
+
+MapCode  3251
+pinujeff     1    5
+
+MapCode  3252
+pinujeff    16   20
+
+MapCode  3253
+pinujeff     1    5
+
+MapCode  3261
+pinujeff     5
+pinulamb     5
+
+MapCode  3262
+pinujeff    20
+pinulamb    20
+
+MapCode  3263
+pinujeff    40
+pinulamb    40
+
+MapCode  3264
+pinujeff    90
+pinulamb    90
+
+MapCode  3265
+abiemagn     1    5   10   15   20   25   35   40   45   60   95
+calodecu     5   10   15
+pinujeff    30   80   85   95  245  450
+pinulamb     1    5   35  450
+querkelo     5   10  145
+
+MapCode  3271
+pinupond     5
+
+MapCode  3272
+pinupond    20
+
+MapCode  3273
+pinupond    40
+
+MapCode  3274
+pinupond    90
+
+MapCode  3275
+calodecu     5  140  260
+pinupond     1    5   10   90  110  140  205  350
+pseumenz    15
+
+MapCode  3281
+pinupond     5
+
+MapCode  3282
+pinupond    20
+
+MapCode  3283
+pinupond    40
+
+MapCode  3284
+calodecu    15
+pinupond    90
+
+MapCode  3285
+calodecu     5
+pinupond    80
+
+MapCode  3291
+calodecu     5
+
+MapCode  3292
+calodecu    20
+
+MapCode  3293
+calodecu    40
+
+MapCode  3294
+calodecu    90
+
+MapCode  3295
+abieconc     1    5   90  105  130  330
+calodecu     1    5   10   25   45   85   95  120  125  190  480
+pinulamb     1    5   35
+pinupond   350
+pseumenz     1    5   65  170  300
+
+MapCode  3301
+pinupond     1    5
+
+MapCode  3302
+pinupond    16   20
+
+MapCode  3303
+pinupond     1    5
+
+MapCode  3311
+pinupond     5
+
+MapCode  3312
+pinupond    20
+
+MapCode  3313
+pinupond    40
+
+MapCode  3314
+pinupond     5
+
+MapCode  3321
+calodecu     5
+
+MapCode  3322
+calodecu    20
+
+MapCode  3323
+calodecu    40
+
+MapCode  3324
+calodecu    90
+
+MapCode  3325
+calodecu     5   40  185  500
+pinumont   200  400
+pinupond    75   95  120  160  165  240  315
+
+MapCode  3332
+pinuflex    11   15   20
+
+MapCode  3333
+pinuflex    41   45   50
+
+MapCode  3334
+pinuflex     1    5   10
+
+MapCode  3341
+abieconc     5
+pinumont     5
+
+MapCode  3342
+abieconc    20
+pinumont    20
+
+MapCode  3343
+abieconc    40
+pinumont    40
+
+MapCode  3344
+abieconc    90
+pinumont    90
+
+MapCode  3345
+abieconc     5   10   25   30   80   95  115  165  400
+pinucont     5   10   15   20   40   50   55   80  150
+pinumont   400
+
+MapCode  3351
+querchry     5
+
+MapCode  3352
+querchry    30
+
+MapCode  3353
+querchry    70
+
+MapCode  3354
+querchry   160
+
+MapCode  3355
+>>pinusabi    10   20
+querchry     1   10   15   35   85  250
+querkelo    25   50
+
+MapCode  3361
+pinujeff     5
+
+MapCode  3362
+pinujeff    20
+
+MapCode  3363
+pinujeff    40
+
+MapCode  3364
+pinujeff    90
+
+MapCode  3365
+calodecu    25  240
+pinujeff     1    5   20   45   65   95  125  130  200  210  305  450
+pinupond    90  350
+
+MapCode  3371
+calodecu     5
+
+MapCode  3372
+calodecu    20
+
+MapCode  3373
+calodecu    40
+
+MapCode  3374
+calodecu    90
+pinujeff    40
+
+MapCode  3375
+calodecu     1  500
+pinujeff     1    5   10   15   20   25   45   50   55   60   70   80   85   90  105  140  145  180  450
+
+MapCode  3381
+pinucont     5
+
+MapCode  3382
+pinucont    25
+
+MapCode  3383
+pinucont    20   60
+
+MapCode  3384
+pinucont     5   10   15   30   35   45   90  130
+
+MapCode  3385
+pinucont     5   10   15   25   30   35   50   55   65  110  150
+
+MapCode  3391
+abiemagn     5
+
+MapCode  3392
+abiemagn    20
+
+MapCode  3393
+abiemagn    40
+
+MapCode  3394
+abiemagn   100
+
+MapCode  3395
+abieconc    80  255
+abiemagn     1    5   10   40   60  180  400
+pinujeff    45
+
+MapCode  3401
+pinujeff     5
+
+MapCode  3402
+pinujeff    20
+
+MapCode  3403
+pinujeff    40
+
+MapCode  3404
+pinujeff    90
+
+MapCode  3405
+abieconc    55
+juniocci   110
+pinujeff     1    5   15   25   35   40   50   55   65  105  130  185  270  345  450
+
+MapCode  3411
+calodecu     5
+
+MapCode  3412
+calodecu    20
+
+MapCode  3413
+calodecu    40
+
+MapCode  3414
+calodecu    90
+pinulamb    40
+
+MapCode  3415
+calodecu     5  160  245  500
+pinulamb     1   40   60   80  190  450
+pinupond     1    5   10   15   25   70   75   85   90  100  150  165  180  205  265  350
+querchry     1   10   15   20   55   70   80
+querkelo    10
+
+MapCode  3422
+pinualbi    20
+
+MapCode  3423
+pinualbi    10   50
+
+MapCode  3424
+pinualbi    10   15   20   30   40   45   50   55  165  520  560  600
+
+MapCode  3431
+querdoug     5
+
+MapCode  3432
+querdoug    20
+
+MapCode  3433
+querdoug    20   50
+
+MapCode  3434
+querdoug     5   35
+
+MapCode  3441
+querdoug     5
+
+MapCode  3442
+querdoug     5   20
+
+MapCode  3443
+querdoug    15   20   25   30   35   50
+
+MapCode  3444
+querdoug     5   10   15   20   25   40
+
+MapCode  3451
+>>pinusabi     5
+
+MapCode  3452
+>>pinusabi    30
+
+MapCode  3453
+>>pinusabi    70
+
+MapCode  3454
+>>pinusabi   160
+
+MapCode  3455
+>>pinusabi   200
+querchry    10   15   35
+querdoug     5   10   15
+
+MapCode  3461
+pinupond     5
+
+MapCode  3462
+pinupond    20
+
+MapCode  3463
+pinupond    40
+
+MapCode  3464
+pinupond    20   80
+querkelo    30
+
+MapCode  3465
+calodecu    15  165
+pinupond    10   75  105  110  250  290  350
+querchry    10   15
+querkelo    10  135  300
+
+MapCode  3471
+calodecu     5
+
+MapCode  3472
+calodecu    20
+
+MapCode  3473
+calodecu    40
+
+MapCode  3474
+calodecu    90
+pinulamb    40
+
+MapCode  3475
+abieconc     1    5   10   40  400
+calodecu     5   15  100  175  500
+pinulamb     5  270  450
+pinupond     1    5   10   90  120  160  240  350
+querkelo     5   10   15   25   30   70
+
+MapCode  3481
+calodecu     5
+
+MapCode  3482
+calodecu    20
+
+MapCode  3483
+calodecu    40
+
+MapCode  3484
+calodecu    90
+
+MapCode  3485
+abieconc    10   35   40   90  125
+calodecu     5   10   20   30   40   70   75   90  110  125  215  235  480
+riparian    25  105
+
+MapCode  3491
+pinujeff     5
+
+MapCode  3492
+pinujeff    20
+
+MapCode  3493
+pinujeff    40
+
+MapCode  3494
+abieconc    40
+abiemagn    40
+pinujeff    90
+
+MapCode  3495
+abieconc     5   10  400
+abiemagn     1    5   10  400
+pinujeff     5   60  310  330  450
+
+MapCode  3501
+calodecu     5
+
+MapCode  3502
+calodecu    20
+
+MapCode  3503
+calodecu    40
+
+MapCode  3504
+calodecu    90
+
+MapCode  3505
+calodecu     1   10  160  170  500
+pinulamb     1    5
+pinupond     1    5   45
+querkelo    10
+
+MapCode  3511
+abiemagn     5
+
+MapCode  3512
+abiemagn    25
+
+MapCode  3513
+abiemagn    60
+
+MapCode  3514
+abiemagn   130
+
+MapCode  3515
+abiemagn     1    5   10  170  400
+pinucont     5   10   15   20   65   70  105  150
+
+MapCode  3521
+abiemagn     5
+
+MapCode  3522
+abiemagn    10   20
+
+MapCode  3523
+abiemagn    30   40
+
+MapCode  3524
+abiemagn    80   90
+
+MapCode  3525
+abiemagn     5   10   20   30   55   65   85  390  400
+pinucont    90  150
+pinujeff   100
+
+MapCode  3531
+pinucont     5
+
+MapCode  3532
+pinucont    25
+pinumont     5
+
+MapCode  3533
+pinucont    60
+pinumont    40
+
+MapCode  3534
+pinucont     5   10   20   65  130
+pinumont   110
+
+MapCode  3535
+pinucont     1    5   10   15   20   25   30   40   85  150
+pinumont   130
+
+MapCode  3542
+tsugmert    20
+
+MapCode  3543
+tsugmert    50
+
+MapCode  3544
+tsugmert   110
+
+MapCode  3545
+pinucont     5
+pinumont     1    5  155  400
+tsugmert     1    5   10   20   25  145  170  300  600
+
+MapCode  3551
+querdoug     5
+
+MapCode  3552
+querdoug    20
+
+MapCode  3553
+querdoug    50
+
+MapCode  3554
+querdoug    95
+
+MapCode  3555
+querdoug   250
+
+MapCode  3561
+calodecu     5
+
+MapCode  3562
+calodecu    20
+
+MapCode  3563
+calodecu    40
+
+MapCode  3564
+calodecu    90
+
+MapCode  3565
+calodecu     5   15   20   40  105  110  140  160  205  265  500
+querkelo     5  300
+
+MapCode  3571
+querkelo     5
+
+MapCode  3572
+querkelo    20
+
+MapCode  3573
+querkelo    40
+
+MapCode  3574
+querkelo    90
+
+MapCode  3575
+abieconc     5
+calodecu     1    5   10   15   25   95  175  180
+pinulamb     1    5   50   85
+pinupond     1    5   20   30   40   45
+querkelo   300
+
+MapCode  3581
+querchry     5
+
+MapCode  3582
+querchry    30
+
+MapCode  3583
+querchry    70
+querwisl    20
+
+MapCode  3584
+querchry     5   15   45   65   75  160
+querwisl   110
+
+MapCode  3585
+calodecu    50
+pinupond    45
+querchry    10   15   20   45   60   90   95  105  135  155  165  250
+querwisl    20  200
+
+MapCode  3591
+calodecu     5
+
+MapCode  3592
+calodecu    20
+
+MapCode  3593
+calodecu    40
+
+MapCode  3594
+calodecu    90
+
+MapCode  3595
+calodecu   155  500
+pinulamb     5
+pinupond    10   15   20   60   85  140  150  305  310  350
+querchry    65  115
+querkelo     1  300
+
+MapCode  3601
+abieconc     5
+abiemagn     5
+
+MapCode  3602
+abieconc    20
+abiemagn    20
+
+MapCode  3603
+abieconc    40
+abiemagn    40
+
+MapCode  3604
+abieconc    90
+abiemagn    90
+
+MapCode  3605
+abieconc     5   20   30  135  400
+abiemagn     5   10   25   45   65   80  135  170  235  245  300  400
+pinucont   105  150
+
+MapCode  3611
+pinujeff     5
+
+MapCode  3612
+pinujeff    20
+
+MapCode  3613
+pinujeff    40
+
+MapCode  3614
+pinujeff    10   80
+
+MapCode  3615
+pinujeff    10   20   65  135
+querchry     1    5   10   15   20   25   30   35
+
+MapCode  3621
+pinucont     1    5
+
+MapCode  3622
+pinucont     1
+
+MapCode  3623
+pinucont     1
+
+MapCode  3624
+pinucont     1
+
+MapCode  3625
+pinucont     1
+
+MapCode  3631
+querdoug     5
+
+MapCode  3632
+querdoug    20
+
+MapCode  3633
+querdoug    50
+
+MapCode  3634
+querdoug    95
+
+MapCode  3635
+querdoug     5   10   35  250
+
+MapCode  3641
+querchry     5
+
+MapCode  3642
+querchry    30
+
+MapCode  3643
+querchry    70
+
+MapCode  3644
+querchry     1    5   10   15   20   25   30   35   40   45   55   65   70   80   95  120  160  175  250
+
+MapCode  3651
+querchry     5
+
+MapCode  3652
+querchry    15   30
+
+MapCode  3653
+querchry    20   55   70
+
+MapCode  3654
+querchry    20   25  110  145  160
+
+MapCode  3655
+querchry    10   15   30   55   70   80  110  115  200  235  250
+
+MapCode  3661
+>>pinusabi     5
+querdoug     5
+
+MapCode  3662
+>>pinusabi    20
+querdoug    10   15   20
+
+MapCode  3663
+>>pinusabi    50
+querdoug    40   45   50
+
+MapCode  3664
+>>pinusabi    15
+querdoug     5   10   15
+
+MapCode  3671
+querwisl     5
+
+MapCode  3672
+querwisl    15
+
+MapCode  3681
+querchry     5
+
+MapCode  3682
+querchry    30
+
+MapCode  3683
+>>pinusabi    20
+querchry    10   70
+
+MapCode  3684
+>>pinusabi   110
+querchry   100  160
+
+MapCode  3685
+>>pinusabi     5  200
+querchry   190  250
+querwisl     1    5   15   35
+
+MapCode  3691
+querkelo     5
+
+MapCode  3692
+querkelo    30
+
+MapCode  3693
+querkelo    70
+
+MapCode  3694
+querkelo   160
+
+MapCode  3695
+querkelo   300
+
+MapCode  3701
+querdoug     5
+
+MapCode  3702
+querdoug    30
+
+MapCode  3703
+querdoug    70
+
+MapCode  3704
+querdoug   160
+querwisl    80
+
+MapCode  3705
+querdoug   250
+querwisl     5   10   15   20   25   30  170
+
+MapCode  3711
+querdoug     5
+
+MapCode  3712
+querdoug    20
+
+MapCode  3713
+querdoug    50
+
+MapCode  3714
+querdoug     5   10   40   95
+
+MapCode  3721
+querwisl     5
+
+MapCode  3722
+querwisl    30
+
+MapCode  3723
+querwisl    70
+
+MapCode  3724
+querwisl    10   15   20   25   30   35   50   55   75   80  200
+
+MapCode  3731
+pinujeff     5
+
+MapCode  3732
+pinujeff    20
+
+MapCode  3733
+pinujeff    40
+
+MapCode  3734
+pinujeff    90
+
+MapCode  3735
+abieconc    15   55
+pinujeff    20   60  280  450
+
+MapCode  3741
+querwisl     5
+
+MapCode  3742
+querwisl     5   30
+
+MapCode  3743
+querwisl    10   35
+
+MapCode  3751
+querwisl     5
+
+MapCode  3752
+querwisl    30
+
+MapCode  3753
+querwisl     5   70
+
+MapCode  3754
+querwisl    10   20   75  130  135  200
+
+MapCode  3761
+abiemagn     5
+pinumont     5
+
+MapCode  3762
+abiemagn    20
+pinumont    20
+
+MapCode  3763
+abiemagn    40
+pinumont    40
+
+MapCode  3764
+abiemagn    90
+pinumont    90
+
+MapCode  3765
+abiemagn     5   10   35   40   55  125  170  400
+pinucont     5   40   50  150
+pinumont   205  400
+
+MapCode  3771
+pinulamb     5
+
+MapCode  3772
+pinulamb    20
+
+MapCode  3773
+pinulamb    40
+
+MapCode  3774
+abieconc    40
+pinulamb    90
+
+MapCode  3775
+abieconc     1    5   10   15   20   80  105  130  150  165  205  300  335  360  400
+pinulamb     1    5   15   20   40   50   60  210  450
+
+MapCode  3781
+abieconc     5
+
+MapCode  3782
+abieconc    20
+
+MapCode  3783
+abieconc    40
+
+MapCode  3784
+abieconc    90
+
+MapCode  3785
+abieconc     5   10   15   25  120  125  140  255  400
+pinulamb     1    5   20   40   90  165  185  210
+pinupond     5   25
+querkelo     5   10   15   25   30
+
+MapCode  3791
+pinujeff     5
+
+MapCode  3792
+pinujeff    20
+
+MapCode  3793
+pinujeff    40
+
+MapCode  3794
+pinujeff    15
+
+MapCode  3801
+>>pinusabi     5
+
+MapCode  3802
+>>pinusabi    20
+
+MapCode  3803
+>>pinusabi    40
+
+MapCode  3804
+>>pinusabi    10   80
+
+MapCode  3805
+>>pinusabi    10   50   80  150
+querwisl     1    5   10   15   20   25   30
+
+MapCode  3812
+tsugmert    20
+
+MapCode  3813
+tsugmert    50
+
+MapCode  3814
+pinumont    20
+tsugmert   110
+
+MapCode  3815
+abiemagn     5
+pinumont     1    5   10   30   50  105  120  160  310  400
+tsugmert     5   20  490
+
+MapCode  3821
+pinucont     5
+
+MapCode  3822
+pinucont    20   25
+
+MapCode  3823
+pinucont    15   25   35   55   60
+
+MapCode  3824
+pinucont     5   15   20   25   65   85   95  105  125  130
+
+MapCode  3825
+pinucont     5   10   15   20   25   35   40   45   85  105  115  125  145  150
+
+MapCode  3831
+abiemagn     5
+
+MapCode  3832
+abiemagn    25
+
+MapCode  3833
+abiemagn    60
+
+MapCode  3834
+abiemagn   130
+
+MapCode  3835
+abiemagn     5  175  400
+pinucont     1    5   10   15   60   75  145  150
+pinumont     1    5   50
+
+MapCode  3841
+abiemagn     5
+
+MapCode  3842
+abiemagn    30
+
+MapCode  3843
+abiemagn    60
+
+MapCode  3844
+abiemagn   130
+
+MapCode  3845
+abiemagn   400
+
+MapCode  3851
+abiemagn     5
+
+MapCode  3852
+abiemagn    20
+
+MapCode  3853
+abiemagn    40
+
+MapCode  3854
+abiemagn    45   60  100
+
+MapCode  3855
+abiemagn     5   15   40   45   50   55   60   65   70   75   80   85   95  100  110  120  155  180  195  205  250  260  265  295  345  360  400
+
+MapCode  3861
+abieconc     5
+
+MapCode  3862
+abieconc    15   20
+
+MapCode  3863
+abieconc    35   40
+
+MapCode  3864
+abieconc    25   50   85   90
+
+MapCode  3865
+abieconc     1    5   10   15   20   40   50   70   75   90  105  125  140  145  190  225  240  305  335  360  395  400
+
+MapCode  3871
+abiemagn     5
+pinumont     5
+
+MapCode  3872
+abiemagn    25
+pinumont    25
+
+MapCode  3873
+abiemagn    60
+pinumont    60
+
+MapCode  3874
+abiemagn   130
+pinumont   130
+
+MapCode  3875
+abiemagn   400
+pinucont     5   15   35   45   75   90  105  150
+pinumont   400
+
+MapCode  3881
+pinucont     5
+
+MapCode  3882
+pinucont    25
+
+MapCode  3883
+pinucont    60
+
+MapCode  3884
+pinucont     5   10   15   20   55  130
+
+MapCode  3885
+pinucont     1    5   10   15   20   25   30   35   40   75  150
+pinumont     5
+
+MapCode  3892
+abiemagn    20
+
+MapCode  3893
+abiemagn    50
+
+MapCode  3894
+abiemagn   110
+
+MapCode  3895
+abiemagn    50   75  135  150  195  215  275  400
+pinucont   130  150
+pinumont     1    5   10   15   20   25   45   50   65   70  120  135  150  255
+
+MapCode  3902
+pinualbi    20
+
+MapCode  3903
+pinualbi    50
+
+MapCode  3904
+pinualbi     1   10   15   40   50  100
+
+MapCode  3911
+pinujeff     5
+
+MapCode  3912
+pinujeff    20
+
+MapCode  3913
+pinujeff    40
+
+MapCode  3914
+abieconc    40
+pinujeff     5   15   90
+
+MapCode  3915
+abieconc     1    5   10   30   35   40   75  120  130  170  210  360  400
+abiemagn    40   45  100
+pinujeff     1   80  175  180  235  315  365  375  450
+
+MapCode  3921
+pinujeff     5
+
+MapCode  3922
+pinujeff    20
+
+MapCode  3923
+pinujeff    40
+
+MapCode  3924
+pinujeff    90
+
+MapCode  3925
+abieconc     5
+juniocci   100  155
+pinujeff    15  230  450
+
+MapCode  3931
+calodecu     5
+
+MapCode  3932
+calodecu    20
+
+MapCode  3933
+calodecu    40
+
+MapCode  3934
+calodecu     5   35   90
+
+MapCode  3935
+abieconc     5  105  155  275
+calodecu     5   10   15   45   50   85  120  140  180  200  270  300  415  445  500
+pinulamb    35
+pinupond     5   90  105  120  160  185  240  320
+querkelo   300
+
+MapCode  3941
+calodecu     5
+
+MapCode  3942
+calodecu    20
+
+MapCode  3943
+calodecu    40
+
+MapCode  3944
+calodecu    90
+pinujeff    20   40
+pinulamb    40
+
+MapCode  3945
+abieconc    45  100  400
+calodecu     1    5  120  500
+pinujeff   155  180  365  430  450
+pinulamb     5   45   60  295  450
+querkelo     5   10
+
+MapCode  3951
+pinujeff     5
+
+MapCode  3952
+pinujeff    20
+
+MapCode  3953
+calodecu    10
+pinujeff    40
+querkelo    10   15
+
+MapCode  3954
+calodecu     5
+pinujeff    35
+querkelo     5   10
+
+MapCode  3961
+juniocci     5
+
+MapCode  3962
+juniocci    20
+
+MapCode  3963
+juniocci    40
+
+MapCode  3964
+juniocci    90
+
+MapCode  3965
+juniocci     1  780
+pinucont     5
+pinujeff    10  125  180  225  320
+
+MapCode  3971
+querwisl     5
+
+MapCode  3972
+querwisl    30
+
+MapCode  3973
+querwisl    25   70
+
+MapCode  3974
+querwisl    15   20   40  155  200
+
+MapCode  3981
+pinupond     5
+
+MapCode  3982
+pinupond    20
+
+MapCode  3983
+pinupond    40
+
+MapCode  3984
+pinupond    90
+querkelo    40
+
+MapCode  3985
+pinupond     5   10   65   70   80   90  120  130  135  145  245  350
+querkelo     5  300
+
+MapCode  3991
+calodecu     5
+
+MapCode  3992
+calodecu    20
+
+MapCode  3993
+calodecu    40
+
+MapCode  3994
+calodecu    90
+pinulamb    40
+
+MapCode  3995
+abieconc     5   10  100  105  120  130  170  205  245  275  285  320  400
+calodecu     1    5   10   25   35   90  100  105  125  140  220  230  240  370  400  500
+pinulamb    90  450
+
+MapCode  4001
+pinupond     5
+
+MapCode  4002
+pinupond    20
+
+MapCode  4003
+pinupond    40
+
+MapCode  4004
+pinupond    90
+
+MapCode  4005
+abieconc     5
+calodecu     1
+pinulamb     1    5   80
+pinupond     1    5   10   90  185
+pseumenz     5
+
+MapCode  4011
+querwisl     5
+
+MapCode  4012
+querwisl    30
+
+MapCode  4013
+querwisl    70
+
+MapCode  4014
+querdoug    20
+querwisl   160
+
+MapCode  4015
+querdoug    10   15   25   60
+querwisl     5   10   25  200
+
+MapCode  4025
+abieconc    15
+pinujeff     1    5   30   45   50   60   65   80  100  105  120  140  175  285  405  450
+sequgiga     1    5
+
+MapCode  4031
+pinujeff     5
+
+MapCode  4032
+pinujeff    20
+
+MapCode  4033
+pinujeff    40
+
+MapCode  4034
+pinujeff    90
+
+MapCode  4035
+abieconc     5   75
+pinujeff    55   60   70   75  165  215  450
+
+MapCode  4041
+pinulamb     5
+
+MapCode  4042
+pinulamb    20
+
+MapCode  4043
+pinulamb    40
+
+MapCode  4044
+abieconc    40
+abiemagn    40
+pinulamb    90
+
+MapCode  4045
+abieconc     5   10   20  400
+abiemagn   400
+pinujeff    25   50   85   95  175  290
+pinulamb   450
+
+MapCode  4051
+pinupond     1    5
+
+MapCode  4052
+pinupond    16   20
+
+MapCode  4053
+pinupond     1    5
+
+MapCode  4061
+calodecu     5
+
+MapCode  4062
+calodecu    20
+
+MapCode  4063
+calodecu    40
+
+MapCode  4064
+calodecu    90
+
+MapCode  4065
+calodecu   500
+
+MapCode  4071
+querwisl     5
+
+MapCode  4072
+querwisl     5   15   20   25   30
+
+MapCode  4073
+querwisl     5   15   25   30   35   40
+
+MapCode  4081
+pinujeff     5
+
+MapCode  4082
+pinujeff    20
+
+MapCode  4083
+pinujeff    40
+
+MapCode  4084
+pinujeff    90
+
+MapCode  4085
+abieconc     5   10   15   20   30   45   50   70   90  105  125  145  200  235
+pinujeff     5   10   35   50   85  165  185  235  450
+
+MapCode  4091
+abieconc     5
+
+MapCode  4092
+abieconc    20
+
+MapCode  4093
+abieconc    40
+
+MapCode  4094
+abieconc    20   90
+
+MapCode  4095
+abieconc     1    5   15   45   70   80   95  130  185  215  270  280  330  400
+pinujeff     5   15   25
+
+MapCode  4101
+juniocci     5
+
+MapCode  4102
+juniocci    20
+
+MapCode  4103
+juniocci    50
+
+MapCode  4104
+juniocci   110
+
+MapCode  4105
+juniocci   130  245  305  595 1000
+
+MapCode  4111
+abieconc     5
+
+MapCode  4112
+abieconc    20
+
+MapCode  4113
+abieconc    40
+
+MapCode  4114
+abieconc    45   90
+pinupond    20   40
+
+MapCode  4115
+abieconc     5   10   15   25   50   55  150  290  355  400
+calodecu     5   10   25
+pinulamb     1    5   10
+pinupond    35  330  350
+querkelo     5   10
+
+MapCode  4121
+calodecu     5
+
+MapCode  4122
+calodecu    20
+
+MapCode  4123
+calodecu    40
+
+MapCode  4124
+calodecu    45   90
+
+MapCode  4125
+abieconc     5   60  170
+calodecu     5   10   15  200  250  455  500
+pinulamb     1    5   10   15   20  100
+pinupond    10
+querchry    10
+querkelo     1    5   15   25   65  125  300
+
+MapCode  4131
+abiemagn     5
+
+MapCode  4132
+abiemagn    20
+
+MapCode  4133
+abiemagn    10   40
+
+MapCode  4134
+abiemagn    10   35   45   55   70  100
+
+MapCode  4135
+abieconc     5
+abiemagn     1    5   10   35   40   45   50   55   60   65   70   75   95  105  110  120  125  130  180  195  220  225  230  240  270  275  310  335  345  355  370  400
+
+MapCode  4141
+calodecu     5
+
+MapCode  4142
+calodecu    20
+
+MapCode  4143
+calodecu    40
+
+MapCode  4144
+calodecu    90
+
+MapCode  4145
+abieconc     5   70
+calodecu   500
+pinujeff    50   55   60   90  105  170  235
+pinulamb   125
+querkelo     5
+
+MapCode  4151
+>>pinubalf     5
+
+MapCode  4152
+>>pinubalf    25
+
+MapCode  4153
+>>pinubalf    60
+
+MapCode  4154
+>>pinubalf   130
+
+MapCode  4155
+>>pinubalf   800
+pinucont    10   20   30  150
+pinujeff    70  450
+
+MapCode  4165
+abieconc     5   10   15   30   40   70   80   90  110  130  140  230  270  300  400
+calodecu     5   40  100  500
+pinulamb    10   15   70   75   95  170  365  450
+sequgiga     5
+
+MapCode  4171
+pinujeff     5
+
+MapCode  4172
+pinujeff    20
+
+MapCode  4173
+pinujeff    40
+
+MapCode  4174
+abiemagn    40
+pinujeff    90
+pinumont    40
+
+MapCode  4175
+abiemagn     1    5   10   20   25   40   45   50   55   60   65   75   80   90   95  100  205  225  245  400
+pinucont    10
+pinujeff    50  190  450
+pinumont   400
+
+MapCode  4181
+pinucont     5
+
+MapCode  4182
+pinucont    25
+
+MapCode  4183
+pinucont    60
+
+MapCode  4184
+pinucont    10   20  130
+
+MapCode  4185
+pinucont     1    5   10   20   30   40  150
+
+MapCode  4192
+>>pinubalf    20
+
+MapCode  4193
+>>pinubalf    50
+
+MapCode  4194
+>>pinubalf    20  110
+
+MapCode  4195
+>>pinubalf     5   10   15   75  125  210  230  235  240  290  295  330  335  365  380  445  550  560  575  640  680  710  800
+
+MapCode  4201
+calodecu     5
+
+MapCode  4202
+calodecu    20
+
+MapCode  4203
+calodecu    10   40
+
+MapCode  4204
+calodecu    60   90
+
+MapCode  4205
+abieconc     5   20
+calodecu     1    5   15   30   50  470  500
+pinupond    15  270  350
+querchry    10
+querkelo     5   15  300
+
+MapCode  4211
+pinujeff     5
+
+MapCode  4212
+pinujeff    20
+
+MapCode  4213
+pinujeff    40
+
+MapCode  4214
+abiemagn    50
+pinujeff   100
+
+MapCode  4215
+abiemagn     1    5   10   20   30   45   60  195  200  220  400
+pinucont     5  150
+pinujeff   450
+
+MapCode  4221
+calodecu     5
+
+MapCode  4222
+calodecu    30
+
+MapCode  4223
+calodecu    70
+
+MapCode  4224
+calodecu   160
+
+MapCode  4225
+abieconc   255
+calodecu   500
+pinulamb    20   40  170
+pinupond    10  240
+pseumenz   300
+querkelo     1    5   10
+
+MapCode  4231
+pinupond     5
+
+MapCode  4232
+pinupond    20
+
+MapCode  4233
+pinupond    40
+
+MapCode  4234
+pinupond    90
+
+MapCode  4235
+pinulamb     1  125
+pinupond     5   10  135  350
+pseumenz     5
+
+MapCode  4241
+calodecu     5
+
+MapCode  4242
+calodecu    20
+
+MapCode  4243
+calodecu    40
+
+MapCode  4244
+calodecu    90
+pinujeff    40
+pinulamb    40
+
+MapCode  4245
+abieconc     5   10   15   20   25   35   55   80   85  115  120  175  200  210  215  400
+abiemagn     5   25   75
+calodecu    10   15   90  500
+pinujeff    10   75  140  195  450
+pinulamb    35  450
+querkelo     5   10   25
+
+MapCode  4251
+calodecu     5
+
+MapCode  4252
+calodecu    20
+
+MapCode  4253
+calodecu    40
+
+MapCode  4254
+calodecu    90
+
+MapCode  4255
+calodecu     5   65  180  200  255  260  500
+pinupond   110  125  215  350
+querchry     1    5
+querkelo    45  300
+
+MapCode  4261
+abiemagn     5
+
+MapCode  4262
+abiemagn    20
+
+MapCode  4263
+abiemagn    40
+
+MapCode  4264
+abiemagn    45   90
+
+MapCode  4265
+abieconc     1    5   25
+abiemagn     5   10   15   20   40   45   55   60   75  260  305
+pinucont     5   10   15   25   35  145  150
+
+MapCode  4271
+pinupond     5
+
+MapCode  4272
+pinupond    10   15   20
+
+MapCode  4273
+pinupond    30   35   40
+
+MapCode  4274
+pinupond     5   10   15
+
+MapCode  4281
+pinucont     5
+
+MapCode  4282
+pinucont    25
+
+MapCode  4283
+pinucont    60
+
+MapCode  4284
+pinucont     5   15  130
+
+MapCode  4285
+pinucont     1    5   10   20   25   35  150
+pinumont     1
+
+MapCode  4291
+querchry     5
+
+MapCode  4292
+querchry    30
+
+MapCode  4293
+querchry    20   70
+
+MapCode  4294
+querchry    90  110  160
+
+MapCode  4295
+querchry    10   15   20   25   80  180  200  250
+
+MapCode  4302
+calodecu    20
+
+MapCode  4303
+calodecu    50
+
+MapCode  4304
+calodecu   110
+
+MapCode  4305
+calodecu   165
+
+MapCode  4311
+juniocci     5
+
+MapCode  4312
+juniocci    20
+
+MapCode  4313
+juniocci    40
+
+MapCode  4314
+juniocci    90
+
+MapCode  4315
+abieconc     1    5   10   70  110  170  215  400
+abiemagn    25   55   75   80   90   95  125  145  150  200  255  400
+juniocci    10   15  225  280 1000
+pinujeff   450
+pinumont    55  365
+
+MapCode  4321
+abieconc     5
+
+MapCode  4322
+abieconc    20
+
+MapCode  4323
+abieconc    40
+
+MapCode  4324
+abieconc    90
+
+MapCode  4325
+abieconc     5   10   15   20   30   75   80  110  400
+
+MapCode  4331
+calodecu     5
+
+MapCode  4332
+calodecu    20
+
+MapCode  4333
+calodecu    40
+
+MapCode  4334
+calodecu    90
+pinujeff    40
+
+MapCode  4335
+abieconc     5   90
+calodecu     5   10   15   20   25   30   35   40   80  165  500
+pinujeff     5  450
+pinulamb    40
+pseumenz     5  185
+querkelo     5   10   15   20   25   30   35   50   80   95
+
+MapCode  4341
+abieconc     5
+abiemagn     5
+
+MapCode  4342
+abieconc    20
+abiemagn    20
+
+MapCode  4343
+abieconc    40
+abiemagn    40
+
+MapCode  4344
+abieconc    90
+abiemagn    90
+
+MapCode  4345
+abieconc     1    5   10   15   20   25   35   45   70   80   90   95  120  130  400
+abiemagn     1    5   10   15   25   35   40   45   50   55   60   65   70   85  110  135  200  215  280  400
+pinucont     5   10  125
+pinujeff   125
+
+MapCode  4351
+calodecu     5
+
+MapCode  4352
+calodecu    20
+
+MapCode  4353
+calodecu    40
+
+MapCode  4354
+calodecu    90
+pinujeff    40
+
+MapCode  4355
+abieconc     5   90
+calodecu   500
+pinujeff     1    5   10   30   45   95  100  135  450
+pinulamb    10
+querkelo    10
+
+MapCode  4361
+querwisl     5
+
+MapCode  4362
+querwisl     5   10   15   20   30
+
+MapCode  4363
+querwisl    10   15   20   25   35
+
+MapCode  4371
+pinujeff     5
+
+MapCode  4372
+pinujeff    20
+
+MapCode  4373
+pinujeff    40
+
+MapCode  4374
+abieconc    40
+pinujeff    90
+
+MapCode  4375
+abieconc     1    5   15   20   30   40   75   85   95  105  200  400
+pinujeff     1    5   10   15   25   50   95  110  225  450
+
+MapCode  4381
+querkelo     5
+
+MapCode  4382
+querkelo    30
+
+MapCode  4383
+querkelo     5
+
+MapCode  4391
+querkelo     5
+
+MapCode  4392
+querkelo    30
+
+MapCode  4393
+querkelo    10   70
+
+MapCode  4394
+querkelo   100  160
+querwisl    60
+
+MapCode  4395
+querkelo     5   10   15   30  240  300
+querwisl    10   15   20   25   35   70  125  200
+
+MapCode  4401
+querdoug     5
+
+MapCode  4402
+querdoug    20
+
+MapCode  4403
+querdoug    50
+
+MapCode  4404
+querdoug    95
+
+MapCode  4405
+querdoug    40   90  250
+
+MapCode  4411
+calodecu     5
+
+MapCode  4412
+calodecu    15   20
+
+MapCode  4413
+calodecu    35   40
+
+MapCode  4414
+calodecu    85   90
+
+MapCode  4415
+abieconc     5   10   15   20   30   40   55   70   75   80   90   95  105  110  120  170  180  250  330  400
+calodecu     1    5   10   90  100  105  120  125  130  140  185  200  215  220  310  345  495  500
+pinulamb    50   65
+
+MapCode  4421
+abieconc     5
+
+MapCode  4422
+abieconc    20
+
+MapCode  4423
+abieconc    40
+
+MapCode  4424
+abieconc    50   90
+
+MapCode  4425
+abieconc     1    5   10   80   85  110  360  400
+pinujeff     5  255
+pinupond     5   10
+
+MapCode  4431
+juniocci     5
+
+MapCode  4432
+juniocci    30
+
+MapCode  4433
+juniocci    70
+
+MapCode  4434
+juniocci   160
+
+MapCode  4435
+juniocci     1    5   45   90  975
+pinujeff   180
+
+MapCode  4441
+pinucont     5
+
+MapCode  4442
+pinucont     5
+
+MapCode  4451
+abieconc     5
+
+MapCode  4452
+abieconc    25
+
+MapCode  4453
+abieconc    60
+
+MapCode  4454
+abieconc   130
+
+MapCode  4455
+abieconc   400
+pinucont   110  150
+
+MapCode  4465
+abieconc     1    5   15   20   25   30   45   90  110  145  150  170  230  400
+calodecu    55   65   75   90   95  140  500
+pinulamb    25   55  185  450
+pinupond   350
+sequgiga  1080
+
+MapCode  4471
+querchry     5
+
+MapCode  4472
+querchry     5   10   25   30
+
+MapCode  4473
+querchry     1    5   10   15   20   35   40
+
+MapCode  4481
+calodecu     5
+
+MapCode  4482
+calodecu    20
+
+MapCode  4483
+calodecu    40
+
+MapCode  4484
+calodecu    90
+
+MapCode  4485
+calodecu    15  100  125  135  145  150  175  215  500
+pinujeff   105  140
+pinupond     5   15   20   35   55   80   90  120  130  315  350
+riparian     1    5
+
+MapCode  4491
+pinujeff     5
+
+MapCode  4492
+pinujeff    20
+
+MapCode  4493
+pinujeff    40
+
+MapCode  4494
+pinujeff    90
+
+MapCode  4495
+abieconc     5   10   20  100
+pinujeff     1    5   10   15   50   55  450
+
+MapCode  4501
+querdoug     5
+
+MapCode  4502
+querdoug    20
+
+MapCode  4503
+querdoug    50
+
+MapCode  4504
+querdoug    95
+
+MapCode  4505
+querdoug     5   10   20   30   40  120  250
+
+MapCode  4511
+calodecu     5
+
+MapCode  4512
+calodecu    20
+
+MapCode  4513
+calodecu    40
+
+MapCode  4514
+calodecu    90
+pinulamb    40
+
+MapCode  4515
+abieconc     1    5   25   30   80  100  130  150  185  190  230  265  270  400
+calodecu     5   10  110  500
+pinulamb     5  450
+
+MapCode  4521
+calodecu     5
+
+MapCode  4522
+calodecu    20
+
+MapCode  4523
+calodecu    40
+
+MapCode  4524
+calodecu    90
+pinujeff    40
+
+MapCode  4525
+abieconc    80  100  165  235  400
+calodecu    55  500
+pinujeff    10   25  140  170  330  450
+querchry    10
+querkelo    10   15   25   50
+
+MapCode  4531
+querchry     5
+
+MapCode  4532
+querchry    30
+
+MapCode  4533
+querchry    10   70
+
+MapCode  4534
+calodecu    10
+pinulamb     1
+querchry     1    5   10   25   30   45   50  120  145  155  160  165  190  250
+querkelo    90
+
+MapCode  4541
+pinumont     5
+
+MapCode  4542
+pinumont    25
+
+MapCode  4543
+pinumont    60
+
+MapCode  4544
+pinumont    15  130
+
+MapCode  4545
+abiemagn     1
+pinucont     5   10   30   80  145  150
+pinumont    55   65  170  285  400
+
+MapCode  4551
+calodecu     5
+
+MapCode  4552
+calodecu    20
+
+MapCode  4553
+calodecu    20   40
+
+MapCode  4554
+calodecu    70   90
+pinulamb    40
+
+MapCode  4555
+calodecu     1    5   10   15  480  500
+pinulamb     1    5   10   15   30   55   65   70   75  450
+pinupond     1    5   20   85  115  155  250
+querchry     1   35  125
+querkelo     5   25  260
+
+MapCode  4561
+pinupond     5
+
+MapCode  4562
+pinupond    20
+
+MapCode  4563
+pinupond    50
+
+MapCode  4564
+pinupond   100
+querkelo    50
+
+MapCode  4565
+calodecu     5
+pinulamb    95
+pinupond   350
+pseumenz     5   10   15   20   25   30   90  130  145  155  180  205  210  250
+querkelo    10   15   90  135  300
+
+MapCode  4571
+pinucont     5
+
+MapCode  4572
+pinucont    20   25
+
+MapCode  4573
+pinucont    55   60
+
+MapCode  4574
+pinucont     5   15  125  130
+
+MapCode  4575
+pinucont     5   10   15   25   35  145  150
+
+MapCode  4581
+calodecu     5
+
+MapCode  4582
+calodecu    20
+
+MapCode  4583
+calodecu    40
+
+MapCode  4584
+calodecu    90
+
+MapCode  4585
+abieconc     5   10   15   20   35   70  400
+calodecu     1    5   10  105  185  500
+pinulamb     5   40
+pinupond     5   25   40   80  140
+pseumenz     5   15
+
+MapCode  4591
+querwisl     5
+
+MapCode  4592
+querwisl    30
+
+MapCode  4593
+querwisl    20   70
+
+MapCode  4594
+>>pinusabi    35
+querdoug    15
+querwisl    45   80  125  150  200
+
+MapCode  4601
+calodecu     5
+
+MapCode  4602
+calodecu    20
+
+MapCode  4603
+calodecu    40
+
+MapCode  4604
+calodecu    90
+
+MapCode  4605
+abieconc     5   10  120  125  150  155  255  400
+calodecu     1    5   10   35   40   45   85   95  120  150  190  500
+pinulamb   250
+pinupond   320
+pseumenz     1    5  215  250  300
+querkelo   300
+
+MapCode  4611
+querkelo     5
+
+MapCode  4612
+querkelo    30
+
+MapCode  4613
+querkelo    70
+
+MapCode  4614
+querkelo   160
+
+MapCode  4615
+pinupond     5
+querkelo     5  300
+
+MapCode  4621
+pinupond     5
+
+MapCode  4622
+pinupond    20
+
+MapCode  4623
+pinupond    40
+
+MapCode  4624
+pinupond    90
+
+MapCode  4625
+abieconc     5
+calodecu     5   10
+pinulamb    10   45
+pinupond     5   10   35   40  135  155  350
+querchry    10   15
+
+MapCode  4631
+calodecu     5
+
+MapCode  4632
+calodecu     5   20
+
+MapCode  4633
+calodecu    10   25   40
+
+MapCode  4634
+calodecu    60   75   90
+pinulamb    40
+
+MapCode  4635
+abieconc     5
+calodecu    35   95  160  275  280  330  470  485  500
+pinulamb   195  450
+pinupond    15   95  110  135  150  325  350
+querkelo     5   10   20
+
+MapCode  4641
+tsugmert     5
+
+MapCode  4642
+tsugmert    25
+
+MapCode  4643
+tsugmert    60
+
+MapCode  4644
+tsugmert   130
+
+MapCode  4645
+pinucont     5   10   20   25   30   40  150
+pinumont     1    5  400
+tsugmert     5   15   30   70  185  195  225  310  600
+
+MapCode  4651
+abieconc     5
+
+MapCode  4652
+abieconc    15   20
+calodecu    11
+pinujeff    15
+pinulamb    15
+
+MapCode  4653
+abieconc    35   40
+calodecu    31
+pinujeff    35
+pinulamb    35
+
+MapCode  4654
+abieconc     5   10
+calodecu     1
+pinujeff     5
+pinulamb     5
+
+MapCode  4661
+pinupond     5
+
+MapCode  4662
+pinupond    20
+
+MapCode  4663
+pinupond     5   40
+
+MapCode  4664
+pinupond    55   90
+querkelo    40
+
+MapCode  4665
+pinupond   315  350
+querkelo    90  300
+
+MapCode  4671
+pinujeff     5
+
+MapCode  4672
+pinujeff    20
+
+MapCode  4673
+pinujeff    40
+
+MapCode  4674
+pinujeff    90
+
+MapCode  4675
+abieconc     5   25   45  220  360
+pinucont   150
+pinujeff     1   45   65  450
+
+MapCode  4681
+pinulamb     5
+
+MapCode  4682
+pinulamb    20
+
+MapCode  4683
+pinulamb    40
+
+MapCode  4684
+pinulamb    90
+
+MapCode  4685
+calodecu     5   10   15   20   30  115  180  185
+pinulamb     1    5   10   15   20   25   35  105  225  450
+querkelo    40  115  125  280
+
+MapCode  4691
+calodecu     5
+
+MapCode  4692
+calodecu    20
+
+MapCode  4693
+calodecu    40
+
+MapCode  4694
+calodecu    90
+pinulamb    40
+
+MapCode  4695
+abieconc     1    5   10   15   20   25   30   55   75   80   85  100  115  195  235  300  400
+calodecu     1    5  110  500
+pinujeff    10   20   45   55   65  140
+pinulamb     1    5   40  450
+
+MapCode  4702
+juniocci    20
+
+MapCode  4703
+juniocci    50
+
+MapCode  4704
+juniocci   110
+
+MapCode  4705
+abieconc     5   25
+juniocci     1   10   45   60   70  170  230 1000
+pinucont   150
+pinujeff    60  150
+
+MapCode  4711
+pinucont     5
+
+MapCode  4712
+pinucont    25
+
+MapCode  4713
+pinucont    25   60
+
+MapCode  4714
+pinucont     5   95  130
+
+MapCode  4715
+pinucont    15   25  115  150
+
+MapCode  4721
+pinujeff     5
+
+MapCode  4722
+pinujeff    20
+
+MapCode  4723
+pinujeff    40
+
+MapCode  4724
+pinujeff    90
+
+MapCode  4725
+abieconc     1    5   10   25   70   90  100  165
+calodecu     5
+pinujeff    10  275  450
+pinulamb     5
+querkelo    15   20
+
+MapCode  4731
+querdoug     5
+
+MapCode  4732
+querdoug    20
+
+MapCode  4733
+querdoug    50
+
+MapCode  4734
+querdoug    95
+
+MapCode  4735
+>>pinusabi     5   15
+querdoug   250
+querwisl    10
+
+MapCode  4741
+querdoug     5
+
+MapCode  4742
+querdoug    20
+
+MapCode  4743
+querdoug    50
+
+MapCode  4744
+querdoug    95
+
+MapCode  4745
+querdoug    20   45  250
+querwisl    15   20   25
+
+MapCode  4751
+querchry     5
+
+MapCode  4752
+querchry    15   20   30
+
+MapCode  4753
+querchry     1    5   10   15   20   25   30   35   50   55   65
+
+MapCode  4761
+pinupond     5
+
+MapCode  4762
+pinupond    20
+
+MapCode  4763
+pinupond    50
+
+MapCode  4764
+pinupond    95
+
+MapCode  4765
+pinupond   350
+>>pinusabi   200
+querdoug     5   15   50
+querkelo    60
+
+MapCode  4771
+querchry     5
+
+MapCode  4772
+querchry    20   25   30
+querkelo    20   25
+
+MapCode  4773
+querchry     5   10   15
+querkelo     5   10
+
+MapCode  4781
+querwisl     5
+
+MapCode  4782
+querwisl     5   10   20   30
+
+MapCode  4783
+querwisl    10   15   25   35
+
+MapCode  4791
+riparian    50
+
+MapCode  4792
+riparian    50
+
+MapCode  4793
+riparian    50
+
+MapCode  4794
+riparian    50
+
+MapCode  4795
+riparian    50
+
+MapCode  4801
+calodecu     5
+
+MapCode  4802
+calodecu    20
+
+MapCode  4803
+calodecu    40
+
+MapCode  4804
+calodecu    90
+
+MapCode  4805
+calodecu   160  500
+pinulamb     1    5
+pinupond     5   40   80   85   90   95  210  330  350
+querchry    10   20   25   30   50   55   70
+querkelo     5
+
+MapCode  4811
+querkelo     5
+
+MapCode  4812
+querkelo    20
+
+MapCode  4813
+querkelo    40
+
+MapCode  4814
+querkelo    90
+
+MapCode  4815
+abieconc     1    5   15   20   25   40
+calodecu     1    5
+pinulamb     1    5   10   15   20
+pinupond     5
+querkelo   300
+
+MapCode  4821
+abieconc     5
+abiemagn     5
+
+MapCode  4822
+abieconc    20
+abiemagn    20
+
+MapCode  4823
+abieconc    15   40
+abiemagn    40
+
+MapCode  4824
+abieconc     5   15   30   65   90
+abiemagn    90
+
+MapCode  4825
+abieconc     5   10   15   30   45   65   70   80   90  100  105  110  115  125  140  150  160  165  180  185  200  210  230  270  315  325  340  375  400
+abiemagn     1    5   10   20   45   65   75   80  170  180  195  240  245  270  400
+pinujeff    10
+
+MapCode  4831
+abiemagn     5
+
+MapCode  4832
+abiemagn    20
+
+MapCode  4833
+abiemagn    15   40
+
+MapCode  4834
+abiemagn    20   60   75  100
+
+MapCode  4835
+abiemagn     1    5   10   20   40   45   60   65   75  110  135  165  190  230  260  265  285  320  360  375  400
+pinucont   150
+tsugmert     5
+
+MapCode  4841
+pinucont     5
+
+MapCode  4842
+pinucont    25
+
+MapCode  4843
+pinucont    60
+
+MapCode  4844
+pinucont    65   70  130
+
+MapCode  4845
+pinucont    85   90  150
+
+MapCode  4851
+abiemagn     5
+
+MapCode  4852
+abiemagn    20
+
+MapCode  4853
+abiemagn    20   40
+
+MapCode  4854
+abiemagn    40   70   90
+
+MapCode  4855
+abiemagn     1    5   10   45   65  125  170  190  350  380  400
+pinucont     5   60   80  150
+poputrem     5   15   20   70  110  165
+
+MapCode  4861
+querdoug     5
+
+MapCode  4862
+querdoug    20
+
+MapCode  4863
+querdoug    50
+
+MapCode  4864
+querdoug    95
+
+MapCode  4865
+querdoug     5   10   15   20   25   80  250
+
+MapCode  4871
+querwisl     5
+
+MapCode  4872
+querwisl    30
+
+MapCode  4873
+querwisl    70
+
+MapCode  4874
+querwisl     5   70  160
+
+MapCode  4875
+>>pinusabi    10   30
+querwisl     1    5   10   15   20   25   30   45  110  200
+
+MapCode  4881
+querchry     5
+
+MapCode  4882
+querchry    20
+
+MapCode  4883
+querchry     5   20   40
+
+MapCode  4884
+calodecu    30
+pinupond    20   40
+querchry    45   60   80
+
+MapCode  4885
+calodecu     5  115
+pinupond    80  105  125
+querchry     1   10   20   45  130  145  165
+
+MapCode  4891
+abieconc     5
+
+MapCode  4892
+abieconc    20
+
+MapCode  4893
+abieconc    40
+
+MapCode  4894
+abieconc    90
+
+MapCode  4895
+abieconc     5   10   20   25   30   40   70  110  180  185  200  260  300  400
+calodecu     5
+pinulamb     5   45   50   70  120  135
+querkelo     5   10   15   20   25   30
+
+MapCode  4901
+pinupond     5
+
+MapCode  4902
+pinupond    30
+>>pinusabi    20
+querwisl     5
+
+MapCode  4903
+pinupond    70
+>>pinusabi    60
+querwisl    45
+
+MapCode  4904
+pinupond    40  160
+>>pinusabi   150
+querchry    36
+querdoug    40
+querwisl    45   50   55   60   70   80   90  135
+
+MapCode  4905
+pinupond     5  125
+>>pinusabi   115
+querchry     1
+querdoug     5
+querwisl    10   15   20   25   35   45   55  100
+
+MapCode  4911
+abiemagn     5
+
+MapCode  4912
+abiemagn    20
+
+MapCode  4913
+abiemagn    10   40
+
+MapCode  4914
+abiemagn    15   70  100
+
+MapCode  4915
+abieconc    10  135
+abiemagn     1    5   10   15   20   25   45   65   70   75   80  120  145  200  235  260  265  315  370  400
+
+MapCode  4921
+querkelo     5
+
+MapCode  4922
+querkelo    10   30
+
+MapCode  4923
+querkelo    50   70
+
+MapCode  4924
+querkelo     5   25
+
+MapCode  4931
+querkelo     5
+
+MapCode  4932
+querkelo    20
+
+MapCode  4933
+querkelo    40
+
+MapCode  4934
+querkelo    90
+
+MapCode  4935
+pinulamb     5
+pinupond    70
+querkelo   300
+
+MapCode  4941
+pinujeff     5
+
+MapCode  4942
+pinujeff    30
+
+MapCode  4943
+pinujeff    70
+
+MapCode  4944
+pinujeff   160
+pseumenz    10
+
+MapCode  4945
+pinujeff   450
+pseumenz    40  300
+querchry    10   15   20   25   55   80   85   90  135  140  145  165  250
+
+MapCode  4951
+pinumont     5
+
+MapCode  4952
+pinumont    25
+
+MapCode  4953
+pinumont    60
+
+MapCode  4954
+pinumont   130
+
+MapCode  4955
+abiemagn     1    5   15   40
+pinucont     5   10   20   25   30   35  100  105  110  115  150
+pinumont   400
+
+MapCode  4961
+querchry     5
+
+MapCode  4962
+querchry    20
+
+MapCode  4963
+querchry    40
+
+MapCode  4964
+querchry    90
+
+MapCode  4965
+pinujeff     1    5   10   25   50
+querchry   250
+
+MapCode  4971
+querchry     5
+
+MapCode  4972
+querchry    30
+
+MapCode  4973
+querchry    70
+
+MapCode  4974
+querchry    15   20   30  250
+querwisl    20   30   50   55   90   95
+
+MapCode  4981
+>>pinusabi     5
+
+MapCode  4982
+>>pinusabi    30
+
+MapCode  4983
+>>pinusabi    70
+
+MapCode  4984
+>>pinusabi    70  160
+querwisl    25
+
+MapCode  4985
+>>pinusabi     5  110  200
+querwisl     5   10   15   20   35   65
+
+MapCode  4991
+querdoug     5
+
+MapCode  4992
+querdoug    20
+
+MapCode  4993
+querdoug    50
+
+MapCode  4994
+querdoug     5   10   15   20   50  105
+
+MapCode  5001
+>>pinusabi     5
+
+MapCode  5002
+>>pinusabi    20
+
+MapCode  5003
+>>pinusabi    50
+
+MapCode  5004
+>>pinusabi   110
+
+MapCode  5011
+querkelo     5
+
+MapCode  5012
+querkelo    20
+
+MapCode  5013
+querkelo    40
+
+MapCode  5014
+pseumenz    20
+querchry    30
+querkelo    80
+
+MapCode  5015
+calodecu    90
+pinupond     5   10
+pseumenz     5   20   25  115  240
+querchry     5   10   15   35   45  250
+querkelo   300
+
+MapCode  5021
+abiemagn     5
+
+MapCode  5022
+abiemagn    20
+
+MapCode  5023
+abiemagn    40
+
+MapCode  5024
+abiemagn    90
+
+MapCode  5025
+abiemagn     1    5   10   15   30   40   65  100  155  180  195  285  300  400
+pinucont     5   10   15   45   90  110  150
+pinumont     5   15   60
+
+MapCode  5031
+pinupond     5
+
+MapCode  5032
+pinupond    20
+
+MapCode  5033
+pinupond    40
+
+MapCode  5034
+pinupond    90
+querkelo    40
+
+MapCode  5035
+abieconc     1    5   15  175
+calodecu     1    5   10  120
+pinulamb    15   35  260
+pinupond     5   10   15   20   25   85  120  125  140  160  195  350
+querkelo   300
+
+MapCode  5041
+querchry     5
+
+MapCode  5042
+querchry    30
+
+MapCode  5043
+querchry    25   70
+
+MapCode  5044
+pinulamb     5
+querchry    15   20   25   40   45   50   90  135
+querkelo     1    5   30   45
+
+MapCode  5051
+querkelo     5
+
+MapCode  5052
+querkelo    20
+
+MapCode  5053
+querkelo    40
+
+MapCode  5054
+querkelo    90
+
+MapCode  5055
+abieconc     5   25
+calodecu     5
+pinulamb     5   65   90
+querkelo   300
+
+MapCode  5061
+abiemagn     5
+
+MapCode  5062
+abiemagn    25
+
+MapCode  5063
+abiemagn    30   60
+
+MapCode  5064
+abiemagn    35  100  130
+
+MapCode  5065
+abiemagn     1    5   10   25   65  105  110  150  155  235  305  370  400
+calodecu     1
+pinucont     1    5   10   40  150
+
+MapCode  5071
+pinulamb     5
+
+MapCode  5072
+pinulamb    10   20
+
+MapCode  5073
+pinulamb    30   40
+
+MapCode  5074
+pinulamb    80   90
+
+MapCode  5075
+pinulamb    35   40   60   75  435  445
+pinupond     5   10  250  350
+pseumenz     5   10  130  150  190  300
+querchry    10   20
+
+MapCode  5081
+querdoug     5
+
+MapCode  5082
+querdoug    20
+
+MapCode  5083
+querdoug     5   15   20   50
+querwisl    20
+
+MapCode  5084
+querdoug    25   40   50   55   85
+querwisl    10   55
+
+MapCode  5091
+abieconc     5
+
+MapCode  5092
+abieconc    20
+
+MapCode  5093
+abieconc    40
+
+MapCode  5094
+abieconc    90
+pinupond     5   40
+
+MapCode  5095
+abieconc     5   10   20   70  200  270  400
+calodecu     5   10   15   25   45  115  165  300
+pinulamb     1    5   20
+pinupond     5   10   20   30   40   70   75   80   85  105  140  160  170  205  290  295  310  315  350
+
+MapCode  5101
+abiemagn     5
+pinumont     5
+
+MapCode  5102
+abiemagn    20
+pinumont    20
+
+MapCode  5103
+abiemagn    40
+pinumont    40
+
+MapCode  5104
+abiemagn   100
+pinumont   100
+
+MapCode  5105
+abiemagn     1    5   10   15   20   25   35   40   45   50   55   60   65   70   80   85   95  100  105  120  130  150  160  170  210  270  400
+pinumont     5   15   40   45   95  400
+
+MapCode  5111
+pinupond     5
+
+MapCode  5112
+pinupond    20
+
+MapCode  5113
+pinupond    40
+
+MapCode  5114
+pinupond    90
+
+MapCode  5115
+pinupond     5   10   25   30   90  130  350
+querkelo     1    5   10
+
+MapCode  5121
+pinucont     5
+
+MapCode  5122
+pinucont    25
+
+MapCode  5123
+pinucont    60
+
+MapCode  5124
+pinucont   130
+
+MapCode  5125
+pinucont     5  150
+
+MapCode  5131
+pinuflex     5
+
+MapCode  5132
+pinuflex    25
+
+MapCode  5133
+pinuflex    60
+
+MapCode  5134
+pinuflex   130
+
+MapCode  5135
+pinucont     5   75   90  150
+pinuflex    70  165 1000
+tsugmert    25   80   95  150  340  470  600
+
+MapCode  5141
+calodecu     5
+
+MapCode  5142
+calodecu    20
+
+MapCode  5143
+calodecu    40
+
+MapCode  5144
+calodecu    90
+
+MapCode  5145
+calodecu    85  130  500
+pinupond   120
+
+MapCode  5151
+abiemagn     5
+
+MapCode  5152
+abiemagn    20
+
+MapCode  5153
+abiemagn    40
+
+MapCode  5154
+abiemagn    90
+
+MapCode  5155
+abiemagn     1    5   10   50   75  400
+pinucont     1    5   20   60  150
+pinujeff   225
+
+MapCode  5161
+calodecu     5
+
+MapCode  5162
+calodecu    20
+
+MapCode  5163
+calodecu    40
+
+MapCode  5164
+calodecu    90
+pinulamb     5
+
+MapCode  5165
+abieconc     5   10   95  110  245  295  315  400
+calodecu     5   10   20   25   30   35   40   45   85  110  500
+pinulamb     1    5   10   95  140  205  380  415
+
+MapCode  5172
+juniocci    20
+
+MapCode  5173
+juniocci    50
+
+MapCode  5174
+juniocci   110
+
+MapCode  5175
+juniocci    15 1000
+pinujeff     5
+pinumont     5
+
+MapCode  5181
+pinucont     5
+
+MapCode  5182
+pinucont    25
+
+MapCode  5183
+pinucont     5   60
+
+MapCode  5184
+pinucont     5   20   25   40   75  130
+
+MapCode  5185
+abiemagn     5
+pinucont     1    5   10   25   40   45   60   95  150
+pinumont     1
+
+MapCode  5192
+pinualbi    20
+
+MapCode  5193
+pinualbi    50
+
+MapCode  5194
+pinualbi   110
+
+MapCode  5195
+pinualbi     5   10   15   20   25   30   60  600
+pinucont   150
+
+MapCode  5201
+calodecu     5
+
+MapCode  5202
+calodecu    20
+
+MapCode  5203
+calodecu    40
+
+MapCode  5204
+calodecu    90
+pinujeff    40
+
+MapCode  5205
+abieconc     5   10   20
+calodecu     5   10   15  130  500
+juniocci     5   15   35
+pinujeff     1    5   10   20   30  110  450
+
+MapCode  5212
+pinualbi     1    5
+
+MapCode  5213
+pinualbi     1
+
+MapCode  5214
+pinualbi     1
+
+MapCode  5215
+pinualbi     1
+
+MapCode  5221
+abieconc     5
+
+MapCode  5222
+abieconc    20
+
+MapCode  5223
+abieconc    40
+
+MapCode  5224
+abieconc     5   45   90
+
+MapCode  5225
+abieconc     1    5   10   15   20   25   45   60   75   80  110  125  150  290  305  315  355  400
+
+MapCode  5231
+abieconc     1    5
+calodecu     5
+pinucont     1
+
+MapCode  5232
+abieconc    16   20
+calodecu    20
+pinucont    16
+
+MapCode  5233
+abieconc     1    5
+calodecu     5
+pinucont     1
+
+MapCode  5241
+abiemagn     5
+pinumont     5
+
+MapCode  5242
+abiemagn    20
+pinumont    20
+
+MapCode  5243
+abiemagn    40
+pinumont    40
+
+MapCode  5244
+abiemagn    15  100
+juniocci    35
+pinumont   100
+
+MapCode  5245
+abieconc     1  100
+abiemagn     1    5   10   15   35   40   45   50   55   60   65   75   85   90  100  105  110  120  130  135  150  160  175  210  225  235  250  285  315  400
+juniocci   335
+pinumont    80  400
+
+MapCode  5251
+querkelo     5
+
+MapCode  5252
+querkelo    30
+
+MapCode  5253
+querkelo    70
+
+MapCode  5254
+querkelo    30
+
+MapCode  5261
+pinujeff     5
+
+MapCode  5262
+pinujeff    20
+
+MapCode  5263
+pinujeff    40
+
+MapCode  5264
+pinujeff    30   90
+querwisl     5
+
+MapCode  5265
+pinujeff    75  135
+querwisl    50
+
+MapCode  5271
+abieconc     5
+abiemagn     5
+
+MapCode  5272
+abieconc    20
+abiemagn    20
+
+MapCode  5273
+abieconc    40
+abiemagn    40
+
+MapCode  5274
+abieconc   100
+abiemagn   100
+
+MapCode  5275
+abieconc     5   10  400
+abiemagn     5   10   15   20   25   65   70  120  170  250  280  400
+pinujeff   160  185
+
+MapCode  5281
+>>pinusabi     5
+
+MapCode  5282
+>>pinusabi    30
+
+MapCode  5283
+>>pinusabi    70
+querchry    10
+
+MapCode  5284
+>>pinusabi   105
+querchry    10   15   20   25   35   45
+
+MapCode  5291
+querwisl     5
+
+MapCode  5292
+querwisl    25   30
+
+MapCode  5293
+querwisl    10   15
+
+MapCode  5301
+juniocci     5
+
+MapCode  5302
+juniocci    20
+
+MapCode  5303
+juniocci    40
+pinujeff    11   15   20
+
+MapCode  5304
+juniocci    30
+pinujeff     1    5   10
+
+MapCode  5311
+pinujeff     5
+
+MapCode  5312
+pinujeff    20
+
+MapCode  5313
+pinujeff    40
+
+MapCode  5314
+abiemagn    20   35   40
+pinujeff    90
+
+MapCode  5315
+abieconc     1  100  105  110
+abiemagn     1    5   10   20   40   45   65   80   85   95  110  140  150  175  215  380  395  400
+pinujeff     5   15   45   65  100  180  450
+pinumont     1    5   10   20   50   80  340
+
+MapCode  5321
+querwisl     5
+
+MapCode  5322
+querwisl    15   20   25   30
+
+MapCode  5323
+querwisl     5   10   15   20
+
+MapCode  5331
+querchry     5
+
+MapCode  5332
+querchry    30
+
+MapCode  5333
+querchry    70
+
+MapCode  5334
+querchry    10   15   20   25   30   35   40   55   60   65   80   90  115  250
+querwisl    10   15   20   25
+
+MapCode  5341
+querchry     5
+
+MapCode  5342
+querchry    30
+
+MapCode  5343
+querchry    35   70
+
+MapCode  5344
+querchry     1    5   10   15   20   25   30   35   40   45   60   65   75   90   95  110  120  125  175  215  250
+
+MapCode  5351
+querdoug     5
+
+MapCode  5352
+querdoug    20
+
+MapCode  5353
+querdoug    50
+
+MapCode  5354
+querdoug    95
+querwisl    30   45
+
+MapCode  5355
+querdoug    20   25   30  250
+querwisl     5   10   15   25  185  200
+
+MapCode  5361
+>>pinusabi     5
+
+MapCode  5362
+>>pinusabi    20
+
+MapCode  5363
+>>pinusabi    40
+
+MapCode  5364
+>>pinusabi     5   10   60
+
+MapCode  5371
+querkelo     5
+
+MapCode  5372
+querkelo    30
+
+MapCode  5373
+querdoug    20
+querkelo    70
+
+MapCode  5374
+querdoug   110
+querkelo   160
+querwisl    60
+
+MapCode  5375
+querdoug    50  250
+querkelo   300
+querwisl    15   30   45  130  200
+
+MapCode  5381
+calodecu     5
+
+MapCode  5382
+calodecu    20
+
+MapCode  5383
+abieconc    20
+calodecu    40
+
+MapCode  5384
+abieconc    25   70
+calodecu    90
+
+MapCode  5385
+abieconc     5   10   90   95  165  250  295
+calodecu     5   10   15   20   25   30   45   65   95  100  175  315
+pinulamb    45
+querkelo     1    5   10
+
+MapCode  5391
+pinulamb     5
+
+MapCode  5392
+pinulamb    20
+
+MapCode  5393
+pinulamb    40
+
+MapCode  5394
+pinulamb    90
+
+MapCode  5395
+abieconc     5   10   50   55   65   80   95  255  330
+calodecu     5
+pinujeff     5   30
+pinulamb     1    5   25   35   70   75  110  145  210  290  330  450
+querkelo     1    5   10   15
+
+MapCode  5402
+juniocci     5
+pinualbi     5   10   15   20
+
+MapCode  5403
+juniocci    35
+pinualbi    35   40   45   50
+
+MapCode  5404
+juniocci     5
+pinualbi     5   10   15   20
+
+MapCode  5411
+pinumont     5
+
+MapCode  5412
+pinumont    25
+
+MapCode  5413
+pinucont    30   35
+pinumont    60
+
+MapCode  5414
+pinucont     5   35   45  100  105
+pinumont   130
+
+MapCode  5415
+pinucont     5   10   15   30   50   80   90  145  150
+pinumont     1    5  175
+
+MapCode  5421
+pinujeff     5
+pinulamb     5
+
+MapCode  5422
+pinujeff    20
+pinulamb    20
+
+MapCode  5423
+pinujeff    40
+pinulamb    40
+
+MapCode  5424
+pinujeff    10   15   90
+pinulamb    90
+
+MapCode  5425
+abieconc     1    5   10
+pinujeff   350  370  375  450
+pinulamb   340  450
+querkelo     5   10
+
+MapCode  5431
+pinulamb     5
+
+MapCode  5432
+pinulamb    20
+
+MapCode  5433
+pinulamb    40
+
+MapCode  5434
+pinulamb    90
+
+MapCode  5435
+abieconc     5
+calodecu     1    5  105
+pinulamb     1   80  165  290  340  450
+pinupond     1
+querkelo     1    5
+
+MapCode  5441
+abieconc     5
+querkelo     5
+
+MapCode  5442
+abieconc    30
+calodecu    25
+pinulamb    21
+querkelo    25   30
+
+MapCode  5443
+abieconc    70
+calodecu    65
+pinulamb    61
+querkelo    65   70
+
+MapCode  5444
+abieconc    10
+calodecu     5
+pinulamb     1
+querkelo     5   10
+
+MapCode  5451
+calodecu     5
+
+MapCode  5452
+calodecu    20
+
+MapCode  5453
+calodecu    40
+
+MapCode  5454
+calodecu    90
+pinulamb    40
+
+MapCode  5455
+abieconc     5   10
+calodecu     1    5   15  500
+pinulamb    55  100  190  255  260  330  390  450
+querchry    15
+
+MapCode  5461
+abieconc     5
+
+MapCode  5462
+abieconc    20
+
+MapCode  5463
+abieconc    40
+
+MapCode  5464
+abieconc    30   35   90
+
+MapCode  5465
+abieconc    10   15   35   40   45   70   75   95  115  130  145  155  185  210  230  235  250  340  345  400
+abiemagn     5   50
+pinucont    10   65  145  150
+pinujeff   120
+
+MapCode  5471
+querchry     5
+
+MapCode  5472
+querchry     5   10   15   20   25   30
+
+MapCode  5473
+querchry     5   10   15   20   25   30   35   40   45
+
+MapCode  5481
+abieconc     5
+abiemagn     5
+
+MapCode  5482
+abieconc    20
+abiemagn    20
+
+MapCode  5483
+abieconc    40
+abiemagn    40
+
+MapCode  5484
+abieconc    20   30   90
+abiemagn    90
+
+MapCode  5485
+abieconc     5   10   15   25   35   45   55   70   80   85   90  105  115  125  130  135  165  170  180  235  240  280  330  340  400
+abiemagn   155  400
+
+MapCode  5491
+abieconc     5
+
+MapCode  5492
+abieconc    20
+
+MapCode  5493
+abieconc    40
+
+MapCode  5494
+abieconc    90
+
+MapCode  5495
+abieconc    10   90  130  140  240  270  400
+
+MapCode  5501
+pinucont     5
+
+MapCode  5502
+pinucont    25
+
+MapCode  5503
+pinucont    60
+
+MapCode  5504
+abiemagn    40   50
+pinucont     5   10   15   25  130
+
+MapCode  5505
+abiemagn     1    5   60   70
+pinucont     5   10   15   20   25   30   35   45  150
+
+MapCode  5511
+abiemagn     5
+
+MapCode  5512
+abiemagn    20
+
+MapCode  5513
+abiemagn    40
+
+MapCode  5514
+abiemagn    20   60  100
+
+MapCode  5515
+abiemagn    60  120  125  130  140  210  320  360  400
+pinucont     5   25   35   40   50  150
+
+MapCode  5521
+pinujeff     5
+
+MapCode  5522
+pinujeff    20
+
+MapCode  5523
+pinujeff    40
+
+MapCode  5524
+pinujeff    20   90
+
+MapCode  5525
+pinujeff     1    5   10  190  195  200  380  450
+
+MapCode  5531
+calodecu     5
+
+MapCode  5532
+calodecu    20
+
+MapCode  5533
+calodecu    40
+
+MapCode  5534
+abieconc    20
+calodecu    90
+
+MapCode  5535
+abieconc     5   10   55   95  100  140  155  400
+calodecu    15  470
+pinujeff     1    5   60   75
+querkelo     5   10   15
+
+MapCode  5541
+pinujeff     5
+
+MapCode  5542
+pinujeff    20
+
+MapCode  5543
+pinujeff    40
+
+MapCode  5544
+abiemagn    40
+pinujeff    90
+
+MapCode  5545
+abieconc     5
+abiemagn     1    5   10   15   40   45   50   60   65   70   90  125  130  140  155  230  245  260  290  305  400
+pinucont     1    5   10   15   25   75  150
+pinujeff     5  190  300  450
+
+MapCode  5551
+abiemagn     5
+
+MapCode  5552
+abiemagn    20
+
+MapCode  5553
+abiemagn    15   40
+
+MapCode  5554
+abiemagn     5   10   75  100
+
+MapCode  5555
+abiemagn     5   10   25   40   45   50   55   65   70   75  100  105  115  125  145  150  155  175  205  220  245  285  305  310  375  400
+pinucont     5   10   15   25   70  150
+pinumont   230
+
+MapCode  5561
+calodecu     5
+
+MapCode  5562
+calodecu    30
+
+MapCode  5563
+calodecu    70
+
+MapCode  5564
+calodecu   160
+pinupond    10
+
+MapCode  5565
+calodecu     5  500
+pinupond     5  350
+querchry    15   20   45   70  140
+querkelo     5   10   40
+
+MapCode  5571
+querchry     5
+
+MapCode  5572
+querchry    20
+
+MapCode  5573
+querchry    40
+
+MapCode  5574
+pinupond    20
+querchry    80
+
+MapCode  5575
+calodecu     5
+pinujeff    15   20
+pinupond   155
+querchry     5   15   20   25   30   35   60  105  215
+
+MapCode  5581
+pinucont     5
+
+MapCode  5582
+pinucont    25
+
+MapCode  5583
+pinucont    60
+
+MapCode  5584
+pinucont    35   50   60  130
+
+MapCode  5585
+pinucont     1    5   10   15   55   70   80  150
+tsugmert     5
+
+MapCode  5591
+querwisl     5
+
+MapCode  5592
+querwisl    30
+
+MapCode  5593
+querwisl    40   70
+
+MapCode  5594
+>>pinusabi    10
+querwisl    10   15   20   25   30   35   40   60   80  170  200
+
+MapCode  5601
+pseumenz     5
+querkelo     5
+
+MapCode  5602
+pseumenz    20
+querkelo    20
+
+MapCode  5603
+pseumenz    40
+querkelo    40
+
+MapCode  5604
+pseumenz    80
+querkelo    80
+
+MapCode  5605
+calodecu   135
+pinupond    10  160
+pseumenz     5  300
+querchry    10  120  145
+querkelo     5   10   15   25   35   70  300
+
+MapCode  5611
+querwisl     5
+
+MapCode  5612
+querwisl    30
+
+MapCode  5613
+querchry     1
+querwisl    15   20   65
+
+MapCode  5621
+abieconc     5
+
+MapCode  5622
+abieconc    20
+
+MapCode  5623
+abieconc    40
+
+MapCode  5624
+abieconc    10   35   90
+pinujeff     5
+
+MapCode  5625
+abieconc     5   10   15   20   30   40   55   70   90  110  120  145  200
+calodecu     5
+pinujeff     5   45   50   80  115
+
+MapCode  5631
+abieconc     5
+
+MapCode  5632
+abieconc    20
+
+MapCode  5633
+abieconc    40
+pinujeff    20
+
+MapCode  5634
+abieconc    90
+pinujeff    70
+
+MapCode  5635
+abieconc     5   35   60   70   75   85   95  100  135  150  235  260  400
+calodecu     5
+pinucont    20
+pinujeff   145  150  190  200  250  255  380
+
+MapCode  5642
+tsugmert    20
+
+MapCode  5643
+tsugmert    50
+
+MapCode  5644
+tsugmert    10  110
+
+MapCode  5645
+pinumont    50  140  150
+tsugmert     5   10   15   25   30   35   40   45   50   55   60   65   75   80   85   90  115  120  170  175  180  190  210  250  295  450  500  600
+
+MapCode  5651
+calodecu     5
+
+MapCode  5652
+calodecu    20
+
+MapCode  5653
+calodecu    40
+
+MapCode  5654
+calodecu    90
+
+MapCode  5655
+calodecu     5   10   20   95  500
+pinupond     1    5   10   85   90   95  100  115  195  350
+querchry     5   30   50
+
+MapCode  5661
+querchry     5
+
+MapCode  5662
+querchry    30
+
+MapCode  5663
+querchry    70
+
+MapCode  5664
+calodecu    25
+querchry     5  160
+
+MapCode  5665
+calodecu   115
+querchry    10   15   20   25   30   35   40   55   95  250
+
+MapCode  5672
+tsugmert    20
+
+MapCode  5673
+tsugmert    50
+
+MapCode  5674
+tsugmert    40  110
+
+MapCode  5675
+abiemagn     5   55  170  400
+pinucont     5   30   40   75  150
+pinumont    70  180  220  400
+tsugmert     1    5   10   25  115  140  150  155  205  245  305  325  345  400  450  460  530  600
+
+MapCode  5681
+calodecu     5
+
+MapCode  5682
+calodecu    20
+
+MapCode  5683
+calodecu    40
+
+MapCode  5684
+calodecu    90
+pinulamb    40
+
+MapCode  5685
+calodecu     1    5   45  100  105  110  115  120  135  165  195  200  240  245  255  265  355  500
+pinulamb     5   65   80  230  450
+pinupond    80  155  160  350
+querchry     5
+querkelo    10   20   30
+
+MapCode  5691
+calodecu     5
+
+MapCode  5692
+calodecu    20
+
+MapCode  5693
+calodecu    40
+
+MapCode  5694
+calodecu    80
+pinujeff    30
+pinulamb    30
+
+MapCode  5695
+abieconc     1    5   10   15   20  260  360  400
+calodecu     5   10   25   30   60  110  115  120  160  185  310  375  385  500
+pinujeff     5   80  200  450
+pinulamb    70  180  210  290  415  450
+querkelo    65
+
+MapCode  5701
+abieconc     5
+
+MapCode  5702
+abieconc     5
+
+MapCode  5703
+abieconc     5
+
+MapCode  5704
+abieconc     5
+
+MapCode  5705
+abieconc     5
+
+MapCode  5711
+pinujeff     5
+
+MapCode  5712
+pinujeff    20
+
+MapCode  5713
+pinujeff    40
+
+MapCode  5714
+abieconc    40
+pinujeff    90
+
+MapCode  5715
+abieconc     1    5   10   15   20   30   35   45   50   60   75   85  120  135  345  400
+pinujeff     5   45   50   85  320  345  450
+
+MapCode  5721
+querdoug     5
+
+MapCode  5722
+querdoug    20
+
+MapCode  5723
+querdoug    50
+
+MapCode  5724
+querdoug     5   10   15   30  120
+
+MapCode  5731
+abieconc     5
+abiemagn     5
+
+MapCode  5732
+abieconc    20
+abiemagn    20
+
+MapCode  5733
+abieconc    40
+abiemagn     5   40
+
+MapCode  5734
+abieconc   100
+abiemagn    50   60   65  100
+
+MapCode  5735
+abieconc     5   10  400
+abiemagn     1    5   10   15   20   40   45   55   80  125  150  175  230  260  300  350  360  365  400
+
+MapCode  5741
+abiemagn     5
+
+MapCode  5742
+abiemagn    20
+
+MapCode  5743
+abiemagn     5   40
+
+MapCode  5744
+abiemagn    65  100
+
+MapCode  5745
+abiemagn     5   40
+
+MapCode  5751
+calodecu     5
+
+MapCode  5752
+calodecu    20
+
+MapCode  5753
+calodecu    20   40
+
+MapCode  5754
+calodecu    60   80
+
+MapCode  5755
+abieconc   270
+calodecu     5   10   15   30  480  500
+pinujeff     1    5   10   30   50
+pinulamb     1    5   10   20  145
+querchry     1    5   10   15   20   40
+querkelo     5   10   15   30
+
+MapCode  5761
+pinumont     5
+
+MapCode  5762
+pinumont    25
+
+MapCode  5763
+pinumont    60
+
+MapCode  5764
+pinumont    25   50  130
+
+MapCode  5765
+abiemagn   150
+pinucont     5   35   45  150
+pinumont     5   50   95  120  295  320  400
+
+MapCode  5771
+abiemagn     5
+pinumont     5
+
+MapCode  5772
+abiemagn    10   20
+pinumont    20
+
+MapCode  5773
+abiemagn    30   40
+pinumont    40
+
+MapCode  5774
+abiemagn    20   30   80   90
+pinumont    90
+
+MapCode  5775
+abiemagn     1    5   10   40   50   55   85   90   95  100  120  140  150  185  190  205  210  225  230  280  330  340  390  400
+pinucont   150
+pinumont     5   35   85  170  400
+
+MapCode  5781
+querwisl     5
+
+MapCode  5782
+querwisl    30
+
+MapCode  5783
+querwisl    70
+
+MapCode  5784
+querwisl   160
+
+MapCode  5785
+querdoug    20
+querwisl    10   15   20  200
+
+MapCode  5791
+calodecu     5
+
+MapCode  5792
+calodecu    15   20
+
+MapCode  5793
+calodecu    35   40
+
+MapCode  5794
+calodecu    85   90
+pinulamb    40
+
+MapCode  5795
+abieconc     5   10   70  120  130  265
+calodecu     1    5   10   15   20   65  110  215  495  500
+pinulamb     5   10   15   35   40   70   85  100  105  185  210  400  450
+querkelo    20   25   45   70  300
+
+MapCode  5801
+pinulamb     5
+
+MapCode  5802
+pinulamb    20
+
+MapCode  5803
+pinulamb    40
+
+MapCode  5804
+abieconc    40
+pinulamb    90
+
+MapCode  5805
+abieconc     1    5   10   20   70   90  230  325  400
+calodecu     1    5   90
+pinulamb    45   70   80   85   90   95  100  120  140  160  170  315  450
+pinupond   120  175  185
+querkelo     5
+
+MapCode  5811
+calodecu     5
+
+MapCode  5812
+calodecu    20
+
+MapCode  5813
+calodecu    20   40
+pinupond    20
+
+MapCode  5814
+calodecu    45   70   90
+pinupond    70
+querkelo    20
+
+MapCode  5815
+calodecu    10   15   30   50   70  110  120  165  175  185  325  350  370
+pinulamb     5   10   15   20   25   35   45   55   60   65   70  165  175
+pinupond     5   10   25   30   35   40   95  105  135  145  165  185  350
+querkelo   300
+
+MapCode  5821
+querkelo     5
+
+MapCode  5822
+querkelo    30
+
+MapCode  5823
+querkelo    70
+
+MapCode  5824
+querchry     5   15
+querkelo     1    5   85  225
+
+MapCode  5831
+pinupond     5
+
+MapCode  5832
+pinupond    20
+
+MapCode  5833
+pinupond    40
+
+MapCode  5834
+pinupond    80
+
+MapCode  5835
+pinupond    75  350
+pseumenz     5   10   20
+querchry     1   10   15   20   25   30   35   45   55   60   65   80  140  250
+
+MapCode  5841
+abiemagn     5
+
+MapCode  5842
+abiemagn    20
+
+MapCode  5843
+abiemagn    40
+
+MapCode  5844
+abiemagn    20   50  100
+
+MapCode  5845
+abiemagn     1    5   10   15   20   25   40   45   50   55   70   75   80   90  100  110  115  120  155  165  170  180  210  230  235  280  320  350  400
+pinucont    35  100  150
+
+MapCode  5851
+calodecu     5
+
+MapCode  5852
+calodecu    20
+
+MapCode  5853
+calodecu    40
+
+MapCode  5854
+calodecu    35   90
+
+MapCode  5855
+abieconc     5   10   15   70  185
+calodecu     1    5   10  155  220  250  385  445  500
+pinulamb     5  165
+pinupond     5   15   20
+querkelo    10   15   25
+
+MapCode  5861
+abiemagn     5
+
+MapCode  5862
+abiemagn    20
+
+MapCode  5863
+abiemagn    40
+
+MapCode  5864
+abiemagn    90
+pinujeff    20
+
+MapCode  5865
+abieconc     5   80
+abiemagn    35  400
+pinujeff     5  330
+
+MapCode  5872
+tsugmert    20
+
+MapCode  5873
+tsugmert    50
+
+MapCode  5874
+tsugmert    10   50  110
+
+MapCode  5875
+pinumont     5   10   50   85
+tsugmert     1    5   25   35   45   55   65  140  175  210  500  540  600
+
+MapCode  5881
+pseumenz     5
+
+MapCode  5882
+pseumenz    20
+
+MapCode  5883
+pseumenz    40
+
+MapCode  5884
+calodecu     1
+pinupond     5
+pseumenz    15   65
+
+MapCode  5891
+pinulamb     5
+
+MapCode  5892
+pinulamb    20
+
+MapCode  5893
+pinulamb    40
+
+MapCode  5894
+pinulamb    90
+
+MapCode  5895
+pinulamb    60
+
+MapCode  5901
+pinujeff     5
+
+MapCode  5902
+pinujeff    25
+
+MapCode  5903
+pinujeff    60
+
+MapCode  5904
+pinujeff   130
+
+MapCode  5905
+abieconc     5   10   30   60  220
+abiemagn     1    5   50
+pinucont     5   10   15   20   30   40   45
+pinujeff   105  450
+
+MapCode  5911
+querkelo     5
+
+MapCode  5912
+querchry     6   10
+querkelo    25   30
+
+MapCode  5913
+querchry    46   50
+querkelo    65   70
+
+MapCode  5914
+querchry     1    5
+querkelo    20   25
+
+MapCode  5921
+pseumenz     5
+
+MapCode  5922
+abieconc     1    5   15
+calodecu     5
+pinulamb     5
+pseumenz     5   20
+
+MapCode  5923
+abieconc    21   25   35
+calodecu    25
+pinulamb    25
+pseumenz    25   40
+
+MapCode  5924
+abieconc     1    5   15
+calodecu     5
+pinulamb     5
+pseumenz     5   20
+
+MapCode  5931
+pinujeff     5
+
+MapCode  5932
+pinujeff    20
+
+MapCode  5933
+pinujeff    40
+
+MapCode  5934
+abieconc    40
+pinujeff    90
+
+MapCode  5935
+abieconc     1    5   10   15   20   25   30   35   70   75   80   85  110  120  180  210  400
+calodecu    15
+pinujeff     1    5   10   50  450
+pinulamb     5   35  115
+
+MapCode  5941
+querchry     5
+
+MapCode  5942
+querchry    30
+
+MapCode  5943
+querchry    60
+querwisl     1    5   10
+
+MapCode  5951
+querkelo     5
+
+MapCode  5952
+pinupond    15
+querkelo    30
+
+MapCode  5953
+pinupond    55
+querkelo    70
+
+MapCode  5954
+pinupond   145
+querkelo   160
+
+MapCode  5955
+calodecu     5
+pinupond   285
+querkelo     5  115  300
+
+MapCode  5961
+pinumont     5
+
+MapCode  5962
+pinumont    20
+
+MapCode  5963
+pinumont    40
+
+MapCode  5964
+pinumont    80
+
+MapCode  5965
+pinucont   150
+pinumont     5   15   30  160  400
+
+MapCode  5971
+abieconc     5
+
+MapCode  5972
+abieconc    20
+
+MapCode  5973
+abieconc    40
+
+MapCode  5974
+abieconc    90
+
+MapCode  5975
+abieconc     1   70  100  165  400
+abiemagn    10   45  115
+
+MapCode  5981
+abiemagn     5
+
+MapCode  5982
+abiemagn    20
+
+MapCode  5983
+abiemagn    40
+
+MapCode  5984
+abiemagn    15  100
+
+MapCode  5985
+abiemagn     1    5   10   15   20   25   30   40   45   50   55   60   65   75   80   85   90  100  105  110  115  120  130  140  155  170  210  220  255  280  290  315  400
+
+MapCode  5991
+pinupond     5
+
+MapCode  5992
+pinupond    20
+
+MapCode  5993
+pinupond    40
+
+MapCode  5994
+pinupond    90
+
+MapCode  5995
+calodecu     1    5   10   15   20
+pinulamb     1   60
+pinupond     1    5   10   60  250
+
+MapCode  6001
+pinucont     5
+
+MapCode  6002
+pinucont    25
+
+MapCode  6003
+pinucont    60
+
+MapCode  6004
+pinucont    15   35   60  130
+
+MapCode  6005
+pinucont     5   15   35   55   80  150
+
+MapCode  6012
+tsugmert    20
+
+MapCode  6013
+tsugmert    50
+
+MapCode  6014
+tsugmert    30  110
+
+MapCode  6015
+pinucont     5
+pinumont   205  270  400
+tsugmert     5  205  375  415  520  600
+
+MapCode  6021
+calodecu     5
+
+MapCode  6022
+calodecu    20
+
+MapCode  6023
+calodecu    40
+
+MapCode  6024
+calodecu    80
+
+MapCode  6025
+calodecu     1    5   10  170  300  500
+pinulamb     5
+pinupond     1    5   10   25   75   90   95  105  110  120  220  350
+querchry     1   20   25
+querkelo     5   15   25
+
+MapCode  6031
+calodecu     5
+
+MapCode  6032
+calodecu    20
+
+MapCode  6033
+calodecu    40
+
+MapCode  6034
+calodecu    80
+
+MapCode  6035
+calodecu     1    5  270  500
+pinulamb     5
+pinupond     5   20   50
+querchry     1   25  250
+querkelo   300
+
+MapCode  6042
+pinujeff    20
+
+MapCode  6043
+pinujeff     5   50
+
+MapCode  6044
+pinujeff     5   10   25   35   60   65  110
+
+MapCode  6045
+juniocci     5   30   50   75
+pinujeff     1    5   10   80   85  100  110  135  140  185
+
+MapCode  6051
+pinujeff     5
+
+MapCode  6052
+pinujeff    20
+
+MapCode  6053
+pinujeff    40
+
+MapCode  6054
+abieconc    40
+pinujeff    90
+
+MapCode  6055
+abieconc     1    5   10   25   45   75   80  115  195  275  400
+calodecu     1
+pinujeff     1  450
+pinulamb     5   10   30   55   60  125

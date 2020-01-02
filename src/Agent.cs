@@ -47,7 +47,7 @@ namespace Landis.Extension.BiomassBDA
         float ClimateThresh_2 { get; set; }
         int ClimateLag { get; set; }
         int TimeSinceLastClimate { get; set; }
-        DataTable ClimateDataTable { get; set; }
+        //DataTable ClimateDataTable { get; set; }
         LinkedList<int> OutbreakList { get; set; }
         
         //-- DISPERSAL -------------
@@ -117,7 +117,7 @@ namespace Landis.Extension.BiomassBDA
         private float climateThresh_Upperbound;
         private int climateLag;
         private int timeSinceLastClimate;
-        private DataTable climateDataTable;
+        //private DataTable climateDataTable;
         public LinkedList<int> outbreakList = new LinkedList<int>();
         
         //-- DISPERSAL -------------
@@ -405,17 +405,17 @@ namespace Landis.Extension.BiomassBDA
         /// <summary>
         /// Climate Data Table.
         /// </summary>
-        public DataTable ClimateDataTable
-        {
-            get
-            {
-                return climateDataTable;
-            }
-            set
-            {
-                climateDataTable = value;
-            }
-        }
+        //public DataTable ClimateDataTable
+        //{
+        //    get
+        //    {
+        //        return climateDataTable;
+        //    }
+        //    set
+        //    {
+        //        climateDataTable = value;
+        //    }
+        //}
 
         //---------------------------------------------------------------------
         /// <summary>
@@ -748,14 +748,12 @@ namespace Landis.Extension.BiomassBDA
             resourceNeighbors = new List<RelativeLocationWeighted>();
             severity       = PlugIn.ModelCore.Landscape.NewSiteVar<byte>();
             outbreakZone   = PlugIn.ModelCore.Landscape.NewSiteVar<Zone>();
-            climateDataTable = new DataTable();
+            //climateDataTable = new DataTable();
 
             for (int i = 0; i < sppCount; i++)
                 SppParameters[i] = new SppParameters();
             for (int i = 0; i < ecoCount; i++)
                 EcoParameters[i] = new EcoParameters();
-            //for (int i = 0; i < distCount; i++)
-            //   DistParameters[i] = new DistParameters();
         }
 
     }
