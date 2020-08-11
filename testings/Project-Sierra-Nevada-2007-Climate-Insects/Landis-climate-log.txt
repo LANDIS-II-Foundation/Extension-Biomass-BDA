@@ -1,11 +1,1 @@
    Loading spin-up weather data from file sierra_2007_idaho.csv ...
-   Converting raw data from text file: sierra_2007_idaho.csv, Format=daily_temp-k_precip-mmday, Temporal=Daily.
-   Loading future weather data from file sierra_2007_idaho.csv ...
-   Converting raw data from text file: sierra_2007_idaho.csv, Format=daily_temp-k_precip-mmday, Temporal=Daily.
-Core.StartTime = 0, Core.EndTime = 10.
-Core.StartTime = 0, Core.EndTime = 10.
-Core.StartTime = 0, Core.EndTime = 10.
-Core.StartTime = 0, Core.EndTime = 10.
-Core.StartTime = 0, Core.EndTime = 10.
-Core.StartTime = 0, Core.EndTime = 10.
-Core.StartTime = 0, Core.EndTime = 10.

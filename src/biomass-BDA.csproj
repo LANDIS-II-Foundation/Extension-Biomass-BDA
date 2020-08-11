@@ -7,22 +7,22 @@
     <AssemblyCompany>Landis-II-Foundation</AssemblyCompany>
     <AssemblyProduct>Landis.Extension.BiomassBDA-v2</AssemblyProduct>
     <AssemblyCopyright>Landis-II-Foundation</AssemblyCopyright>
-    <AssemblyVersion>2.0</AssemblyVersion>
+    <AssemblyVersion>2.1</AssemblyVersion>
+    <Version>2.1</Version>
+    <FileVersion>2.1.0.0</FileVersion>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/LANDIS-II-Foundation/Extension-Biomass-BDA</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageLicenseUrl>https://github.com/LANDIS-II-Foundation/Extension-Biomass-BDA/blob/master/LICENSE.md</PackageLicenseUrl>
-    <PackageProjectUrl>http://www.landis-ii.org</PackageProjectUrl>
     <NeutralLanguage>English</NeutralLanguage>
     <Authors>Landis-II-Foundation</Authors>
-    <Product>Landis.Extension.BiomassBDA-v1</Product>
+    <Product>Landis.Extension.BiomassBDA-v2</Product>
     <Copyright>Landis-II-Foundation</Copyright>
-    <Version>2.0</Version>
-    <PackageTags>LANDIS-II;Landis;Extension;Biomass BDA</PackageTags>
     <Description>A BDA variant that operates off of biomass information and wherein outbreaks are triggered by climate</Description>
+    <PackageTags>LANDIS-II;Landis;Extension;Biomass BDA</PackageTags>
     <PackageReleaseNotes></PackageReleaseNotes>
-    <FileVersion>2.0.0.0</FileVersion>
+    <PackageLicenseUrl>https://github.com/LANDIS-II-Foundation/Extension-Biomass-BDA/blob/master/LICENSE.md</PackageLicenseUrl>
+    <PackageProjectUrl>http://www.landis-ii.org</PackageProjectUrl>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
@@ -37,7 +37,7 @@
       <HintPath>lib\Landis.Library.BiomassCohorts-v3.dll</HintPath>
     </Reference>
     <Reference Include="Landis.Library.Climate-v4">
-      <HintPath>lib\Landis.Library.Climate-v3.dll</HintPath>
+      <HintPath>lib\Landis.Library.Climate-v4.1.dll</HintPath>
     </Reference>
     <Reference Include="Landis.Library.Cohorts-v2">
       <HintPath>lib\Landis.Library.Cohorts-v2.dll</HintPath>
