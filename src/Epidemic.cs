@@ -311,10 +311,10 @@ namespace Landis.Extension.BiomassBDA
             {
                 //PlugIn.ModelCore.UI.WriteLine("      Damage Cohort={0}, {1}, {2}.", cohort.Species.Name, cohort.Age, cohort.Species.Index);
                 this.CohortsKilled++;
-                this.TotalBiomassMortality += (int)cohort.Biomass; // / (int) totalSiteBiomass * 100;
+                this.TotalBiomassMortality += (int)cohort.Biomass; 
             }
 
-            return cohort.Biomass;
+            return 0;
         }
 
     }
