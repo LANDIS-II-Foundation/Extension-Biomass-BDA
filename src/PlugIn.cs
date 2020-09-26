@@ -40,6 +40,7 @@ namespace Landis.Extension.BiomassBDA
         public static double ClimateThreshold2;
         public static Dictionary<int, int> sitesPerEcoregions = new Dictionary<int, int>();
         private static bool NECN_Running = true;
+        public static bool CalibrateMode = false;
 
         //---------------------------------------------------------------------
 
@@ -161,6 +162,14 @@ namespace Landis.Extension.BiomassBDA
             foreach(IAgent activeAgent in manyAgentParameters)
             {
                 PlugIn.ModelCore.UI.WriteLine("   Processing landscape for {0} events ...", activeAgent.AgentName);
+
+                if(CalibrateMode)
+                {
+                    PlugIn.ModelCore.UI.WriteLine("   Calibrate mode: {0}", activeAgent.AgentName);
+                    Epidemic.Initialize(activeAgent);
+                    Epidemic currentEpic = Epidemic.Simulate(activeAgent, PlugIn.ModelCore.CurrentTime, Timestep, 3);
+                    return;
+                }
 
                 activeAgent.TimeSinceLastEpidemic += Timestep;
 
@@ -451,7 +460,9 @@ namespace Landis.Extension.BiomassBDA
             if(activeOutbreak)
             {
                 activeAgent.TimeSinceLastEpidemic = 0;
-                //calculate ROS
+                
+                // ------------------------------------------
+                // Calculate ROS
                 if (activeAgent.TempType == TemporalType.pulse)
                     ROS = activeAgent.MaxROS;
                 else if (activeAgent.TempType == TemporalType.variablepulse)

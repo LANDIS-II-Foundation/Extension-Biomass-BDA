@@ -72,12 +72,9 @@ namespace Landis.Extension.BiomassBDA
         double Class2_SV { get; }
         double Class3_SV { get; }
         IEnumerable<ISpecies> NegSppList { get;set;}
-        //IEnumerable<ISpecies> AdvRegenSppList { get; set; }
-        //int AdvRegenAgeCutoff { get; }
 
         ISppParameters[] SppParameters { get; set; }
         IEcoParameters[] EcoParameters { get; set; }
-        //IDistParameters[] DistParameters { get; set; }
         List<IDisturbanceType> DisturbanceTypes { get;  }
         ISiteVar<byte> Severity { get; set; }
         ISiteVar<Zone> OutbreakZone { get; set; }
@@ -740,15 +737,12 @@ namespace Landis.Extension.BiomassBDA
         {
             SppParameters = new ISppParameters[sppCount];
             EcoParameters = new IEcoParameters[ecoCount];
-            //DistParameters = new IDistParameters[distCount];
             disturbanceTypes = new List<IDisturbanceType>();
             negSppList = new List<ISpecies>();
-            //advRegenSppList = new List<ISpecies>();
             dispersalNeighbors = new List<RelativeLocation>();
             resourceNeighbors = new List<RelativeLocationWeighted>();
             severity       = PlugIn.ModelCore.Landscape.NewSiteVar<byte>();
             outbreakZone   = PlugIn.ModelCore.Landscape.NewSiteVar<Zone>();
-            //climateDataTable = new DataTable();
 
             for (int i = 0; i < sppCount; i++)
                 SppParameters[i] = new SppParameters();

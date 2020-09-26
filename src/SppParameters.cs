@@ -258,17 +258,17 @@ namespace Landis.Extension.BiomassBDA
         //---------------------------------------------------------------------
         public SppParameters()
         {
-            this.minorHostAge = 999;
+            this.minorHostAge = 9999;
             this.minorHostSRD = 0;
-            this.secondaryHostAge = 999;
+            this.secondaryHostAge = 9999;
             this.secondaryHostSRD = 0;
-            this.primaryHostAge = 999;
+            this.primaryHostAge = 9999;
             this.primaryHostSRD = 0;
-            this.resistantHostAge = 999;
+            this.resistantHostAge = 9999;
             this.resistantHostVuln = 0;
-            this.tolerantHostAge = 999;
+            this.tolerantHostAge = 9999;
             this.tolerantHostVuln = 0;
-            this.vulnerableHostAge = 999;
+            this.vulnerableHostAge = 9999;
             this.vulnerableHostVuln = 0;
             this.cfsConifer = false;
         }

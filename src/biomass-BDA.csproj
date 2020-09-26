@@ -7,9 +7,9 @@
     <AssemblyCompany>Landis-II-Foundation</AssemblyCompany>
     <AssemblyProduct>Landis.Extension.BiomassBDA-v2</AssemblyProduct>
     <AssemblyCopyright>Landis-II-Foundation</AssemblyCopyright>
-    <AssemblyVersion>2.1</AssemblyVersion>
-    <Version>2.1</Version>
-    <FileVersion>2.1.0.0</FileVersion>
+    <AssemblyVersion>2.2</AssemblyVersion>
+    <Version>2.2</Version>
+    <FileVersion>2.2.0.0</FileVersion>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RepositoryUrl>https://github.com/LANDIS-II-Foundation/Extension-Biomass-BDA</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
