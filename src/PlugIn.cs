@@ -395,7 +395,7 @@ namespace Landis.Extension.BiomassBDA
                             meanCWD += (annualPET - weatherData.AnnualAET) * sitesPerEcoregions[ecoregion.Index];
                         }
 
-                        PlugIn.ModelCore.UI.WriteLine("WinterT={0}.", weatherData.MonthlyTemp[1]);
+                        //PlugIn.ModelCore.UI.WriteLine("WinterT={0}.", weatherData.MonthlyTemp[1]);
                         meanWinterTemperature += weatherData.MonthlyTemp[1] * sitesPerEcoregions[ecoregion.Index];
 
 
@@ -412,7 +412,7 @@ namespace Landis.Extension.BiomassBDA
                     ClimateThreshold1 = climaticWaterDeficit;
                     ClimateThreshold2 = meanWinterT;
 
-                    PlugIn.ModelCore.UI.WriteLine("      {0}: ClimateWaterDeficit={1:0.0}, WinterT={2:0.00}.", activeAgent.AgentName, climaticWaterDeficit, meanWinterT); 
+                    //PlugIn.ModelCore.UI.WriteLine("      {0}: ClimateWaterDeficit={1:0.0}, WinterT={2:0.00}.", activeAgent.AgentName, climaticWaterDeficit, meanWinterT); 
 
                     if ((climaticWaterDeficit >= activeAgent.ClimateThresh_1) && (meanWinterT >= activeAgent.ClimateThresh_2))
                     {
