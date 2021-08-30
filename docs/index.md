@@ -4,7 +4,7 @@ The purpose of the Biomass BDA extension is to simulate insect outbreaks as a fu
 
 # Citation
 
-Sturtevant
+Sturtevant, B.R., E.J. Gustafson, W. Li, and H.S. He. 2004. Modeling biological disturbances in LANDIS: A module description and demonstration using spruce budworm. Ecological Modelling 180: 153 – 174.
 
 # Release Notes
 
@@ -30,18 +30,14 @@ You need:
 
 LANDIS-II requires a global parameter file for your scenario, and separate parameter files for each extension.
 
-Example files can be [downloaded from GitHub](https://downgit.github.io/#/home?url=https://github.com/LANDIS-II-Foundation/Extension-SCRPPLE/tree/master/Testing/Core7-SCRAPPLE3.1).
-
-# Supporting R-Code
-
-We also provide R-code that has been used to parameterize SCRPPLE.  This R-code is provided 'as is' and no support is implied.  [R code on GitHub](https://downgit.github.io/#/home?url=https://github.com/LANDIS-II-Foundation/Extension-SCRPPLE/tree/master/Supporting%20R%20Code)
+Example files can be [downloaded from GitHub](https://downgit.github.io/#/home?url=https://github.com/LANDIS-II-Foundation/Extension-Biomass-BDA/tree/master/testings/Core7-BiomassBDAv24).
 
 # Support
 
 If you have a question, please contact Robert Scheller. 
 You can also ask for help in the [LANDIS-II users group](http://www.landis-ii.org/users).
 
-If you come across any issue or suspected bug, please post about it in the [issue section of the Github repository](https://github.com/LANDIS-II-Foundation/Extension-SCRPPLE/issues) (GitHub ID required).
+If you come across any issue or suspected bug, please post about it in the [issue section of the Github repository](https://github.com/LANDIS-II-Foundation/Extension-Biomass-BDA/issues) (GitHub ID required).
 
 # Author
 
