@@ -11,7 +11,7 @@ Sturtevant, B.R., E.J. Gustafson, W. Li, and H.S. He. 2004. Modeling biological 
 - Latest release: Version 2.4 — June 2021
 
 - Full release details found in the User Guide and on GitHub.
-- [View User Guide under construction]
+- [View User Guide]()
 
 - Copyright: The LANDIS-II Foundation
 
