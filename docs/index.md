@@ -1,6 +1,6 @@
-# What is the Biomass BDA Extension?
+# What is the Climate-Biomass BDA Extension?
 
-The purpose of the Biomass BDA extension is to simulate insect outbreaks as a function of climatic factors.  This extension is very similar to the Base BDA extension with the addition of climatic triggers for outbreak beginnings and endings.  Site Resources is calculated using cohort biomass.
+The purpose of the Climate-Biomass BDA extension is to simulate insect outbreaks as a function of climatic factors.  This extension is very similar to the Base BDA extension with the addition of climatic triggers for outbreak beginnings and endings.  Site Resources is calculated using cohort biomass.
 
 # Citation
 
@@ -11,7 +11,7 @@ Sturtevant, B.R., E.J. Gustafson, W. Li, and H.S. He. 2004. Modeling biological 
 - Latest release: Version 2.4 — June 2021
 
 - Full release details found in the User Guide and on GitHub.
-- [View User Guide]()
+- [View User Guide](https://github.com/LANDIS-II-Foundation/Extension-Biomass-BDA/blob/master/docs/LANDIS-II%20Climate-Biomass%20Biological%20Disturbance%20Agent%20v2.4%20User%20Guide.pdf)
 
 - Copyright: The LANDIS-II Foundation
 
