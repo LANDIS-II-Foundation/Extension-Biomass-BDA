@@ -8,7 +8,7 @@ Sturtevant, B.R., E.J. Gustafson, W. Li, and H.S. He. 2004. Modeling biological 
 
 # Release Notes
 
-- Latest release: Version 2.4 — June 2021
+- Latest release: Version 2.4 — October 2021
 
 - Full release details found in the User Guide and on GitHub.
 - [View User Guide](https://github.com/LANDIS-II-Foundation/Extension-Biomass-BDA/blob/master/docs/LANDIS-II%20Climate-Biomass%20Biological%20Disturbance%20Agent%20v2.4%20User%20Guide.pdf)
@@ -24,7 +24,7 @@ You need:
 
 # Download
 
-- The latest version of SCRPPLE can be [downloaded from GitHub](https://github.com/LANDIS-II-Foundation/Extension-Biomass-BDA/blob/master/deploy/installer/LANDIS-II-V7%20Biomass%20BDA%20Climate%202.4-setup.exe). To install it on your computer, launch the installer.
+- The latest version can be [downloaded from GitHub](https://github.com/LANDIS-II-Foundation/Extension-Biomass-BDA/blob/master/deploy/installer/LANDIS-II-V7%20Biomass%20BDA%20Climate%202.4-setup.exe). To install it on your computer, launch the installer.
 
 # Example Files
 
